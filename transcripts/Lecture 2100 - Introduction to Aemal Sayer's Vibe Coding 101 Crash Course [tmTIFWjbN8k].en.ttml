@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.199" end="00:00:07.320" style="s2">So I have created a VIP coding 101 crash</p>
+<p begin="00:00:04.480" end="00:00:10.280" style="s2">course that is super long and super</p>
+<p begin="00:00:07.320" end="00:00:15.120" style="s2">detailed. Um and as</p>
+<p begin="00:00:10.280" end="00:00:20.000" style="s2">a result of that course, we have built</p>
+<p begin="00:00:15.120" end="00:00:23.840" style="s2">this little app that has a feature that</p>
+<p begin="00:00:20.000" end="00:00:27.439" style="s2">will share the vibes of the screen. Uh</p>
+<p begin="00:00:23.840" end="00:00:29.599" style="s2">in any workshop that you uh that I do, I</p>
+<p begin="00:00:27.439" end="00:00:31.760" style="s2">provide a QR code. They scan the QR code</p>
+<p begin="00:00:29.599" end="00:00:34.880" style="s2">and they basically see a screen like</p>
+<p begin="00:00:31.760" end="00:00:37.559" style="s2">this on their phone and whenever they</p>
+<p begin="00:00:34.880" end="00:00:42.160" style="s2">press one of these buttons</p>
+<p begin="00:00:37.559" end="00:00:44.480" style="s2">uh the same emoji is projected on the</p>
+<p begin="00:00:42.160" end="00:00:48.000" style="s2">screen on the big screen and that&#39;s how</p>
+<p begin="00:00:44.480" end="00:00:50.079" style="s2">we see the vibes going on. So here right</p>
+<p begin="00:00:48.000" end="00:00:53.039" style="s2">now I&#39;m pressing the buttons. You can</p>
+<p begin="00:00:50.079" end="00:00:56.480" style="s2">see the the vibes going on here and this</p>
+<p begin="00:00:53.039" end="00:00:58.000" style="s2">has a lot of um concurrency things uh</p>
+<p begin="00:00:56.480" end="00:01:00.480" style="s2">considered</p>
+<p begin="00:00:58.000" end="00:01:02.960" style="s2">uh the speed and everything. So so it&#39;s</p>
+<p begin="00:01:00.480" end="00:01:05.920" style="s2">pretty much a complex</p>
+<p begin="00:01:02.960" end="00:01:08.320" style="s2">um web application if you don&#39;t know a</p>
+<p begin="00:01:05.920" end="00:01:10.880" style="s2">lot about those concepts but in this</p>
+<p begin="00:01:08.320" end="00:01:13.040" style="s2">course I have taught about like every</p>
+<p begin="00:01:10.880" end="00:01:17.200" style="s2">single piece of it step by step and</p>
+<p begin="00:01:13.040" end="00:01:20.680" style="s2">debugging and methods and so on. So if I</p>
+<p begin="00:01:17.200" end="00:01:23.360" style="s2">quickly show you the workflow,</p>
+<p begin="00:01:20.680" end="00:01:25.280" style="s2">the content, this is the content of this</p>
+<p begin="00:01:23.360" end="00:01:27.759" style="s2">course. This was the content of the</p>
+<p begin="00:01:25.280" end="00:01:31.200" style="s2">other course, the five coding 101</p>
+<p begin="00:01:27.759" end="00:01:33.840" style="s2">course. I needed this screen for my</p>
+<p begin="00:01:31.200" end="00:01:36.640" style="s2">workshops because I do it in hybrid and</p>
+<p begin="00:01:33.840" end="00:01:39.280" style="s2">I build it as a part of this course. We</p>
+<p begin="00:01:36.640" end="00:01:42.479" style="s2">have covered this Nex.js JS with</p>
+<p begin="00:01:39.280" end="00:01:46.960" style="s2">Firebase and Cursor and GitHub and get</p>
+<p begin="00:01:42.479" end="00:01:49.840" style="s2">GitHub a lot of terminal uh commands. Uh</p>
+<p begin="00:01:46.960" end="00:01:52.799" style="s2">and there also we covered like lovable,</p>
+<p begin="00:01:49.840" end="00:01:56.240" style="s2">riplet, fire studio and so on. But</p>
+<p begin="00:01:52.799" end="00:01:58.560" style="s2">mostly we were focused on cursor. We</p>
+<p begin="00:01:56.240" end="00:02:01.200" style="s2">installed NodeJS. I showed how to do</p>
+<p begin="00:01:58.560" end="00:02:03.000" style="s2">terminal commands and then we started</p>
+<p begin="00:02:01.200" end="00:02:05.920" style="s2">doing some best</p>
+<p begin="00:02:03.000" end="00:02:09.599" style="s2">practices, some basics of git commands,</p>
+<p begin="00:02:05.920" end="00:02:12.959" style="s2">some best practices and then we uh went</p>
+<p begin="00:02:09.599" end="00:02:15.520" style="s2">on and and covered some web development</p>
+<p begin="00:02:12.959" end="00:02:17.800" style="s2">core concepts and then we span off this</p>
+<p begin="00:02:15.520" end="00:02:21.440" style="s2">Nex.js JS app that full stack app that</p>
+<p begin="00:02:17.800" end="00:02:24.560" style="s2">had that is using Firebase as a database</p>
+<p begin="00:02:21.440" end="00:02:26.560" style="s2">and then it&#39;s basically</p>
+<p begin="00:02:24.560" end="00:02:29.840" style="s2">uh working with very high concurrency</p>
+<p begin="00:02:26.560" end="00:02:33.680" style="s2">and it it just works very very well. You</p>
+<p begin="00:02:29.840" end="00:02:36.720" style="s2">can scan this QR code uh or you find it</p>
+<p begin="00:02:33.680" end="00:02:39.519" style="s2">on my playlist called VIP coding 101</p>
+<p begin="00:02:36.720" end="00:02:42.080" style="s2">crash course. uh it will be uploaded</p>
+<p begin="00:02:39.519" end="00:02:44.480" style="s2">very soon, maybe in a couple of days.</p>
+<p begin="00:02:42.080" end="00:02:48.879" style="s2">Probably both of these tutorials will go</p>
+<p begin="00:02:44.480" end="00:02:52.519" style="s2">up uh at the same time. So, I&#39;ve been</p>
+<p begin="00:02:48.879" end="00:02:55.200" style="s2">really working hard on these two uh uh</p>
+<p begin="00:02:52.519" end="00:02:57.680" style="s2">courses and I hope it will deliver some</p>
+<p begin="00:02:55.200" end="00:02:59.680" style="s2">value. If it does, please let me know</p>
+<p begin="00:02:57.680" end="00:03:02.640" style="s2">and even if it doesn&#39;t, do let me know</p>
+<p begin="00:02:59.680" end="00:03:06.560" style="s2">so that I can make it better. Thank you</p>
+<p begin="00:03:02.640" end="00:03:06.560" style="s2">so much. See you in the next lecture.</p>
+</div>
+</body>
+</tt>

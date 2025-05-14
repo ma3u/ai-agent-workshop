@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.400" end="00:00:04.880" style="s2">This is the last lecture of part three.</p>
+<p begin="00:00:03.280" end="00:00:08.960" style="s2">Basically in this lecture we&#39;ll have</p>
+<p begin="00:00:04.880" end="00:00:10.960" style="s2">some whiteboarding session and also do a</p>
+<p begin="00:00:08.960" end="00:00:14.320" style="s2">test a workflow test of the entire</p>
+<p begin="00:00:10.960" end="00:00:17.880" style="s2">thing. So let&#39;s quickly recap what we</p>
+<p begin="00:00:14.320" end="00:00:22.359" style="s2">have built here. We have built this</p>
+<p begin="00:00:17.880" end="00:00:26.400" style="s2">system that you can see from here I can</p>
+<p begin="00:00:22.359" end="00:00:28.840" style="s2">talk to an AI assistant. It goes through</p>
+<p begin="00:00:26.400" end="00:00:32.719" style="s2">a workflow here on</p>
+<p begin="00:00:28.840" end="00:00:38.600" style="s2">Vapy. Um, and then it can actually we</p>
+<p begin="00:00:32.719" end="00:00:38.600" style="s2">can run it and see it in action. So,</p>
+<p begin="00:00:39.920" end="00:00:46.399" style="s2">hi Emma. How are you doing? I&#39;m doing</p>
+<p begin="00:00:42.480" end="00:00:48.879" style="s2">good. Can you please compose a an email</p>
+<p begin="00:00:46.399" end="00:00:52.160" style="s2">and mention that I&#39;ll be late 20</p>
+<p begin="00:00:48.879" end="00:00:54.719" style="s2">minutes? I&#39;m sorry, my train is too</p>
+<p begin="00:00:52.160" end="00:00:58.199" style="s2">late. Um, I&#39;ll be late for 20 minutes in</p>
+<p begin="00:00:54.719" end="00:00:58.199" style="s2">the meeting.</p>
+<p begin="00:00:59.199" end="00:01:04.239" style="s2">One</p>
+<p begin="00:01:01.079" end="00:01:05.640" style="s2">moment. I&#39;ve composed the email for you.</p>
+<p begin="00:01:04.239" end="00:01:09.119" style="s2">If you need any more help or</p>
+<p begin="00:01:05.640" end="00:01:12.000" style="s2">adjustments, feel free to let me know.</p>
+<p begin="00:01:09.119" end="00:01:15.360" style="s2">So, there is still a lot to be done</p>
+<p begin="00:01:12.000" end="00:01:18.080" style="s2">here. For example, it says that it it</p>
+<p begin="00:01:15.360" end="00:01:20.400" style="s2">can do other things, but it doesn&#39;t</p>
+<p begin="00:01:18.080" end="00:01:23.200" style="s2">because it doesn&#39;t have the memory. It</p>
+<p begin="00:01:20.400" end="00:01:27.600" style="s2">is a one shot. That one shot went here.</p>
+<p begin="00:01:23.200" end="00:01:29.680" style="s2">From here it goes here. Uh basically</p>
+<p begin="00:01:27.600" end="00:01:32.079" style="s2">from one service that is a totally</p>
+<p begin="00:01:29.680" end="00:01:37.680" style="s2">different company. An API call happened</p>
+<p begin="00:01:32.079" end="00:01:39.920" style="s2">to NA10. And from NA10 our API calls or</p>
+<p begin="00:01:37.680" end="00:01:42.400" style="s2">configurations to Gmail app and then it</p>
+<p begin="00:01:39.920" end="00:01:44.720" style="s2">went to Gmail servers and then it</p>
+<p begin="00:01:42.400" end="00:01:47.119" style="s2">composed the email. If we refresh the</p>
+<p begin="00:01:44.720" end="00:01:50.840" style="s2">page you should see the the new email</p>
+<p begin="00:01:47.119" end="00:01:53.759" style="s2">here. 1038 1039. This is the last one</p>
+<p begin="00:01:50.840" end="00:01:56.119" style="s2">that was something to do with train</p>
+<p begin="00:01:53.759" end="00:02:00.960" style="s2">schedules or trains being</p>
+<p begin="00:01:56.119" end="00:02:03.360" style="s2">delayed. Yeah, train delay. So now it</p>
+<p begin="00:02:00.960" end="00:02:06.079" style="s2">misunderstood my name here. Emma, my</p>
+<p begin="00:02:03.360" end="00:02:08.879" style="s2">name is not Emma. My name is Amal. Um,</p>
+<p begin="00:02:06.079" end="00:02:11.400" style="s2">these are the things that we will be</p>
+<p begin="00:02:08.879" end="00:02:14.319" style="s2">able to perfect it in the last</p>
+<p begin="00:02:11.400" end="00:02:17.160" style="s2">lectures if time allowed. But other than</p>
+<p begin="00:02:14.319" end="00:02:21.200" style="s2">that, let&#39;s go to the</p>
+<p begin="00:02:17.160" end="00:02:24.080" style="s2">Excalibur and review our lectures. Uh we</p>
+<p begin="00:02:21.200" end="00:02:27.920" style="s2">are done with knowing what&#39;s in web</p>
+<p begin="00:02:24.080" end="00:02:31.200" style="s2">hook. We have bridge NA10</p>
+<p begin="00:02:27.920" end="00:02:35.480" style="s2">uh and Vappy and we have a complete</p>
+<p begin="00:02:31.200" end="00:02:39.120" style="s2">email compose workflow recap. Um now if</p>
+<p begin="00:02:35.480" end="00:02:42.519" style="s2">I show you guys what we have done here.</p>
+<p begin="00:02:39.120" end="00:02:45.800" style="s2">We have created this entire workflow</p>
+<p begin="00:02:42.519" end="00:02:48.680" style="s2">scalable and then we</p>
+<p begin="00:02:45.800" end="00:02:53.760" style="s2">have literally this entire workflow</p>
+<p begin="00:02:48.680" end="00:02:56.400" style="s2">done. This workflow basically creates</p>
+<p begin="00:02:53.760" end="00:02:58.640" style="s2">um you take your phone. It is on my</p>
+<p begin="00:02:56.400" end="00:03:02.239" style="s2">phone. It should work exactly the same</p>
+<p begin="00:02:58.640" end="00:03:05.280" style="s2">way as I showed earlier on the web app.</p>
+<p begin="00:03:02.239" end="00:03:08.760" style="s2">The phone call goes to Twio, Twio calls</p>
+<p begin="00:03:05.280" end="00:03:11.040" style="s2">Vappy, Vappy calls, engages with me in a</p>
+<p begin="00:03:08.760" end="00:03:15.120" style="s2">conversation. And when the Vappy knows</p>
+<p begin="00:03:11.040" end="00:03:17.680" style="s2">when to call an endpoint or an API using</p>
+<p begin="00:03:15.120" end="00:03:20.879" style="s2">the tools that we have created, it goes</p>
+<p begin="00:03:17.680" end="00:03:25.680" style="s2">and calls this web hook on NAT and then</p>
+<p begin="00:03:20.879" end="00:03:28.720" style="s2">the NAT um well the current version that</p>
+<p begin="00:03:25.680" end="00:03:32.959" style="s2">we have is not using that. It&#39;s</p>
+<p begin="00:03:28.720" end="00:03:36.720" style="s2">basically going directly here. But um</p>
+<p begin="00:03:32.959" end="00:03:39.680" style="s2">you can modify it to go through an AI</p>
+<p begin="00:03:36.720" end="00:03:42.959" style="s2">agent, clean it up, extract some more</p>
+<p begin="00:03:39.680" end="00:03:45.760" style="s2">data from it and then the information</p>
+<p begin="00:03:42.959" end="00:03:49.440" style="s2">goes through chat GPT cleans that up</p>
+<p begin="00:03:45.760" end="00:03:53.360" style="s2">puts it into this Gmail endpoint sorry</p>
+<p begin="00:03:49.440" end="00:03:56.080" style="s2">Gmail API call and then it should let</p>
+<p begin="00:03:53.360" end="00:03:58.680" style="s2">Sabant know what happened. There is one</p>
+<p begin="00:03:56.080" end="00:04:02.959" style="s2">small modification we can do in this</p>
+<p begin="00:03:58.680" end="00:04:04.560" style="s2">one. Uh which is Samantha just said like</p>
+<p begin="00:04:02.959" end="00:04:06.720" style="s2">yeah I&#39;m done with that but actually</p>
+<p begin="00:04:04.560" end="00:04:08.720" style="s2">that&#39;s not true. It&#39;s just</p>
+<p begin="00:04:06.720" end="00:04:10.959" style="s2">optimistically thinking that it&#39;s done</p>
+<p begin="00:04:08.720" end="00:04:13.200" style="s2">with that. So what I would like to</p>
+<p begin="00:04:10.959" end="00:04:14.360" style="s2">mention here is that there is this thing</p>
+<p begin="00:04:13.200" end="00:04:17.799" style="s2">called</p>
+<p begin="00:04:14.360" end="00:04:22.320" style="s2">respond and this respond immediately</p>
+<p begin="00:04:17.799" end="00:04:24.880" style="s2">means as soon as the request arrived and</p>
+<p begin="00:04:22.320" end="00:04:27.600" style="s2">then respond back with a success</p>
+<p begin="00:04:24.880" end="00:04:31.520" style="s2">message. We don&#39;t know if this failed or</p>
+<p begin="00:04:27.600" end="00:04:34.639" style="s2">not failed. It will just basically go on</p>
+<p begin="00:04:31.520" end="00:04:36.600" style="s2">and respond back to Vappy. I would like</p>
+<p begin="00:04:34.639" end="00:04:39.520" style="s2">to change this</p>
+<p begin="00:04:36.600" end="00:04:43.199" style="s2">to something else. It&#39;s called use</p>
+<p begin="00:04:39.520" end="00:04:45.919" style="s2">respond web hook node. That&#39;s it. Use</p>
+<p begin="00:04:43.199" end="00:04:48.800" style="s2">respond web hook node. I&#39;m going to</p>
+<p begin="00:04:45.919" end="00:04:52.040" style="s2">leave it there. And then I&#39;m going to</p>
+<p begin="00:04:48.800" end="00:04:54.440" style="s2">add here a</p>
+<p begin="00:04:52.040" end="00:05:00.800" style="s2">respond web hook</p>
+<p begin="00:04:54.440" end="00:05:03.440" style="s2">node. And then I will just res basically</p>
+<p begin="00:05:00.800" end="00:05:06.759" style="s2">I will just keep it as it is. What</p>
+<p begin="00:05:03.440" end="00:05:11.120" style="s2">happens in this case is that when I run</p>
+<p begin="00:05:06.759" end="00:05:13.680" style="s2">it, if this thing fails and I manage the</p>
+<p begin="00:05:11.120" end="00:05:16.600" style="s2">failures properly, then the response</p>
+<p begin="00:05:13.680" end="00:05:20.560" style="s2">will go out from this web hook back to</p>
+<p begin="00:05:16.600" end="00:05:21.880" style="s2">Vappy. So this time I&#39;m going to do it a</p>
+<p begin="00:05:20.560" end="00:05:24.759" style="s2">little bit</p>
+<p begin="00:05:21.880" end="00:05:30.840" style="s2">differently. I</p>
+<p begin="00:05:24.759" end="00:05:30.840" style="s2">will try to do it with my phone.</p>
+<p begin="00:05:31.160" end="00:05:35.400" style="s2">So I have my drafts there. I have my</p>
+<p begin="00:05:34.639" end="00:05:38.320" style="s2">phone</p>
+<p begin="00:05:35.400" end="00:05:41.120" style="s2">here. I will pick this phone number that</p>
+<p begin="00:05:38.320" end="00:05:41.120" style="s2">we registered</p>
+<p begin="00:05:46.039" end="00:05:52.639" style="s2">earlier and call up.</p>
+<p begin="00:05:49.560" end="00:05:56.000" style="s2">Hi, how are you doing? I&#39;m doing good,</p>
+<p begin="00:05:52.639" end="00:05:59.440" style="s2">thank you. Um, can you please compose an</p>
+<p begin="00:05:56.000" end="00:06:01.680" style="s2">email and mention that I will be late 20</p>
+<p begin="00:05:59.440" end="00:06:05.280" style="s2">minutes? Uh, my trains are delayed and</p>
+<p begin="00:06:01.680" end="00:06:07.400" style="s2">also I couldn&#39;t find a parking place in</p>
+<p begin="00:06:05.280" end="00:06:10.680" style="s2">the Berlin</p>
+<p begin="00:06:07.400" end="00:06:14.680" style="s2">um Sudroys</p>
+<p begin="00:06:10.680" end="00:06:14.680" style="s2">um station.</p>
+<p begin="00:06:16.000" end="00:06:19.919" style="s2">Give me a</p>
+<p begin="00:06:17.160" end="00:06:22.800" style="s2">moment. I&#39;ve composed the email for you.</p>
+<p begin="00:06:19.919" end="00:06:25.440" style="s2">Here&#39;s what it says. subject running</p>
+<p begin="00:06:22.800" end="00:06:27.440" style="s2">late. No, it&#39;s okay. Please compose it.</p>
+<p begin="00:06:25.440" end="00:06:30.440" style="s2">Just compose it. Don&#39;t read it. All</p>
+<p begin="00:06:27.440" end="00:06:30.440" style="s2">right.</p>
+<p begin="00:06:30.560" end="00:06:38.560" style="s2">Got it. The email is composed and I</p>
+<p begin="00:06:33.440" end="00:06:40.479" style="s2">won&#39;t read. So now if the workload</p>
+<p begin="00:06:38.560" end="00:06:43.440" style="s2">worked like the entire connections</p>
+<p begin="00:06:40.479" end="00:06:45.919" style="s2">worked. There we go. Now we got the</p>
+<p begin="00:06:43.440" end="00:06:48.639" style="s2">email composed here with all the details</p>
+<p begin="00:06:45.919" end="00:06:52.240" style="s2">with Sud Cro&#39;s information and so on.</p>
+<p begin="00:06:48.639" end="00:06:55.440" style="s2">uh in the future lectures uh we will</p>
+<p begin="00:06:52.240" end="00:06:58.160" style="s2">have a lot more touch on how to use AI</p>
+<p begin="00:06:55.440" end="00:07:01.680" style="s2">agent, how to put the right signature,</p>
+<p begin="00:06:58.160" end="00:07:04.960" style="s2">how to read the emails, how to receive</p>
+<p begin="00:07:01.680" end="00:07:08.319" style="s2">new emails that are happening and how to</p>
+<p begin="00:07:04.960" end="00:07:11.039" style="s2">actually create a so-called caching on a</p>
+<p begin="00:07:08.319" end="00:07:13.919" style="s2">superase database and so on and so</p>
+<p begin="00:07:11.039" end="00:07:17.360" style="s2">forth. But to recap, we&#39;re literally</p>
+<p begin="00:07:13.919" end="00:07:22.080" style="s2">done with this part. And that leaves a</p>
+<p begin="00:07:17.360" end="00:07:26.400" style="s2">great ground for this part. And if we</p>
+<p begin="00:07:22.080" end="00:07:30.080" style="s2">quickly recap, the course has been</p>
+<p begin="00:07:26.400" end="00:07:32.400" style="s2">almost halfway done. The part one is</p>
+<p begin="00:07:30.080" end="00:07:34.759" style="s2">done. Part two is reading emails. Part</p>
+<p begin="00:07:32.400" end="00:07:38.319" style="s2">three is VIP coding</p>
+<p begin="00:07:34.759" end="00:07:41.599" style="s2">101. It&#39;s a very interesting subject,</p>
+<p begin="00:07:38.319" end="00:07:45.120" style="s2">voice AI agents. And I&#39;m thrilled to be</p>
+<p begin="00:07:41.599" end="00:07:46.880" style="s2">someone who has had a little bit</p>
+<p begin="00:07:45.120" end="00:07:49.919" style="s2">experience, two, three years of</p>
+<p begin="00:07:46.880" end="00:07:52.319" style="s2">experience with voice agents. But the</p>
+<p begin="00:07:49.919" end="00:07:56.000" style="s2">amount of three years of experience with</p>
+<p begin="00:07:52.319" end="00:07:57.080" style="s2">voice AI agents is a lot because it&#39;s a</p>
+<p begin="00:07:56.000" end="00:07:59.759" style="s2">very new</p>
+<p begin="00:07:57.080" end="00:08:03.199" style="s2">phenomena. I&#39;m enjoying recording these</p>
+<p begin="00:07:59.759" end="00:08:06.000" style="s2">courses despite being extremely tired.</p>
+<p begin="00:08:03.199" end="00:08:07.879" style="s2">Um, but this is the only window of</p>
+<p begin="00:08:06.000" end="00:08:11.599" style="s2">opportunity for me to record these</p>
+<p begin="00:08:07.879" end="00:08:14.800" style="s2">videos. Otherwise uh next week I have a</p>
+<p begin="00:08:11.599" end="00:08:17.120" style="s2">conference to attend um where I will</p>
+<p begin="00:08:14.800" end="00:08:19.520" style="s2">have a master class about exactly the</p>
+<p begin="00:08:17.120" end="00:08:21.319" style="s2">same subject voice agents. The</p>
+<p begin="00:08:19.520" end="00:08:25.680" style="s2">conference is called deep tech</p>
+<p begin="00:08:21.319" end="00:08:27.599" style="s2">momentum and unfortunately I have to</p>
+<p begin="00:08:25.680" end="00:08:30.400" style="s2">make sure that these videos are</p>
+<p begin="00:08:27.599" end="00:08:33.519" style="s2">delivered and tomorrow we have this</p>
+<p begin="00:08:30.400" end="00:08:35.640" style="s2">champions prep call so I don&#39;t have any</p>
+<p begin="00:08:33.519" end="00:08:38.680" style="s2">other option but to finish these</p>
+<p begin="00:08:35.640" end="00:08:41.440" style="s2">videos. Thank you so much for following.</p>
+<p begin="00:08:38.680" end="00:08:45.279" style="s2">liking, commenting, and sharing. Keep</p>
+<p begin="00:08:41.440" end="00:08:48.080" style="s2">doing that. All of that kind of a love</p>
+<p begin="00:08:45.279" end="00:08:52.959" style="s2">keeps me pushing the borders. Otherwise,</p>
+<p begin="00:08:48.080" end="00:08:52.959" style="s2">I cannot do this anymore. Thank you.</p>
+</div>
+</body>
+</tt>

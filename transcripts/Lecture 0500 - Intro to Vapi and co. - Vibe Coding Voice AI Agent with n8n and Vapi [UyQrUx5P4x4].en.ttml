@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.320" end="00:00:04.040" style="s2">In this lecture, we will have a quick</p>
+<p begin="00:00:02.240" end="00:00:07.120" style="s2">introduction to vap and a few</p>
+<p begin="00:00:04.040" end="00:00:09.200" style="s2">alternatives on this kind of a framework</p>
+<p begin="00:00:07.120" end="00:00:13.080" style="s2">so that you can build your voice agents</p>
+<p begin="00:00:09.200" end="00:00:15.839" style="s2">with. So if we go quickly back to our</p>
+<p begin="00:00:13.080" end="00:00:19.760" style="s2">diagram, this kind of a diagram can be</p>
+<p begin="00:00:15.839" end="00:00:21.920" style="s2">built custom. Um, this is something we</p>
+<p begin="00:00:19.760" end="00:00:25.680" style="s2">did like literally writing every single</p>
+<p begin="00:00:21.920" end="00:00:28.279" style="s2">line of code in 2023 because there were</p>
+<p begin="00:00:25.680" end="00:00:31.519" style="s2">no companies like</p>
+<p begin="00:00:28.279" end="00:00:34.239" style="s2">Vappy or LifeKit. I&#39;m not sure how old</p>
+<p begin="00:00:31.519" end="00:00:37.200" style="s2">is LifeKit, but there were there are now</p>
+<p begin="00:00:34.239" end="00:00:41.640" style="s2">a few more options like this. But let&#39;s</p>
+<p begin="00:00:37.200" end="00:00:45.440" style="s2">have a quick look at Vappy first. So</p>
+<p begin="00:00:41.640" end="00:00:48.000" style="s2">Vappy is a company based out of Silicon</p>
+<p begin="00:00:45.440" end="00:00:51.840" style="s2">Valley.</p>
+<p begin="00:00:48.000" end="00:00:54.840" style="s2">and they&#39;re found it literally in uh in</p>
+<p begin="00:00:51.840" end="00:00:58.079" style="s2">2023. I remember actually their first</p>
+<p begin="00:00:54.840" end="00:01:00.440" style="s2">days when I was researching other</p>
+<p begin="00:00:58.079" end="00:01:03.120" style="s2">alternatives when I was</p>
+<p begin="00:01:00.440" end="00:01:06.799" style="s2">running the voice AI agent company that</p>
+<p begin="00:01:03.120" end="00:01:09.159" style="s2">I was building. Uh they have raised $20</p>
+<p begin="00:01:06.799" end="00:01:15.680" style="s2">million.</p>
+<p begin="00:01:09.159" end="00:01:18.080" style="s2">Um and I believe they are not very big</p>
+<p begin="00:01:15.680" end="00:01:20.439" style="s2">company like nowadays a lot of software</p>
+<p begin="00:01:18.080" end="00:01:24.720" style="s2">companies do not need to be very very</p>
+<p begin="00:01:20.439" end="00:01:26.960" style="s2">big so around 85 people one of the very</p>
+<p begin="00:01:24.720" end="00:01:29.880" style="s2">nice companies that I really like the</p>
+<p begin="00:01:26.960" end="00:01:33.840" style="s2">story of them evolving and they&#39;re going</p>
+<p begin="00:01:29.880" end="00:01:36.560" style="s2">on and I believe also um they went</p>
+<p begin="00:01:33.840" end="00:01:38.479" style="s2">through YC yes exactly these are the two</p>
+<p begin="00:01:36.560" end="00:01:41.840" style="s2">co-founders of</p>
+<p begin="00:01:38.479" end="00:01:43.960" style="s2">Jordan and Nikil. Uh they went through</p>
+<p begin="00:01:41.840" end="00:01:48.960" style="s2">YC. Their story is very interesting.</p>
+<p begin="00:01:43.960" end="00:01:51.520" style="s2">They did um a bunch of pivots. Uh I&#39;m</p>
+<p begin="00:01:48.960" end="00:01:54.000" style="s2">consuming Jordan&#39;s content a lot on the</p>
+<p begin="00:01:51.520" end="00:01:57.280" style="s2">internet. So that&#39;s one option that you</p>
+<p begin="00:01:54.000" end="00:01:59.200" style="s2">can go and we will go with Vappy. Just</p>
+<p begin="00:01:57.280" end="00:02:03.040" style="s2">for you to know, there is another</p>
+<p begin="00:01:59.200" end="00:02:07.439" style="s2">open-source alternative called LifeKit.</p>
+<p begin="00:02:03.040" end="00:02:11.319" style="s2">It is something that actually uh under</p>
+<p begin="00:02:07.439" end="00:02:15.280" style="s2">Apache 2.0 license um it&#39;s built with</p>
+<p begin="00:02:11.319" end="00:02:18.480" style="s2">Python. Um we can have a quick look they</p>
+<p begin="00:02:15.280" end="00:02:22.400" style="s2">have like 1600 comets. The build failing</p>
+<p begin="00:02:18.480" end="00:02:25.400" style="s2">right now it&#39;s interesting and if you</p>
+<p begin="00:02:22.400" end="00:02:29.599" style="s2">look at the project life</p>
+<p begin="00:02:25.400" end="00:02:32.160" style="s2">time it started in October 2023. So</p>
+<p begin="00:02:29.599" end="00:02:33.239" style="s2">these projects all of them are pretty</p>
+<p begin="00:02:32.160" end="00:02:37.599" style="s2">much</p>
+<p begin="00:02:33.239" end="00:02:39.720" style="s2">new and they they are still very good.</p>
+<p begin="00:02:37.599" end="00:02:42.400" style="s2">They you can do a lot of things with</p>
+<p begin="00:02:39.720" end="00:02:46.080" style="s2">them. The very interesting part about</p>
+<p begin="00:02:42.400" end="00:02:51.519" style="s2">lifekit is that openai used live kit in</p>
+<p begin="00:02:46.080" end="00:02:55.319" style="s2">order to do their advanced voice mode.</p>
+<p begin="00:02:51.519" end="00:02:59.519" style="s2">There is a very interesting</p>
+<p begin="00:02:55.319" end="00:03:01.480" style="s2">um deep learning voice AI agent course</p>
+<p begin="00:02:59.519" end="00:03:04.239" style="s2">that has recently been</p>
+<p begin="00:03:01.480" end="00:03:07.040" style="s2">announced and I recommend watching that</p>
+<p begin="00:03:04.239" end="00:03:10.040" style="s2">if you want to build voice AI agents</p>
+<p begin="00:03:07.040" end="00:03:12.360" style="s2">with code using lifekit and the lifekit</p>
+<p begin="00:03:10.040" end="00:03:16.400" style="s2">co-founders are teaching</p>
+<p begin="00:03:12.360" end="00:03:20.680" style="s2">this. So, at the end of the day, when</p>
+<p begin="00:03:16.400" end="00:03:24.000" style="s2">you actually want to build a voice AI</p>
+<p begin="00:03:20.680" end="00:03:25.800" style="s2">agent, either you do it custom or you</p>
+<p begin="00:03:24.000" end="00:03:29.760" style="s2">pick one of these</p>
+<p begin="00:03:25.800" end="00:03:31.840" style="s2">frameworks. And 99 out of 100 times, I</p>
+<p begin="00:03:29.760" end="00:03:34.239" style="s2">will recommend picking a framework</p>
+<p begin="00:03:31.840" end="00:03:36.959" style="s2">because otherwise you&#39;ll reinvent the</p>
+<p begin="00:03:34.239" end="00:03:39.440" style="s2">wheel and you&#39;ll end up building exactly</p>
+<p begin="00:03:36.959" end="00:03:41.840" style="s2">that framework. But you can do it better</p>
+<p begin="00:03:39.440" end="00:03:44.000" style="s2">than them because they were already</p>
+<p begin="00:03:41.840" end="00:03:47.360" style="s2">there for multiple years. They spent so</p>
+<p begin="00:03:44.000" end="00:03:50.080" style="s2">much money and they already made those</p>
+<p begin="00:03:47.360" end="00:03:53.640" style="s2">mistakes. So don&#39;t you make that mistake</p>
+<p begin="00:03:50.080" end="00:03:58.959" style="s2">of building a voice AI agent custom by</p>
+<p begin="00:03:53.640" end="00:04:01.799" style="s2">using an ASR, a TTS, VLM calls all by</p>
+<p begin="00:03:58.959" end="00:04:03.760" style="s2">yourself. Use a framework like Vappy or</p>
+<p begin="00:04:01.799" end="00:04:06.720" style="s2">LifeKit. Thank you and see you in the</p>
+<p begin="00:04:03.760" end="00:04:06.720" style="s2">next lecture.</p>
+</div>
+</body>
+</tt>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.080" end="00:00:04.400" style="s2">Welcome to section three of this crash</p>
+<p begin="00:00:02.159" end="00:00:08.160" style="s2">course where you&#39;ll learn how to build a</p>
+<p begin="00:00:04.400" end="00:00:11.120" style="s2">voice agent that reads your email</p>
+<p begin="00:00:08.160" end="00:00:14.880" style="s2">literally on the go by just calling a</p>
+<p begin="00:00:11.120" end="00:00:17.680" style="s2">phone number. In this section um we will</p>
+<p begin="00:00:14.880" end="00:00:21.920" style="s2">learn vibe coding. It&#39;s a very small</p>
+<p begin="00:00:17.680" end="00:00:24.800" style="s2">touch of what vip coding is um where it</p>
+<p begin="00:00:21.920" end="00:00:27.279" style="s2">comes from how the coin was termed and</p>
+<p begin="00:00:24.800" end="00:00:30.640" style="s2">most importantly why do we need it for</p>
+<p begin="00:00:27.279" end="00:00:33.360" style="s2">this course. So let&#39;s start from what is</p>
+<p begin="00:00:30.640" end="00:00:35.520" style="s2">it like there is a tweet from Andre</p>
+<p begin="00:00:33.360" end="00:00:39.360" style="s2">Karpati</p>
+<p begin="00:00:35.520" end="00:00:41.040" style="s2">um in February 2025 just a couple months</p>
+<p begin="00:00:39.360" end="00:00:45.200" style="s2">ago</p>
+<p begin="00:00:41.040" end="00:00:46.200" style="s2">uh got a lot of views and he&#39;s he&#39;s the</p>
+<p begin="00:00:45.200" end="00:00:50.239" style="s2">former</p>
+<p begin="00:00:46.200" end="00:00:51.160" style="s2">co-founder of OpenAI and then he says</p>
+<p begin="00:00:50.239" end="00:00:56.719" style="s2">this</p>
+<p begin="00:00:51.160" end="00:00:59.840" style="s2">that I literally generate code with AI I</p>
+<p begin="00:00:56.719" end="00:01:03.280" style="s2">click on accept all I don&#39;t see the code</p>
+<p begin="00:00:59.840" end="00:01:05.880" style="s2">u I just see stuff say stuff run stuff</p>
+<p begin="00:01:03.280" end="00:01:09.960" style="s2">and copy paste stuff and it mostly</p>
+<p begin="00:01:05.880" end="00:01:12.840" style="s2">works and he is actually talking about a</p>
+<p begin="00:01:09.960" end="00:01:17.439" style="s2">throwaway weekend projects</p>
+<p begin="00:01:12.840" end="00:01:20.640" style="s2">but to be honest I have been building</p>
+<p begin="00:01:17.439" end="00:01:23.280" style="s2">software for 23 years and for quite a</p>
+<p begin="00:01:20.640" end="00:01:26.680" style="s2">bit of that 17 years full stack</p>
+<p begin="00:01:23.280" end="00:01:30.720" style="s2">developer and at least 10 years of that</p>
+<p begin="00:01:26.680" end="00:01:33.439" style="s2">time I was also vi but not with AI but</p>
+<p begin="00:01:30.720" end="00:01:36.880" style="s2">with stack overflow. My my procedure was</p>
+<p begin="00:01:33.439" end="00:01:38.880" style="s2">this. I would go to stack overflow. I</p>
+<p begin="00:01:36.880" end="00:01:40.560" style="s2">don&#39;t have a question right now but</p>
+<p begin="00:01:38.880" end="00:01:44.759" style="s2">let&#39;s pick this question. If I would go</p>
+<p begin="00:01:40.560" end="00:01:48.560" style="s2">here I would go to the first correct</p>
+<p begin="00:01:44.759" end="00:01:52.240" style="s2">question the first correct answer. Copy</p>
+<p begin="00:01:48.560" end="00:01:55.040" style="s2">paste the code that it had see if it</p>
+<p begin="00:01:52.240" end="00:01:58.159" style="s2">works. If it works then only I would</p>
+<p begin="00:01:55.040" end="00:02:02.159" style="s2">come back and then analyze the code and</p>
+<p begin="00:01:58.159" end="00:02:05.759" style="s2">see how it works and so on. Now there is</p>
+<p begin="00:02:02.159" end="00:02:09.039" style="s2">a lot going on with VI coding. Um even I</p>
+<p begin="00:02:05.759" end="00:02:10.520" style="s2">did a crash course uh which I will talk</p>
+<p begin="00:02:09.039" end="00:02:12.280" style="s2">about in the next</p>
+<p begin="00:02:10.520" end="00:02:15.120" style="s2">lectures.</p>
+<p begin="00:02:12.280" end="00:02:18.239" style="s2">But vi coding is not a bad thing. There</p>
+<p begin="00:02:15.120" end="00:02:20.879" style="s2">is a lot of bad media about it. Uh it&#39;s</p>
+<p begin="00:02:18.239" end="00:02:22.959" style="s2">not a bad thing if it&#39;s done right. It&#39;s</p>
+<p begin="00:02:20.879" end="00:02:26.640" style="s2">the only way to go on because it makes</p>
+<p begin="00:02:22.959" end="00:02:31.280" style="s2">you 10 times much faster. You can build</p>
+<p begin="00:02:26.640" end="00:02:34.000" style="s2">amazing tools with very small teams. So,</p>
+<p begin="00:02:31.280" end="00:02:35.680" style="s2">vibe cutting is not a bad thing. And why</p>
+<p begin="00:02:34.000" end="00:02:38.879" style="s2">do we need it for this particular</p>
+<p begin="00:02:35.680" end="00:02:44.040" style="s2">course? Because if I quickly show you</p>
+<p begin="00:02:38.879" end="00:02:48.400" style="s2">what we have built here is a very simple</p>
+<p begin="00:02:44.040" end="00:02:51.040" style="s2">workflow that ingests data, ingests</p>
+<p begin="00:02:48.400" end="00:02:55.760" style="s2">emails in the database, reads it back,</p>
+<p begin="00:02:51.040" end="00:02:58.959" style="s2">composes an email. But it&#39;s not enough.</p>
+<p begin="00:02:55.760" end="00:03:02.080" style="s2">You can build this way much better. You</p>
+<p begin="00:02:58.959" end="00:03:04.519" style="s2">can add labels to it. You can categorize</p>
+<p begin="00:03:02.080" end="00:03:08.159" style="s2">it. You can build a little bit</p>
+<p begin="00:03:04.519" end="00:03:11.040" style="s2">spam label that you can remove the</p>
+<p begin="00:03:08.159" end="00:03:13.840" style="s2">labels. You can build autoresponders.</p>
+<p begin="00:03:11.040" end="00:03:15.360" style="s2">You can do a lot of things. And if you</p>
+<p begin="00:03:13.840" end="00:03:16.959" style="s2">know a little bit of vibe coding, then</p>
+<p begin="00:03:15.360" end="00:03:18.480" style="s2">you can take this course and then after</p>
+<p begin="00:03:16.959" end="00:03:20.800" style="s2">this course, you can go on all by</p>
+<p begin="00:03:18.480" end="00:03:23.640" style="s2">yourself and then build this voice AI</p>
+<p begin="00:03:20.800" end="00:03:26.400" style="s2">agent in a better way and even build a</p>
+<p begin="00:03:23.640" end="00:03:28.319" style="s2">UI for it to chat with it. You don&#39;t</p>
+<p begin="00:03:26.400" end="00:03:30.760" style="s2">need to have a voice interface for this</p>
+<p begin="00:03:28.319" end="00:03:34.000" style="s2">to work. You can literally chop out the</p>
+<p begin="00:03:30.760" end="00:03:36.319" style="s2">entire Vappy interface and then create a</p>
+<p begin="00:03:34.000" end="00:03:37.840" style="s2">nice chat interface so that you can use</p>
+<p begin="00:03:36.319" end="00:03:41.120" style="s2">it when you&#39;re sitting in the office and</p>
+<p begin="00:03:37.840" end="00:03:44.080" style="s2">then you can um give it commands and and</p>
+<p begin="00:03:41.120" end="00:03:47.280" style="s2">you can integrate further things like</p>
+<p begin="00:03:44.080" end="00:03:49.760" style="s2">for example your grocery shopping, your</p>
+<p begin="00:03:47.280" end="00:03:52.799" style="s2">uh movie night, whatever you do like</p>
+<p begin="00:03:49.760" end="00:03:54.640" style="s2">calendar um whatever workflows that you</p>
+<p begin="00:03:52.799" end="00:03:57.120" style="s2">have you can automate it but if you know</p>
+<p begin="00:03:54.640" end="00:04:00.400" style="s2">a little bit vibe coding it will go a</p>
+<p begin="00:03:57.120" end="00:04:02.640" style="s2">long way. Therefore, I want to package f</p>
+<p begin="00:04:00.400" end="00:04:06.560" style="s2">coding with this course so that you get</p>
+<p begin="00:04:02.640" end="00:04:09.080" style="s2">a a few more concepts uh sorted out so</p>
+<p begin="00:04:06.560" end="00:04:13.519" style="s2">that you can understand how this thing</p>
+<p begin="00:04:09.080" end="00:04:16.720" style="s2">works. So, in the next lecture, we&#39;re</p>
+<p begin="00:04:13.519" end="00:04:20.400" style="s2">going to have a look at a few tools that</p>
+<p begin="00:04:16.720" end="00:04:22.720" style="s2">are super super cool uh tools. I have</p>
+<p begin="00:04:20.400" end="00:04:25.919" style="s2">tried them out myself. I cover them in</p>
+<p begin="00:04:22.720" end="00:04:30.400" style="s2">my pipe coding course. Uh we&#39;ll have a</p>
+<p begin="00:04:25.919" end="00:04:30.400" style="s2">quick look at them and then we&#39;ll go on.</p>
+</div>
+</body>
+</tt>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.320" end="00:00:05.920" style="s2">In this lecture, we&#39;ll have a look at</p>
+<p begin="00:00:02.560" end="00:00:09.679" style="s2">Riplet, Lovable, and Firebase Studio at</p>
+<p begin="00:00:05.920" end="00:00:11.920" style="s2">once to give you a feeling of what VIP</p>
+<p begin="00:00:09.679" end="00:00:15.280" style="s2">coding tools could be, and then we&#39;ll</p>
+<p begin="00:00:11.920" end="00:00:19.400" style="s2">carry on to the next steps. Okay, let&#39;s</p>
+<p begin="00:00:15.280" end="00:00:24.039" style="s2">go to first Lovable. Lovable is a</p>
+<p begin="00:00:19.400" end="00:00:28.080" style="s2">platform that helps you create uh</p>
+<p begin="00:00:24.039" end="00:00:29.519" style="s2">amazing um UI for your project. So, I</p>
+<p begin="00:00:28.080" end="00:00:31.679" style="s2">already have an account. I&#39;m going to</p>
+<p begin="00:00:29.519" end="00:00:34.160" style="s2">start building something. I give this</p>
+<p begin="00:00:31.679" end="00:00:37.120" style="s2">example which is kind of like captures a</p>
+<p begin="00:00:34.160" end="00:00:38.440" style="s2">an aha moment. I will keep going that</p>
+<p begin="00:00:37.120" end="00:00:41.200" style="s2">with that</p>
+<p begin="00:00:38.440" end="00:00:44.079" style="s2">example. Can you please create a web</p>
+<p begin="00:00:41.200" end="00:00:46.239" style="s2">application that would show me the</p>
+<p begin="00:00:44.079" end="00:00:48.239" style="s2">transcripts of whatever I&#39;m talking</p>
+<p begin="00:00:46.239" end="00:00:51.760" style="s2">about? It should listen to my microphone</p>
+<p begin="00:00:48.239" end="00:00:54.640" style="s2">and show me the transcript in a nice big</p>
+<p begin="00:00:51.760" end="00:00:57.360" style="s2">font with some CSS, some animations,</p>
+<p begin="00:00:54.640" end="00:01:00.160" style="s2">some nice colors and so on.</p>
+<p begin="00:00:57.360" end="00:01:02.800" style="s2">So basically you describe something to</p>
+<p begin="00:01:00.160" end="00:01:05.840" style="s2">the microphone and it starts building</p>
+<p begin="00:01:02.800" end="00:01:09.119" style="s2">code for you and with an actual</p>
+<p begin="00:01:05.840" end="00:01:11.360" style="s2">application that works um and even it</p>
+<p begin="00:01:09.119" end="00:01:14.240" style="s2">has GitHub integration off the shelf</p>
+<p begin="00:01:11.360" end="00:01:18.080" style="s2">superbase integration off the shelf and</p>
+<p begin="00:01:14.240" end="00:01:20.240" style="s2">you can um build literally functioning</p>
+<p begin="00:01:18.080" end="00:01:21.479" style="s2">web and uh mobile applications as well</p>
+<p begin="00:01:20.240" end="00:01:24.000" style="s2">but mostly web</p>
+<p begin="00:01:21.479" end="00:01:26.200" style="s2">applications with these tools. Lovable</p>
+<p begin="00:01:24.000" end="00:01:29.200" style="s2">being one of them. Uh it&#39;s a</p>
+<p begin="00:01:26.200" end="00:01:31.920" style="s2">Swedishbased company, just a couple of</p>
+<p begin="00:01:29.200" end="00:01:34.280" style="s2">years old, but most of the AI tools are</p>
+<p begin="00:01:31.920" end="00:01:36.880" style="s2">just a couple of years</p>
+<p begin="00:01:34.280" end="00:01:39.840" style="s2">old. So, we&#39;re going to wait and see</p>
+<p begin="00:01:36.880" end="00:01:43.680" style="s2">what is the result. Usually, the results</p>
+<p begin="00:01:39.840" end="00:01:46.159" style="s2">are um for new projects, it&#39;s going to</p>
+<p begin="00:01:43.680" end="00:01:48.920" style="s2">work. For old projects, it needs some</p>
+<p begin="00:01:46.159" end="00:01:52.640" style="s2">more work. And</p>
+<p begin="00:01:48.920" end="00:01:55.200" style="s2">then um there are a lot of things in my</p>
+<p begin="00:01:52.640" end="00:01:58.399" style="s2">crash course in my lovable crash uh I</p>
+<p begin="00:01:55.200" end="00:02:01.520" style="s2">mean in my vibe coding crash course that</p>
+<p begin="00:01:58.399" end="00:02:04.079" style="s2">goes to VIP coding but this is a very</p>
+<p begin="00:02:01.520" end="00:02:04.079" style="s2">simple easy</p>
+<p begin="00:02:11.720" end="00:02:18.120" style="s2">one. Okay. It&#39;s taking way longer than</p>
+<p begin="00:02:16.239" end="00:02:21.200" style="s2">it</p>
+<p begin="00:02:18.120" end="00:02:25.680" style="s2">should. Meanwhile, we&#39;ll have a quick</p>
+<p begin="00:02:21.200" end="00:02:29.280" style="s2">look at um the next of them. Replet.</p>
+<p begin="00:02:25.680" end="00:02:33.080" style="s2">Replet is an awesome tool. It&#39;s much</p>
+<p begin="00:02:29.280" end="00:02:38.480" style="s2">better than uh Lovable. It has</p>
+<p begin="00:02:33.080" end="00:02:40.840" style="s2">a a huge um user base. It&#39;s a bigger</p>
+<p begin="00:02:38.480" end="00:02:43.760" style="s2">company. It&#39;s based out of Silicon</p>
+<p begin="00:02:40.840" end="00:02:46.640" style="s2">Valley. And we&#39;ll do the same thing to</p>
+<p begin="00:02:43.760" end="00:02:50.160" style="s2">this uh this one. Perhaps even it makes</p>
+<p begin="00:02:46.640" end="00:02:52.840" style="s2">sense that we copy paste the entire same</p>
+<p begin="00:02:50.160" end="00:02:55.920" style="s2">prompt so that we give them the same</p>
+<p begin="00:02:52.840" end="00:02:58.480" style="s2">challenge. And let&#39;s go also do the same</p>
+<p begin="00:02:55.920" end="00:03:02.000" style="s2">thing with Firebase Studio and see how</p>
+<p begin="00:02:58.480" end="00:03:04.360" style="s2">that goes. Firebase Studio is basically</p>
+<p begin="00:03:02.000" end="00:03:07.640" style="s2">from Google. It&#39;s the</p>
+<p begin="00:03:04.360" end="00:03:11.120" style="s2">Firebase lovable rilet</p>
+<p begin="00:03:07.640" end="00:03:15.840" style="s2">um kind of thing.</p>
+<p begin="00:03:11.120" end="00:03:15.840" style="s2">So, I&#39;m going to go and give this a</p>
+<p begin="00:03:18.840" end="00:03:25.519" style="s2">try. Okay, now we have three</p>
+<p begin="00:03:22.519" end="00:03:27.720" style="s2">different ones running off. Okay, a</p>
+<p begin="00:03:25.519" end="00:03:31.840" style="s2">proven</p>
+<p begin="00:03:27.720" end="00:03:34.000" style="s2">start rilet is running. This also needs</p>
+<p begin="00:03:31.840" end="00:03:38.319" style="s2">prototype this app. It&#39;s asking me for</p>
+<p begin="00:03:34.000" end="00:03:39.920" style="s2">some color inputs and so on. Let&#39;s check</p>
+<p begin="00:03:38.319" end="00:03:42.239" style="s2">lovable.</p>
+<p begin="00:03:39.920" end="00:03:45.040" style="s2">Okay, lovable is ready. It finished the</p>
+<p begin="00:03:42.239" end="00:03:47.840" style="s2">codebase. Let&#39;s see what it produced.</p>
+<p begin="00:03:45.040" end="00:03:49.920" style="s2">I&#39;m just talking to the micro for Oh, I</p>
+<p begin="00:03:47.840" end="00:03:51.959" style="s2">know what is the problem with this.</p>
+<p begin="00:03:49.920" end="00:03:55.519" style="s2">Actually, Arc</p>
+<p begin="00:03:51.959" end="00:03:58.640" style="s2">browser do not support this API. So,</p>
+<p begin="00:03:55.519" end="00:04:01.640" style="s2">therefore, we need to open this</p>
+<p begin="00:03:58.640" end="00:04:06.040" style="s2">somewhere in</p>
+<p begin="00:04:01.640" end="00:04:06.040" style="s2">a Chrome browser.</p>
+<p begin="00:04:09.519" end="00:04:11.920" style="s2">There we</p>
+<p begin="00:04:12.280" end="00:04:18.400" style="s2">go. It&#39;s asking for</p>
+<p begin="00:04:15.959" end="00:04:22.799" style="s2">permission. All right. So, I&#39;m speaking</p>
+<p begin="00:04:18.400" end="00:04:22.799" style="s2">now and I am expecting the</p>
+<p begin="00:04:23.000" end="00:04:27.199" style="s2">results. Okay, there was something. All</p>
+<p begin="00:04:25.680" end="00:04:29.199" style="s2">right, I&#39;m speaking now and I&#39;m</p>
+<p begin="00:04:27.199" end="00:04:31.199" style="s2">expecting the results to show up. Okay,</p>
+<p begin="00:04:29.199" end="00:04:34.080" style="s2">it&#39;s not showing up in real time. Maybe</p>
+<p begin="00:04:31.199" end="00:04:36.479" style="s2">I pause.</p>
+<p begin="00:04:34.080" end="00:04:39.800" style="s2">Yeah, I pause and then it shows up. I</p>
+<p begin="00:04:36.479" end="00:04:43.600" style="s2">don&#39;t like it that way. Uh, let&#39;s give a</p>
+<p begin="00:04:39.800" end="00:04:46.479" style="s2">screenshot of this to</p>
+<p begin="00:04:43.600" end="00:04:46.479" style="s2">um</p>
+<p begin="00:04:47.320" end="00:04:53.680" style="s2">lovable. Well, I see this uh only when I</p>
+<p begin="00:04:51.360" end="00:04:55.919" style="s2">pause. I want to see the transcript in</p>
+<p begin="00:04:53.680" end="00:04:55.919" style="s2">real</p>
+<p begin="00:04:56.120" end="00:05:01.520" style="s2">time. Okay, let&#39;s check the next one.</p>
+<p begin="00:04:59.280" end="00:05:04.479" style="s2">It&#39;s still producing code. This is Fire</p>
+<p begin="00:05:01.520" end="00:05:07.000" style="s2">Studio. What did Riplet do? Oh, Riplet</p>
+<p begin="00:05:04.479" end="00:05:10.280" style="s2">did also</p>
+<p begin="00:05:07.000" end="00:05:12.800" style="s2">finish. And the UI of Rlet is much</p>
+<p begin="00:05:10.280" end="00:05:13.800" style="s2">cooler. So, let&#39;s deploy this because we</p>
+<p begin="00:05:12.800" end="00:05:18.199" style="s2">have to take</p>
+<p begin="00:05:13.800" end="00:05:21.000" style="s2">it. Well, we have to we can actually do</p>
+<p begin="00:05:18.199" end="00:05:24.720" style="s2">this. I forgot that I&#39;m doing this</p>
+<p begin="00:05:21.000" end="00:05:27.520" style="s2">example. We can open here. I think I</p>
+<p begin="00:05:24.720" end="00:05:27.520" style="s2">have it logged</p>
+<p begin="00:05:27.720" end="00:05:32.680" style="s2">in or I can log it in.</p>
+<p begin="00:05:33.440" end="00:05:39.440" style="s2">So we don&#39;t need to do back and forth uh</p>
+<p begin="00:05:36.560" end="00:05:39.440" style="s2">deployments a</p>
+<p begin="00:05:39.960" end="00:05:42.960" style="s2">lot.</p>
+<p begin="00:05:43.160" end="00:05:48.759" style="s2">Oh</p>
+<p begin="00:05:45.320" end="00:05:51.680" style="s2">okay then then let&#39;s do the</p>
+<p begin="00:05:48.759" end="00:05:54.199" style="s2">deployment. Or maybe it is using another</p>
+<p begin="00:05:51.680" end="00:05:57.600" style="s2">API. No it&#39;s using the same</p>
+<p begin="00:05:54.199" end="00:06:00.560" style="s2">API. So I&#39;m going to do the deployment</p>
+<p begin="00:05:57.600" end="00:06:02.400" style="s2">and approve the configuration.</p>
+<p begin="00:06:00.560" end="00:06:04.440" style="s2">Oh, it&#39;s deploying it like that. It</p>
+<p begin="00:06:02.400" end="00:06:08.360" style="s2">doesn&#39;t have like a</p>
+<p begin="00:06:04.440" end="00:06:10.960" style="s2">feature that I can do the deployment</p>
+<p begin="00:06:08.360" end="00:06:13.199" style="s2">easily. Anyways, so that was the point.</p>
+<p begin="00:06:10.960" end="00:06:15.919" style="s2">It doesn&#39;t need to be running right now.</p>
+<p begin="00:06:13.199" end="00:06:18.000" style="s2">It&#39;s because the arc I&#39;m running I was</p>
+<p begin="00:06:15.919" end="00:06:20.319" style="s2">running it in the Arc browser.</p>
+<p begin="00:06:18.000" end="00:06:25.319" style="s2">Meanwhile, I&#39;ll see if I can find my</p>
+<p begin="00:06:20.319" end="00:06:30.560" style="s2">password. Um but the whole idea here</p>
+<p begin="00:06:25.319" end="00:06:31.639" style="s2">is that we now can build apps without</p>
+<p begin="00:06:30.560" end="00:06:34.720" style="s2">writing</p>
+<p begin="00:06:31.639" end="00:06:38.639" style="s2">code without even looking at the code</p>
+<p begin="00:06:34.720" end="00:06:42.560" style="s2">because the code itself is generated uh</p>
+<p begin="00:06:38.639" end="00:06:45.520" style="s2">by AI especially if you&#39;re a a senior</p>
+<p begin="00:06:42.560" end="00:06:49.440" style="s2">developer you&#39;re someone who already</p>
+<p begin="00:06:45.520" end="00:06:51.680" style="s2">knows how to build things then it is</p>
+<p begin="00:06:49.440" end="00:06:54.800" style="s2">something that will make make your life</p>
+<p begin="00:06:51.680" end="00:06:58.960" style="s2">much much easier because you are going</p>
+<p begin="00:06:54.800" end="00:07:01.280" style="s2">to uh build it much faster. Uh and and</p>
+<p begin="00:06:58.960" end="00:07:07.599" style="s2">by building it much faster, you&#39;re</p>
+<p begin="00:07:01.280" end="00:07:10.319" style="s2">basically um creating a very big impact</p>
+<p begin="00:07:07.599" end="00:07:13.360" style="s2">on whatever you&#39;re building. Uh it&#39;s</p>
+<p begin="00:07:10.319" end="00:07:16.560" style="s2">economic impact, social impact, whatever</p>
+<p begin="00:07:13.360" end="00:07:19.840" style="s2">that you have. And I think that is a</p>
+<p begin="00:07:16.560" end="00:07:21.599" style="s2">paradigm shift that has happened in</p>
+<p begin="00:07:19.840" end="00:07:23.919" style="s2">human history or at least the software</p>
+<p begin="00:07:21.599" end="00:07:26.560" style="s2">development history. This has never been</p>
+<p begin="00:07:23.919" end="00:07:29.199" style="s2">before. We had</p>
+<p begin="00:07:26.560" end="00:07:31.280" style="s2">um we had junior developers listening to</p>
+<p begin="00:07:29.199" end="00:07:32.280" style="s2">senior developers. Now AI listens to</p>
+<p begin="00:07:31.280" end="00:07:36.120" style="s2">senior</p>
+<p begin="00:07:32.280" end="00:07:40.160" style="s2">developers. So let&#39;s give it a</p>
+<p begin="00:07:36.120" end="00:07:42.400" style="s2">try and see how Replet generated this</p>
+<p begin="00:07:40.160" end="00:07:45.520" style="s2">code. Oh, it picks the dark mode as</p>
+<p begin="00:07:42.400" end="00:07:45.520" style="s2">well. Nice.</p>
+<p begin="00:07:45.800" end="00:07:52.080" style="s2">Okay, allow this time. All right, so I&#39;m</p>
+<p begin="00:07:49.919" end="00:07:57.840" style="s2">talking now. Let&#39;s see if Replet picked</p>
+<p begin="00:07:52.080" end="00:07:57.840" style="s2">the idea better and it shows it in real</p>
+<p begin="00:07:59.080" end="00:08:03.280" style="s2">time. It&#39;s not showing it at</p>
+<p begin="00:08:03.560" end="00:08:08.479" style="s2">all. Okay, I&#39;m going to take a</p>
+<p begin="00:08:05.840" end="00:08:11.440" style="s2">screenshot of this and explain this</p>
+<p begin="00:08:08.479" end="00:08:14.479" style="s2">problem to Replet and move on to the</p>
+<p begin="00:08:11.440" end="00:08:14.479" style="s2">next one.</p>
+<p begin="00:08:14.639" end="00:08:20.120" style="s2">It&#39;s not working. And also, I want the</p>
+<p begin="00:08:17.039" end="00:08:24.680" style="s2">transcript to be shown in real</p>
+<p begin="00:08:20.120" end="00:08:27.240" style="s2">time. Okay. So, let&#39;s leave this thing</p>
+<p begin="00:08:24.680" end="00:08:31.199" style="s2">here. I don&#39;t need to</p>
+<p begin="00:08:27.240" end="00:08:34.199" style="s2">refresh. Uh, and let&#39;s go to our</p>
+<p begin="00:08:31.199" end="00:08:34.199" style="s2">lovable.</p>
+<p begin="00:08:36.719" end="00:08:45.039" style="s2">I think it makes sense that I log in</p>
+<p begin="00:08:42.039" end="00:08:45.039" style="s2">with</p>
+<p begin="00:08:46.920" end="00:08:51.320" style="s2">two.</p>
+<p begin="00:08:48.680" end="00:08:54.080" style="s2">Okay,</p>
+<p begin="00:08:51.320" end="00:08:59.959" style="s2">so this was a long shot. I should have</p>
+<p begin="00:08:54.080" end="00:08:59.959" style="s2">logged in before, but no big deal.</p>
+<p begin="00:09:09.519" end="00:09:16.480" style="s2">Okay, my lovable is also running now</p>
+<p begin="00:09:12.240" end="00:09:18.920" style="s2">here and riplet is running here and fire</p>
+<p begin="00:09:16.480" end="00:09:22.399" style="s2">studio. We&#39;ll check in just a</p>
+<p begin="00:09:18.920" end="00:09:24.279" style="s2">minute. So this is what lovable</p>
+<p begin="00:09:22.399" end="00:09:27.680" style="s2">generated. Okay,</p>
+<p begin="00:09:24.279" end="00:09:30.640" style="s2">now allow this for this time. All right,</p>
+<p begin="00:09:27.680" end="00:09:35.600" style="s2">so I&#39;m now talking. Now it is generating</p>
+<p begin="00:09:30.640" end="00:09:35.600" style="s2">two lines which is not correct.</p>
+<p begin="00:09:36.839" end="00:09:41.640" style="s2">Uh can you check why it&#39;s uh generating</p>
+<p begin="00:09:39.519" end="00:09:44.560" style="s2">two</p>
+<p begin="00:09:41.640" end="00:09:48.320" style="s2">lines so it will keep generating that</p>
+<p begin="00:09:44.560" end="00:09:50.080" style="s2">one and this is completed I think</p>
+<p begin="00:09:48.320" end="00:09:51.000" style="s2">determining next steps. Okay, now it&#39;s</p>
+<p begin="00:09:50.080" end="00:09:53.839" style="s2">still</p>
+<p begin="00:09:51.000" end="00:09:55.640" style="s2">generating and I will go and open</p>
+<p begin="00:09:53.839" end="00:09:59.720" style="s2">Firebase Studio</p>
+<p begin="00:09:55.640" end="00:10:02.720" style="s2">here to see what do we</p>
+<p begin="00:09:59.720" end="00:10:06.480" style="s2">have built here. Not sure which account</p>
+<p begin="00:10:02.720" end="00:10:08.320" style="s2">that I use exactly. So in order to move</p>
+<p begin="00:10:06.480" end="00:10:11.680" style="s2">it a little bit faster, I&#39;m going to go</p>
+<p begin="00:10:08.320" end="00:10:15.959" style="s2">and see what it built in here. Oh, I see</p>
+<p begin="00:10:11.680" end="00:10:19.680" style="s2">this is a different one. This has a</p>
+<p begin="00:10:15.959" end="00:10:22.519" style="s2">key a URL. So does the deployment. We</p>
+<p begin="00:10:19.680" end="00:10:24.519" style="s2">can move this to this</p>
+<p begin="00:10:22.519" end="00:10:27.560" style="s2">browser.</p>
+<p begin="00:10:24.519" end="00:10:31.640" style="s2">Oops, it doesn&#39;t work that</p>
+<p begin="00:10:27.560" end="00:10:36.240" style="s2">way. Then let&#39;s go and log</p>
+<p begin="00:10:31.640" end="00:10:39.880" style="s2">into Chrome using our Firebase. Which</p>
+<p begin="00:10:36.240" end="00:10:39.880" style="s2">account did I use?</p>
+<p begin="00:10:48.360" end="00:10:56.839" style="s2">Okay. So, I&#39;m gonna I think I have</p>
+<p begin="00:10:52.959" end="00:11:00.399" style="s2">enough credits if I use one of the other</p>
+<p begin="00:10:56.839" end="00:11:02.839" style="s2">ones like the ones that are already</p>
+<p begin="00:11:00.399" end="00:11:05.519" style="s2">logged in. For example, this</p>
+<p begin="00:11:02.839" end="00:11:08.440" style="s2">one. So, I don&#39;t need to do a lot of</p>
+<p begin="00:11:05.519" end="00:11:12.079" style="s2">authentication workflows right</p>
+<p begin="00:11:08.440" end="00:11:12.079" style="s2">now. Okay.</p>
+<p begin="00:11:12.120" end="00:11:20.040" style="s2">Now I may need to regenerate the entire</p>
+<p begin="00:11:17.079" end="00:11:23.360" style="s2">project which is</p>
+<p begin="00:11:20.040" end="00:11:23.360" style="s2">a thing</p>
+<p begin="00:11:25.079" end="00:11:33.040" style="s2">here. Okay, now I will let this run and</p>
+<p begin="00:11:30.720" end="00:11:36.079" style="s2">see my rilet. I&#39;m more interested in</p>
+<p begin="00:11:33.040" end="00:11:37.920" style="s2">riplet because rilet&#39;s outcome is really</p>
+<p begin="00:11:36.079" end="00:11:40.240" style="s2">good. Look, it&#39;s still thinking and</p>
+<p begin="00:11:37.920" end="00:11:43.279" style="s2">generating. It takes time but it</p>
+<p begin="00:11:40.240" end="00:11:46.800" style="s2">produces much better output than the</p>
+<p begin="00:11:43.279" end="00:11:49.000" style="s2">other ones. So build was unsuccessful.</p>
+<p begin="00:11:46.800" end="00:11:52.240" style="s2">Sometimes when it gets stuck if you say</p>
+<p begin="00:11:49.000" end="00:11:54.440" style="s2">continue then it just goes on and then</p>
+<p begin="00:11:52.240" end="00:11:56.120" style="s2">it</p>
+<p begin="00:11:54.440" end="00:12:02.200" style="s2">works.</p>
+<p begin="00:11:56.120" end="00:12:02.200" style="s2">Okay. So yeah prototype this please.</p>
+<p begin="00:12:08.240" end="00:12:14.480" style="s2">All right. So, let&#39;s see. Oh, it&#39;s still</p>
+<p begin="00:12:10.639" end="00:12:14.480" style="s2">considering options and not done</p>
+<p begin="00:12:15.399" end="00:12:21.440" style="s2">yet. Okay, it&#39;s going to take</p>
+<p begin="00:12:18.600" end="00:12:23.120" style="s2">longer. I think it&#39;s already already</p>
+<p begin="00:12:21.440" end="00:12:25.040" style="s2">doing. Okay, that&#39;s nice. But it is</p>
+<p begin="00:12:23.120" end="00:12:27.000" style="s2">duplicating. It&#39;s a very common thing</p>
+<p begin="00:12:25.040" end="00:12:30.560" style="s2">that</p>
+<p begin="00:12:27.000" end="00:12:33.839" style="s2">it&#39;s it&#39;s a it&#39;s a problem. I know why</p>
+<p begin="00:12:30.560" end="00:12:36.160" style="s2">it&#39;s a problem. As a voice AI founder,</p>
+<p begin="00:12:33.839" end="00:12:38.959" style="s2">I&#39;ve stumbled on this problem myself a</p>
+<p begin="00:12:36.160" end="00:12:38.959" style="s2">lot.</p>
+<p begin="00:12:42.040" end="00:12:47.959" style="s2">So even like asking short questions</p>
+<p begin="00:12:45.440" end="00:12:52.320" style="s2">resolves the problem most</p>
+<p begin="00:12:47.959" end="00:12:55.120" style="s2">often. Uh the build here fails. Well, I</p>
+<p begin="00:12:52.320" end="00:12:58.639" style="s2">I don&#39;t to be honest when I did the</p>
+<p begin="00:12:55.120" end="00:12:59.880" style="s2">first reviews of Lovable and Riplet and</p>
+<p begin="00:12:58.639" end="00:13:04.560" style="s2">Cursor</p>
+<p begin="00:12:59.880" end="00:13:07.760" style="s2">and Fire St Fire Firebase uh Fire Studio</p>
+<p begin="00:13:04.560" end="00:13:10.399" style="s2">Firebase Studio. Uh Lovable was</p>
+<p begin="00:13:07.760" end="00:13:12.040" style="s2">performing the least. Uh it was failing</p>
+<p begin="00:13:10.399" end="00:13:14.000" style="s2">in a lot of places. It was</p>
+<p begin="00:13:12.040" end="00:13:16.079" style="s2">misunderstanding. And that&#39;s exactly</p>
+<p begin="00:13:14.000" end="00:13:18.240" style="s2">what I&#39;m seeing now in this review</p>
+<p begin="00:13:16.079" end="00:13:20.560" style="s2">that&#39;s happening. Even here, the builds</p>
+<p begin="00:13:18.240" end="00:13:24.800" style="s2">are failing and so on.</p>
+<p begin="00:13:20.560" end="00:13:27.600" style="s2">So let&#39;s see what comes out of uh this.</p>
+<p begin="00:13:24.800" end="00:13:29.920" style="s2">Riplet did fix it or not. All right,</p>
+<p begin="00:13:27.600" end="00:13:32.959" style="s2">let&#39;s see if this is fixed. Okay, it&#39;s</p>
+<p begin="00:13:29.920" end="00:13:35.920" style="s2">fixed. Oh, that&#39;s nice. So you can see</p>
+<p begin="00:13:32.959" end="00:13:38.880" style="s2">already that the outcome of ripplet was</p>
+<p begin="00:13:35.920" end="00:13:42.600" style="s2">much better and it already put this dark</p>
+<p begin="00:13:38.880" end="00:13:47.040" style="s2">mode and and light mode feature.</p>
+<p begin="00:13:42.600" end="00:13:50.240" style="s2">And um also the the amount of like</p>
+<p begin="00:13:47.040" end="00:13:53.000" style="s2">perfections that I see in this screen is</p>
+<p begin="00:13:50.240" end="00:13:58.160" style="s2">much better than the one that was</p>
+<p begin="00:13:53.000" end="00:14:00.440" style="s2">generated so naively from riblet. I mean</p>
+<p begin="00:13:58.160" end="00:14:04.079" style="s2">from uh</p>
+<p begin="00:14:00.440" end="00:14:07.279" style="s2">Lovable. I&#39;m curious to see Firebase&#39;s</p>
+<p begin="00:14:04.079" end="00:14:10.880" style="s2">outcome, but I&#39;m not sure if it&#39;s going</p>
+<p begin="00:14:07.279" end="00:14:14.720" style="s2">to be better than this one. But if I</p>
+<p begin="00:14:10.880" end="00:14:17.279" style="s2">quickly take you back to our plan, our</p>
+<p begin="00:14:14.720" end="00:14:21.360" style="s2">plan is, by the way, we finished all of</p>
+<p begin="00:14:17.279" end="00:14:23.040" style="s2">these lectures in the last section with</p>
+<p begin="00:14:21.360" end="00:14:25.760" style="s2">an introduction and we&#39;re just about to</p>
+<p begin="00:14:23.040" end="00:14:27.720" style="s2">finish this one. Our plan is to show you</p>
+<p begin="00:14:25.760" end="00:14:31.199" style="s2">some stuff, but the</p>
+<p begin="00:14:27.720" end="00:14:34.639" style="s2">actual content that you can consume from</p>
+<p begin="00:14:31.199" end="00:14:38.480" style="s2">my perspective on how I should do or how</p>
+<p begin="00:14:34.639" end="00:14:40.560" style="s2">I am doing is in this course. It&#39;s fully</p>
+<p begin="00:14:38.480" end="00:14:42.880" style="s2">packed. You&#39;ll see it in a minute and</p>
+<p begin="00:14:40.560" end="00:14:44.639" style="s2">I&#39;ll talk about it. But this is the most</p>
+<p begin="00:14:42.880" end="00:14:46.519" style="s2">important part. We will build something.</p>
+<p begin="00:14:44.639" end="00:14:49.120" style="s2">We&#39;ll actually create</p>
+<p begin="00:14:46.519" end="00:14:52.720" style="s2">something with cursor. And I&#39;ll show you</p>
+<p begin="00:14:49.120" end="00:14:55.680" style="s2">some ropes when I do these lectures. Um</p>
+<p begin="00:14:52.720" end="00:14:58.320" style="s2">it is not important to focus too much on</p>
+<p begin="00:14:55.680" end="00:15:02.160" style="s2">this. They are taking way too longer</p>
+<p begin="00:14:58.320" end="00:15:03.240" style="s2">than usual. So I&#39;m I&#39;m not sure if we</p>
+<p begin="00:15:02.160" end="00:15:06.240" style="s2">should</p>
+<p begin="00:15:03.240" end="00:15:07.760" style="s2">continue observing these options. um</p>
+<p begin="00:15:06.240" end="00:15:10.000" style="s2">because I I thought it&#39;s going to</p>
+<p begin="00:15:07.760" end="00:15:13.920" style="s2">generate faster. Especially Lovable, it</p>
+<p begin="00:15:10.000" end="00:15:16.199" style="s2">failed again. So there we go. Now this</p>
+<p begin="00:15:13.920" end="00:15:19.440" style="s2">is the result</p>
+<p begin="00:15:16.199" end="00:15:21.880" style="s2">of Firebase. Uh the result of Firebase.</p>
+<p begin="00:15:19.440" end="00:15:24.720" style="s2">Oh, this was much better.</p>
+<p begin="00:15:21.880" end="00:15:26.760" style="s2">Firebase Studio created what I was</p>
+<p begin="00:15:24.720" end="00:15:32.079" style="s2">imagining in one</p>
+<p begin="00:15:26.760" end="00:15:35.040" style="s2">go and with no errors. Um I think that&#39;s</p>
+<p begin="00:15:32.079" end="00:15:39.199" style="s2">that&#39;s the whole concept. I just wanted</p>
+<p begin="00:15:35.040" end="00:15:42.079" style="s2">to give you guys like a quick</p>
+<p begin="00:15:39.199" end="00:15:45.160" style="s2">um view of this kind of software</p>
+<p begin="00:15:42.079" end="00:15:50.079" style="s2">development is going on. There&#39;s a whole</p>
+<p begin="00:15:45.160" end="00:15:53.680" style="s2">new workforce of this uh sort of AI</p>
+<p begin="00:15:50.079" end="00:15:56.800" style="s2">native developers emerging uh and they</p>
+<p begin="00:15:53.680" end="00:15:59.440" style="s2">know AI tools way more than normal</p>
+<p begin="00:15:56.800" end="00:16:01.279" style="s2">developers. And on the other side, um</p>
+<p begin="00:15:59.440" end="00:16:02.680" style="s2">there are a lot of skeptics about this</p>
+<p begin="00:16:01.279" end="00:16:05.120" style="s2">kind of a software</p>
+<p begin="00:16:02.680" end="00:16:08.320" style="s2">development and let&#39;s see what time</p>
+<p begin="00:16:05.120" end="00:16:11.360" style="s2">brings in. Um I&#39;m also curious and I&#39;m</p>
+<p begin="00:16:08.320" end="00:16:13.680" style="s2">also careful and building software but</p>
+<p begin="00:16:11.360" end="00:16:17.279" style="s2">I&#39;m also doing code reviews of the</p>
+<p begin="00:16:13.680" end="00:16:20.160" style="s2">software that is generated by AI. Uh and</p>
+<p begin="00:16:17.279" end="00:16:24.480" style="s2">I have taught all of those um steps in</p>
+<p begin="00:16:20.160" end="00:16:25.920" style="s2">my course in VIP coding crash course.</p>
+<p begin="00:16:24.480" end="00:16:28.240" style="s2">And also we will see in the next</p>
+<p begin="00:16:25.920" end="00:16:31.040" style="s2">lectures when we are building a service</p>
+<p begin="00:16:28.240" end="00:16:33.959" style="s2">that will do something uh that will add</p>
+<p begin="00:16:31.040" end="00:16:36.639" style="s2">in this workflow that we are already</p>
+<p begin="00:16:33.959" end="00:16:39.440" style="s2">consuming. All right and see you in next</p>
+<p begin="00:16:36.639" end="00:16:39.440" style="s2">lecture.</p>
+</div>
+</body>
+</tt>

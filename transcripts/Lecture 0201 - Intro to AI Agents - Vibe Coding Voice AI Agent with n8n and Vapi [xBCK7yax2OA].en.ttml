@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.280" end="00:00:05.600" style="s2">In this video, we will do a quick</p>
+<p begin="00:00:03.040" end="00:00:07.800" style="s2">introduction about what is an AI agent.</p>
+<p begin="00:00:05.600" end="00:00:10.920" style="s2">So, let&#39;s get</p>
+<p begin="00:00:07.800" end="00:00:13.920" style="s2">started. Basically, AI agents</p>
+<p begin="00:00:10.920" end="00:00:18.520" style="s2">are the old school software programs,</p>
+<p begin="00:00:13.920" end="00:00:21.760" style="s2">but with a big difference, which is</p>
+<p begin="00:00:18.520" end="00:00:25.039" style="s2">intelligence. And if I put a very simple</p>
+<p begin="00:00:21.760" end="00:00:28.480" style="s2">definition, I can say it like this. AI</p>
+<p begin="00:00:25.039" end="00:00:31.599" style="s2">agents are programs that learn and make</p>
+<p begin="00:00:28.480" end="00:00:33.920" style="s2">decisions to do tasks on their own.</p>
+<p begin="00:00:31.599" end="00:00:36.880" style="s2">That&#39;s the main part of it. They can do</p>
+<p begin="00:00:33.920" end="00:00:40.160" style="s2">tasks on their own. Until now, software</p>
+<p begin="00:00:36.880" end="00:00:42.559" style="s2">was built in a way that enabled us to do</p>
+<p begin="00:00:40.160" end="00:00:45.520" style="s2">the work. But now, for the very first</p>
+<p begin="00:00:42.559" end="00:00:47.800" style="s2">time, it&#39;s possible that we can let</p>
+<p begin="00:00:45.520" end="00:00:50.640" style="s2">software to do the</p>
+<p begin="00:00:47.800" end="00:00:53.680" style="s2">work. Take that old school example of</p>
+<p begin="00:00:50.640" end="00:00:56.960" style="s2">input process output.</p>
+<p begin="00:00:53.680" end="00:01:00.079" style="s2">It&#39;s very similar to that. But sometimes</p>
+<p begin="00:00:56.960" end="00:01:02.920" style="s2">I make a joke that now this process got</p>
+<p begin="00:01:00.079" end="00:01:06.799" style="s2">three legs. These are very three</p>
+<p begin="00:01:02.920" end="00:01:08.880" style="s2">components of a process component of an</p>
+<p begin="00:01:06.799" end="00:01:11.600" style="s2">AI agent that should have in order for</p>
+<p begin="00:01:08.880" end="00:01:13.040" style="s2">this software to be called an AI agent.</p>
+<p begin="00:01:11.600" end="00:01:14.880" style="s2">Otherwise, it&#39;s just an intelligent</p>
+<p begin="00:01:13.040" end="00:01:17.439" style="s2">program.</p>
+<p begin="00:01:14.880" end="00:01:21.600" style="s2">So the input part could be a chat, an</p>
+<p begin="00:01:17.439" end="00:01:24.320" style="s2">email coming, a phone call, a uh</p>
+<p begin="00:01:21.600" end="00:01:26.320" style="s2">database entry happening or an alarm</p>
+<p begin="00:01:24.320" end="00:01:29.320" style="s2">going off in a fire department or</p>
+<p begin="00:01:26.320" end="00:01:31.600" style="s2">whatever the input that can trigger that</p>
+<p begin="00:01:29.320" end="00:01:33.600" style="s2">chatbot. Chatbot does some processing.</p>
+<p begin="00:01:31.600" end="00:01:37.439" style="s2">We&#39;ll see that in a minute. And then the</p>
+<p begin="00:01:33.600" end="00:01:39.479" style="s2">output could be a database entry,</p>
+<p begin="00:01:37.439" end="00:01:42.720" style="s2">another chatbot&#39;s</p>
+<p begin="00:01:39.479" end="00:01:44.640" style="s2">input or another AI agents input or an</p>
+<p begin="00:01:42.720" end="00:01:46.759" style="s2">entry in Google sheet as it&#39;s depicted</p>
+<p begin="00:01:44.640" end="00:01:50.880" style="s2">in this screenshot from</p>
+<p begin="00:01:46.759" end="00:01:53.119" style="s2">NA10. Or it could be literally a a phone</p>
+<p begin="00:01:50.880" end="00:01:56.240" style="s2">call going on to a person which will be</p>
+<p begin="00:01:53.119" end="00:01:58.960" style="s2">in our case this NA10 diagram. You will</p>
+<p begin="00:01:56.240" end="00:02:01.119" style="s2">see it in action later on. So what are</p>
+<p begin="00:01:58.960" end="00:02:03.280" style="s2">the three basic components of an AI</p>
+<p begin="00:02:01.119" end="00:02:05.759" style="s2">agent? The very first one is the</p>
+<p begin="00:02:03.280" end="00:02:10.319" style="s2">intelligence of that the chat GPT the</p>
+<p begin="00:02:05.759" end="00:02:13.520" style="s2">Gemini the claude and so on whatever LLM</p>
+<p begin="00:02:10.319" end="00:02:15.760" style="s2">large language model that you use in an</p>
+<p begin="00:02:13.520" end="00:02:18.400" style="s2">AI agent that&#39;s a very core element of</p>
+<p begin="00:02:15.760" end="00:02:20.959" style="s2">that then it should also have a sort of</p>
+<p begin="00:02:18.400" end="00:02:23.520" style="s2">a memory it should understand the</p>
+<p begin="00:02:20.959" end="00:02:28.400" style="s2">context of the whole communication</p>
+<p begin="00:02:23.520" end="00:02:32.319" style="s2">basically the chat S3 if you chat with</p>
+<p begin="00:02:28.400" end="00:02:34.800" style="s2">chat GPT it understands over multiple</p>
+<p begin="00:02:32.319" end="00:02:38.080" style="s2">messages what you&#39;re talking about and</p>
+<p begin="00:02:34.800" end="00:02:41.120" style="s2">then you can refer to pronouns e or it</p>
+<p begin="00:02:38.080" end="00:02:43.360" style="s2">and so on and that is what the memory</p>
+<p begin="00:02:41.120" end="00:02:45.519" style="s2">part of an AI agent is. It could be a</p>
+<p begin="00:02:43.360" end="00:02:47.280" style="s2">short-term memory or it could be a</p>
+<p begin="00:02:45.519" end="00:02:51.040" style="s2">long-term memory and long-term memory</p>
+<p begin="00:02:47.280" end="00:02:55.160" style="s2">could have like unlimited data in it.</p>
+<p begin="00:02:51.040" end="00:02:57.680" style="s2">For example, the database of the entire</p>
+<p begin="00:02:55.160" end="00:03:01.280" style="s2">organization. Imagine an AI agent taking</p>
+<p begin="00:02:57.680" end="00:03:04.640" style="s2">care of leaves. It knows or it has the</p>
+<p begin="00:03:01.280" end="00:03:07.840" style="s2">memory of what sort of leaves that this</p>
+<p begin="00:03:04.640" end="00:03:10.159" style="s2">particular person is able to take and</p>
+<p begin="00:03:07.840" end="00:03:12.000" style="s2">what is the balance and so on. This</p>
+<p begin="00:03:10.159" end="00:03:14.080" style="s2">concept called retrieval augmented</p>
+<p begin="00:03:12.000" end="00:03:16.720" style="s2">generation comes from there. And then</p>
+<p begin="00:03:14.080" end="00:03:18.480" style="s2">the most important part is the tool. It</p>
+<p begin="00:03:16.720" end="00:03:21.120" style="s2">should have access to tools like</p>
+<p begin="00:03:18.480" end="00:03:23.280" style="s2">Salesforce, Microsoft Outlook and</p>
+<p begin="00:03:21.120" end="00:03:25.920" style="s2">Microsoft Teams and so on and so forth.</p>
+<p begin="00:03:23.280" end="00:03:28.959" style="s2">This particular AI agent should have</p>
+<p begin="00:03:25.920" end="00:03:31.280" style="s2">access to tools and execute things.</p>
+<p begin="00:03:28.959" end="00:03:35.040" style="s2">For example, this AI agent that we are</p>
+<p begin="00:03:31.280" end="00:03:37.959" style="s2">building, Samanta will have access to</p>
+<p begin="00:03:35.040" end="00:03:41.680" style="s2">our Gmail inbox. That&#39;s the</p>
+<p begin="00:03:37.959" end="00:03:44.239" style="s2">tool. All right. So, the simplest</p>
+<p begin="00:03:41.680" end="00:03:47.120" style="s2">definition that you can think of can be</p>
+<p begin="00:03:44.239" end="00:03:49.519" style="s2">an AI agent is like a digital coworker</p>
+<p begin="00:03:47.120" end="00:03:53.440" style="s2">that learns, reasons, and performs tasks</p>
+<p begin="00:03:49.519" end="00:03:56.920" style="s2">on your behalf. And that day is not far</p>
+<p begin="00:03:53.440" end="00:03:59.920" style="s2">away when we will have digital</p>
+<p begin="00:03:56.920" end="00:04:01.159" style="s2">co-workers who will join Slack, have</p>
+<p begin="00:03:59.920" end="00:04:03.920" style="s2">calls with</p>
+<p begin="00:04:01.159" end="00:04:06.000" style="s2">us, join our daily standup meetings and</p>
+<p begin="00:04:03.920" end="00:04:09.599" style="s2">build a context around everything that</p>
+<p begin="00:04:06.000" end="00:04:13.120" style="s2">that AI agent does, including pair</p>
+<p begin="00:04:09.599" end="00:04:14.799" style="s2">programming and resolving our bugs and</p>
+<p begin="00:04:13.120" end="00:04:16.400" style="s2">contributing in the code and so on and</p>
+<p begin="00:04:14.799" end="00:04:18.160" style="s2">so forth.</p>
+<p begin="00:04:16.400" end="00:04:20.120" style="s2">Some examples of that could be a</p>
+<p begin="00:04:18.160" end="00:04:23.600" style="s2">real-time invoice</p>
+<p begin="00:04:20.120" end="00:04:26.479" style="s2">reconciliation. This is something that I</p>
+<p begin="00:04:23.600" end="00:04:28.880" style="s2">personally am super passionate about.</p>
+<p begin="00:04:26.479" end="00:04:31.240" style="s2">Accounting invoice reconciliation is a</p>
+<p begin="00:04:28.880" end="00:04:34.639" style="s2">good example of a agents</p>
+<p begin="00:04:31.240" end="00:04:37.440" style="s2">happening. Dynamic cash flow predictor</p>
+<p begin="00:04:34.639" end="00:04:40.080" style="s2">monitoring the expenses monitoring the</p>
+<p begin="00:04:37.440" end="00:04:41.800" style="s2">accounts receivables and payables in</p>
+<p begin="00:04:40.080" end="00:04:45.280" style="s2">managing expenses in</p>
+<p begin="00:04:41.800" end="00:04:46.520" style="s2">accounting field. um an AI agent can</p>
+<p begin="00:04:45.280" end="00:04:49.800" style="s2">perform very</p>
+<p begin="00:04:46.520" end="00:04:52.520" style="s2">well. An automated tax compliance</p>
+<p begin="00:04:49.800" end="00:04:57.040" style="s2">auditor, tax compliance</p>
+<p begin="00:04:52.520" end="00:04:59.680" style="s2">happens right now with an accountant u</p>
+<p begin="00:04:57.040" end="00:05:02.160" style="s2">someone who knows about tax law but with</p>
+<p begin="00:04:59.680" end="00:05:03.560" style="s2">an AI agent he or she can do it much</p>
+<p begin="00:05:02.160" end="00:05:06.639" style="s2">faster and much</p>
+<p begin="00:05:03.560" end="00:05:09.919" style="s2">better. a discount optimizer. I was a</p>
+<p begin="00:05:06.639" end="00:05:11.919" style="s2">part of a $300 million scale up and from</p>
+<p begin="00:05:09.919" end="00:05:15.280" style="s2">the supply chain management of that we</p>
+<p begin="00:05:11.919" end="00:05:17.360" style="s2">know that how easy it is to make a lot</p>
+<p begin="00:05:15.280" end="00:05:18.360" style="s2">of profits if you can utilize on these</p>
+<p begin="00:05:17.360" end="00:05:21.199" style="s2">small</p>
+<p begin="00:05:18.360" end="00:05:23.759" style="s2">discounts. Phone calls for smart</p>
+<p begin="00:05:21.199" end="00:05:26.720" style="s2">accounts receivable. We are going to do</p>
+<p begin="00:05:23.759" end="00:05:29.840" style="s2">phone calls in this workshop today. In</p>
+<p begin="00:05:26.720" end="00:05:32.479" style="s2">this series of lectures today, you will</p>
+<p begin="00:05:29.840" end="00:05:35.759" style="s2">see how easy it is to build a workflow</p>
+<p begin="00:05:32.479" end="00:05:37.840" style="s2">where you could call people who are</p>
+<p begin="00:05:35.759" end="00:05:41.039" style="s2">going to have an invoice due in a couple</p>
+<p begin="00:05:37.840" end="00:05:43.880" style="s2">of days and then you can remind them to</p>
+<p begin="00:05:41.039" end="00:05:47.440" style="s2">pay and that&#39;s an AI agent doing</p>
+<p begin="00:05:43.880" end="00:05:51.520" style="s2">it. So that was pretty much it from this</p>
+<p begin="00:05:47.440" end="00:05:53.600" style="s2">section um about AI agents. In the next</p>
+<p begin="00:05:51.520" end="00:05:57.919" style="s2">section, we&#39;re going to see what does</p>
+<p begin="00:05:53.600" end="00:05:57.919" style="s2">EOI act. Thank you.</p>
+</div>
+</body>
+</tt>

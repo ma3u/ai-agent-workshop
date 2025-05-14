@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.480" end="00:00:06.000" style="s2">All right, so we have come a long way.</p>
+<p begin="00:00:03.280" end="00:00:09.120" style="s2">Now we have a full ingestion pipeline</p>
+<p begin="00:00:06.000" end="00:00:11.759" style="s2">that retrieves new emails from Gmail</p>
+<p begin="00:00:09.120" end="00:00:14.960" style="s2">every single minute. Makes sure that it</p>
+<p begin="00:00:11.759" end="00:00:19.119" style="s2">is not duplicated and it works. And you</p>
+<p begin="00:00:14.960" end="00:00:21.439" style="s2">just saw a small tip of the iceberg of</p>
+<p begin="00:00:19.119" end="00:00:24.320" style="s2">this new way of writing code which is</p>
+<p begin="00:00:21.439" end="00:00:26.160" style="s2">called vibe coding. If you&#39;re technical,</p>
+<p begin="00:00:24.320" end="00:00:29.039" style="s2">vibe coding is even better for you</p>
+<p begin="00:00:26.160" end="00:00:30.720" style="s2">because you become much much faster. We</p>
+<p begin="00:00:29.039" end="00:00:32.960" style="s2">will have a whole section for vibe</p>
+<p begin="00:00:30.720" end="00:00:36.719" style="s2">coding. Let&#39;s go and have the next</p>
+<p begin="00:00:32.960" end="00:00:40.280" style="s2">lecture which is a recap of the entire</p>
+<p begin="00:00:36.719" end="00:00:43.640" style="s2">context diagram and where we came so</p>
+<p begin="00:00:40.280" end="00:00:46.079" style="s2">far. So we have done all those</p>
+<p begin="00:00:43.640" end="00:00:49.120" style="s2">lectures and now we are going to do a</p>
+<p begin="00:00:46.079" end="00:00:51.440" style="s2">quick recap of what is in this di</p>
+<p begin="00:00:49.120" end="00:00:53.680" style="s2">context diagram where are we going and</p>
+<p begin="00:00:51.440" end="00:00:55.680" style="s2">what is next because the next step is</p>
+<p begin="00:00:53.680" end="00:00:59.120" style="s2">interesting. We&#39;re going to interface</p>
+<p begin="00:00:55.680" end="00:01:02.879" style="s2">Vappy with this like literally the Vappy</p>
+<p begin="00:00:59.120" end="00:01:05.519" style="s2">tool will read emails for us. Okay. So,</p>
+<p begin="00:01:02.879" end="00:01:10.240" style="s2">we started with an ingestion system. So,</p>
+<p begin="00:01:05.519" end="00:01:12.720" style="s2">we have like literally created let&#39;s put</p>
+<p begin="00:01:10.240" end="00:01:14.600" style="s2">a small green check mark in front of</p>
+<p begin="00:01:12.720" end="00:01:18.439" style="s2">these ones.</p>
+<p begin="00:01:14.600" end="00:01:22.479" style="s2">So, we have done this</p>
+<p begin="00:01:18.439" end="00:01:25.360" style="s2">part. This is done.</p>
+<p begin="00:01:22.479" end="00:01:27.600" style="s2">And this is done. Now we have a database</p>
+<p begin="00:01:25.360" end="00:01:30.439" style="s2">that is running there. This is not done.</p>
+<p begin="00:01:27.600" end="00:01:35.600" style="s2">We will do some custom code in our</p>
+<p begin="00:01:30.439" end="00:01:37.240" style="s2">system and run it. And then we have this</p>
+<p begin="00:01:35.600" end="00:01:40.560" style="s2">AI agent that</p>
+<p begin="00:01:37.240" end="00:01:42.520" style="s2">basically sets and then waits for us and</p>
+<p begin="00:01:40.560" end="00:01:48.040" style="s2">then it uh it</p>
+<p begin="00:01:42.520" end="00:01:48.040" style="s2">is pulling things from the database.</p>
+<p begin="00:01:49.240" end="00:01:55.280" style="s2">Um this part is not done yet actually it</p>
+<p begin="00:01:52.720" end="00:01:59.439" style="s2">this is the next step we&#39;ll do. So this</p>
+<p begin="00:01:55.280" end="00:02:03.200" style="s2">chat GPT there there&#39;s a small um change</p>
+<p begin="00:01:59.439" end="00:02:07.040" style="s2">of plans since this diagram was created.</p>
+<p begin="00:02:03.200" end="00:02:08.640" style="s2">So literally the email reading part well</p>
+<p begin="00:02:07.040" end="00:02:10.160" style="s2">this is this is a different one uh the</p>
+<p begin="00:02:08.640" end="00:02:12.080" style="s2">change of plan was somewhere else that I</p>
+<p begin="00:02:10.160" end="00:02:13.920" style="s2">have already covered it which is like</p>
+<p begin="00:02:12.080" end="00:02:17.599" style="s2">when you&#39;re creating the email or</p>
+<p begin="00:02:13.920" end="00:02:20.239" style="s2">creating the compose in here the change</p>
+<p begin="00:02:17.599" end="00:02:23.440" style="s2">of plan is that we are composing it not</p>
+<p begin="00:02:20.239" end="00:02:27.319" style="s2">through the chat GPT anymore we&#39;re like</p>
+<p begin="00:02:23.440" end="00:02:30.640" style="s2">literally doing it right away in this</p>
+<p begin="00:02:27.319" end="00:02:33.519" style="s2">way so because all the summary already</p>
+<p begin="00:02:30.640" end="00:02:35.360" style="s2">comes from vapy the vap Happyy&#39;s AI</p>
+<p begin="00:02:33.519" end="00:02:37.720" style="s2">engine is summarizing it or are</p>
+<p begin="00:02:35.360" end="00:02:41.760" style="s2">extracting the title and so on for</p>
+<p begin="00:02:37.720" end="00:02:42.840" style="s2">us. So we are done here. We created a</p>
+<p begin="00:02:41.760" end="00:02:46.920" style="s2">phone</p>
+<p begin="00:02:42.840" end="00:02:50.840" style="s2">number. We have added something in Vappy</p>
+<p begin="00:02:46.920" end="00:02:53.319" style="s2">to do the tool calling. We check that</p>
+<p begin="00:02:50.840" end="00:02:58.959" style="s2">one and also</p>
+<p begin="00:02:53.319" end="00:03:03.239" style="s2">the actual workflow here.</p>
+<p begin="00:02:58.959" end="00:03:06.239" style="s2">uh I believe this was the case in here</p>
+<p begin="00:03:03.239" end="00:03:08.159" style="s2">that it directly calls this one. So</p>
+<p begin="00:03:06.239" end="00:03:10.400" style="s2">there&#39;s no over complication in</p>
+<p begin="00:03:08.159" end="00:03:13.120" style="s2">composing emails. Composing emails is</p>
+<p begin="00:03:10.400" end="00:03:15.920" style="s2">the easiest one. So we are almost done</p>
+<p begin="00:03:13.120" end="00:03:19.879" style="s2">with that workflow. The next step would</p>
+<p begin="00:03:15.920" end="00:03:23.280" style="s2">be to create a vap</p>
+<p begin="00:03:19.879" end="00:03:25.200" style="s2">um basically this is the same one. It&#39;s</p>
+<p begin="00:03:23.280" end="00:03:28.319" style="s2">just for the cleanness of the diagram</p>
+<p begin="00:03:25.200" end="00:03:30.319" style="s2">that I put it there. So these are done.</p>
+<p begin="00:03:28.319" end="00:03:33.080" style="s2">The next step is like literally this</p>
+<p begin="00:03:30.319" end="00:03:36.560" style="s2">part where we&#39;re going to</p>
+<p begin="00:03:33.080" end="00:03:40.239" style="s2">interface the entire workflow that we</p>
+<p begin="00:03:36.560" end="00:03:42.400" style="s2">already have which is uh reading in the</p>
+<p begin="00:03:40.239" end="00:03:46.000" style="s2">ingestion of the email is done reading</p>
+<p begin="00:03:42.400" end="00:03:50.080" style="s2">the past five emails and summarizing it</p>
+<p begin="00:03:46.000" end="00:03:52.799" style="s2">and also interfacing VPY with NATO in a</p>
+<p begin="00:03:50.080" end="00:03:54.959" style="s2">way that it would be super fluent and it</p>
+<p begin="00:03:52.799" end="00:03:58.000" style="s2">we ask like what are my last emails and</p>
+<p begin="00:03:54.959" end="00:04:01.120" style="s2">then it reads your last emails for you.</p>
+<p begin="00:03:58.000" end="00:04:01.120" style="s2">See you in the next video.</p>
+</div>
+</body>
+</tt>

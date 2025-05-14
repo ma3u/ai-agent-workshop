@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.480" end="00:00:05.799" style="s2">In this video, I&#39;ll explain what do I</p>
+<p begin="00:00:02.560" end="00:00:09.040" style="s2">mean by this monthly workshop</p>
+<p begin="00:00:05.799" end="00:00:13.200" style="s2">concept. The first part happened in 15th</p>
+<p begin="00:00:09.040" end="00:00:15.920" style="s2">of March in Berlin where we added this</p>
+<p begin="00:00:13.200" end="00:00:17.480" style="s2">one skill set to Samantha the voice AI</p>
+<p begin="00:00:15.920" end="00:00:20.720" style="s2">agent that you saw</p>
+<p begin="00:00:17.480" end="00:00:22.640" style="s2">earlier with a Google Docs tool</p>
+<p begin="00:00:20.720" end="00:00:24.480" style="s2">integration. So you could talk to</p>
+<p begin="00:00:22.640" end="00:00:26.160" style="s2">Samantha and then you could say like hey</p>
+<p begin="00:00:24.480" end="00:00:28.800" style="s2">save this in Google Docs. It would save</p>
+<p begin="00:00:26.160" end="00:00:31.039" style="s2">it on Google Doc.</p>
+<p begin="00:00:28.800" end="00:00:33.120" style="s2">Part two is happening in seven days from</p>
+<p begin="00:00:31.039" end="00:00:36.559" style="s2">now. By now you&#39;re watching this video</p>
+<p begin="00:00:33.120" end="00:00:38.960" style="s2">maybe in the future but 17th of May 2025</p>
+<p begin="00:00:36.559" end="00:00:41.360" style="s2">where we will give this skill set of</p>
+<p begin="00:00:38.960" end="00:00:44.960" style="s2">Gmail inbox reading an email and</p>
+<p begin="00:00:41.360" end="00:00:47.800" style="s2">composing a reply and also some vibe</p>
+<p begin="00:00:44.960" end="00:00:51.120" style="s2">coding so that you can build custom</p>
+<p begin="00:00:47.800" end="00:00:54.600" style="s2">logic literally out of the two amazing</p>
+<p begin="00:00:51.120" end="00:00:58.079" style="s2">tools that we are going to use Vappy and</p>
+<p begin="00:00:54.600" end="00:01:01.680" style="s2">NAN. And the part three will have a</p>
+<p begin="00:00:58.079" end="00:01:04.479" style="s2">search capability using perplexity AI.</p>
+<p begin="00:01:01.680" end="00:01:08.400" style="s2">And part four not yet determined. We&#39;ll</p>
+<p begin="00:01:04.479" end="00:01:10.320" style="s2">run a poll from people joining to find</p>
+<p begin="00:01:08.400" end="00:01:13.000" style="s2">out what should be the next tool that we</p>
+<p begin="00:01:10.320" end="00:01:16.880" style="s2">should add to this AI</p>
+<p begin="00:01:13.000" end="00:01:20.240" style="s2">agent. The first uh workshop which</p>
+<p begin="00:01:16.880" end="00:01:23.680" style="s2">happened on 15th of March came with this</p>
+<p begin="00:01:20.240" end="00:01:26.240" style="s2">playlist. This is a study material that</p>
+<p begin="00:01:23.680" end="00:01:29.280" style="s2">goes along with my workshops. They</p>
+<p begin="00:01:26.240" end="00:01:32.240" style="s2">happen every month. This current</p>
+<p begin="00:01:29.280" end="00:01:35.320" style="s2">tutorial that you watch is a study</p>
+<p begin="00:01:32.240" end="00:01:37.759" style="s2">material for this part two of this</p>
+<p begin="00:01:35.320" end="00:01:40.880" style="s2">workshop. And also we recorded the</p>
+<p begin="00:01:37.759" end="00:01:44.799" style="s2">entire workshop was around six, seven</p>
+<p begin="00:01:40.880" end="00:01:47.840" style="s2">hours long workshop. Almost everybody in</p>
+<p begin="00:01:44.799" end="00:01:51.119" style="s2">the 75 people crowd that you see walked</p>
+<p begin="00:01:47.840" end="00:01:52.799" style="s2">out with their son in their pocket in in</p>
+<p begin="00:01:51.119" end="00:01:56.399" style="s2">a phone call so that they could call</p>
+<p begin="00:01:52.799" end="00:02:00.640" style="s2">while they&#39;re on the go, be it cycling,</p>
+<p begin="00:01:56.399" end="00:02:04.079" style="s2">jogging, driving in a tram or so on. You</p>
+<p begin="00:02:00.640" end="00:02:06.640" style="s2">can watch that video in here. This was</p>
+<p begin="00:02:04.079" end="00:02:10.399" style="s2">um the very beginning.</p>
+<p begin="00:02:06.640" end="00:02:14.000" style="s2">only had 100 registrations on Luma page</p>
+<p begin="00:02:10.399" end="00:02:17.040" style="s2">and 75 people showed up and then I said</p>
+<p begin="00:02:14.000" end="00:02:21.160" style="s2">I&#39;m going to do part two and this part</p>
+<p begin="00:02:17.040" end="00:02:24.120" style="s2">two literally blew. Now I have</p>
+<p begin="00:02:21.160" end="00:02:26.800" style="s2">385 guests registered on</p>
+<p begin="00:02:24.120" end="00:02:30.080" style="s2">Luma. The initial venue had only a</p>
+<p begin="00:02:26.800" end="00:02:33.760" style="s2">capacity of 80 people. I had to find</p>
+<p begin="00:02:30.080" end="00:02:38.000" style="s2">another place. Now we have 120 people in</p>
+<p begin="00:02:33.760" end="00:02:42.720" style="s2">person capacity. Had to find a few</p>
+<p begin="00:02:38.000" end="00:02:45.200" style="s2">uh sponsors um Turan College and NATO</p>
+<p begin="00:02:42.720" end="00:02:47.680" style="s2">sponsoring the venue and some snacks.</p>
+<p begin="00:02:45.200" end="00:02:50.239" style="s2">Thank you so much guys for taking care</p>
+<p begin="00:02:47.680" end="00:02:52.080" style="s2">of this community. I&#39;m volunteering for</p>
+<p begin="00:02:50.239" end="00:02:53.560" style="s2">all of this work. So these workshops are</p>
+<p begin="00:02:52.080" end="00:02:56.720" style="s2">for</p>
+<p begin="00:02:53.560" end="00:03:00.319" style="s2">free and the current study material</p>
+<p begin="00:02:56.720" end="00:03:02.400" style="s2">you&#39;re seeing is going to become the um</p>
+<p begin="00:03:00.319" end="00:03:05.159" style="s2">study material for the next one and then</p>
+<p begin="00:03:02.400" end="00:03:08.720" style="s2">it&#39;s going to pile up one workshop after</p>
+<p begin="00:03:05.159" end="00:03:11.200" style="s2">another and also we will record the next</p>
+<p begin="00:03:08.720" end="00:03:13.440" style="s2">workshop on 17th of May. We&#39;ll record</p>
+<p begin="00:03:11.200" end="00:03:16.480" style="s2">everything and also we will live stream</p>
+<p begin="00:03:13.440" end="00:03:18.560" style="s2">it. So if you&#39;re one of the 380 people</p>
+<p begin="00:03:16.480" end="00:03:21.720" style="s2">who is not based in Berlin, it&#39;s okay.</p>
+<p begin="00:03:18.560" end="00:03:26.480" style="s2">You can watch it on my YouTube channel</p>
+<p begin="00:03:21.720" end="00:03:29.920" style="s2">live. This old uh idea give birth to a</p>
+<p begin="00:03:26.480" end="00:03:33.200" style="s2">new concept. I call it AI champions. I</p>
+<p begin="00:03:29.920" end="00:03:36.319" style="s2">shouted to my LinkedIn followers and</p>
+<p begin="00:03:33.200" end="00:03:39.440" style="s2">suddenly in two days we got these</p>
+<p begin="00:03:36.319" end="00:03:42.319" style="s2">awesome people. Big shout out to</p>
+<p begin="00:03:39.440" end="00:03:46.720" style="s2">Mohammed, Karim, Navi, Ranjan, Harun,</p>
+<p begin="00:03:42.319" end="00:03:49.920" style="s2">Rakkesh, Farah, Vladmir, Promed, Miky,</p>
+<p begin="00:03:46.720" end="00:03:53.280" style="s2">and Adis. Still, I&#39;m looking for a few</p>
+<p begin="00:03:49.920" end="00:03:56.480" style="s2">more because we will have 120 people and</p>
+<p begin="00:03:53.280" end="00:03:59.040" style="s2">these champions will learn every single</p>
+<p begin="00:03:56.480" end="00:04:01.519" style="s2">bit of the workshop a couple of days</p>
+<p begin="00:03:59.040" end="00:04:03.920" style="s2">before. I&#39;ll teach them every single bit</p>
+<p begin="00:04:01.519" end="00:04:06.000" style="s2">and they&#39;ll get access an early access</p>
+<p begin="00:04:03.920" end="00:04:08.400" style="s2">to the study material so they can be</p>
+<p begin="00:04:06.000" end="00:04:10.640" style="s2">prepared and then they help those 10</p>
+<p begin="00:04:08.400" end="00:04:12.799" style="s2">people that are assigned to them. The</p>
+<p begin="00:04:10.640" end="00:04:16.079" style="s2">ones every single one of them will have</p>
+<p begin="00:04:12.799" end="00:04:18.079" style="s2">a table of like five, seven or 10 people</p>
+<p begin="00:04:16.079" end="00:04:21.199" style="s2">that they can reach out easily to so</p>
+<p begin="00:04:18.079" end="00:04:23.040" style="s2">that this entire workshop of a day can</p>
+<p begin="00:04:21.199" end="00:04:25.360" style="s2">go smoothly because if somebody got</p>
+<p begin="00:04:23.040" end="00:04:28.800" style="s2">stuck then these champions will be able</p>
+<p begin="00:04:25.360" end="00:04:31.440" style="s2">to help them. Please use this link or</p>
+<p begin="00:04:28.800" end="00:04:34.680" style="s2">this QR code in order to apply for a</p>
+<p begin="00:04:31.440" end="00:04:37.360" style="s2">champion in the next</p>
+<p begin="00:04:34.680" end="00:04:39.000" style="s2">um programs that I&#39;m running maybe in</p>
+<p begin="00:04:37.360" end="00:04:43.759" style="s2">June or maybe in</p>
+<p begin="00:04:39.000" end="00:04:45.360" style="s2">July. So this is a great way to go on</p>
+<p begin="00:04:43.759" end="00:04:49.199" style="s2">with</p>
+<p begin="00:04:45.360" end="00:04:51.680" style="s2">uh delivering value. Um and I&#39;m already</p>
+<p begin="00:04:49.199" end="00:04:54.160" style="s2">planning to do the next one in June</p>
+<p begin="00:04:51.680" end="00:04:57.199" style="s2">somewhere in mid June. use this link in</p>
+<p begin="00:04:54.160" end="00:04:59.040" style="s2">order to register for the next workshop.</p>
+<p begin="00:04:57.199" end="00:05:02.080" style="s2">Uh it&#39;s going to happen in person in</p>
+<p begin="00:04:59.040" end="00:05:06.639" style="s2">Berlin. Uh we may also have another 80</p>
+<p begin="00:05:02.080" end="00:05:09.600" style="s2">or 100 or 120 people in person capacity.</p>
+<p begin="00:05:06.639" end="00:05:13.680" style="s2">The next one will be something around</p>
+<p begin="00:05:09.600" end="00:05:16.880" style="s2">the online would be something around um</p>
+<p begin="00:05:13.680" end="00:05:18.639" style="s2">mid June or sometimes. Um the study</p>
+<p begin="00:05:16.880" end="00:05:21.199" style="s2">material of this workshop that I&#39;m going</p>
+<p begin="00:05:18.639" end="00:05:23.080" style="s2">to record on 17th will be also available</p>
+<p begin="00:05:21.199" end="00:05:26.080" style="s2">after a couple of days that I do the</p>
+<p begin="00:05:23.080" end="00:05:28.160" style="s2">recording. But that&#39;s uh that&#39;s going to</p>
+<p begin="00:05:26.080" end="00:05:31.759" style="s2">be a lot of content to consume and a lot</p>
+<p begin="00:05:28.160" end="00:05:33.919" style="s2">of content to produce. So stay tuned. Uh</p>
+<p begin="00:05:31.759" end="00:05:36.000" style="s2">a lot of cool things about AI agents is</p>
+<p begin="00:05:33.919" end="00:05:38.240" style="s2">coming up. Therefore,</p>
+<p begin="00:05:36.000" end="00:05:40.560" style="s2">uh subscribe, leave a comment, like and</p>
+<p begin="00:05:38.240" end="00:05:43.199" style="s2">share it with a friend. See you in the</p>
+<p begin="00:05:40.560" end="00:05:43.199" style="s2">next video.</p>
+</div>
+</body>
+</tt>

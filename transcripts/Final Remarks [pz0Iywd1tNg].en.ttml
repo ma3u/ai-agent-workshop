@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.800" end="00:00:06.319" style="s2">Well done. You have completed this</p>
+<p begin="00:00:03.679" end="00:00:08.720" style="s2">amazing crash course where you learn how</p>
+<p begin="00:00:06.319" end="00:00:11.280" style="s2">to build a voice agent that talks to</p>
+<p begin="00:00:08.720" end="00:00:15.679" style="s2">your Gmail inbox. In the process, you</p>
+<p begin="00:00:11.280" end="00:00:18.800" style="s2">learn how to use Vappy and Nathan in a</p>
+<p begin="00:00:15.679" end="00:00:20.560" style="s2">little bit about VIP coding. If you</p>
+<p begin="00:00:18.800" end="00:00:22.720" style="s2">would like to attend one of my</p>
+<p begin="00:00:20.560" end="00:00:23.960" style="s2">workshops, if you&#39;re watching this video</p>
+<p begin="00:00:22.720" end="00:00:27.519" style="s2">before</p>
+<p begin="00:00:23.960" end="00:00:30.240" style="s2">MetJune, then you can scan this QR code</p>
+<p begin="00:00:27.519" end="00:00:33.840" style="s2">or go to that uh address in order to</p>
+<p begin="00:00:30.240" end="00:00:37.440" style="s2">register for MetJune. It does not matter</p>
+<p begin="00:00:33.840" end="00:00:40.840" style="s2">if you are based in Berlin or you&#39;re</p>
+<p begin="00:00:37.440" end="00:00:43.920" style="s2">from around the globe. My workshops are</p>
+<p begin="00:00:40.840" end="00:00:46.399" style="s2">happening hybrid. I will live stream it</p>
+<p begin="00:00:43.920" end="00:00:49.280" style="s2">and at the same time also have some</p>
+<p begin="00:00:46.399" end="00:00:52.480" style="s2">people in person. The next workshop we</p>
+<p begin="00:00:49.280" end="00:00:54.640" style="s2">have uh is going to be on 17th of May</p>
+<p begin="00:00:52.480" end="00:00:59.359" style="s2">and we are expecting something around</p>
+<p begin="00:00:54.640" end="00:01:02.160" style="s2">100 to 120 people inhouse and over 380</p>
+<p begin="00:00:59.359" end="00:01:04.559" style="s2">people registered already. So we are</p>
+<p begin="00:01:02.160" end="00:01:06.640" style="s2">also expecting some people to join</p>
+<p begin="00:01:04.559" end="00:01:09.520" style="s2">online.</p>
+<p begin="00:01:06.640" end="00:01:12.000" style="s2">I wish you good luck with your VIP</p>
+<p begin="00:01:09.520" end="00:01:15.280" style="s2">coding and with your AI agent</p>
+<p begin="00:01:12.000" end="00:01:19.159" style="s2">development journey. See you in the next</p>
+<p begin="00:01:15.280" end="00:01:19.159" style="s2">tutorial. Bye.</p>
+</div>
+</body>
+</tt>

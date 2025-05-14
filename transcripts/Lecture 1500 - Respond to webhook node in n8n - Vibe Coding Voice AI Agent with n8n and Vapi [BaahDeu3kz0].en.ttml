@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.080" end="00:00:05.440" style="s2">In this lecture, we&#39;re going to have a</p>
+<p begin="00:00:02.240" end="00:00:08.639" style="s2">look at what is a respond web hook in</p>
+<p begin="00:00:05.440" end="00:00:12.160" style="s2">N810 and why do we need it. So, if we go</p>
+<p begin="00:00:08.639" end="00:00:14.480" style="s2">quickly to our workflow, this is good.</p>
+<p begin="00:00:12.160" end="00:00:15.880" style="s2">It is triggering. It is basically</p>
+<p begin="00:00:14.480" end="00:00:20.080" style="s2">resolving</p>
+<p begin="00:00:15.880" end="00:00:23.080" style="s2">the requirement that we had for this</p>
+<p begin="00:00:20.080" end="00:00:26.760" style="s2">ingestion pipeline. It is ingesting the</p>
+<p begin="00:00:23.080" end="00:00:29.560" style="s2">workflow. When we want to</p>
+<p begin="00:00:26.760" end="00:00:32.480" style="s2">actually work on reading</p>
+<p begin="00:00:29.560" end="00:00:35.280" style="s2">emails, when I ask Samanta to read my</p>
+<p begin="00:00:32.480" end="00:00:36.280" style="s2">emails, it will go inside NA10. It will</p>
+<p begin="00:00:35.280" end="00:00:39.840" style="s2">go</p>
+<p begin="00:00:36.280" end="00:00:42.399" style="s2">inside this database. It will pull the</p>
+<p begin="00:00:39.840" end="00:00:45.600" style="s2">data from database and it will come</p>
+<p begin="00:00:42.399" end="00:00:49.039" style="s2">back. Until then, Samantha needs to stay</p>
+<p begin="00:00:45.600" end="00:00:51.920" style="s2">with me, talk to me about stuff or I ask</p>
+<p begin="00:00:49.039" end="00:00:55.680" style="s2">other questions. But during this</p>
+<p begin="00:00:51.920" end="00:00:58.000" style="s2">so-called flight time, Samantha needs to</p>
+<p begin="00:00:55.680" end="00:00:59.760" style="s2">be aware that I have triggered something</p>
+<p begin="00:00:58.000" end="00:01:02.160" style="s2">and I&#39;m expecting something to come</p>
+<p begin="00:00:59.760" end="00:01:05.280" style="s2">back. This could be 500 milliseconds.</p>
+<p begin="00:01:02.160" end="00:01:08.960" style="s2">This could be 5 seconds. So for that</p>
+<p begin="00:01:05.280" end="00:01:12.840" style="s2">reason, we need this so-called web hook.</p>
+<p begin="00:01:08.960" end="00:01:16.560" style="s2">I&#39;m going to call this workflow email</p>
+<p begin="00:01:12.840" end="00:01:17.880" style="s2">ingestion and go to the overview. click</p>
+<p begin="00:01:16.560" end="00:01:22.000" style="s2">on create</p>
+<p begin="00:01:17.880" end="00:01:25.119" style="s2">workflow and explain the concept of this</p>
+<p begin="00:01:22.000" end="00:01:28.280" style="s2">web hook technology in the first place.</p>
+<p begin="00:01:25.119" end="00:01:32.720" style="s2">So I will create a web hook that does</p>
+<p begin="00:01:28.280" end="00:01:37.400" style="s2">something and I will let&#39;s say if it is</p>
+<p begin="00:01:32.720" end="00:01:37.400" style="s2">just doing a simple</p>
+<p begin="00:01:37.720" end="00:01:44.240" style="s2">um summarization let&#39;s let&#39;s just take</p>
+<p begin="00:01:40.880" end="00:01:46.799" style="s2">an a summarization example. I&#39;m going to</p>
+<p begin="00:01:44.240" end="00:01:48.520" style="s2">put an AI agent here. I&#39;m going to give</p>
+<p begin="00:01:46.799" end="00:01:51.079" style="s2">it a model</p>
+<p begin="00:01:48.520" end="00:01:55.600" style="s2">here.</p>
+<p begin="00:01:51.079" end="00:01:58.040" style="s2">AI and then I&#39;m going to give it just a</p>
+<p begin="00:01:55.600" end="00:02:02.399" style="s2">very dumb</p>
+<p begin="00:01:58.040" end="00:02:04.159" style="s2">system summarize following. And what is</p>
+<p begin="00:02:02.399" end="00:02:06.399" style="s2">the following? The following is coming</p>
+<p begin="00:02:04.159" end="00:02:09.599" style="s2">whatever is coming from there. In order</p>
+<p begin="00:02:06.399" end="00:02:13.120" style="s2">for that to work, I&#39;m going to run this</p>
+<p begin="00:02:09.599" end="00:02:18.200" style="s2">first. Uh let&#39;s do that as a post</p>
+<p begin="00:02:13.120" end="00:02:21.599" style="s2">because we&#39;ll use this method in a bit.</p>
+<p begin="00:02:18.200" end="00:02:23.760" style="s2">So it&#39;s running. I copy this. For those</p>
+<p begin="00:02:21.599" end="00:02:24.920" style="s2">of you who do not know it&#39;s a Postman,</p>
+<p begin="00:02:23.760" end="00:02:27.920" style="s2">you can go to</p>
+<p begin="00:02:24.920" end="00:02:30.000" style="s2">postman.com, download, install it. But</p>
+<p begin="00:02:27.920" end="00:02:34.000" style="s2">if you want to catch up very quickly,</p>
+<p begin="00:02:30.000" end="00:02:35.360" style="s2">just on the internet, just type Postman</p>
+<p begin="00:02:34.000" end="00:02:37.519" style="s2">online. You will find a lot of</p>
+<p begin="00:02:35.360" end="00:02:40.319" style="s2">alternatives to do that without</p>
+<p begin="00:02:37.519" end="00:02:42.480" style="s2">installations. This one you can also</p>
+<p begin="00:02:40.319" end="00:02:45.760" style="s2">use. It just does the same thing, but</p>
+<p begin="00:02:42.480" end="00:02:48.440" style="s2">I&#39;m going to continue using my post map.</p>
+<p begin="00:02:45.760" end="00:02:51.080" style="s2">I like this UI</p>
+<p begin="00:02:48.440" end="00:02:55.280" style="s2">better. Okay.</p>
+<p begin="00:02:51.080" end="00:02:57.000" style="s2">So, I&#39;m going to create a new tab here.</p>
+<p begin="00:02:55.280" end="00:03:01.720" style="s2">Change it to</p>
+<p begin="00:02:57.000" end="00:03:05.599" style="s2">Postman. Put this thing here. Go to the</p>
+<p begin="00:03:01.720" end="00:03:08.480" style="s2">body. Raw JSON.</p>
+<p begin="00:03:05.599" end="00:03:12.080" style="s2">And if you remember, we created this</p>
+<p begin="00:03:08.480" end="00:03:14.280" style="s2">email and previous lecture and it&#39;s</p>
+<p begin="00:03:12.080" end="00:03:16.560" style="s2">sitting already on my superbase</p>
+<p begin="00:03:14.280" end="00:03:18.840" style="s2">database. So I&#39;m going to go to my</p>
+<p begin="00:03:16.560" end="00:03:22.920" style="s2">superbase</p>
+<p begin="00:03:18.840" end="00:03:25.680" style="s2">database and in my</p>
+<p begin="00:03:22.920" end="00:03:28.480" style="s2">table I already have at least one email</p>
+<p begin="00:03:25.680" end="00:03:30.840" style="s2">in here and this is in JSON format. So,</p>
+<p begin="00:03:28.480" end="00:03:33.519" style="s2">I&#39;m going to literally copy all of</p>
+<p begin="00:03:30.840" end="00:03:36.120" style="s2">that. Come over here, paste it in the</p>
+<p begin="00:03:33.519" end="00:03:39.599" style="s2">body of this, and then I click on</p>
+<p begin="00:03:36.120" end="00:03:41.920" style="s2">send. And look what happened here.</p>
+<p begin="00:03:39.599" end="00:03:45.799" style="s2">Literally in this is exactly what we&#39;re</p>
+<p begin="00:03:41.920" end="00:03:49.680" style="s2">going to work on now. In 300</p>
+<p begin="00:03:45.799" end="00:03:52.400" style="s2">milliseconds, it responded back to me by</p>
+<p begin="00:03:49.680" end="00:03:56.239" style="s2">saying workflow was started. So, it</p>
+<p begin="00:03:52.400" end="00:04:00.120" style="s2">basically triggered workflow. If we</p>
+<p begin="00:03:56.239" end="00:04:02.640" style="s2">quickly go back to our</p>
+<p begin="00:04:00.120" end="00:04:04.400" style="s2">whiteboard, that&#39;s not what we want.</p>
+<p begin="00:04:02.640" end="00:04:06.000" style="s2">Like when Sam when we say, &quot;Hey,</p>
+<p begin="00:04:04.400" end="00:04:08.799" style="s2">Samantha, read my emails.&quot; It&#39;s going to</p>
+<p begin="00:04:06.000" end="00:04:10.720" style="s2">go and bring it from database. It will</p>
+<p begin="00:04:08.799" end="00:04:12.879" style="s2">not be 300 milliseconds. It will be way</p>
+<p begin="00:04:10.720" end="00:04:15.040" style="s2">more than that. Until then, Samantha</p>
+<p begin="00:04:12.879" end="00:04:17.880" style="s2">should not receive a response. She</p>
+<p begin="00:04:15.040" end="00:04:21.680" style="s2">should wait for for our</p>
+<p begin="00:04:17.880" end="00:04:24.639" style="s2">response. So now, let&#39;s go to our</p>
+<p begin="00:04:21.680" end="00:04:27.680" style="s2">workflow. Where is my workflow? Here.</p>
+<p begin="00:04:24.639" end="00:04:30.320" style="s2">Now this workflow since it was running</p>
+<p begin="00:04:27.680" end="00:04:34.880" style="s2">and I hit it from my postman now it</p>
+<p begin="00:04:30.320" end="00:04:37.440" style="s2">received this whole payload which is the</p>
+<p begin="00:04:34.880" end="00:04:40.639" style="s2">entire email and so on and so you can</p>
+<p begin="00:04:37.440" end="00:04:43.520" style="s2">see that. So this is the email I have.</p>
+<p begin="00:04:40.639" end="00:04:48.160" style="s2">It&#39;s it&#39;s going it&#39;s the whole payload I</p>
+<p begin="00:04:43.520" end="00:04:50.320" style="s2">need in this chat GPT thing. I&#39;ll just</p>
+<p begin="00:04:48.160" end="00:04:54.759" style="s2">finally</p>
+<p begin="00:04:50.320" end="00:04:58.479" style="s2">uh take the entire body put it</p>
+<p begin="00:04:54.759" end="00:04:59.479" style="s2">there. Why is it not working? It&#39;s work</p>
+<p begin="00:04:58.479" end="00:05:03.840" style="s2">now.</p>
+<p begin="00:04:59.479" end="00:05:06.320" style="s2">Okay. But and here it is giving me this</p>
+<p begin="00:05:03.840" end="00:05:09.039" style="s2">object object. That means it cannot read</p>
+<p begin="00:05:06.320" end="00:05:11.000" style="s2">this. I&#39;m going to just use a little bit</p>
+<p begin="00:05:09.039" end="00:05:14.960" style="s2">of JavaScript string</p>
+<p begin="00:05:11.000" end="00:05:18.080" style="s2">defy to convert this entire object into</p>
+<p begin="00:05:14.960" end="00:05:22.680" style="s2">a string so that the LM can understand.</p>
+<p begin="00:05:18.080" end="00:05:26.000" style="s2">If I execute this node now it will give</p>
+<p begin="00:05:22.680" end="00:05:28.240" style="s2">me after some time it will give me that</p>
+<p begin="00:05:26.000" end="00:05:33.000" style="s2">this is a JSON describes email blah blah</p>
+<p begin="00:05:28.240" end="00:05:36.759" style="s2">blah. Maybe I can I can um summarize the</p>
+<p begin="00:05:33.000" end="00:05:39.000" style="s2">following email</p>
+<p begin="00:05:36.759" end="00:05:43.759" style="s2">uh the</p>
+<p begin="00:05:39.000" end="00:05:47.039" style="s2">following email from this JSON payload</p>
+<p begin="00:05:43.759" end="00:05:49.199" style="s2">so that it can do it in a cleaner way.</p>
+<p begin="00:05:47.039" end="00:05:52.479" style="s2">So there we go. This email is from MLSR</p>
+<p begin="00:05:49.199" end="00:05:57.600" style="s2">and is titled D and it is whatever the</p>
+<p begin="00:05:52.479" end="00:06:00.639" style="s2">text is. Now I will save this. What I</p>
+<p begin="00:05:57.600" end="00:06:03.199" style="s2">see here is a good amount of value in</p>
+<p begin="00:06:00.639" end="00:06:07.000" style="s2">this workflow. But when I execute it,</p>
+<p begin="00:06:03.199" end="00:06:10.160" style="s2">let&#39;s actually do that in here like</p>
+<p begin="00:06:07.000" end="00:06:11.960" style="s2">this. I&#39;m going to put my Postman on</p>
+<p begin="00:06:10.160" end="00:06:15.120" style="s2">this</p>
+<p begin="00:06:11.960" end="00:06:18.319" style="s2">side. And I&#39;m going to trigger my</p>
+<p begin="00:06:15.120" end="00:06:21.120" style="s2">Postman. And you should see the the</p>
+<p begin="00:06:18.319" end="00:06:23.120" style="s2">whole execution running one more time.</p>
+<p begin="00:06:21.120" end="00:06:27.039" style="s2">But what happens? This is running. And</p>
+<p begin="00:06:23.120" end="00:06:29.039" style="s2">this postman already had the the respond</p>
+<p begin="00:06:27.039" end="00:06:31.600" style="s2">and I don&#39;t want to see this respond. I</p>
+<p begin="00:06:29.039" end="00:06:34.240" style="s2">don&#39;t want to see workflow was started.</p>
+<p begin="00:06:31.600" end="00:06:36.720" style="s2">I want to see the work the response this</p>
+<p begin="00:06:34.240" end="00:06:38.479" style="s2">is this one because that will go to</p>
+<p begin="00:06:36.720" end="00:06:40.960" style="s2">Samanta and Samanta will speak about</p>
+<p begin="00:06:38.479" end="00:06:44.080" style="s2">this particular piece. So how do I do</p>
+<p begin="00:06:40.960" end="00:06:47.240" style="s2">that? It&#39;s a very very simple logic</p>
+<p begin="00:06:44.080" end="00:06:51.039" style="s2">logic here uh in</p>
+<p begin="00:06:47.240" end="00:06:54.720" style="s2">N10. We may need to trigger this from</p>
+<p begin="00:06:51.039" end="00:06:59.520" style="s2">Oh, it cannot be that. Okay, that&#39;s good</p>
+<p begin="00:06:54.720" end="00:07:04.039" style="s2">enough space for here. So, if you go to</p>
+<p begin="00:06:59.520" end="00:07:06.880" style="s2">web hook in here, you see respond</p>
+<p begin="00:07:04.039" end="00:07:10.080" style="s2">immediately. This has to be changed to</p>
+<p begin="00:07:06.880" end="00:07:13.120" style="s2">respond to web hook note. What does it</p>
+<p begin="00:07:10.080" end="00:07:14.800" style="s2">mean? If I save this and I go out, there</p>
+<p begin="00:07:13.120" end="00:07:17.280" style="s2">is a yellow thing happening. That means</p>
+<p begin="00:07:14.800" end="00:07:20.800" style="s2">something is wrong here.</p>
+<p begin="00:07:17.280" end="00:07:24.199" style="s2">I have to click here and then put this</p>
+<p begin="00:07:20.800" end="00:07:29.199" style="s2">thing this note called respond to web</p>
+<p begin="00:07:24.199" end="00:07:30.759" style="s2">hook. And this is now the</p>
+<p begin="00:07:29.199" end="00:07:33.520" style="s2">um</p>
+<p begin="00:07:30.759" end="00:07:35.840" style="s2">response item. Basically this is</p>
+<p begin="00:07:33.520" end="00:07:39.440" style="s2">responsible for sending something back</p>
+<p begin="00:07:35.840" end="00:07:41.199" style="s2">to the web hook. So if I click it and</p>
+<p begin="00:07:39.440" end="00:07:43.199" style="s2">you can see that the first incoming item</p>
+<p begin="00:07:41.199" end="00:07:45.680" style="s2">is this one and it&#39;s sending it back</p>
+<p begin="00:07:43.199" end="00:07:50.479" style="s2">this way. Now, literally with that many</p>
+<p begin="00:07:45.680" end="00:07:52.960" style="s2">steps, we made this entire workflow to</p>
+<p begin="00:07:50.479" end="00:07:55.360" style="s2">hold for the response to finish and then</p>
+<p begin="00:07:52.960" end="00:07:58.000" style="s2">send it to the API request. So, if I</p>
+<p begin="00:07:55.360" end="00:08:00.199" style="s2">click this, I&#39;ll see that this is still</p>
+<p begin="00:07:58.000" end="00:08:06.199" style="s2">running. It took</p>
+<p begin="00:08:00.199" end="00:08:08.960" style="s2">1.653 I mean 1,653 milliseconds 1.6</p>
+<p begin="00:08:06.199" end="00:08:11.639" style="s2">seconds. And the response is no more</p>
+<p begin="00:08:08.960" end="00:08:14.960" style="s2">just that generic message that the</p>
+<p begin="00:08:11.639" end="00:08:16.360" style="s2">execution happened but it is an entire</p>
+<p begin="00:08:14.960" end="00:08:19.840" style="s2">message that</p>
+<p begin="00:08:16.360" end="00:08:22.639" style="s2">happened in the prompt. I would like to</p>
+<p begin="00:08:19.840" end="00:08:25.800" style="s2">add one more thing. Uh summarize the</p>
+<p begin="00:08:22.639" end="00:08:29.440" style="s2">following email from this JSON</p>
+<p begin="00:08:25.800" end="00:08:32.399" style="s2">payload in a way that any text to speech</p>
+<p begin="00:08:29.440" end="00:08:34.880" style="s2">engine should be able to speak it. So</p>
+<p begin="00:08:32.399" end="00:08:37.919" style="s2">therefore don&#39;t use any markdown, no new</p>
+<p begin="00:08:34.880" end="00:08:40.959" style="s2">lines, no formatting, just fluent text</p>
+<p begin="00:08:37.919" end="00:08:42.719" style="s2">and also even not quotation marks.</p>
+<p begin="00:08:40.959" end="00:08:47.120" style="s2">I think the quotation marks is okay</p>
+<p begin="00:08:42.719" end="00:08:50.720" style="s2">because the TTS U that we will be using</p>
+<p begin="00:08:47.120" end="00:08:53.600" style="s2">in this case being deep TTS in Samanta</p>
+<p begin="00:08:50.720" end="00:08:56.040" style="s2">it&#39;s okay but you pay attention to these</p>
+<p begin="00:08:53.600" end="00:08:59.040" style="s2">lines this these should need to go away</p>
+<p begin="00:08:56.040" end="00:09:00.959" style="s2">otherwise your TTS your Samanta will</p>
+<p begin="00:08:59.040" end="00:09:02.680" style="s2">speak it out and that&#39;s not a nice</p>
+<p begin="00:09:00.959" end="00:09:06.880" style="s2">experience you would like to</p>
+<p begin="00:09:02.680" end="00:09:12.240" style="s2">have so there we go oh it is not running</p>
+<p begin="00:09:06.880" end="00:09:14.640" style="s2">that&#39;s fine I&#39;ll run it And if I hit it</p>
+<p begin="00:09:12.240" end="00:09:17.519" style="s2">this time, it should send me a much</p>
+<p begin="00:09:14.640" end="00:09:19.680" style="s2">cleaner text which says</p>
+<p begin="00:09:17.519" end="00:09:22.720" style="s2">um you have received an email from</p>
+<p begin="00:09:19.680" end="00:09:26.279" style="s2">emailsire with the subject title da. So</p>
+<p begin="00:09:22.720" end="00:09:32.720" style="s2">it it&#39;s much much easier to go in this</p>
+<p begin="00:09:26.279" end="00:09:37.200" style="s2">route. Um when it is like the the voice</p>
+<p begin="00:09:32.720" end="00:09:40.000" style="s2">will sound way more fluent and natural</p>
+<p begin="00:09:37.200" end="00:09:43.839" style="s2">if that gets message. So in this lecture</p>
+<p begin="00:09:40.000" end="00:09:46.160" style="s2">we saw how we can create a web hook do</p>
+<p begin="00:09:43.839" end="00:09:49.920" style="s2">some processing hold the web hook not to</p>
+<p begin="00:09:46.160" end="00:09:52.480" style="s2">respond and then respond when only the</p>
+<p begin="00:09:49.920" end="00:09:55.760" style="s2">process is finished. There&#39;s a lot of</p>
+<p begin="00:09:52.480" end="00:09:57.839" style="s2">more into it. This is the basics but you</p>
+<p begin="00:09:55.760" end="00:10:00.080" style="s2">will get a gist of it and then you&#39;ll</p>
+<p begin="00:09:57.839" end="00:10:04.240" style="s2">figure it out by yourself and by</p>
+<p begin="00:10:00.080" end="00:10:04.240" style="s2">querying. See you in the next lecture.</p>
+</div>
+</body>
+</tt>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.480" end="00:00:06.120" style="s2">In this lecture, we will actually build</p>
+<p begin="00:00:02.800" end="00:00:09.040" style="s2">our very first voice AI agent using</p>
+<p begin="00:00:06.120" end="00:00:13.360" style="s2">Vappy. But before we do so, let&#39;s</p>
+<p begin="00:00:09.040" end="00:00:17.199" style="s2">quickly have a check on our schedule.</p>
+<p begin="00:00:13.360" end="00:00:20.240" style="s2">So, we just had in a few lectures ago a</p>
+<p begin="00:00:17.199" end="00:00:22.320" style="s2">review of our context diagram. We did a</p>
+<p begin="00:00:20.240" end="00:00:26.080" style="s2">detailed introduction of Vapian</p>
+<p begin="00:00:22.320" end="00:00:28.920" style="s2">alternatives like V Life Kit. Now we are</p>
+<p begin="00:00:26.080" end="00:00:33.360" style="s2">going to do or build our</p>
+<p begin="00:00:28.920" end="00:00:36.320" style="s2">own voice AI agent using Vappy. So for</p>
+<p begin="00:00:33.360" end="00:00:39.920" style="s2">that let&#39;s go to Vappy. You may need to</p>
+<p begin="00:00:36.320" end="00:00:44.160" style="s2">sign up. Once you signed up you will end</p>
+<p begin="00:00:39.920" end="00:00:46.640" style="s2">up in a dashboard similar to mine but in</p>
+<p begin="00:00:44.160" end="00:00:48.800" style="s2">my case since I have built multiple AI</p>
+<p begin="00:00:46.640" end="00:00:51.200" style="s2">agents before maybe I see these</p>
+<p begin="00:00:48.800" end="00:00:55.039" style="s2">diagrams, maybe I see some numbers. You</p>
+<p begin="00:00:51.200" end="00:00:58.160" style="s2">don&#39;t. It&#39;s okay. Click on assistants.</p>
+<p begin="00:00:55.039" end="00:01:00.239" style="s2">Then click on create assistant. Here you</p>
+<p begin="00:00:58.160" end="00:01:03.760" style="s2">can give your assistant a name. I&#39;m</p>
+<p begin="00:01:00.239" end="00:01:03.760" style="s2">going to give mine</p>
+<p begin="00:01:05.000" end="00:01:13.119" style="s2">Samanta. I&#39;ll create click on</p>
+<p begin="00:01:09.240" end="00:01:15.240" style="s2">create. Samanta is here. I&#39;m going to go</p>
+<p begin="00:01:13.119" end="00:01:17.159" style="s2">and write here first</p>
+<p begin="00:01:15.240" end="00:01:20.479" style="s2">message. Hi</p>
+<p begin="00:01:17.159" end="00:01:23.360" style="s2">Amal, how are you doing?</p>
+<p begin="00:01:20.479" end="00:01:25.200" style="s2">And then in here, uh, I use a dictation</p>
+<p begin="00:01:23.360" end="00:01:27.159" style="s2">tool. So I&#39;m going to use that in order</p>
+<p begin="00:01:25.200" end="00:01:31.360" style="s2">to write some system</p>
+<p begin="00:01:27.159" end="00:01:34.560" style="s2">prompt. You&#39;re a friendly AI agent that</p>
+<p begin="00:01:31.360" end="00:01:37.840" style="s2">have access to my tools and I call you</p>
+<p begin="00:01:34.560" end="00:01:40.040" style="s2">whenever I need to do some work. You</p>
+<p begin="00:01:37.840" end="00:01:44.799" style="s2">perform tasks on my</p>
+<p begin="00:01:40.040" end="00:01:47.680" style="s2">behalf and you always are in a friendly</p>
+<p begin="00:01:44.799" end="00:01:51.040" style="s2">tone.</p>
+<p begin="00:01:47.680" end="00:01:54.000" style="s2">It&#39;s just a prompt that I need to give.</p>
+<p begin="00:01:51.040" end="00:01:56.280" style="s2">You can leave these options as they are.</p>
+<p begin="00:01:54.000" end="00:01:58.799" style="s2">Uh you can go to</p>
+<p begin="00:01:56.280" end="00:02:00.960" style="s2">transcriber from here. You can leave it</p>
+<p begin="00:01:58.799" end="00:02:03.360" style="s2">as it is. These are all basically the</p>
+<p begin="00:02:00.960" end="00:02:05.360" style="s2">list of transcribers that you can</p>
+<p begin="00:02:03.360" end="00:02:08.000" style="s2">select. I&#39;ll come to that in just a</p>
+<p begin="00:02:05.360" end="00:02:10.720" style="s2">minute. I want to take you to the actual</p>
+<p begin="00:02:08.000" end="00:02:15.239" style="s2">outcome first and then we&#39;ll go there.</p>
+<p begin="00:02:10.720" end="00:02:20.400" style="s2">From here you can choose deep</p>
+<p begin="00:02:15.239" end="00:02:21.720" style="s2">gram and from here choose the aura 2.</p>
+<p begin="00:02:20.400" end="00:02:24.120" style="s2">From the</p>
+<p begin="00:02:21.720" end="00:02:28.000" style="s2">voice choose</p>
+<p begin="00:02:24.120" end="00:02:31.360" style="s2">Elena. I like this sound more but feel</p>
+<p begin="00:02:28.000" end="00:02:32.920" style="s2">free to pick whatever voice you like.</p>
+<p begin="00:02:31.360" end="00:02:35.680" style="s2">Then click on</p>
+<p begin="00:02:32.920" end="00:02:39.560" style="s2">publish. Now you are ready to talk to</p>
+<p begin="00:02:35.680" end="00:02:39.560" style="s2">your voice AI agent.</p>
+<p begin="00:02:41.120" end="00:02:46.239" style="s2">Hi, Amal. How are you doing? I&#39;m doing</p>
+<p begin="00:02:43.440" end="00:02:48.640" style="s2">good. How are you?</p>
+<p begin="00:02:46.239" end="00:02:50.640" style="s2">I&#39;m doing great, thanks. Ready to help</p>
+<p begin="00:02:48.640" end="00:02:53.200" style="s2">you with whatever you need today. What&#39;s</p>
+<p begin="00:02:50.640" end="00:02:55.120" style="s2">on your mind? I was thinking about voice</p>
+<p begin="00:02:53.200" end="00:02:58.440" style="s2">AI agents. Can you tell me a little bit</p>
+<p begin="00:02:55.120" end="00:02:58.440" style="s2">about that?</p>
+<p begin="00:03:01.360" end="00:03:05.760" style="s2">Of course. Voice AI agents are systems</p>
+<p begin="00:03:04.000" end="00:03:07.599" style="s2">designed to understand and respond to</p>
+<p begin="00:03:05.760" end="00:03:09.400" style="s2">human speech. They&#39;re powered by</p>
+<p begin="00:03:07.599" end="00:03:12.800" style="s2">technologies like natural language</p>
+<p begin="00:03:09.400" end="00:03:16.000" style="s2">processing NLP and so basically you got</p>
+<p begin="00:03:12.800" end="00:03:18.280" style="s2">the point like there is all that diagram</p>
+<p begin="00:03:16.000" end="00:03:21.959" style="s2">that I explained</p>
+<p begin="00:03:18.280" end="00:03:25.040" style="s2">earlier done in just a few clicks</p>
+<p begin="00:03:21.959" end="00:03:27.519" style="s2">literally we clicked a few places and</p>
+<p begin="00:03:25.040" end="00:03:30.000" style="s2">then it just happened. I&#39;m going to do a</p>
+<p begin="00:03:27.519" end="00:03:32.400" style="s2">very Toro introduction of Vappy in this</p>
+<p begin="00:03:30.000" end="00:03:35.760" style="s2">lecture so that next time we come here</p>
+<p begin="00:03:32.400" end="00:03:38.120" style="s2">you know your way. On the very left you</p>
+<p begin="00:03:35.760" end="00:03:40.720" style="s2">have a dropdown of</p>
+<p begin="00:03:38.120" end="00:03:43.920" style="s2">organizations. You see the dashboard of</p>
+<p begin="00:03:40.720" end="00:03:45.480" style="s2">overview. Here you see all your</p>
+<p begin="00:03:43.920" end="00:03:47.920" style="s2">assistants that you have created. In</p>
+<p begin="00:03:45.480" end="00:03:51.640" style="s2">here workflows we will not touch. It&#39;s</p>
+<p begin="00:03:47.920" end="00:03:55.040" style="s2">this out of the scope of this</p>
+<p begin="00:03:51.640" end="00:03:57.680" style="s2">um course. Phones will touch in just a</p>
+<p begin="00:03:55.040" end="00:03:58.760" style="s2">minute. Tools will touch in a few</p>
+<p begin="00:03:57.680" end="00:04:01.519" style="s2">lectures</p>
+<p begin="00:03:58.760" end="00:04:03.599" style="s2">later. And files will not touch but you</p>
+<p begin="00:04:01.519" end="00:04:05.439" style="s2">can do it by yourself. Basically, you</p>
+<p begin="00:04:03.599" end="00:04:08.560" style="s2">can upload knowledge base and files and</p>
+<p begin="00:04:05.439" end="00:04:11.040" style="s2">then this Samantha AI agent will have</p>
+<p begin="00:04:08.560" end="00:04:14.319" style="s2">access to those files and talk to you. A</p>
+<p begin="00:04:11.040" end="00:04:16.560" style="s2">squad is this crew based voice AI agent</p>
+<p begin="00:04:14.319" end="00:04:18.199" style="s2">that they can call each other but we&#39;ll</p>
+<p begin="00:04:16.560" end="00:04:22.600" style="s2">also not touch</p>
+<p begin="00:04:18.199" end="00:04:26.400" style="s2">this. All right. When you select one of</p>
+<p begin="00:04:22.600" end="00:04:28.960" style="s2">your AI agents from here or assistance,</p>
+<p begin="00:04:26.400" end="00:04:32.479" style="s2">you can do certain configurations under</p>
+<p begin="00:04:28.960" end="00:04:34.560" style="s2">model. You can see the cost, how much it</p>
+<p begin="00:04:32.479" end="00:04:37.040" style="s2">will cost you per minute, what&#39;s the</p>
+<p begin="00:04:34.560" end="00:04:39.919" style="s2">latency when you select one of these</p>
+<p begin="00:04:37.040" end="00:04:43.520" style="s2">three options. And since we&#39;re going to</p>
+<p begin="00:04:39.919" end="00:04:45.759" style="s2">focus on on the go, our option will be</p>
+<p begin="00:04:43.520" end="00:04:48.400" style="s2">mostly TWIO, which is the form</p>
+<p begin="00:04:45.759" end="00:04:52.080" style="s2">integration basically. So therefore, the</p>
+<p begin="00:04:48.400" end="00:04:53.600" style="s2">latency of 1.5 seconds should be</p>
+<p begin="00:04:52.080" end="00:04:57.199" style="s2">anticipated.</p>
+<p begin="00:04:53.600" end="00:04:59.759" style="s2">You can pick the model like whether this</p>
+<p begin="00:04:57.199" end="00:05:02.160" style="s2">be the the</p>
+<p begin="00:04:59.759" end="00:05:03.759" style="s2">um model that Vappy provides under the</p>
+<p begin="00:05:02.160" end="00:05:06.479" style="s2">hood which one they provide maybe they</p>
+<p begin="00:05:03.759" end="00:05:09.360" style="s2">are optimizing across multiple models or</p>
+<p begin="00:05:06.479" end="00:05:12.320" style="s2">from OpenAI Azure OpenAI which is very</p>
+<p begin="00:05:09.360" end="00:05:15.120" style="s2">important especially for Europeanbased</p>
+<p begin="00:05:12.320" end="00:05:17.120" style="s2">clients you should select this one and</p>
+<p begin="00:05:15.120" end="00:05:19.280" style="s2">then when you select one of those models</p>
+<p begin="00:05:17.120" end="00:05:21.199" style="s2">the dropown of the models changes and</p>
+<p begin="00:05:19.280" end="00:05:23.680" style="s2">then you can select the model that you</p>
+<p begin="00:05:21.199" end="00:05:27.840" style="s2">want to pick for this particular</p>
+<p begin="00:05:23.680" end="00:05:29.199" style="s2">I&#39;m going to keep 4.1 here and files you</p>
+<p begin="00:05:27.840" end="00:05:31.360" style="s2">can upload as well to increase the</p>
+<p begin="00:05:29.199" end="00:05:34.240" style="s2">knowledge base but for now only the</p>
+<p begin="00:05:31.360" end="00:05:37.440" style="s2">context window will be good enough then</p>
+<p begin="00:05:34.240" end="00:05:39.919" style="s2">the transcriber is your ASR your</p>
+<p begin="00:05:37.440" end="00:05:42.400" style="s2">automatic speech recognition all the</p>
+<p begin="00:05:39.919" end="00:05:45.600" style="s2">providers are provided here in this list</p>
+<p begin="00:05:42.400" end="00:05:50.320" style="s2">deep being one of the good ones assembly</p>
+<p begin="00:05:45.600" end="00:05:52.960" style="s2">AI azur&#39;s ASR services 11 labs and so on</p>
+<p begin="00:05:50.320" end="00:05:55.840" style="s2">are also available in this</p>
+<p begin="00:05:52.960" end="00:05:58.960" style="s2">Whisper by open AAI is also a very good</p>
+<p begin="00:05:55.840" end="00:06:01.039" style="s2">one. So open when you pick open AAI then</p>
+<p begin="00:05:58.960" end="00:06:03.720" style="s2">you can pick this one and under the hood</p>
+<p begin="00:06:01.039" end="00:06:06.960" style="s2">I believe they use</p>
+<p begin="00:06:03.720" end="00:06:08.639" style="s2">whisper. So I am happy with deep grab.</p>
+<p begin="00:06:06.960" end="00:06:11.199" style="s2">So I&#39;m going to go and keep deep grab</p>
+<p begin="00:06:08.639" end="00:06:15.280" style="s2">here and especially Nova 3 model that&#39;s</p>
+<p begin="00:06:11.199" end="00:06:20.280" style="s2">good enough. Then we have this voice uh</p>
+<p begin="00:06:15.280" end="00:06:22.960" style="s2">tab where you can configure your TTS the</p>
+<p begin="00:06:20.280" end="00:06:25.919" style="s2">texttospech one. You can pick one of</p>
+<p begin="00:06:22.960" end="00:06:28.560" style="s2">those uh providers and then you pick one</p>
+<p begin="00:06:25.919" end="00:06:31.199" style="s2">of the voices that they provide. Uh and</p>
+<p begin="00:06:28.560" end="00:06:33.680" style="s2">also across those models you can do a</p>
+<p begin="00:06:31.199" end="00:06:36.240" style="s2">lot of advanced configurations and tool</p>
+<p begin="00:06:33.680" end="00:06:38.960" style="s2">which we will some of them very small</p>
+<p begin="00:06:36.240" end="00:06:41.039" style="s2">parts of it we will touch in order to</p>
+<p begin="00:06:38.960" end="00:06:42.080" style="s2">satisfy that workflow that we have in</p>
+<p begin="00:06:41.039" end="00:06:45.199" style="s2">mind.</p>
+<p begin="00:06:42.080" end="00:06:47.360" style="s2">The tools tab which we&#39;ll touch later is</p>
+<p begin="00:06:45.199" end="00:06:50.160" style="s2">used to create tools and assign tools to</p>
+<p begin="00:06:47.360" end="00:06:53.199" style="s2">this particular tab. Here you can do</p>
+<p begin="00:06:50.160" end="00:06:56.160" style="s2">some analysis of your voice AI agent and</p>
+<p begin="00:06:53.199" end="00:06:59.759" style="s2">there are a lot of advanced features of</p>
+<p begin="00:06:56.160" end="00:07:02.919" style="s2">this voice AI agent that you can enable</p>
+<p begin="00:06:59.759" end="00:07:05.680" style="s2">and disable. For example, enabling a</p>
+<p begin="00:07:02.919" end="00:07:07.599" style="s2">voicemail detection. If you&#39;re creating</p>
+<p begin="00:07:05.680" end="00:07:10.240" style="s2">your voice AI agent in a way that it</p>
+<p begin="00:07:07.599" end="00:07:12.319" style="s2">calls people, you can also do that from</p>
+<p begin="00:07:10.240" end="00:07:16.080" style="s2">Vappy. But imagine if you build that</p>
+<p begin="00:07:12.319" end="00:07:17.960" style="s2">kind of workflow in your own system. It</p>
+<p begin="00:07:16.080" end="00:07:20.639" style="s2">is going to take you</p>
+<p begin="00:07:17.960" end="00:07:23.599" style="s2">forever. The last thing that we will do</p>
+<p begin="00:07:20.639" end="00:07:24.919" style="s2">is putting a phone number behind this.</p>
+<p begin="00:07:23.599" end="00:07:28.720" style="s2">So click on</p>
+<p begin="00:07:24.919" end="00:07:31.680" style="s2">create here. Uh put any number just a</p>
+<p begin="00:07:28.720" end="00:07:33.759" style="s2">two three-digit number. This is a small</p>
+<p begin="00:07:31.680" end="00:07:36.160" style="s2">hack that you need to go through. And</p>
+<p begin="00:07:33.759" end="00:07:36.759" style="s2">then put one of these suggested numbers.</p>
+<p begin="00:07:36.160" end="00:07:38.520" style="s2">For</p>
+<p begin="00:07:36.759" end="00:07:42.639" style="s2">example,</p>
+<p begin="00:07:38.520" end="00:07:42.639" style="s2">215. and then click on</p>
+<p begin="00:07:42.680" end="00:07:48.000" style="s2">create. Then you get the phone number</p>
+<p begin="00:07:45.280" end="00:07:50.039" style="s2">and then it takes around two minutes in</p>
+<p begin="00:07:48.000" end="00:07:52.240" style="s2">order for this phone number to be</p>
+<p begin="00:07:50.039" end="00:07:55.680" style="s2">activated. Once this phone number is</p>
+<p begin="00:07:52.240" end="00:07:58.120" style="s2">activated then you can actually call</p>
+<p begin="00:07:55.680" end="00:08:00.879" style="s2">this phone number and then this phone</p>
+<p begin="00:07:58.120" end="00:08:03.120" style="s2">number if is associated with that</p>
+<p begin="00:08:00.879" end="00:08:04.840" style="s2">assistant from this dropdown here. This</p>
+<p begin="00:08:03.120" end="00:08:07.520" style="s2">is Samantha that I have</p>
+<p begin="00:08:04.840" end="00:08:09.720" style="s2">created. Then it will this phone number</p>
+<p begin="00:08:07.520" end="00:08:14.800" style="s2">will be routed to</p>
+<p begin="00:08:09.720" end="00:08:16.759" style="s2">Samantha. The actual um amount of work</p>
+<p begin="00:08:14.800" end="00:08:23.400" style="s2">that we have done</p>
+<p begin="00:08:16.759" end="00:08:27.440" style="s2">here in in summary was not only all of</p>
+<p begin="00:08:23.400" end="00:08:31.599" style="s2">that but there is one more element to</p>
+<p begin="00:08:27.440" end="00:08:35.599" style="s2">it. That one more element is that in</p>
+<p begin="00:08:31.599" end="00:08:38.440" style="s2">this case it is not this happening. It&#39;s</p>
+<p begin="00:08:35.599" end="00:08:40.279" style="s2">actually a phone number a</p>
+<p begin="00:08:38.440" end="00:08:43.360" style="s2">Twio</p>
+<p begin="00:08:40.279" end="00:08:48.240" style="s2">integration happening. So basically the</p>
+<p begin="00:08:43.360" end="00:08:50.480" style="s2">user is calling a Twio phone number. Now</p>
+<p begin="00:08:48.240" end="00:08:53.360" style="s2">that our phone number is activated then</p>
+<p begin="00:08:50.480" end="00:08:57.120" style="s2">you will know. And then this entire</p>
+<p begin="00:08:53.360" end="00:08:59.920" style="s2">workflow is done like this.</p>
+<p begin="00:08:57.120" end="00:09:03.600" style="s2">If you&#39;re a developer and you know the</p>
+<p begin="00:08:59.920" end="00:09:05.560" style="s2">amount of work required to put together</p>
+<p begin="00:09:03.600" end="00:09:08.399" style="s2">this much of</p>
+<p begin="00:09:05.560" end="00:09:11.040" style="s2">technology, it&#39;s it needs at least six</p>
+<p begin="00:09:08.399" end="00:09:13.920" style="s2">months of work. But now you have built</p>
+<p begin="00:09:11.040" end="00:09:16.640" style="s2">it literally with a few clicks and</p>
+<p begin="00:09:13.920" end="00:09:19.720" style="s2">therefore I highly recommend that you</p>
+<p begin="00:09:16.640" end="00:09:24.080" style="s2">should always go with off-the-shelf</p>
+<p begin="00:09:19.720" end="00:09:30.480" style="s2">solution and do not uh build this by</p>
+<p begin="00:09:24.080" end="00:09:35.120" style="s2">using the APIs of Twio or the APIs of</p>
+<p begin="00:09:30.480" end="00:09:37.680" style="s2">um any ASR any given ASR like deep or</p>
+<p begin="00:09:35.120" end="00:09:40.720" style="s2">whisper and so on. As a developer,</p>
+<p begin="00:09:37.680" end="00:09:44.640" style="s2">usually we are tend to uh make this</p>
+<p begin="00:09:40.720" end="00:09:46.959" style="s2">mistake. I I&#39;m myself a developer. I</p>
+<p begin="00:09:44.640" end="00:09:50.640" style="s2">I&#39;ve built a lot of systems in the past</p>
+<p begin="00:09:46.959" end="00:09:51.560" style="s2">23 years and most often I want to build</p>
+<p begin="00:09:50.640" end="00:09:54.640" style="s2">things</p>
+<p begin="00:09:51.560" end="00:09:57.360" style="s2">myself. But my entrepreneur side always</p>
+<p begin="00:09:54.640" end="00:09:59.760" style="s2">tells me that what&#39;s the ROI? What&#39;s the</p>
+<p begin="00:09:57.360" end="00:10:02.480" style="s2">return on investment? If you want to</p>
+<p begin="00:09:59.760" end="00:10:04.720" style="s2">build a voice agent that actually works</p>
+<p begin="00:10:02.480" end="00:10:07.120" style="s2">and it works</p>
+<p begin="00:10:04.720" end="00:10:09.839" style="s2">uh pretty much predictively, it has good</p>
+<p begin="00:10:07.120" end="00:10:12.399" style="s2">tracing and it it can be relied on</p>
+<p begin="00:10:09.839" end="00:10:14.480" style="s2">production, then go for a framework and</p>
+<p begin="00:10:12.399" end="00:10:16.959" style="s2">Vapy is one of the best frameworks that</p>
+<p begin="00:10:14.480" end="00:10:16.959" style="s2">is out</p>
+<p begin="00:10:17.320" end="00:10:25.519" style="s2">there. So now that the phone number is</p>
+<p begin="00:10:21.160" end="00:10:27.920" style="s2">created, now let&#39;s go and have it give</p>
+<p begin="00:10:25.519" end="00:10:32.720" style="s2">it a try.</p>
+<p begin="00:10:27.920" end="00:10:32.720" style="s2">I&#39;m going to pick my phone and dial this</p>
+<p begin="00:10:41.640" end="00:10:47.440" style="s2">number. Okay, before I move on, this is</p>
+<p begin="00:10:45.200" end="00:10:48.519" style="s2">very important part because it will</p>
+<p begin="00:10:47.440" end="00:10:51.040" style="s2">otherwise</p>
+<p begin="00:10:48.519" end="00:10:54.720" style="s2">fail. Only the first phone call will</p>
+<p begin="00:10:51.040" end="00:10:56.720" style="s2">work for you. The rest won&#39;t. the next</p>
+<p begin="00:10:54.720" end="00:10:59.040" style="s2">phone call will not work for you because</p>
+<p begin="00:10:56.720" end="00:11:00.880" style="s2">you&#39;re not on a paid subscription.</p>
+<p begin="00:10:59.040" end="00:11:03.959" style="s2">Therefore, you need to be on a paid</p>
+<p begin="00:11:00.880" end="00:11:07.440" style="s2">subscription in order for this to</p>
+<p begin="00:11:03.959" end="00:11:11.839" style="s2">work. So, I&#39;m calling Hi, how are you</p>
+<p begin="00:11:07.440" end="00:11:15.200" style="s2">doing? I&#39;m doing good. How are you?</p>
+<p begin="00:11:11.839" end="00:11:17.760" style="s2">I&#39;m just a bundle of virtual energy. So,</p>
+<p begin="00:11:15.200" end="00:11:20.800" style="s2">that has been done, but it&#39;s just a</p>
+<p begin="00:11:17.760" end="00:11:25.279" style="s2">phone uh number. What you would want to</p>
+<p begin="00:11:20.800" end="00:11:28.240" style="s2">do is save it on your phone as a number,</p>
+<p begin="00:11:25.279" end="00:11:30.880" style="s2">as a given name. And once you have that,</p>
+<p begin="00:11:28.240" end="00:11:34.399" style="s2">then when you are cycling, you&#39;re</p>
+<p begin="00:11:30.880" end="00:11:37.600" style="s2">jogging, you&#39;re in the gym, uh, or</p>
+<p begin="00:11:34.399" end="00:11:41.240" style="s2">you&#39;re washing dishes, you answer can do</p>
+<p begin="00:11:37.600" end="00:11:41.240" style="s2">this. Hey Siri,</p>
+<p begin="00:11:41.519" end="00:11:44.760" style="s2">call Samanta.</p>
+<p begin="00:11:47.440" end="00:11:51.519" style="s2">Hi Amal, how are you doing? I&#39;m doing</p>
+<p begin="00:11:49.279" end="00:11:53.360" style="s2">good. Uh, can you tell me a joke about</p>
+<p begin="00:11:51.519" end="00:11:57.680" style="s2">nothing? All right, I was just making a</p>
+<p begin="00:11:53.360" end="00:12:02.160" style="s2">joke. So, you got now the knowledge that</p>
+<p begin="00:11:57.680" end="00:12:04.560" style="s2">requires to build a voice agent that has</p>
+<p begin="00:12:02.160" end="00:12:08.240" style="s2">an interface with a phone number sits on</p>
+<p begin="00:12:04.560" end="00:12:10.000" style="s2">your phone as a phone number saved as a</p>
+<p begin="00:12:08.240" end="00:12:12.800" style="s2">name. This could be the name of your</p>
+<p begin="00:12:10.000" end="00:12:16.160" style="s2">better one, better half, and you can</p>
+<p begin="00:12:12.800" end="00:12:18.519" style="s2">call him or her and ask things. Uh you</p>
+<p begin="00:12:16.160" end="00:12:21.600" style="s2">can even do voice cloning of their</p>
+<p begin="00:12:18.519" end="00:12:23.279" style="s2">voice. Um and this is just the start of</p>
+<p begin="00:12:21.600" end="00:12:25.680" style="s2">this workshop. The next lectures are</p>
+<p begin="00:12:23.279" end="00:12:28.480" style="s2">going to get even better. See you in the</p>
+<p begin="00:12:25.680" end="00:12:28.480" style="s2">next lecture.</p>
+</div>
+</body>
+</tt>

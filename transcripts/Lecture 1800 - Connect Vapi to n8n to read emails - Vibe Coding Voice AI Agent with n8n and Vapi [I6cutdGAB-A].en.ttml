@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.719" end="00:00:06.240" style="s2">In this lecture, you will learn how to</p>
+<p begin="00:00:02.720" end="00:00:08.960" style="s2">connect Vappy to NAN so that it can read</p>
+<p begin="00:00:06.240" end="00:00:11.080" style="s2">emails and speak it out loud. All right.</p>
+<p begin="00:00:08.960" end="00:00:13.320" style="s2">So, let&#39;s go to</p>
+<p begin="00:00:11.080" end="00:00:16.920" style="s2">Vapy. Go to</p>
+<p begin="00:00:13.320" end="00:00:19.600" style="s2">tools. Create a new new tool. Pick</p>
+<p begin="00:00:16.920" end="00:00:22.240" style="s2">function and then in here call it read</p>
+<p begin="00:00:19.600" end="00:00:22.240" style="s2">my</p>
+<p begin="00:00:23.080" end="00:00:30.240" style="s2">emails. Use this tool to read my emails.</p>
+<p begin="00:00:27.760" end="00:00:33.320" style="s2">And then in the URL part of this, let&#39;s</p>
+<p begin="00:00:30.240" end="00:00:35.239" style="s2">go to the workflow we created in the</p>
+<p begin="00:00:33.320" end="00:00:38.800" style="s2">previous</p>
+<p begin="00:00:35.239" end="00:00:42.079" style="s2">session. Copy that. Paste it here. And</p>
+<p begin="00:00:38.800" end="00:00:45.520" style="s2">we&#39;re pretty much almost set. I saved</p>
+<p begin="00:00:42.079" end="00:00:47.480" style="s2">it. Let&#39;s go to the end assistant we</p>
+<p begin="00:00:45.520" end="00:00:49.399" style="s2">created in the last</p>
+<p begin="00:00:47.480" end="00:00:53.520" style="s2">lecture. We&#39;ll</p>
+<p begin="00:00:49.399" end="00:00:57.360" style="s2">literally pick the uh read my emails</p>
+<p begin="00:00:53.520" end="00:00:58.440" style="s2">tool from here. Publish it.</p>
+<p begin="00:00:57.360" end="00:01:02.079" style="s2">start</p>
+<p begin="00:00:58.440" end="00:01:04.239" style="s2">talking. If you go here.</p>
+<p begin="00:01:02.079" end="00:01:07.840" style="s2">Hey Mo, how are you doing? I&#39;m doing</p>
+<p begin="00:01:04.239" end="00:01:09.000" style="s2">good. Can you read my emails?</p>
+<p begin="00:01:07.840" end="00:01:11.360" style="s2">One</p>
+<p begin="00:01:09.000" end="00:01:14.799" style="s2">moment. It looks like there are no new</p>
+<p begin="00:01:11.360" end="00:01:16.280" style="s2">emails at the moment. If there&#39;s it will</p>
+<p begin="00:01:14.799" end="00:01:22.000" style="s2">let me</p>
+<p begin="00:01:16.280" end="00:01:25.200" style="s2">make stop talking. So it will uh run but</p>
+<p begin="00:01:22.000" end="00:01:26.560" style="s2">this particular uh workflow why did it</p>
+<p begin="00:01:25.200" end="00:01:30.720" style="s2">stop there?</p>
+<p begin="00:01:26.560" end="00:01:32.640" style="s2">This could be an issue with Nathan. We</p>
+<p begin="00:01:30.720" end="00:01:35.119" style="s2">can try it again. It will work, but it</p>
+<p begin="00:01:32.640" end="00:01:40.119" style="s2">will fail in here. And I will explain</p>
+<p begin="00:01:35.119" end="00:01:40.119" style="s2">why it fails. Let&#39;s give it another try.</p>
+<p begin="00:01:41.520" end="00:01:47.040" style="s2">Hi Amal, how are you doing? Good. Can</p>
+<p begin="00:01:44.400" end="00:01:48.280" style="s2">you read my emails?</p>
+<p begin="00:01:47.040" end="00:01:50.640" style="s2">Hold on a</p>
+<p begin="00:01:48.280" end="00:01:52.799" style="s2">sec. It looks like there are no new</p>
+<p begin="00:01:50.640" end="00:01:56.560" style="s2">emails at the moment. If you need help</p>
+<p begin="00:01:52.799" end="00:01:59.200" style="s2">with anything else, feel free to ask.</p>
+<p begin="00:01:56.560" end="00:02:01.600" style="s2">Absolutely. I will do that. Um,</p>
+<p begin="00:01:59.200" end="00:02:05.200" style="s2">meanwhile, can you just keep busy</p>
+<p begin="00:02:01.600" end="00:02:07.600" style="s2">talking about something?</p>
+<p begin="00:02:05.200" end="00:02:09.599" style="s2">Of course. Let&#39;s chat. How about we talk</p>
+<p begin="00:02:07.600" end="00:02:12.640" style="s2">about your favorite hobbies? What do you</p>
+<p begin="00:02:09.599" end="00:02:14.800" style="s2">enjoy doing in your free time?</p>
+<p begin="00:02:12.640" end="00:02:17.760" style="s2">Recording courses. Can you now read my</p>
+<p begin="00:02:14.800" end="00:02:21.319" style="s2">emails, please?</p>
+<p begin="00:02:17.760" end="00:02:21.319" style="s2">Give me a moment.</p>
+<p begin="00:02:21.440" end="00:02:25.440" style="s2">It seems there are still no new emails.</p>
+<p begin="00:02:23.680" end="00:02:26.879" style="s2">Let&#39;s continue our conversation.</p>
+<p begin="00:02:25.440" end="00:02:28.959" style="s2">Wonderful. Have you been working on</p>
+<p begin="00:02:26.879" end="00:02:31.120" style="s2">exactly the failure that I was</p>
+<p begin="00:02:28.959" end="00:02:35.920" style="s2">expecting? So that failure of this</p>
+<p begin="00:02:31.120" end="00:02:39.360" style="s2">blocking here was just a NA10 refresh</p>
+<p begin="00:02:35.920" end="00:02:42.400" style="s2">common problem. So why is it not able to</p>
+<p begin="00:02:39.360" end="00:02:45.599" style="s2">understand the email? If we go to Vappy</p>
+<p begin="00:02:42.400" end="00:02:47.360" style="s2">uh and then we go to observe call logs,</p>
+<p begin="00:02:45.599" end="00:02:48.920" style="s2">you can see our conversation that</p>
+<p begin="00:02:47.360" end="00:02:52.360" style="s2">happened in</p>
+<p begin="00:02:48.920" end="00:02:54.920" style="s2">12:42 12:41. This must be the</p>
+<p begin="00:02:52.360" end="00:02:58.959" style="s2">conversation and then you go to the</p>
+<p begin="00:02:54.920" end="00:03:01.599" style="s2">logs you you see some status update 500s</p>
+<p begin="00:02:58.959" end="00:03:03.599" style="s2">but that doesn&#39;t matter but what matters</p>
+<p begin="00:03:01.599" end="00:03:06.400" style="s2">is that</p>
+<p begin="00:03:03.599" end="00:03:07.800" style="s2">um if you observe the logs everything</p>
+<p begin="00:03:06.400" end="00:03:13.280" style="s2">went</p>
+<p begin="00:03:07.800" end="00:03:14.120" style="s2">fine what actually vap is expecting is a</p>
+<p begin="00:03:13.280" end="00:03:16.720" style="s2">different</p>
+<p begin="00:03:14.120" end="00:03:19.120" style="s2">payload it&#39;s not expecting a payload</p>
+<p begin="00:03:16.720" end="00:03:20.959" style="s2">that we are sending to it we are</p>
+<p begin="00:03:19.120" end="00:03:23.440" style="s2">basically sending back this kind have a</p>
+<p begin="00:03:20.959" end="00:03:25.280" style="s2">payload output with a message and</p>
+<p begin="00:03:23.440" end="00:03:27.120" style="s2">instead of that we have to send a</p>
+<p begin="00:03:25.280" end="00:03:30.720" style="s2">different type of a payload. So click</p>
+<p begin="00:03:27.120" end="00:03:33.940" style="s2">JSON from this respond to web hook and</p>
+<p begin="00:03:30.720" end="00:03:35.159" style="s2">then I will quickly copy paste it from</p>
+<p begin="00:03:33.940" end="00:03:39.840" style="s2">[Music]</p>
+<p begin="00:03:35.159" end="00:03:42.720" style="s2">here. The response JSON must be of this</p>
+<p begin="00:03:39.840" end="00:03:45.159" style="s2">type results array object. This tool</p>
+<p begin="00:03:42.720" end="00:03:48.400" style="s2">called what does this tool call? This is</p>
+<p begin="00:03:45.159" end="00:03:52.239" style="s2">basically when Vappy calls this web</p>
+<p begin="00:03:48.400" end="00:03:55.120" style="s2">hook, it sends some payload. That</p>
+<p begin="00:03:52.239" end="00:03:58.000" style="s2">payload is here. This tool call zero and</p>
+<p begin="00:03:55.120" end="00:04:00.720" style="s2">then this call ID. This call ID is a</p>
+<p begin="00:03:58.000" end="00:04:03.519" style="s2">very important information because then</p>
+<p begin="00:04:00.720" end="00:04:07.480" style="s2">it knows what is what is it doing with</p>
+<p begin="00:04:03.519" end="00:04:11.159" style="s2">that. So let&#39;s get that one sorted out</p>
+<p begin="00:04:07.480" end="00:04:13.920" style="s2">here. We can remove this old</p>
+<p begin="00:04:11.159" end="00:04:16.639" style="s2">one. And now you can see that the call</p>
+<p begin="00:04:13.920" end="00:04:18.959" style="s2">ID is going there. And then this message</p>
+<p begin="00:04:16.639" end="00:04:22.479" style="s2">would be the message that we will get</p>
+<p begin="00:04:18.959" end="00:04:25.919" style="s2">from our AI agent. Let me just drag and</p>
+<p begin="00:04:22.479" end="00:04:27.080" style="s2">drop it here. And then basically we</p>
+<p begin="00:04:25.919" end="00:04:28.680" style="s2">created</p>
+<p begin="00:04:27.080" end="00:04:32.880" style="s2">ourselves</p>
+<p begin="00:04:28.680" end="00:04:37.120" style="s2">a a response that Vappy will understand.</p>
+<p begin="00:04:32.880" end="00:04:40.520" style="s2">So let&#39;s save it, run it, give Vappy</p>
+<p begin="00:04:37.120" end="00:04:40.520" style="s2">another try.</p>
+<p begin="00:04:46.240" end="00:04:51.360" style="s2">Mo, how are you doing? I&#39;m doing good.</p>
+<p begin="00:04:48.400" end="00:04:54.000" style="s2">Can you please read my emails?</p>
+<p begin="00:04:51.360" end="00:04:54.000" style="s2">Hold on a</p>
+<p begin="00:04:54.280" end="00:05:01.440" style="s2">sec. You have received two emails from I</p>
+<p begin="00:04:57.520" end="00:05:06.000" style="s2">will say one title test email title test</p>
+<p begin="00:05:01.440" end="00:05:09.199" style="s2">email body two test email two. Okay. So</p>
+<p begin="00:05:06.000" end="00:05:10.800" style="s2">you it just keeps reading the email for</p>
+<p begin="00:05:09.199" end="00:05:13.039" style="s2">you and then you can interrupt it and</p>
+<p begin="00:05:10.800" end="00:05:17.600" style="s2">then you can create more workflows</p>
+<p begin="00:05:13.039" end="00:05:20.479" style="s2">around this to tag it to move it to a</p>
+<p begin="00:05:17.600" end="00:05:25.840" style="s2">folder. All the API calls that you can</p>
+<p begin="00:05:20.479" end="00:05:28.280" style="s2">basically get from Gmail uh APIs. Uh</p>
+<p begin="00:05:25.840" end="00:05:32.160" style="s2">it&#39;s it&#39;s possible you can do that with</p>
+<p begin="00:05:28.280" end="00:05:35.039" style="s2">Vappy. This was the last lecture of part</p>
+<p begin="00:05:32.160" end="00:05:36.960" style="s2">two. In part three, we&#39;re going to start</p>
+<p begin="00:05:35.039" end="00:05:40.160" style="s2">vibe cutting and we will add a little</p>
+<p begin="00:05:36.960" end="00:05:43.280" style="s2">bit more to this awesome tutorial so</p>
+<p begin="00:05:40.160" end="00:05:45.680" style="s2">that you are equipped 100% by building a</p>
+<p begin="00:05:43.280" end="00:05:49.120" style="s2">voice agent that has access to your</p>
+<p begin="00:05:45.680" end="00:05:51.919" style="s2">Gmail inbox. But most importantly, this</p>
+<p begin="00:05:49.120" end="00:05:55.280" style="s2">tutorial series should give you a very</p>
+<p begin="00:05:51.919" end="00:05:59.680" style="s2">good idea of what is NATO, what is VP,</p>
+<p begin="00:05:55.280" end="00:06:02.479" style="s2">what is VIP coding, and give you a spark</p>
+<p begin="00:05:59.680" end="00:06:05.840" style="s2">of things that can be done without</p>
+<p begin="00:06:02.479" end="00:06:08.560" style="s2">knowing coding. And I think you&#39;ll build</p>
+<p begin="00:06:05.840" end="00:06:11.919" style="s2">an awesome tool. Please tag me on</p>
+<p begin="00:06:08.560" end="00:06:14.000" style="s2">LinkedIn when you build your tool. I&#39;d</p>
+<p begin="00:06:11.919" end="00:06:16.080" style="s2">love to see what you&#39;re building. And</p>
+<p begin="00:06:14.000" end="00:06:18.479" style="s2">don&#39;t forget to subscribe, leave a</p>
+<p begin="00:06:16.080" end="00:06:20.720" style="s2">comment, share this with your friends</p>
+<p begin="00:06:18.479" end="00:06:23.120" style="s2">and so on. That keeps me motivated and</p>
+<p begin="00:06:20.720" end="00:06:25.440" style="s2">that way I can keep producing more</p>
+<p begin="00:06:23.120" end="00:06:28.560" style="s2">content like this. Thank you and see you</p>
+<p begin="00:06:25.440" end="00:06:28.560" style="s2">in the next section.</p>
+</div>
+</body>
+</tt>

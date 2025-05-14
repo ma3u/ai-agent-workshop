@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.280" end="00:00:05.200" style="s2">In this lecture, we&#39;ll look at a few</p>
+<p begin="00:00:03.439" end="00:00:06.960" style="s2">core concepts that you should be</p>
+<p begin="00:00:05.200" end="00:00:09.320" style="s2">familiar with when you are building</p>
+<p begin="00:00:06.960" end="00:00:13.480" style="s2">voice AI agents. Basically, the terms</p>
+<p begin="00:00:09.320" end="00:00:17.080" style="s2">are, as you can see on the screen, an</p>
+<p begin="00:00:13.480" end="00:00:19.279" style="s2">VAD that stands for voice activity</p>
+<p begin="00:00:17.080" end="00:00:22.160" style="s2">detection. This is basically the piece</p>
+<p begin="00:00:19.279" end="00:00:24.720" style="s2">of software that runs that tells you</p>
+<p begin="00:00:22.160" end="00:00:28.240" style="s2">that okay, this is now a human speech.</p>
+<p begin="00:00:24.720" end="00:00:30.160" style="s2">Now, the human speech stopped. Then, do</p>
+<p begin="00:00:28.240" end="00:00:34.559" style="s2">I do something?</p>
+<p begin="00:00:30.160" end="00:00:38.239" style="s2">E OU stands for end of utterance</p>
+<p begin="00:00:34.559" end="00:00:41.000" style="s2">detection or end of utterance. And what</p>
+<p begin="00:00:38.239" end="00:00:43.360" style="s2">this piece of software does is it</p>
+<p begin="00:00:41.000" end="00:00:45.719" style="s2">understands whether or not the human</p>
+<p begin="00:00:43.360" end="00:00:49.039" style="s2">stop or or finish a</p>
+<p begin="00:00:45.719" end="00:00:51.320" style="s2">sentence because not every single pause</p>
+<p begin="00:00:49.039" end="00:00:54.320" style="s2">will finish your sentence. Therefore,</p>
+<p begin="00:00:51.320" end="00:00:57.360" style="s2">EOU is a component that you would want</p>
+<p begin="00:00:54.320" end="00:01:00.160" style="s2">to have in your system. Then there is</p>
+<p begin="00:00:57.360" end="00:01:04.879" style="s2">ASR uh automatic speech recognition.</p>
+<p begin="00:01:00.160" end="00:01:08.000" style="s2">It&#39;s also known as speechtoext ST. But</p>
+<p begin="00:01:04.879" end="00:01:12.799" style="s2">since ST and TTS are so close together,</p>
+<p begin="00:01:08.000" end="00:01:17.600" style="s2">I go with ASR and TTS. Um I don&#39;t use</p>
+<p begin="00:01:12.799" end="00:01:18.840" style="s2">the ST version of ASR. They both mean</p>
+<p begin="00:01:17.600" end="00:01:22.720" style="s2">the same</p>
+<p begin="00:01:18.840" end="00:01:26.960" style="s2">thing. What&#39;s a TTS? A TTS is text to</p>
+<p begin="00:01:22.720" end="00:01:29.200" style="s2">speech. Basically, you give some text to</p>
+<p begin="00:01:26.960" end="00:01:32.159" style="s2">it and then that piece of software turns</p>
+<p begin="00:01:29.200" end="00:01:35.119" style="s2">that text into a speaking voice. And</p>
+<p begin="00:01:32.159" end="00:01:37.360" style="s2">finally, LM large language model, you</p>
+<p begin="00:01:35.119" end="00:01:39.600" style="s2">know everything about that. So, let&#39;s</p>
+<p begin="00:01:37.360" end="00:01:41.920" style="s2">jump on a little bit of a whiteboarding</p>
+<p begin="00:01:39.600" end="00:01:44.960" style="s2">session to kind of like understand these</p>
+<p begin="00:01:41.920" end="00:01:47.439" style="s2">concepts. that before we move on to do</p>
+<p begin="00:01:44.960" end="00:01:50.079" style="s2">that uh I would like to quickly review</p>
+<p begin="00:01:47.439" end="00:01:52.360" style="s2">and put a check mark here that we have</p>
+<p begin="00:01:50.079" end="00:01:55.439" style="s2">done uh quite a bit of</p>
+<p begin="00:01:52.360" end="00:01:58.240" style="s2">introduction and we touched what is an</p>
+<p begin="00:01:55.439" end="00:02:00.240" style="s2">AI agent what&#39;s EU AI act and what</p>
+<p begin="00:01:58.240" end="00:02:03.520" style="s2">frameworks do we have and we are</p>
+<p begin="00:02:00.240" end="00:02:06.399" style="s2">currently looking at these concepts so</p>
+<p begin="00:02:03.520" end="00:02:09.440" style="s2">in here I&#39;m going to explain um every</p>
+<p begin="00:02:06.399" end="00:02:13.040" style="s2">single one of these as I go on so that</p>
+<p begin="00:02:09.440" end="00:02:15.680" style="s2">it&#39;s more u interactive</p>
+<p begin="00:02:13.040" end="00:02:19.920" style="s2">So the very first concept we need to</p>
+<p begin="00:02:15.680" end="00:02:25.560" style="s2">look at is VAD voice activity detection</p>
+<p begin="00:02:19.920" end="00:02:29.160" style="s2">and then we&#39;ll have a look at what is</p>
+<p begin="00:02:25.560" end="00:02:32.760" style="s2">EOU end of utterance detection or end of</p>
+<p begin="00:02:29.160" end="00:02:35.959" style="s2">utterance and then what does ASR</p>
+<p begin="00:02:32.760" end="00:02:41.959" style="s2">do what does TTS</p>
+<p begin="00:02:35.959" end="00:02:46.319" style="s2">do and where does the LLM stands in</p>
+<p begin="00:02:41.959" end="00:02:48.160" style="s2">here. Now, when you build a voice agent,</p>
+<p begin="00:02:46.319" end="00:02:52.120" style="s2">you need these components. For some</p>
+<p begin="00:02:48.160" end="00:02:56.120" style="s2">reason, you will end up uh doing</p>
+<p begin="00:02:52.120" end="00:02:59.760" style="s2">this in a very detailed manner that we</p>
+<p begin="00:02:56.120" end="00:03:01.080" style="s2">did. Uh or you end up picking the right</p>
+<p begin="00:02:59.760" end="00:03:04.400" style="s2">tools and then</p>
+<p begin="00:03:01.080" end="00:03:05.840" style="s2">you build something that works most of</p>
+<p begin="00:03:04.400" end="00:03:08.000" style="s2">the time.</p>
+<p begin="00:03:05.840" end="00:03:12.959" style="s2">Let&#39;s imagine we have this uh cool</p>
+<p begin="00:03:08.000" end="00:03:12.959" style="s2">person in here talking to our voice AI</p>
+<p begin="00:03:13.879" end="00:03:21.120" style="s2">agent. And when this cool person starts</p>
+<p begin="00:03:18.599" end="00:03:25.040" style="s2">talking, there are a few things going</p>
+<p begin="00:03:21.120" end="00:03:28.480" style="s2">on. Let&#39;s keep the E O U and V A D in</p>
+<p begin="00:03:25.040" end="00:03:32.799" style="s2">here in the center. Let&#39;s put the TTS in</p>
+<p begin="00:03:28.480" end="00:03:34.239" style="s2">here, the LLM here, and back the TTS in</p>
+<p begin="00:03:32.799" end="00:03:36.560" style="s2">here.</p>
+<p begin="00:03:34.239" end="00:03:39.840" style="s2">So when the cool person starts talking</p>
+<p begin="00:03:36.560" end="00:03:43.200" style="s2">to the microphone and ASR takes over it</p>
+<p begin="00:03:39.840" end="00:03:45.799" style="s2">basically does one thing transcribing</p>
+<p begin="00:03:43.200" end="00:03:50.519" style="s2">and then that that transcription is sent</p>
+<p begin="00:03:45.799" end="00:03:52.920" style="s2">to an LLM for what for basically</p>
+<p begin="00:03:50.519" end="00:03:56.239" style="s2">understanding that what is that text</p>
+<p begin="00:03:52.920" end="00:03:59.439" style="s2">about and then LLM responds with some</p>
+<p begin="00:03:56.239" end="00:04:01.480" style="s2">sort of a text answer basically the LLM</p>
+<p begin="00:03:59.439" end="00:04:04.799" style="s2">answer as you can see from chat</p>
+<p begin="00:04:01.480" end="00:04:07.439" style="s2">GPT it&#39;s always a text. So, it&#39;s a text</p>
+<p begin="00:04:04.799" end="00:04:11.840" style="s2">answer coming back to this TTS, text to</p>
+<p begin="00:04:07.439" end="00:04:15.680" style="s2">speech. And that TTS takes the text,</p>
+<p begin="00:04:11.840" end="00:04:20.479" style="s2">turns it into a sound, and then that</p>
+<p begin="00:04:15.680" end="00:04:22.639" style="s2">sound is played back um to the user&#39;s</p>
+<p begin="00:04:20.479" end="00:04:25.040" style="s2">loudspeaker. So, that&#39;s how the entire</p>
+<p begin="00:04:22.639" end="00:04:28.560" style="s2">cycle works. What are these two</p>
+<p begin="00:04:25.040" end="00:04:32.080" style="s2">components doing in here? They closely</p>
+<p begin="00:04:28.560" end="00:04:34.600" style="s2">work. Maybe I can put them together</p>
+<p begin="00:04:32.080" end="00:04:38.560" style="s2">because they are actually</p>
+<p begin="00:04:34.600" end="00:04:42.960" style="s2">two little um pieces of software that</p>
+<p begin="00:04:38.560" end="00:04:45.280" style="s2">they go together and actually they are a</p>
+<p begin="00:04:42.960" end="00:04:47.199" style="s2">part of the transcription like literally</p>
+<p begin="00:04:45.280" end="00:04:49.800" style="s2">a part that goes before this</p>
+<p begin="00:04:47.199" end="00:04:53.199" style="s2">transcription is kicked in.</p>
+<p begin="00:04:49.800" end="00:04:55.320" style="s2">So this piece of software is running</p>
+<p begin="00:04:53.199" end="00:04:59.360" style="s2">between the user&#39;s</p>
+<p begin="00:04:55.320" end="00:05:01.360" style="s2">microphone and the moment that it</p>
+<p begin="00:04:59.360" end="00:05:05.160" style="s2">detects that okay this is the time that</p>
+<p begin="00:05:01.360" end="00:05:10.160" style="s2">I&#39;m going to go and talk to the</p>
+<p begin="00:05:05.160" end="00:05:12.160" style="s2">ASR is that uh voice activity detection</p>
+<p begin="00:05:10.160" end="00:05:14.000" style="s2">and end of utterance detection</p>
+<p begin="00:05:12.160" end="00:05:17.160" style="s2">algorithms working together and then</p>
+<p begin="00:05:14.000" end="00:05:19.840" style="s2">goes on and then gives the text</p>
+<p begin="00:05:17.160" end="00:05:23.280" style="s2">to the automat automatic speech</p>
+<p begin="00:05:19.840" end="00:05:25.440" style="s2">recognition and then that text is sent</p>
+<p begin="00:05:23.280" end="00:05:27.360" style="s2">back to the LLM. The answer comes back</p>
+<p begin="00:05:25.440" end="00:05:30.039" style="s2">and so on. It&#39;s a very simplified</p>
+<p begin="00:05:27.360" end="00:05:32.120" style="s2">diagram of what&#39;s happening under the</p>
+<p begin="00:05:30.039" end="00:05:34.639" style="s2">hood. But</p>
+<p begin="00:05:32.120" end="00:05:38.160" style="s2">actually this is very very important</p>
+<p begin="00:05:34.639" end="00:05:42.080" style="s2">part. Why? Because in my startup when I</p>
+<p begin="00:05:38.160" end="00:05:45.520" style="s2">was running uh this voice AI company</p>
+<p begin="00:05:42.080" end="00:05:47.680" style="s2">uh we were using all sorts of techniques</p>
+<p begin="00:05:45.520" end="00:05:50.680" style="s2">in order to reduce the latency. In the</p>
+<p begin="00:05:47.680" end="00:05:54.080" style="s2">start we had 9 seconds</p>
+<p begin="00:05:50.680" end="00:05:56.160" style="s2">latency. So I would say hey voice kit</p>
+<p begin="00:05:54.080" end="00:05:58.880" style="s2">and then after 9 seconds this entire</p>
+<p begin="00:05:56.160" end="00:06:01.680" style="s2">loop would happen and then I would hear</p>
+<p begin="00:05:58.880" end="00:06:04.960" style="s2">yes what can I do for you?</p>
+<p begin="00:06:01.680" end="00:06:08.080" style="s2">At the end we did a lot of experiments</p>
+<p begin="00:06:04.960" end="00:06:11.039" style="s2">and the result of one of our R&amp;Ds was</p>
+<p begin="00:06:08.080" end="00:06:13.840" style="s2">that we reduced it to 500 milliseconds</p>
+<p begin="00:06:11.039" end="00:06:16.800" style="s2">only because we knew how to and when to</p>
+<p begin="00:06:13.840" end="00:06:19.440" style="s2">start the entire process because not</p>
+<p begin="00:06:16.800" end="00:06:22.240" style="s2">always if somebody pauses for a few</p>
+<p begin="00:06:19.440" end="00:06:25.280" style="s2">seconds that means that they are done</p>
+<p begin="00:06:22.240" end="00:06:27.840" style="s2">they are finished talking. Some pauses</p>
+<p begin="00:06:25.280" end="00:06:29.680" style="s2">are just for thinking but if you think</p>
+<p begin="00:06:27.840" end="00:06:31.759" style="s2">about the entire sentence then you know</p>
+<p begin="00:06:29.680" end="00:06:34.080" style="s2">the entire sentence then you know that</p>
+<p begin="00:06:31.759" end="00:06:36.800" style="s2">okay this sentence is not complete there</p>
+<p begin="00:06:34.080" end="00:06:39.680" style="s2">is more information coming to it we as</p>
+<p begin="00:06:36.800" end="00:06:41.840" style="s2">human brains we have that capacity it is</p>
+<p begin="00:06:39.680" end="00:06:44.479" style="s2">going super fast but in this diagram</p>
+<p begin="00:06:41.840" end="00:06:47.639" style="s2">that I showed it&#39;s so mechanical it</p>
+<p begin="00:06:44.479" end="00:06:50.560" style="s2">keeps going on if there is just a 500</p>
+<p begin="00:06:47.639" end="00:06:54.560" style="s2">milliseconds no speech detected and then</p>
+<p begin="00:06:50.560" end="00:06:56.800" style="s2">you trigger this then your ASR TTS cycle</p>
+<p begin="00:06:54.560" end="00:06:59.440" style="s2">will not work very well and the</p>
+<p begin="00:06:56.800" end="00:07:03.360" style="s2">conversation with your voice AI agent</p>
+<p begin="00:06:59.440" end="00:07:04.680" style="s2">will look so bad it will speak over you</p>
+<p begin="00:07:03.360" end="00:07:08.400" style="s2">multiple</p>
+<p begin="00:07:04.680" end="00:07:11.039" style="s2">times. What we have done in my startup</p>
+<p begin="00:07:08.400" end="00:07:13.520" style="s2">um is really complex. It we did a lot of</p>
+<p begin="00:07:11.039" end="00:07:15.680" style="s2">parallel processing and so on and it was</p>
+<p begin="00:07:13.520" end="00:07:18.319" style="s2">also to only 23. We didn&#39;t have a lot of</p>
+<p begin="00:07:15.680" end="00:07:20.000" style="s2">tooling around it. Now it&#39;s much easier.</p>
+<p begin="00:07:18.319" end="00:07:23.199" style="s2">In this workshop, we&#39;re going to use</p>
+<p begin="00:07:20.000" end="00:07:25.280" style="s2">Vappy and all of that is covered off the</p>
+<p begin="00:07:23.199" end="00:07:28.080" style="s2">shelf. So, let&#39;s go on to the next</p>
+<p begin="00:07:25.280" end="00:07:28.080" style="s2">lecture.</p>
+</div>
+</body>
+</tt>

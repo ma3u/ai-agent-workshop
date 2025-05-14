@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.719" end="00:00:05.920" style="s2">In this lecture of the series where I&#39;ll</p>
+<p begin="00:00:03.280" end="00:00:09.519" style="s2">show you how to build a voice agent that</p>
+<p begin="00:00:05.920" end="00:00:13.440" style="s2">has access to your Gmail inbox, I&#39;ll</p>
+<p begin="00:00:09.519" end="00:00:15.000" style="s2">show you the N810 AI agent and explain a</p>
+<p begin="00:00:13.440" end="00:00:19.359" style="s2">few</p>
+<p begin="00:00:15.000" end="00:00:20.960" style="s2">more anottomy uh structure of the nodes</p>
+<p begin="00:00:19.359" end="00:00:23.039" style="s2">uh what&#39;s an input, what&#39;s the</p>
+<p begin="00:00:20.960" end="00:00:25.519" style="s2">properties and what&#39;s the output and how</p>
+<p begin="00:00:23.039" end="00:00:29.320" style="s2">the workflows work together. So let&#39;s</p>
+<p begin="00:00:25.519" end="00:00:32.239" style="s2">start doing that. I will go back to my</p>
+<p begin="00:00:29.320" end="00:00:34.480" style="s2">workflow that we had from previous. I&#39;ll</p>
+<p begin="00:00:32.239" end="00:00:38.640" style="s2">just save it as it is. Maybe we&#39;ll need</p>
+<p begin="00:00:34.480" end="00:00:42.000" style="s2">to come back. I&#39;ll create a new one. So</p>
+<p begin="00:00:38.640" end="00:00:44.960" style="s2">before we carry on with the AI agent, I</p>
+<p begin="00:00:42.000" end="00:00:47.120" style="s2">would like to mention that a workflow,</p>
+<p begin="00:00:44.960" end="00:00:49.280" style="s2">as we mentioned before, can be</p>
+<p begin="00:00:47.120" end="00:00:51.200" style="s2">triggered. And that trigger can be a</p>
+<p begin="00:00:49.280" end="00:00:53.160" style="s2">bunch of different things, click, chat,</p>
+<p begin="00:00:51.200" end="00:00:55.920" style="s2">and so</p>
+<p begin="00:00:53.160" end="00:00:58.719" style="s2">on. For now, let&#39;s keep that chat</p>
+<p begin="00:00:55.920" end="00:01:01.280" style="s2">trigger. um which is interactive. It&#39;s</p>
+<p begin="00:00:58.719" end="00:01:03.840" style="s2">nice. You can see the window of the chat</p>
+<p begin="00:01:01.280" end="00:01:07.200" style="s2">is different. It has like a property</p>
+<p begin="00:01:03.840" end="00:01:11.280" style="s2">window here and then the out output. But</p>
+<p begin="00:01:07.200" end="00:01:11.280" style="s2">when I added AI</p>
+<p begin="00:01:11.320" end="00:01:20.560" style="s2">agent, AI agent is</p>
+<p begin="00:01:14.280" end="00:01:24.640" style="s2">a commonly used um node. This has a</p>
+<p begin="00:01:20.560" end="00:01:27.920" style="s2">different anottomy. It has an input.</p>
+<p begin="00:01:24.640" end="00:01:29.680" style="s2">It has a so-called property that you can</p>
+<p begin="00:01:27.920" end="00:01:32.280" style="s2">drag and drop it like this so that you</p>
+<p begin="00:01:29.680" end="00:01:35.640" style="s2">can make more space for input or</p>
+<p begin="00:01:32.280" end="00:01:38.479" style="s2">output. And you can also resize it like</p>
+<p begin="00:01:35.640" end="00:01:41.040" style="s2">this. And you have an output. What does</p>
+<p begin="00:01:38.479" end="00:01:44.240" style="s2">it do? And in all these buttons that you</p>
+<p begin="00:01:41.040" end="00:01:46.399" style="s2">can use in order to add a chat model, a</p>
+<p begin="00:01:44.240" end="00:01:49.200" style="s2">memory, and a tool, which we haven&#39;t</p>
+<p begin="00:01:46.399" end="00:01:51.600" style="s2">touched the tool yet. Let&#39;s add our chat</p>
+<p begin="00:01:49.200" end="00:01:53.159" style="s2">model like before.</p>
+<p begin="00:01:51.600" end="00:01:58.040" style="s2">uh press</p>
+<p begin="00:01:53.159" end="00:02:01.759" style="s2">escape and create our memory. Simple</p>
+<p begin="00:01:58.040" end="00:02:05.159" style="s2">memory. Now, if I go back here, I&#39;ll see</p>
+<p begin="00:02:01.759" end="00:02:09.360" style="s2">that these icons from the plus turn into</p>
+<p begin="00:02:05.159" end="00:02:12.560" style="s2">those little icons that represents what</p>
+<p begin="00:02:09.360" end="00:02:15.440" style="s2">is in the chat model. If I click it, it</p>
+<p begin="00:02:12.560" end="00:02:17.400" style="s2">jumps back in that particular one. I&#39;m</p>
+<p begin="00:02:15.440" end="00:02:21.120" style="s2">going to say just</p>
+<p begin="00:02:17.400" end="00:02:23.239" style="s2">hi. Uh I I&#39;ll just say hi. That&#39;s it. So</p>
+<p begin="00:02:21.120" end="00:02:26.720" style="s2">that we can execute this and then</p>
+<p begin="00:02:23.239" end="00:02:31.160" style="s2">we&#39;ll see every step one at a time. If I</p>
+<p begin="00:02:26.720" end="00:02:36.319" style="s2">click here now I see something. I see an</p>
+<p begin="00:02:31.160" end="00:02:40.519" style="s2">output and this same thing happens here.</p>
+<p begin="00:02:36.319" end="00:02:44.720" style="s2">But in this case the output of the</p>
+<p begin="00:02:40.519" end="00:02:47.480" style="s2">previous node is the input of this node.</p>
+<p begin="00:02:44.720" end="00:02:51.120" style="s2">So you can see that this input says</p>
+<p begin="00:02:47.480" end="00:02:54.000" style="s2">hi which was an output for this and the</p>
+<p begin="00:02:51.120" end="00:02:56.200" style="s2">output of this it says hi and the input</p>
+<p begin="00:02:54.000" end="00:02:59.560" style="s2">of this one it says</p>
+<p begin="00:02:56.200" end="00:03:03.599" style="s2">hi nice and then what&#39;s the output of</p>
+<p begin="00:02:59.560" end="00:03:07.040" style="s2">this of the properties the output says</p>
+<p begin="00:03:03.599" end="00:03:10.080" style="s2">hello how can I assist you so the output</p>
+<p begin="00:03:07.040" end="00:03:12.400" style="s2">of this particular chat model is a</p>
+<p begin="00:03:10.080" end="00:03:15.560" style="s2">string that goes back to this chat model</p>
+<p begin="00:03:12.400" end="00:03:19.280" style="s2">this this chat little</p>
+<p begin="00:03:15.560" end="00:03:20.560" style="s2">box and so is the case with uh memory</p>
+<p begin="00:03:19.280" end="00:03:22.239" style="s2">and so on. It gets a little bit</p>
+<p begin="00:03:20.560" end="00:03:23.000" style="s2">complicated. So I&#39;m going to just zoom</p>
+<p begin="00:03:22.239" end="00:03:28.080" style="s2">out</p>
+<p begin="00:03:23.000" end="00:03:31.760" style="s2">and leave it as it is. Um and go on and</p>
+<p begin="00:03:28.080" end="00:03:34.560" style="s2">explain a few things uh in this area. So</p>
+<p begin="00:03:31.760" end="00:03:38.200" style="s2">you can see the input output uh in</p>
+<p begin="00:03:34.560" end="00:03:41.680" style="s2">different ways in schema, table or</p>
+<p begin="00:03:38.200" end="00:03:46.120" style="s2">JSON. Most often the schema should work.</p>
+<p begin="00:03:41.680" end="00:03:50.480" style="s2">And then you see this thing called</p>
+<p begin="00:03:46.120" end="00:03:53.080" style="s2">uh source for prompt. Is it connected</p>
+<p begin="00:03:50.480" end="00:03:55.920" style="s2">based on the chat trigger or define</p>
+<p begin="00:03:53.080" end="00:03:58.439" style="s2">below? For example, if I want to build a</p>
+<p begin="00:03:55.920" end="00:04:03.480" style="s2">summarizer, I can say this</p>
+<p begin="00:03:58.439" end="00:04:06.599" style="s2">um can you please summarize the</p>
+<p begin="00:04:03.480" end="00:04:09.200" style="s2">following and then click on</p>
+<p begin="00:04:06.599" end="00:04:12.400" style="s2">expression. That means now you can type</p>
+<p begin="00:04:09.200" end="00:04:15.439" style="s2">an expression here and then you can drag</p>
+<p begin="00:04:12.400" end="00:04:18.000" style="s2">and drop this right here. Whatever the</p>
+<p begin="00:04:15.439" end="00:04:20.639" style="s2">user asked you can drag and drop it and</p>
+<p begin="00:04:18.000" end="00:04:24.080" style="s2">then the user&#39;s</p>
+<p begin="00:04:20.639" end="00:04:26.720" style="s2">uh chat will be um summarized there.</p>
+<p begin="00:04:24.080" end="00:04:30.000" style="s2">Sometimes this doesn&#39;t work. It could be</p>
+<p begin="00:04:26.720" end="00:04:32.960" style="s2">a bug in NA10. Then you can type, you</p>
+<p begin="00:04:30.000" end="00:04:36.720" style="s2">can see here, you can type these curly</p>
+<p begin="00:04:32.960" end="00:04:40.880" style="s2">brackets and then it will open</p>
+<p begin="00:04:36.720" end="00:04:45.360" style="s2">uh the entire chat for you. Then you can</p>
+<p begin="00:04:40.880" end="00:04:49.120" style="s2">type this and then click on dots and</p>
+<p begin="00:04:45.360" end="00:04:51.440" style="s2">then you can see certain keys here,</p>
+<p begin="00:04:49.120" end="00:04:55.639" style="s2">certain fields here, these fields that</p>
+<p begin="00:04:51.440" end="00:04:59.759" style="s2">are also there. So if you click on chat</p>
+<p begin="00:04:55.639" end="00:05:02.639" style="s2">input now you see hi in here and if you</p>
+<p begin="00:04:59.759" end="00:05:04.720" style="s2">click on test step it will try to</p>
+<p begin="00:05:02.639" end="00:05:06.880" style="s2">summarize I but I don&#39;t know summarizing</p>
+<p begin="00:05:04.720" end="00:05:08.720" style="s2">I what would be it seems like you want</p>
+<p begin="00:05:06.880" end="00:05:11.560" style="s2">to summarize something yeah it&#39;s not</p>
+<p begin="00:05:08.720" end="00:05:14.320" style="s2">right we&#39;ll we&#39;ll go and find out</p>
+<p begin="00:05:11.560" end="00:05:16.080" style="s2">something okay so we have this in the</p>
+<p begin="00:05:14.320" end="00:05:17.080" style="s2">prompt we need to send something that</p>
+<p begin="00:05:16.080" end="00:05:19.560" style="s2">needs to be</p>
+<p begin="00:05:17.080" end="00:05:22.600" style="s2">summarized I&#39;m going to go</p>
+<p begin="00:05:19.560" end="00:05:26.880" style="s2">to my excali</p>
+<p begin="00:05:22.600" end="00:05:30.840" style="s2">draw get the entire lecture come here</p>
+<p begin="00:05:26.880" end="00:05:33.479" style="s2">paste it send it let&#39;s see what happens</p>
+<p begin="00:05:30.840" end="00:05:36.680" style="s2">so I should get</p>
+<p begin="00:05:33.479" end="00:05:39.600" style="s2">back a summary of that there we</p>
+<p begin="00:05:36.680" end="00:05:43.479" style="s2">go now I get a summary of that the</p>
+<p begin="00:05:39.600" end="00:05:45.919" style="s2">course outline and so on and so forth so</p>
+<p begin="00:05:43.479" end="00:05:48.800" style="s2">basically what you can do with this kind</p>
+<p begin="00:05:45.919" end="00:05:51.759" style="s2">of a technology is that this chat AI</p>
+<p begin="00:05:48.800" end="00:05:54.240" style="s2">agent has three components a chat model</p>
+<p begin="00:05:51.759" end="00:05:57.199" style="s2">that you attach to it a memory that it</p>
+<p begin="00:05:54.240" end="00:05:58.479" style="s2">remembers things. For example, now I ask</p>
+<p begin="00:05:57.199" end="00:06:00.240" style="s2">something else. Right now it is</p>
+<p begin="00:05:58.479" end="00:06:02.160" style="s2">configured in a way that every time I</p>
+<p begin="00:06:00.240" end="00:06:04.039" style="s2">ask something, it goes and summarizes</p>
+<p begin="00:06:02.160" end="00:06:07.759" style="s2">it. I just want</p>
+<p begin="00:06:04.039" end="00:06:10.479" style="s2">to create this so that in the scenario</p>
+<p begin="00:06:07.759" end="00:06:13.280" style="s2">so that I can explain something but I</p>
+<p begin="00:06:10.479" end="00:06:17.680" style="s2">will um you will see and connect the</p>
+<p begin="00:06:13.280" end="00:06:20.160" style="s2">dots once you see the next lectures.</p>
+<p begin="00:06:17.680" end="00:06:22.800" style="s2">And the output part of this can be shown</p>
+<p begin="00:06:20.160" end="00:06:25.680" style="s2">as a table or as a schema or as a JSON</p>
+<p begin="00:06:22.800" end="00:06:29.280" style="s2">as you have seen. And the output of this</p>
+<p begin="00:06:25.680" end="00:06:32.160" style="s2">can be the input of the next node. Like</p>
+<p begin="00:06:29.280" end="00:06:35.639" style="s2">literally you can have a lot of nodes.</p>
+<p begin="00:06:32.160" end="00:06:39.680" style="s2">For example, here we&#39;re going to have</p>
+<p begin="00:06:35.639" end="00:06:43.520" style="s2">some create draft for example. And that</p>
+<p begin="00:06:39.680" end="00:06:45.919" style="s2">create draft will take the output of the</p>
+<p begin="00:06:43.520" end="00:06:48.759" style="s2">summary put it there. For example, after</p>
+<p begin="00:06:45.919" end="00:06:52.600" style="s2">that creating the draft, we can</p>
+<p begin="00:06:48.759" end="00:06:55.319" style="s2">also create a Google Docs for example.</p>
+<p begin="00:06:52.600" end="00:06:58.800" style="s2">Um, that will create a</p>
+<p begin="00:06:55.319" end="00:07:00.720" style="s2">document. Uh, I&#39;m not configuring them.</p>
+<p begin="00:06:58.800" end="00:07:03.520" style="s2">I&#39;m just putting these visuals so that</p>
+<p begin="00:07:00.720" end="00:07:05.759" style="s2">you can think about this that once it</p>
+<p begin="00:07:03.520" end="00:07:07.759" style="s2">goes from one workflow, it goes to the</p>
+<p begin="00:07:05.759" end="00:07:09.840" style="s2">next workflow to the next workflow and</p>
+<p begin="00:07:07.759" end="00:07:11.599" style="s2">always the output of one becomes the</p>
+<p begin="00:07:09.840" end="00:07:14.240" style="s2">input of the next one. the output of</p>
+<p begin="00:07:11.599" end="00:07:17.759" style="s2">this becomes the input of that and so on</p>
+<p begin="00:07:14.240" end="00:07:22.479" style="s2">and so forth. So that was a quick</p>
+<p begin="00:07:17.759" end="00:07:23.720" style="s2">detailed um overview of the AI agent</p>
+<p begin="00:07:22.479" end="00:07:26.720" style="s2">node in</p>
+<p begin="00:07:23.720" end="00:07:29.680" style="s2">NA10. In the next ones we will have a</p>
+<p begin="00:07:26.720" end="00:07:34.160" style="s2">look at something called web hook and</p>
+<p begin="00:07:29.680" end="00:07:36.560" style="s2">how this web hook will play a role in</p>
+<p begin="00:07:34.160" end="00:07:40.240" style="s2">integrating vap with n10. You&#39;ll</p>
+<p begin="00:07:36.560" end="00:07:40.240" style="s2">discover it in the following lectures.</p>
+</div>
+</body>
+</tt>

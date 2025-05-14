@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.880" end="00:00:06.480" style="s2">In this lecture, we&#39;ll take our Vappy AI</p>
+<p begin="00:00:03.520" end="00:00:10.080" style="s2">assistant and connect it with the web</p>
+<p begin="00:00:06.480" end="00:00:14.240" style="s2">hook we built and actually create uh the</p>
+<p begin="00:00:10.080" end="00:00:18.080" style="s2">bridge between Vappy and N10. So, let&#39;s</p>
+<p begin="00:00:14.240" end="00:00:18.080" style="s2">go to our Vappy dashboard</p>
+<p begin="00:00:19.960" end="00:00:26.800" style="s2">first. We have already created this</p>
+<p begin="00:00:23.039" end="00:00:30.519" style="s2">assistant before Samanta.</p>
+<p begin="00:00:26.800" end="00:00:33.760" style="s2">What we will need to do is go to</p>
+<p begin="00:00:30.519" end="00:00:34.760" style="s2">tools. Click on create tool and then</p>
+<p begin="00:00:33.760" end="00:00:38.600" style="s2">select</p>
+<p begin="00:00:34.760" end="00:00:43.719" style="s2">function. From here type something like</p>
+<p begin="00:00:38.600" end="00:00:46.719" style="s2">compose an email and then in here</p>
+<p begin="00:00:43.719" end="00:00:49.719" style="s2">write this tool is used to compose a new</p>
+<p begin="00:00:46.719" end="00:00:49.719" style="s2">email.</p>
+<p begin="00:00:50.640" end="00:00:56.800" style="s2">And then when you scroll down here,</p>
+<p begin="00:00:53.520" end="00:01:00.160" style="s2">you&#39;ll see the server URL. The web hook</p>
+<p begin="00:00:56.800" end="00:01:02.399" style="s2">URL that you have from your workflow</p>
+<p begin="00:01:00.160" end="00:01:05.280" style="s2">will become the</p>
+<p begin="00:01:02.399" end="00:01:08.640" style="s2">um URL in there. But this time, make</p>
+<p begin="00:01:05.280" end="00:01:10.600" style="s2">sure that you select post from here and</p>
+<p begin="00:01:08.640" end="00:01:15.720" style="s2">then click on</p>
+<p begin="00:01:10.600" end="00:01:20.840" style="s2">listening. Copy this. Go back to</p>
+<p begin="00:01:15.720" end="00:01:23.920" style="s2">Vappy and then paste it in here.</p>
+<p begin="00:01:20.840" end="00:01:30.159" style="s2">Save. Now you have created a tool that</p>
+<p begin="00:01:23.920" end="00:01:32.479" style="s2">has access to an API from N8, but it has</p>
+<p begin="00:01:30.159" end="00:01:35.159" style="s2">to be associated with that assistant. So</p>
+<p begin="00:01:32.479" end="00:01:38.280" style="s2">you need to go back to the Sant</p>
+<p begin="00:01:35.159" end="00:01:41.600" style="s2">assistant, go to the</p>
+<p begin="00:01:38.280" end="00:01:43.880" style="s2">tools from here, select the tool, you</p>
+<p begin="00:01:41.600" end="00:01:47.840" style="s2">can select compose an</p>
+<p begin="00:01:43.880" end="00:01:50.240" style="s2">email, and then it automatically saves.</p>
+<p begin="00:01:47.840" end="00:01:55.520" style="s2">Click on publish.</p>
+<p begin="00:01:50.240" end="00:01:59.960" style="s2">And now if you put uh the workflow next</p>
+<p begin="00:01:55.520" end="00:02:02.880" style="s2">to it. Let&#39;s do that here. This is our</p>
+<p begin="00:01:59.960" end="00:02:05.119" style="s2">workflow. I&#39;m going to make this a</p>
+<p begin="00:02:02.880" end="00:02:09.720" style="s2">little bit smaller so that we can see</p>
+<p begin="00:02:05.119" end="00:02:12.239" style="s2">more of this. Um when you see something</p>
+<p begin="00:02:09.720" end="00:02:16.920" style="s2">running, it goes like this. We should</p>
+<p begin="00:02:12.239" end="00:02:16.920" style="s2">see the response here if it works.</p>
+<p begin="00:02:19.520" end="00:02:26.080" style="s2">Hi, how are you doing? I&#39;m doing good.</p>
+<p begin="00:02:22.800" end="00:02:28.400" style="s2">Um, can you please uh compose an email</p>
+<p begin="00:02:26.080" end="00:02:31.920" style="s2">for the following content? Um, the body</p>
+<p begin="00:02:28.400" end="00:02:34.560" style="s2">of it should say, &quot;I&#39;m sorry, I&#39;m I&#39;m</p>
+<p begin="00:02:31.920" end="00:02:37.440" style="s2">too late. Uh, I&#39;m stuck in a traffic.</p>
+<p begin="00:02:34.560" end="00:02:39.360" style="s2">Um, I&#39;ll be late for 10 minutes in my</p>
+<p begin="00:02:37.440" end="00:02:43.400" style="s2">meeting.&quot; And the title should be the</p>
+<p begin="00:02:39.360" end="00:02:43.400" style="s2">meeting about NA10.</p>
+<p begin="00:02:46.080" end="00:02:53.920" style="s2">one moment. There we go. So you can see</p>
+<p begin="00:02:49.840" end="00:02:56.519" style="s2">that it it when it say one moment that</p>
+<p begin="00:02:53.920" end="00:03:00.239" style="s2">was a time when it called</p>
+<p begin="00:02:56.519" end="00:03:03.200" style="s2">this API and in that moment we saw this</p>
+<p begin="00:03:00.239" end="00:03:06.640" style="s2">thing happening this data coming here</p>
+<p begin="00:03:03.200" end="00:03:08.760" style="s2">but if you see here there is a lot of</p>
+<p begin="00:03:06.640" end="00:03:11.760" style="s2">information that we entered</p>
+<p begin="00:03:08.760" end="00:03:14.080" style="s2">in Vappy you&#39;re a friendly AI agent that</p>
+<p begin="00:03:11.760" end="00:03:17.519" style="s2">have access to tools and blah blah blah</p>
+<p begin="00:03:14.080" end="00:03:19.640" style="s2">that is there and</p>
+<p begin="00:03:17.519" end="00:03:22.239" style="s2">um I&#39;m doing good. Please compose an</p>
+<p begin="00:03:19.640" end="00:03:24.640" style="s2">email as following content. The body of</p>
+<p begin="00:03:22.239" end="00:03:27.040" style="s2">it should be I&#39;m sorry. I&#39;m too late and</p>
+<p begin="00:03:24.640" end="00:03:30.040" style="s2">I&#39;m stuck in traffic. So all of that</p>
+<p begin="00:03:27.040" end="00:03:36.159" style="s2">information that I sitted on the</p>
+<p begin="00:03:30.040" end="00:03:38.560" style="s2">microphone in Vappy arrived now in NAT</p>
+<p begin="00:03:36.159" end="00:03:42.840" style="s2">and then I can do a lot with this data.</p>
+<p begin="00:03:38.560" end="00:03:46.720" style="s2">What can I do? I can go and put an AI</p>
+<p begin="00:03:42.840" end="00:03:50.000" style="s2">agent and this AI agent can take all of</p>
+<p begin="00:03:46.720" end="00:03:53.959" style="s2">that data and then make sense of it. For</p>
+<p begin="00:03:50.000" end="00:03:58.319" style="s2">example, if I define this and I create a</p>
+<p begin="00:03:53.959" end="00:04:02.439" style="s2">simple prompt here that says</p>
+<p begin="00:03:58.319" end="00:04:06.640" style="s2">um can you compose an</p>
+<p begin="00:04:02.439" end="00:04:09.120" style="s2">email draft with the following</p>
+<p begin="00:04:06.640" end="00:04:13.239" style="s2">uh syntax or blah blah blah. So</p>
+<p begin="00:04:09.120" end="00:04:13.239" style="s2">basically your entire</p>
+<p begin="00:04:13.319" end="00:04:20.560" style="s2">um system prompt goes here and then you</p>
+<p begin="00:04:16.479" end="00:04:23.360" style="s2">can go and pull the message or whatever</p>
+<p begin="00:04:20.560" end="00:04:26.639" style="s2">that you have here. In this case uh</p>
+<p begin="00:04:23.360" end="00:04:29.840" style="s2">since this is a message that might have</p>
+<p begin="00:04:26.639" end="00:04:31.759" style="s2">multiple conversations. Uh the safest</p>
+<p begin="00:04:29.840" end="00:04:32.600" style="s2">bit would be that I drag and drop this</p>
+<p begin="00:04:31.759" end="00:04:36.080" style="s2">one</p>
+<p begin="00:04:32.600" end="00:04:38.960" style="s2">here. And if I click on test uh you can</p>
+<p begin="00:04:36.080" end="00:04:41.680" style="s2">see that it will fail. Why? because we</p>
+<p begin="00:04:38.960" end="00:04:44.320" style="s2">have not added a model. So I&#39;m going to</p>
+<p begin="00:04:41.680" end="00:04:44.320" style="s2">add a model</p>
+<p begin="00:04:44.520" end="00:04:51.080" style="s2">here. We keep it as judge 4 mini and</p>
+<p begin="00:04:48.800" end="00:04:54.880" style="s2">then I click on</p>
+<p begin="00:04:51.080" end="00:04:57.759" style="s2">test. You can see now it&#39;s executing and</p>
+<p begin="00:04:54.880" end="00:05:02.560" style="s2">then there is an output and that output</p>
+<p begin="00:04:57.759" end="00:05:08.320" style="s2">is the email that we need to send to the</p>
+<p begin="00:05:02.560" end="00:05:12.320" style="s2">um Gmail in input box. Um, there are a</p>
+<p begin="00:05:08.320" end="00:05:15.360" style="s2">lot of things that you can do in NAT,</p>
+<p begin="00:05:12.320" end="00:05:18.680" style="s2">but I would like to show you one nice</p>
+<p begin="00:05:15.360" end="00:05:22.759" style="s2">and cool feature about</p>
+<p begin="00:05:18.680" end="00:05:27.759" style="s2">um the API calls that you can do</p>
+<p begin="00:05:22.759" end="00:05:31.280" style="s2">from the U model itself or or from the</p>
+<p begin="00:05:27.759" end="00:05:35.440" style="s2">tools of the Vappy itself. So this</p>
+<p begin="00:05:31.280" end="00:05:37.479" style="s2">compose email already knows the context.</p>
+<p begin="00:05:35.440" end="00:05:40.400" style="s2">It can also send</p>
+<p begin="00:05:37.479" end="00:05:43.600" style="s2">parameters. Click on add parameter.</p>
+<p begin="00:05:40.400" end="00:05:43.600" style="s2">Let&#39;s call this</p>
+<p begin="00:05:43.880" end="00:05:51.160" style="s2">subject. This is the subject of the</p>
+<p begin="00:05:47.960" end="00:05:55.320" style="s2">email. And then we apply</p>
+<p begin="00:05:51.160" end="00:05:59.360" style="s2">this. And then we go and create one more</p>
+<p begin="00:05:55.320" end="00:05:59.360" style="s2">parameter that&#39;s called</p>
+<p begin="00:06:00.199" end="00:06:05.320" style="s2">body. This is the body of the email.</p>
+<p begin="00:06:05.360" end="00:06:11.400" style="s2">and then I click on apply. So what we</p>
+<p begin="00:06:08.000" end="00:06:15.120" style="s2">have done here is basically configured</p>
+<p begin="00:06:11.400" end="00:06:18.520" style="s2">Vappy to extract those two information</p>
+<p begin="00:06:15.120" end="00:06:22.720" style="s2">from whatever payload is coming to this</p>
+<p begin="00:06:18.520" end="00:06:24.759" style="s2">tool. If I quickly uh go and demo this</p>
+<p begin="00:06:22.720" end="00:06:26.639" style="s2">and then I&#39;ll do some</p>
+<p begin="00:06:24.759" end="00:06:28.120" style="s2">whiteboarding. We need to make sure that</p>
+<p begin="00:06:26.639" end="00:06:31.360" style="s2">we save</p>
+<p begin="00:06:28.120" end="00:06:35.120" style="s2">this. Now let&#39;s go to the assistant.</p>
+<p begin="00:06:31.360" end="00:06:35.120" style="s2">Start talking to the assistant.</p>
+<p begin="00:06:35.440" end="00:06:40.800" style="s2">Hi, Amal. How are you doing? I&#39;m doing</p>
+<p begin="00:06:38.400" end="00:06:44.479" style="s2">good. Uh, can you please compose an</p>
+<p begin="00:06:40.800" end="00:06:46.639" style="s2">email for the following content? Um, I&#39;m</p>
+<p begin="00:06:44.479" end="00:06:49.360" style="s2">too late for the meeting. I&#39;m sorry. I&#39;m</p>
+<p begin="00:06:46.639" end="00:06:53.400" style="s2">stuck in a traffic rush. I&#39;ll be 20</p>
+<p begin="00:06:49.360" end="00:06:53.400" style="s2">minutes late for our meeting.</p>
+<p begin="00:06:53.600" end="00:07:00.240" style="s2">Hold on a sec.</p>
+<p begin="00:06:56.160" end="00:07:03.520" style="s2">So, this was done. Let&#39;s have a look now</p>
+<p begin="00:07:00.240" end="00:07:04.759" style="s2">to this payload. And this payload is</p>
+<p begin="00:07:03.520" end="00:07:10.199" style="s2">bringing</p>
+<p begin="00:07:04.759" end="00:07:14.720" style="s2">me something that has a structure, a</p>
+<p begin="00:07:10.199" end="00:07:18.160" style="s2">subject and a body which I can consume</p>
+<p begin="00:07:14.720" end="00:07:21.680" style="s2">inside NA10. Now, so if I go here inside</p>
+<p begin="00:07:18.160" end="00:07:25.280" style="s2">NA10, I don&#39;t see a very vague message.</p>
+<p begin="00:07:21.680" end="00:07:29.440" style="s2">I see actually two pieces of data that</p>
+<p begin="00:07:25.280" end="00:07:32.599" style="s2">were ex extracted, subject and body. And</p>
+<p begin="00:07:29.440" end="00:07:38.960" style="s2">I can use this to send it to the next</p>
+<p begin="00:07:32.599" end="00:07:42.000" style="s2">level. So let&#39;s go on to the</p>
+<p begin="00:07:38.960" end="00:07:45.039" style="s2">uh next level. Maybe we can eliminate</p>
+<p begin="00:07:42.000" end="00:07:48.680" style="s2">this entire AI agent need because we</p>
+<p begin="00:07:45.039" end="00:07:52.000" style="s2">already get the data in our</p>
+<p begin="00:07:48.680" end="00:07:55.360" style="s2">um in our payload that is already done</p>
+<p begin="00:07:52.000" end="00:08:00.080" style="s2">by the chat GPT integration inside</p>
+<p begin="00:07:55.360" end="00:08:03.039" style="s2">Vappy. But we will do some more uh work</p>
+<p begin="00:08:00.080" end="00:08:06.639" style="s2">here later on to show you how you can</p>
+<p begin="00:08:03.039" end="00:08:09.960" style="s2">manage the data. So if I go here and</p>
+<p begin="00:08:06.639" end="00:08:14.479" style="s2">just create a</p>
+<p begin="00:08:09.960" end="00:08:17.280" style="s2">draft and then uh you can see that these</p>
+<p begin="00:08:14.479" end="00:08:20.000" style="s2">two pieces of element it&#39;s in tool</p>
+<p begin="00:08:17.280" end="00:08:23.680" style="s2">calling it&#39;s in zero and you can</p>
+<p begin="00:08:20.000" end="00:08:26.560" style="s2">literally pull this put it here and then</p>
+<p begin="00:08:23.680" end="00:08:30.759" style="s2">pull this put it there and then you</p>
+<p begin="00:08:26.560" end="00:08:34.519" style="s2">basically put created yourself</p>
+<p begin="00:08:30.759" end="00:08:38.479" style="s2">um a workflow that works. If I click on</p>
+<p begin="00:08:34.519" end="00:08:41.560" style="s2">test, it says it created the email. I&#39;m</p>
+<p begin="00:08:38.479" end="00:08:46.200" style="s2">going to go and open the email in</p>
+<p begin="00:08:41.560" end="00:08:49.720" style="s2">here. Go to a smart geeks. Go to</p>
+<p begin="00:08:46.200" end="00:08:53.839" style="s2">drafts. Bring this here. You can see at</p>
+<p begin="00:08:49.720" end="00:08:57.360" style="s2">10:35 p.m. an email was created that has</p>
+<p begin="00:08:53.839" end="00:09:01.120" style="s2">all the subject and all that body. So if</p>
+<p begin="00:08:57.360" end="00:09:06.000" style="s2">I keep this on this side and these two</p>
+<p begin="00:09:01.120" end="00:09:11.519" style="s2">on this side. Now we can u see what we</p>
+<p begin="00:09:06.000" end="00:09:16.000" style="s2">have done. The entire workflow ran from</p>
+<p begin="00:09:11.519" end="00:09:21.200" style="s2">one side to the other side all by using</p>
+<p begin="00:09:16.000" end="00:09:23.279" style="s2">nothing but um a simple workflow tool</p>
+<p begin="00:09:21.200" end="00:09:26.000" style="s2">that was wired up together with each</p>
+<p begin="00:09:23.279" end="00:09:28.240" style="s2">other.</p>
+<p begin="00:09:26.000" end="00:09:31.320" style="s2">So basically with this kind of a</p>
+<p begin="00:09:28.240" end="00:09:35.279" style="s2">technology you can build</p>
+<p begin="00:09:31.320" end="00:09:38.680" style="s2">um very sophisticated highly scalable</p>
+<p begin="00:09:35.279" end="00:09:41.440" style="s2">workflows a voice agent that can be</p>
+<p begin="00:09:38.680" end="00:09:43.360" style="s2">integrated. In the next section we&#39;ll do</p>
+<p begin="00:09:41.440" end="00:09:46.080" style="s2">some whiteboard sessions to understand</p>
+<p begin="00:09:43.360" end="00:09:49.160" style="s2">how this thing works and also we&#39;ll do</p>
+<p begin="00:09:46.080" end="00:09:52.800" style="s2">an intimate test of this particular</p>
+<p begin="00:09:49.160" end="00:09:52.800" style="s2">setup. Thank you.</p>
+</div>
+</body>
+</tt>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.719" end="00:00:05.200" style="s2">In this lecture, we&#39;ll create a workflow</p>
+<p begin="00:00:02.720" end="00:00:07.800" style="s2">in NA10 that would read our emails and</p>
+<p begin="00:00:05.200" end="00:00:11.519" style="s2">prepare them from our Superbase</p>
+<p begin="00:00:07.800" end="00:00:16.680" style="s2">database. So, let&#39;s go to our NA10</p>
+<p begin="00:00:11.519" end="00:00:19.520" style="s2">workflow and had a web hook</p>
+<p begin="00:00:16.680" end="00:00:22.800" style="s2">trigger. We&#39;ll keep it as it is. Just</p>
+<p begin="00:00:19.520" end="00:00:25.680" style="s2">change this to post. The immediate</p>
+<p begin="00:00:22.800" end="00:00:28.279" style="s2">respond will be changed to respond to</p>
+<p begin="00:00:25.680" end="00:00:34.200" style="s2">web hook in just a minute.</p>
+<p begin="00:00:28.279" end="00:00:38.239" style="s2">So we have our trigger. Now let&#39;s go to</p>
+<p begin="00:00:34.200" end="00:00:40.760" style="s2">superbase read many or get many rows</p>
+<p begin="00:00:38.239" end="00:00:44.680" style="s2">from the table called</p>
+<p begin="00:00:40.760" end="00:00:48.440" style="s2">emails and limit it to five of them.</p>
+<p begin="00:00:44.680" end="00:00:51.920" style="s2">Right? We&#39;re going to try this out</p>
+<p begin="00:00:48.440" end="00:00:54.879" style="s2">quickly by running it through our</p>
+<p begin="00:00:51.920" end="00:00:58.559" style="s2">Postman. I&#39;m just going to replace this</p>
+<p begin="00:00:54.879" end="00:01:01.120" style="s2">particular one. And there we go. We got</p>
+<p begin="00:00:58.559" end="00:01:05.519" style="s2">our data from the database sitting here</p>
+<p begin="00:01:01.120" end="00:01:09.439" style="s2">with two items. Now if we put a chat GPT</p>
+<p begin="00:01:05.519" end="00:01:12.560" style="s2">call here, it means it will iterate two</p>
+<p begin="00:01:09.439" end="00:01:15.920" style="s2">times and then do two chat GPT calls. In</p>
+<p begin="00:01:12.560" end="00:01:19.920" style="s2">order to merge these two items into one,</p>
+<p begin="00:01:15.920" end="00:01:23.040" style="s2">we have a node called aggregate. So we</p>
+<p begin="00:01:19.920" end="00:01:25.920" style="s2">put the aggregate, pull all items, put</p>
+<p begin="00:01:23.040" end="00:01:28.159" style="s2">them all in one item. This way it</p>
+<p begin="00:01:25.920" end="00:01:31.479" style="s2">basically creates all of the data into</p>
+<p begin="00:01:28.159" end="00:01:34.799" style="s2">one item. You can see here it had two</p>
+<p begin="00:01:31.479" end="00:01:37.000" style="s2">items and then here now it has one item.</p>
+<p begin="00:01:34.799" end="00:01:41.119" style="s2">It iterates and then it puts all of</p>
+<p begin="00:01:37.000" end="00:01:45.920" style="s2">those emails into one big object that we</p>
+<p begin="00:01:41.119" end="00:01:49.200" style="s2">can use now to use an AI agent node in</p>
+<p begin="00:01:45.920" end="00:01:51.280" style="s2">order to aggregate them and clean them</p>
+<p begin="00:01:49.200" end="00:01:55.840" style="s2">up and so on.</p>
+<p begin="00:01:51.280" end="00:01:57.840" style="s2">I&#39;m going to define a um prompt here.</p>
+<p begin="00:01:55.840" end="00:01:59.719" style="s2">And since I have this aggregate data,</p>
+<p begin="00:01:57.840" end="00:02:03.920" style="s2">I&#39;ll just drag and drop</p>
+<p begin="00:01:59.719" end="00:02:08.319" style="s2">that. And in here um you can see that</p>
+<p begin="00:02:03.920" end="00:02:11.440" style="s2">there is this little issue with</p>
+<p begin="00:02:08.319" end="00:02:14.480" style="s2">um reading objects all of the objects. I</p>
+<p begin="00:02:11.440" end="00:02:17.599" style="s2">think this is something that NAN folks</p>
+<p begin="00:02:14.480" end="00:02:19.130" style="s2">can fix. But until then, let&#39;s put this</p>
+<p begin="00:02:17.599" end="00:02:22.410" style="s2">JSON</p>
+<p begin="00:02:19.130" end="00:02:22.410" style="s2">[Music]</p>
+<p begin="00:02:22.760" end="00:02:29.840" style="s2">stringy with parentheses around this</p>
+<p begin="00:02:26.520" end="00:02:31.959" style="s2">data. Then you should see the entire</p>
+<p begin="00:02:29.840" end="00:02:36.080" style="s2">JSON as it is right</p>
+<p begin="00:02:31.959" end="00:02:39.040" style="s2">here. Okay, the prompt will be something</p>
+<p begin="00:02:36.080" end="00:02:41.640" style="s2">that we already did and it works and</p>
+<p begin="00:02:39.040" end="00:02:45.959" style="s2">it&#39;s tested. So, let&#39;s go bring that</p>
+<p begin="00:02:41.640" end="00:02:50.000" style="s2">prompt. It was I think uh an</p>
+<p begin="00:02:45.959" end="00:02:52.640" style="s2">example. Yep, this one was working fine.</p>
+<p begin="00:02:50.000" end="00:02:54.519" style="s2">But you can work on your prompt however</p>
+<p begin="00:02:52.640" end="00:02:57.760" style="s2">you</p>
+<p begin="00:02:54.519" end="00:03:02.280" style="s2">wish. So I&#39;m going to put this prompt,</p>
+<p begin="00:02:57.760" end="00:03:05.599" style="s2">save it, run this thing, and</p>
+<p begin="00:03:02.280" end="00:03:09.640" style="s2">then there&#39;s a problem here. Let&#39;s find</p>
+<p begin="00:03:05.599" end="00:03:09.640" style="s2">out what is the problem.</p>
+<p begin="00:03:10.159" end="00:03:15.519" style="s2">Okay, the problem is that we don&#39;t have</p>
+<p begin="00:03:12.000" end="00:03:18.640" style="s2">a model. We need to put a model here.</p>
+<p begin="00:03:15.519" end="00:03:21.080" style="s2">That would be the open AI model that we</p>
+<p begin="00:03:18.640" end="00:03:25.360" style="s2">already configured in the previous</p>
+<p begin="00:03:21.080" end="00:03:28.720" style="s2">lectures. And now it&#39;s running. And if I</p>
+<p begin="00:03:25.360" end="00:03:31.200" style="s2">trigger this workflow one more time, I</p>
+<p begin="00:03:28.720" end="00:03:34.239" style="s2">will see that it&#39;s running. Perfect. And</p>
+<p begin="00:03:31.200" end="00:03:37.200" style="s2">it generates a response that will go to</p>
+<p begin="00:03:34.239" end="00:03:41.360" style="s2">Samanta in the next lecture. But for</p>
+<p begin="00:03:37.200" end="00:03:43.400" style="s2">right now, let&#39;s respond it back to a</p>
+<p begin="00:03:41.360" end="00:03:46.000" style="s2">so-called respond web</p>
+<p begin="00:03:43.400" end="00:03:48.080" style="s2">hook. We need to do some more change</p>
+<p begin="00:03:46.000" end="00:03:50.959" style="s2">here that in the next lecture. Let&#39;s</p>
+<p begin="00:03:48.080" end="00:03:55.120" style="s2">just keep it like that and go to web</p>
+<p begin="00:03:50.959" end="00:03:57.000" style="s2">hook and respond to web hook like this.</p>
+<p begin="00:03:55.120" end="00:04:00.000" style="s2">Test it and then I&#39;ll do a</p>
+<p begin="00:03:57.000" end="00:04:02.959" style="s2">full-fledged recap from head to toe.</p>
+<p begin="00:04:00.000" end="00:04:05.599" style="s2">Okay. So now everything is moving fine</p>
+<p begin="00:04:02.959" end="00:04:08.879" style="s2">and I get this thing. So let&#39;s do a</p>
+<p begin="00:04:05.599" end="00:04:10.120" style="s2">quick recap what we have done. I created</p>
+<p begin="00:04:08.879" end="00:04:13.680" style="s2">an</p>
+<p begin="00:04:10.120" end="00:04:18.519" style="s2">endpoint that is accessible through this</p>
+<p begin="00:04:13.680" end="00:04:21.759" style="s2">web hook. This is a web hook of a type</p>
+<p begin="00:04:18.519" end="00:04:24.240" style="s2">post. It has a property called respond</p>
+<p begin="00:04:21.759" end="00:04:26.720" style="s2">but it respond to a web hook which is</p>
+<p begin="00:04:24.240" end="00:04:28.800" style="s2">this one. So basically when the request</p>
+<p begin="00:04:26.720" end="00:04:30.639" style="s2">comes to this web hook it&#39;s going to</p>
+<p begin="00:04:28.800" end="00:04:32.800" style="s2">hold it until all of these steps are</p>
+<p begin="00:04:30.639" end="00:04:35.400" style="s2">done. Then it will respond to the</p>
+<p begin="00:04:32.800" end="00:04:38.320" style="s2">requesttor. This requester for now is</p>
+<p begin="00:04:35.400" end="00:04:39.320" style="s2">Postman. In a in the next lecture it</p>
+<p begin="00:04:38.320" end="00:04:42.400" style="s2">will be</p>
+<p begin="00:04:39.320" end="00:04:45.680" style="s2">Vappy and then it gets all the items</p>
+<p begin="00:04:42.400" end="00:04:48.400" style="s2">from Supabase, merges them merges them</p>
+<p begin="00:04:45.680" end="00:04:51.520" style="s2">into one item and then sends that one</p>
+<p begin="00:04:48.400" end="00:04:54.960" style="s2">item to chat GPT to summarize and then</p>
+<p begin="00:04:51.520" end="00:04:58.960" style="s2">gets the summary sends it back to the</p>
+<p begin="00:04:54.960" end="00:05:01.040" style="s2">Postman request. That&#39;s basically</p>
+<p begin="00:04:58.960" end="00:05:03.720" style="s2">um everything we needed to do in order</p>
+<p begin="00:05:01.040" end="00:05:06.560" style="s2">to read the emails. the last five</p>
+<p begin="00:05:03.720" end="00:05:08.800" style="s2">emails. There can be a lot more to be</p>
+<p begin="00:05:06.560" end="00:05:10.960" style="s2">done like the last five emails from</p>
+<p begin="00:05:08.800" end="00:05:13.320" style="s2">where? From the top, from the bottom,</p>
+<p begin="00:05:10.960" end="00:05:17.440" style="s2">sorting in ascending, descending</p>
+<p begin="00:05:13.320" end="00:05:20.080" style="s2">order, filters like read emails from a</p>
+<p begin="00:05:17.440" end="00:05:22.479" style="s2">particular label, read the emails from a</p>
+<p begin="00:05:20.080" end="00:05:24.479" style="s2">particular person and so on. But since</p>
+<p begin="00:05:22.479" end="00:05:27.199" style="s2">this is just an educational content, I</p>
+<p begin="00:05:24.479" end="00:05:29.759" style="s2">just want to spark how to do this</p>
+<p begin="00:05:27.199" end="00:05:32.479" style="s2">particular workflow. Let&#39;s go to the</p>
+<p begin="00:05:29.759" end="00:05:35.680" style="s2">next lecture and connect this workflow</p>
+<p begin="00:05:32.479" end="00:05:35.680" style="s2">with VA.</p>
+</div>
+</body>
+</tt>

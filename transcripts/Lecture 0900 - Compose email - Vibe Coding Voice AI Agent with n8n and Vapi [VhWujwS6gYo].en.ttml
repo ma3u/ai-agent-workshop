@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.320" end="00:00:08.720" style="s2">In this lecture, we will have a look at</p>
+<p begin="00:00:04.560" end="00:00:11.599" style="s2">how to compose an email using NAT. So,</p>
+<p begin="00:00:08.720" end="00:00:11.599" style="s2">let&#39;s go to our</p>
+<p begin="00:00:16.440" end="00:00:22.960" style="s2">NAT, click on create</p>
+<p begin="00:00:19.720" end="00:00:25.920" style="s2">workflow, and in here, we&#39;re going to</p>
+<p begin="00:00:22.960" end="00:00:28.720" style="s2">just put a new trigger that&#39;s called</p>
+<p begin="00:00:25.920" end="00:00:30.720" style="s2">trigger manually. Why? because we want</p>
+<p begin="00:00:28.720" end="00:00:33.600" style="s2">to trigger this workflow when I click on</p>
+<p begin="00:00:30.720" end="00:00:38.079" style="s2">it like literally when I click on this</p>
+<p begin="00:00:33.600" end="00:00:42.480" style="s2">test flow then it runs and then I will</p>
+<p begin="00:00:38.079" end="00:00:45.000" style="s2">have a an email compose workflow here.</p>
+<p begin="00:00:42.480" end="00:00:48.719" style="s2">So therefore we pick trigger</p>
+<p begin="00:00:45.000" end="00:00:53.039" style="s2">workflow. Later on um if I take you back</p>
+<p begin="00:00:48.719" end="00:00:56.879" style="s2">to the overall plan here later on the</p>
+<p begin="00:00:53.039" end="00:00:59.320" style="s2">compose workflow of the work will happen</p>
+<p begin="00:00:56.879" end="00:01:02.399" style="s2">through the voice</p>
+<p begin="00:00:59.320" end="00:01:05.519" style="s2">interface. So right now it&#39;s just based</p>
+<p begin="00:01:02.399" end="00:01:08.320" style="s2">on the click to make our life easier and</p>
+<p begin="00:01:05.519" end="00:01:11.200" style="s2">just get to the point. Then click on</p>
+<p begin="00:01:08.320" end="00:01:14.159" style="s2">this. Click on Gmail.</p>
+<p begin="00:01:11.200" end="00:01:15.640" style="s2">When you go to Gmail, then you should</p>
+<p begin="00:01:14.159" end="00:01:17.880" style="s2">see</p>
+<p begin="00:01:15.640" end="00:01:21.360" style="s2">a</p>
+<p begin="00:01:17.880" end="00:01:22.759" style="s2">create a draft option. When you click on</p>
+<p begin="00:01:21.360" end="00:01:25.840" style="s2">create a draft</p>
+<p begin="00:01:22.759" end="00:01:28.000" style="s2">option, you will see right now a Gmail</p>
+<p begin="00:01:25.840" end="00:01:30.720" style="s2">account that&#39;s already there, but you</p>
+<p begin="00:01:28.000" end="00:01:31.960" style="s2">can create a new one. Click on create</p>
+<p begin="00:01:30.720" end="00:01:36.400" style="s2">new</p>
+<p begin="00:01:31.960" end="00:01:39.079" style="s2">one and then keep this oat, which is a</p>
+<p begin="00:01:36.400" end="00:01:42.880" style="s2">recommended option. Then you need these</p>
+<p begin="00:01:39.079" end="00:01:44.200" style="s2">two important elements client ID and</p>
+<p begin="00:01:42.880" end="00:01:48.560" style="s2">client</p>
+<p begin="00:01:44.200" end="00:01:51.320" style="s2">secret. Now you need to go to a website</p>
+<p begin="00:01:48.560" end="00:01:54.560" style="s2">called GCP</p>
+<p begin="00:01:51.320" end="00:01:56.200" style="s2">console. Basically write GCP console on</p>
+<p begin="00:01:54.560" end="00:01:59.719" style="s2">the</p>
+<p begin="00:01:56.200" end="00:02:01.560" style="s2">Google. You should be able to go to GCP</p>
+<p begin="00:01:59.719" end="00:02:04.399" style="s2">console like</p>
+<p begin="00:02:01.560" end="00:02:06.560" style="s2">this. After that select the right email</p>
+<p begin="00:02:04.399" end="00:02:09.160" style="s2">address that you want to use for this.</p>
+<p begin="00:02:06.560" end="00:02:12.400" style="s2">I&#39;m going to use my smart geeks email</p>
+<p begin="00:02:09.160" end="00:02:14.680" style="s2">address and then after that create a</p>
+<p begin="00:02:12.400" end="00:02:20.879" style="s2">project here. Click on create new</p>
+<p begin="00:02:14.680" end="00:02:20.879" style="s2">project. I&#39;m going to call it Samanta</p>
+<p begin="00:02:20.920" end="00:02:25.120" style="s2">inbox.</p>
+<p begin="00:02:22.599" end="00:02:27.160" style="s2">Create. It will take some time to create</p>
+<p begin="00:02:25.120" end="00:02:30.959" style="s2">this project in</p>
+<p begin="00:02:27.160" end="00:02:34.000" style="s2">here. Once it&#39;s done and click on select</p>
+<p begin="00:02:30.959" end="00:02:36.560" style="s2">project. You should have it here.</p>
+<p begin="00:02:34.000" end="00:02:39.440" style="s2">And then the very first option that you</p>
+<p begin="00:02:36.560" end="00:02:43.239" style="s2">would need to do is go to consent</p>
+<p begin="00:02:39.440" end="00:02:46.680" style="s2">screen. Oat consent screen. Once you&#39;re</p>
+<p begin="00:02:43.239" end="00:02:49.440" style="s2">there, then click on get</p>
+<p begin="00:02:46.680" end="00:02:52.599" style="s2">started. Give your app a name. I&#39;m going</p>
+<p begin="00:02:49.440" end="00:02:55.040" style="s2">to call it sonant inbox</p>
+<p begin="00:02:52.599" end="00:02:58.400" style="s2">manager. Give it an email address. I&#39;m</p>
+<p begin="00:02:55.040" end="00:03:00.959" style="s2">going to give it the email address of a</p>
+<p begin="00:02:58.400" end="00:03:04.440" style="s2">smartgeeks.io.</p>
+<p begin="00:03:00.959" end="00:03:06.200" style="s2">I&#39;ll click next.</p>
+<p begin="00:03:04.440" end="00:03:10.640" style="s2">Internal</p>
+<p begin="00:03:06.200" end="00:03:12.280" style="s2">next. The contact info here can be a</p>
+<p begin="00:03:10.640" end="00:03:16.239" style="s2">smart</p>
+<p begin="00:03:12.280" end="00:03:21.280" style="s2">geeks.io. Click next. Click finish. I</p>
+<p begin="00:03:16.239" end="00:03:21.280" style="s2">agree. And click on continue. Click on</p>
+<p begin="00:03:22.920" end="00:03:30.599" style="s2">create. This will take some time to</p>
+<p begin="00:03:25.280" end="00:03:33.680" style="s2">create this. Um a lot of tutorials um</p>
+<p begin="00:03:30.599" end="00:03:36.239" style="s2">will skip one important part which is</p>
+<p begin="00:03:33.680" end="00:03:38.319" style="s2">the audience part since this is an app</p>
+<p begin="00:03:36.239" end="00:03:41.879" style="s2">that is not published yet. Therefore you</p>
+<p begin="00:03:38.319" end="00:03:46.480" style="s2">need to go to audience and then you need</p>
+<p begin="00:03:41.879" end="00:03:48.239" style="s2">to add certain uh email addresses here.</p>
+<p begin="00:03:46.480" end="00:03:51.840" style="s2">But before you do that you need to</p>
+<p begin="00:03:48.239" end="00:03:54.720" style="s2">create a client. So click on clients</p>
+<p begin="00:03:51.840" end="00:03:57.159" style="s2">create client.</p>
+<p begin="00:03:54.720" end="00:04:00.920" style="s2">Select from here web</p>
+<p begin="00:03:57.159" end="00:04:03.319" style="s2">application. Let&#39;s give this</p>
+<p begin="00:04:00.920" end="00:04:05.519" style="s2">some inbox</p>
+<p begin="00:04:03.319" end="00:04:08.560" style="s2">manager. And then this is a very</p>
+<p begin="00:04:05.519" end="00:04:10.040" style="s2">important part. So this authorized</p>
+<p begin="00:04:08.560" end="00:04:14.280" style="s2">redirect</p>
+<p begin="00:04:10.040" end="00:04:17.519" style="s2">URIs is the value that you will get</p>
+<p begin="00:04:14.280" end="00:04:20.199" style="s2">from these workflows. Remember here we</p>
+<p begin="00:04:17.519" end="00:04:22.520" style="s2">had this one. So, I&#39;m going to click</p>
+<p begin="00:04:20.199" end="00:04:26.199" style="s2">this, add it</p>
+<p begin="00:04:22.520" end="00:04:29.520" style="s2">here, and then click on</p>
+<p begin="00:04:26.199" end="00:04:31.759" style="s2">create. So, now you got yourself a</p>
+<p begin="00:04:29.520" end="00:04:33.040" style="s2">client ID and a client secret. They&#39;re</p>
+<p begin="00:04:31.759" end="00:04:35.440" style="s2">supposed to be secret, so keep it</p>
+<p begin="00:04:33.040" end="00:04:37.280" style="s2">secret. I&#39;ll delete it later. For now,</p>
+<p begin="00:04:35.440" end="00:04:38.680" style="s2">I&#39;m going to just move these two</p>
+<p begin="00:04:37.280" end="00:04:45.160" style="s2">information</p>
+<p begin="00:04:38.680" end="00:04:45.160" style="s2">here and this one in here.</p>
+<p begin="00:04:45.520" end="00:04:52.320" style="s2">Okay, now this is almost done. But there</p>
+<p begin="00:04:49.199" end="00:04:56.800" style="s2">is one small problem that I still need</p>
+<p begin="00:04:52.320" end="00:04:59.440" style="s2">to do an entry in the audience part. So</p>
+<p begin="00:04:56.800" end="00:05:01.000" style="s2">in the audience part when you&#39;re doing</p>
+<p begin="00:04:59.440" end="00:05:04.240" style="s2">it for</p>
+<p begin="00:05:01.000" end="00:05:07.600" style="s2">testing then you need to make sure that</p>
+<p begin="00:05:04.240" end="00:05:10.960" style="s2">you have added the email addresses that</p>
+<p begin="00:05:07.600" end="00:05:15.960" style="s2">are supposed to be for test. here on the</p>
+<p begin="00:05:10.960" end="00:05:19.120" style="s2">add email address I&#39;m going to use a</p>
+<p begin="00:05:15.960" end="00:05:21.360" style="s2">atmart geeks.io</p>
+<p begin="00:05:19.120" end="00:05:21.360" style="s2">save</p>
+<p begin="00:05:23.080" end="00:05:27.400" style="s2">it. Okay. Okay. So now I&#39;m pretty much</p>
+<p begin="00:05:26.400" end="00:05:33.320" style="s2">set from</p>
+<p begin="00:05:27.400" end="00:05:33.320" style="s2">here. But when I click on</p>
+<p begin="00:05:33.600" end="00:05:40.960" style="s2">um sign in, you should see this consent</p>
+<p begin="00:05:37.080" end="00:05:44.639" style="s2">screen and after clicking on allow you</p>
+<p begin="00:05:40.960" end="00:05:47.600" style="s2">basically give permission to NAN to</p>
+<p begin="00:05:44.639" end="00:05:51.160" style="s2">access your Gmail account.</p>
+<p begin="00:05:47.600" end="00:05:55.240" style="s2">And now you have basically connected</p>
+<p begin="00:05:51.160" end="00:05:59.560" style="s2">your Gmail with NA10. But still you need</p>
+<p begin="00:05:55.240" end="00:06:04.000" style="s2">to enable a few more</p>
+<p begin="00:05:59.560" end="00:06:05.720" style="s2">um APIs on Google Cloud Platform. Let&#39;s</p>
+<p begin="00:06:04.000" end="00:06:08.880" style="s2">go quickly do</p>
+<p begin="00:06:05.720" end="00:06:13.039" style="s2">that. So if I close this, we don&#39;t need</p>
+<p begin="00:06:08.880" end="00:06:15.360" style="s2">to do much on anything anymore. Um if I</p>
+<p begin="00:06:13.039" end="00:06:19.840" style="s2">create a test</p>
+<p begin="00:06:15.360" end="00:06:21.560" style="s2">um email type and then test here and</p>
+<p begin="00:06:19.840" end="00:06:27.039" style="s2">then click on</p>
+<p begin="00:06:21.560" end="00:06:30.600" style="s2">um test step you will see this error and</p>
+<p begin="00:06:27.039" end="00:06:33.520" style="s2">the reason is because those APIs are not</p>
+<p begin="00:06:30.600" end="00:06:36.199" style="s2">enabled. So you can see the message here</p>
+<p begin="00:06:33.520" end="00:06:40.080" style="s2">that says if you enabled this API</p>
+<p begin="00:06:36.199" end="00:06:42.479" style="s2">recently. So what are those APIs that&#39;s</p>
+<p begin="00:06:40.080" end="00:06:46.440" style="s2">important? Let&#39;s go back to the cover</p>
+<p begin="00:06:42.479" end="00:06:49.400" style="s2">platform here. Gmail API would be one of</p>
+<p begin="00:06:46.440" end="00:06:52.400" style="s2">them. And whenever you&#39;re working with</p>
+<p begin="00:06:49.400" end="00:06:55.280" style="s2">NA10, think about that like what other</p>
+<p begin="00:06:52.400" end="00:06:58.240" style="s2">API is it using our ask chat GPT, it</p>
+<p begin="00:06:55.280" end="00:07:01.120" style="s2">will give you the right answers. If I</p>
+<p begin="00:06:58.240" end="00:07:03.599" style="s2">enable this Gmail API, all the</p>
+<p begin="00:07:01.120" end="00:07:05.960" style="s2">configurations we have done was correct.</p>
+<p begin="00:07:03.599" end="00:07:09.280" style="s2">But because this Gmail API was not</p>
+<p begin="00:07:05.960" end="00:07:12.319" style="s2">enabled, this workflow was failing. If I</p>
+<p begin="00:07:09.280" end="00:07:15.520" style="s2">click on test now, you can see that it</p>
+<p begin="00:07:12.319" end="00:07:18.039" style="s2">passed. It created a draft email. If I</p>
+<p begin="00:07:15.520" end="00:07:19.960" style="s2">go in my Gmail</p>
+<p begin="00:07:18.039" end="00:07:24.759" style="s2">inbox and</p>
+<p begin="00:07:19.960" end="00:07:29.479" style="s2">I pick this draft email,</p>
+<p begin="00:07:24.759" end="00:07:33.520" style="s2">drafts, I will quickly bring</p>
+<p begin="00:07:29.479" end="00:07:36.039" style="s2">it onto the other screen in a minute.</p>
+<p begin="00:07:33.520" end="00:07:40.960" style="s2">Here we go.</p>
+<p begin="00:07:36.039" end="00:07:44.720" style="s2">10:14 p.m. 10:14 p.m. we created a test</p>
+<p begin="00:07:40.960" end="00:07:49.160" style="s2">subject and test body. So basically that</p>
+<p begin="00:07:44.720" end="00:07:54.000" style="s2">is the very simple steps on how you can</p>
+<p begin="00:07:49.160" end="00:07:57.680" style="s2">create a simple draft uh message. Each</p>
+<p begin="00:07:54.000" end="00:08:03.599" style="s2">time I click on this it executes. Um and</p>
+<p begin="00:07:57.680" end="00:08:05.800" style="s2">if I go and check my uh email, it will</p>
+<p begin="00:08:03.599" end="00:08:09.360" style="s2">create another draft</p>
+<p begin="00:08:05.800" end="00:08:11.840" style="s2">uh because I clicked that. So the entire</p>
+<p begin="00:08:09.360" end="00:08:15.199" style="s2">workflow works like that. Let&#39;s have a</p>
+<p begin="00:08:11.840" end="00:08:17.680" style="s2">quick recap on what we have done so far.</p>
+<p begin="00:08:15.199" end="00:08:21.520" style="s2">So we did a very detailed introduction</p>
+<p begin="00:08:17.680" end="00:08:26.080" style="s2">of NA10. We had a greater detailed look</p>
+<p begin="00:08:21.520" end="00:08:29.960" style="s2">at what are AI agent nodes in NA10.</p>
+<p begin="00:08:26.080" end="00:08:31.560" style="s2">And we just finished composing an email</p>
+<p begin="00:08:29.960" end="00:08:36.560" style="s2">using</p>
+<p begin="00:08:31.560" end="00:08:39.919" style="s2">nat. We will look at web hooks later</p>
+<p begin="00:08:36.560" end="00:08:42.399" style="s2">especially this kind of a architecture</p>
+<p begin="00:08:39.919" end="00:08:46.160" style="s2">that we have in place. Uh web hook will</p>
+<p begin="00:08:42.399" end="00:08:50.560" style="s2">create uh create a bridging rule. It</p>
+<p begin="00:08:46.160" end="00:08:52.640" style="s2">will basically connect VP with NA10 and</p>
+<p begin="00:08:50.560" end="00:08:55.600" style="s2">then we&#39;ll take this piece of workflow</p>
+<p begin="00:08:52.640" end="00:08:58.080" style="s2">that we created that composes emails and</p>
+<p begin="00:08:55.600" end="00:09:00.240" style="s2">then we take the Vappy and then connect</p>
+<p begin="00:08:58.080" end="00:09:03.120" style="s2">them together and then basically we can</p>
+<p begin="00:09:00.240" end="00:09:07.600" style="s2">talk to microphone and compose emails</p>
+<p begin="00:09:03.120" end="00:09:10.720" style="s2">and then basically we will be able to</p>
+<p begin="00:09:07.600" end="00:09:12.519" style="s2">carry on to finish this part one which</p>
+<p begin="00:09:10.720" end="00:09:14.959" style="s2">is composing</p>
+<p begin="00:09:12.519" end="00:09:17.839" style="s2">emails. Until then, thank you so much</p>
+<p begin="00:09:14.959" end="00:09:17.839" style="s2">for listening.</p>
+</div>
+</body>
+</tt>

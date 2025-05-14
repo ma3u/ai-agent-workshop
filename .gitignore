@@ -47,9 +47,7 @@ coverage.xml
 .pytest_cache/
 
 # Transcripts and large data
-transcripts/
 .videos/
-screenshots/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints

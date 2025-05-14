@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.160" end="00:00:07.440" style="s2">In this lecture, we will have a look at</p>
+<p begin="00:00:03.480" end="00:00:09.960" style="s2">NAT, the most important component of</p>
+<p begin="00:00:07.440" end="00:00:12.639" style="s2">this entire lecture</p>
+<p begin="00:00:09.960" end="00:00:16.480" style="s2">series. Uh, a company based out of</p>
+<p begin="00:00:12.639" end="00:00:19.199" style="s2">Berlin that builds amazing agentic</p>
+<p begin="00:00:16.480" end="00:00:21.840" style="s2">workflows are automates workflows that</p>
+<p begin="00:00:19.199" end="00:00:24.240" style="s2">can be used by AI agents and they also</p>
+<p begin="00:00:21.840" end="00:00:27.439" style="s2">have an AI agent node which we&#39;ll be</p>
+<p begin="00:00:24.240" end="00:00:30.160" style="s2">using in just a minute. So, let&#39;s have a</p>
+<p begin="00:00:27.439" end="00:00:34.280" style="s2">look at their company.</p>
+<p begin="00:00:30.160" end="00:00:37.040" style="s2">It&#39;s basically uh a flexible AI workflow</p>
+<p begin="00:00:34.280" end="00:00:40.480" style="s2">automation framework uh that&#39;s for</p>
+<p begin="00:00:37.040" end="00:00:44.239" style="s2">technical teams. With this you can build</p>
+<p begin="00:00:40.480" end="00:00:48.559" style="s2">um the kind of workflow that starts with</p>
+<p begin="00:00:44.239" end="00:00:51.879" style="s2">a drag and drop. Um it can be hosted on</p>
+<p begin="00:00:48.559" end="00:00:54.960" style="s2">your own premise. So it can be 100%</p>
+<p begin="00:00:51.879" end="00:00:58.640" style="s2">selfhosted. It&#39;s not open source. It is</p>
+<p begin="00:00:54.960" end="00:01:00.960" style="s2">fair source. Uh it&#39;s a different model.</p>
+<p begin="00:00:58.640" end="00:01:03.840" style="s2">uh you have to talk to their sales team</p>
+<p begin="00:01:00.960" end="00:01:07.080" style="s2">to know more about how you can do it.</p>
+<p begin="00:01:03.840" end="00:01:12.080" style="s2">But look at that kind of attraction.</p>
+<p begin="00:01:07.080" end="00:01:15.920" style="s2">91,000 stars on their GitHub. Um and if</p>
+<p begin="00:01:12.080" end="00:01:18.880" style="s2">you quickly have a look at their amazing</p>
+<p begin="00:01:15.920" end="00:01:21.439" style="s2">GitHub project, you will realize the</p>
+<p begin="00:01:18.880" end="00:01:22.920" style="s2">size of this project, how big it is,</p>
+<p begin="00:01:21.439" end="00:01:25.840" style="s2">13,000</p>
+<p begin="00:01:22.920" end="00:01:28.159" style="s2">comments. It is mostly done in</p>
+<p begin="00:01:25.840" end="00:01:30.240" style="s2">Typescript. So when you fork it, you can</p>
+<p begin="00:01:28.159" end="00:01:34.400" style="s2">customize it because this kind of a</p>
+<p begin="00:01:30.240" end="00:01:37.240" style="s2">technology stack is very common uh skill</p>
+<p begin="00:01:34.400" end="00:01:40.000" style="s2">set and a lot of developers can be found</p>
+<p begin="00:01:37.240" end="00:01:42.759" style="s2">there. And you can see that this is a</p>
+<p begin="00:01:40.000" end="00:01:45.399" style="s2">community effort like</p>
+<p begin="00:01:42.759" end="00:01:48.159" style="s2">483</p>
+<p begin="00:01:45.399" end="00:01:51.280" style="s2">contributors and a few more metrics and</p>
+<p begin="00:01:48.159" end="00:01:53.600" style="s2">then we&#39;ll go to the next one. So this</p>
+<p begin="00:01:51.280" end="00:01:58.000" style="s2">is a project that&#39;s not just a few years</p>
+<p begin="00:01:53.600" end="00:02:01.000" style="s2">old. It&#39;s coming from a long time 2019</p>
+<p begin="00:01:58.000" end="00:02:04.479" style="s2">and I&#39;m following their story somewhere</p>
+<p begin="00:02:01.000" end="00:02:06.640" style="s2">from here and onward</p>
+<p begin="00:02:04.479" end="00:02:09.479" style="s2">uh because I needed something like this</p>
+<p begin="00:02:06.640" end="00:02:12.480" style="s2">for my company. My company</p>
+<p begin="00:02:09.479" end="00:02:14.840" style="s2">was VoiceKit. Uh, and I was building</p>
+<p begin="00:02:12.480" end="00:02:17.319" style="s2">this voice AI</p>
+<p begin="00:02:14.840" end="00:02:20.800" style="s2">agent. And</p>
+<p begin="00:02:17.319" end="00:02:22.040" style="s2">for this voice AI agent, it needed an</p>
+<p begin="00:02:20.800" end="00:02:25.280" style="s2">orchestration</p>
+<p begin="00:02:22.040" end="00:02:27.440" style="s2">layer, a automation layer where I</p>
+<p begin="00:02:25.280" end="00:02:31.200" style="s2">connect all of those backend databases.</p>
+<p begin="00:02:27.440" end="00:02:31.200" style="s2">And Vapy was my go-to</p>
+<p begin="00:02:31.640" end="00:02:41.440" style="s2">choice. U pardon me, Vappy, not uh</p>
+<p begin="00:02:36.040" end="00:02:43.360" style="s2">NAM. So this project is the project that</p>
+<p begin="00:02:41.440" end="00:02:47.519" style="s2">we will be using throughout the course</p>
+<p begin="00:02:43.360" end="00:02:51.920" style="s2">for all the other steps. Let&#39;s start</p>
+<p begin="00:02:47.519" end="00:02:54.360" style="s2">from literally the first steps of this.</p>
+<p begin="00:02:51.920" end="00:02:57.840" style="s2">In the first screen of</p>
+<p begin="00:02:54.360" end="00:02:59.840" style="s2">um NA10, you&#39;ll see a list of all your</p>
+<p begin="00:02:57.840" end="00:03:03.519" style="s2">workflows. You can search your workflows</p>
+<p begin="00:02:59.840" end="00:03:05.760" style="s2">from here. You can actually duplicate</p>
+<p begin="00:03:03.519" end="00:03:08.440" style="s2">them from here, which I would recommend</p>
+<p begin="00:03:05.760" end="00:03:11.200" style="s2">if you want to do some</p>
+<p begin="00:03:08.440" end="00:03:14.480" style="s2">changes. Uh, duplicate them in order to</p>
+<p begin="00:03:11.200" end="00:03:16.879" style="s2">make sure that you have a</p>
+<p begin="00:03:14.480" end="00:03:19.800" style="s2">uh a playground where you don&#39;t want to</p>
+<p begin="00:03:16.879" end="00:03:21.840" style="s2">mess something out if it&#39;s</p>
+<p begin="00:03:19.800" end="00:03:24.400" style="s2">working. We will talk about this</p>
+<p begin="00:03:21.840" end="00:03:26.720" style="s2">inactive toggle button in just a minute.</p>
+<p begin="00:03:24.400" end="00:03:28.560" style="s2">From here, you can see the templates.</p>
+<p begin="00:03:26.720" end="00:03:31.519" style="s2">What are templates? We&#39;ll talk about in</p>
+<p begin="00:03:28.560" end="00:03:34.400" style="s2">a minute, but just a few sentences. It&#39;s</p>
+<p begin="00:03:31.519" end="00:03:37.760" style="s2">basically the repository of all the</p>
+<p begin="00:03:34.400" end="00:03:40.480" style="s2">workflows that the community has created</p>
+<p begin="00:03:37.760" end="00:03:44.200" style="s2">and then you can use that. Variables are</p>
+<p begin="00:03:40.480" end="00:03:46.400" style="s2">this global variables on your entire</p>
+<p begin="00:03:44.200" end="00:03:49.440" style="s2">workflow management that you can use</p>
+<p begin="00:03:46.400" end="00:03:50.920" style="s2">inside any of the workflows. So let&#39;s</p>
+<p begin="00:03:49.440" end="00:03:53.040" style="s2">create our very first</p>
+<p begin="00:03:50.920" end="00:03:56.000" style="s2">workflow. When you create a new</p>
+<p begin="00:03:53.040" end="00:03:58.480" style="s2">workflow, you will see a screen like</p>
+<p begin="00:03:56.000" end="00:04:01.840" style="s2">this where you see these dots. That</p>
+<p begin="00:03:58.480" end="00:04:03.239" style="s2">means this is a grid where you can zoom</p>
+<p begin="00:04:01.840" end="00:04:07.000" style="s2">in and zoom</p>
+<p begin="00:04:03.239" end="00:04:11.599" style="s2">out. You will have things on</p>
+<p begin="00:04:07.000" end="00:04:14.080" style="s2">this grid. Those things are called nodes</p>
+<p begin="00:04:11.599" end="00:04:17.040" style="s2">and steps and triggers and so on. We&#39;ll</p>
+<p begin="00:04:14.080" end="00:04:18.680" style="s2">see them in a minute. This is called an</p>
+<p begin="00:04:17.040" end="00:04:21.759" style="s2">editor mode. You</p>
+<p begin="00:04:18.680" end="00:04:24.320" style="s2">can find it out from here. Or you go to</p>
+<p begin="00:04:21.759" end="00:04:26.160" style="s2">an execution mode. We&#39;ll see it in a</p>
+<p begin="00:04:24.320" end="00:04:28.880" style="s2">minute. Once you have a workflow, then</p>
+<p begin="00:04:26.160" end="00:04:32.000" style="s2">the execution of that is logged here. So</p>
+<p begin="00:04:28.880" end="00:04:34.800" style="s2">every single execution item will stack</p>
+<p begin="00:04:32.000" end="00:04:38.720" style="s2">here and then you can see and and debug</p>
+<p begin="00:04:34.800" end="00:04:41.919" style="s2">the executions. So let&#39;s add an open AI</p>
+<p begin="00:04:38.720" end="00:04:44.320" style="s2">chat model. When you add an open AI chat</p>
+<p begin="00:04:41.919" end="00:04:44.320" style="s2">model</p>
+<p begin="00:04:44.680" end="00:04:51.040" style="s2">here, pardon me, this is not what I want</p>
+<p begin="00:04:47.600" end="00:04:53.520" style="s2">to do. I want to add a chat uh a</p>
+<p begin="00:04:51.040" end="00:04:56.800" style="s2">trigger, not opening a chat mode. That&#39;s</p>
+<p begin="00:04:53.520" end="00:04:59.600" style="s2">coming in just a minute. The screen of</p>
+<p begin="00:04:56.800" end="00:05:02.080" style="s2">the chat uh looks like this. It</p>
+<p begin="00:04:59.600" end="00:05:03.919" style="s2">basically has a few toggles and</p>
+<p begin="00:05:02.080" end="00:05:07.520" style="s2">everything. Let&#39;s just keep it like</p>
+<p begin="00:05:03.919" end="00:05:10.360" style="s2">that. Go back and then come over here</p>
+<p begin="00:05:07.520" end="00:05:14.120" style="s2">and then in this</p>
+<p begin="00:05:10.360" end="00:05:17.759" style="s2">space put a AI</p>
+<p begin="00:05:14.120" end="00:05:21.840" style="s2">agent and in this AI agent you will need</p>
+<p begin="00:05:17.759" end="00:05:24.960" style="s2">to add a few elements. Uh again let&#39;s</p>
+<p begin="00:05:21.840" end="00:05:27.880" style="s2">just skip it. Um and then I will show</p>
+<p begin="00:05:24.960" end="00:05:33.039" style="s2">you what to do next. Click on chat</p>
+<p begin="00:05:27.880" end="00:05:35.120" style="s2">model. Click on open AI chat model. This</p>
+<p begin="00:05:33.039" end="00:05:39.840" style="s2">is the place where you need to put your</p>
+<p begin="00:05:35.120" end="00:05:42.240" style="s2">API key, your chat GPT API key. And I</p>
+<p begin="00:05:39.840" end="00:05:45.919" style="s2">already have an account set up here. If</p>
+<p begin="00:05:42.240" end="00:05:48.479" style="s2">I select it, uh I can go on but I will</p>
+<p begin="00:05:45.919" end="00:05:51.039" style="s2">try to create one from scratch so that</p>
+<p begin="00:05:48.479" end="00:05:52.120" style="s2">you know how to create an API key on</p>
+<p begin="00:05:51.039" end="00:05:55.520" style="s2">chat</p>
+<p begin="00:05:52.120" end="00:05:58.199" style="s2">GBD. So this is the place where you will</p>
+<p begin="00:05:55.520" end="00:06:03.560" style="s2">be greeted in order to place your API</p>
+<p begin="00:05:58.199" end="00:06:03.560" style="s2">key. Now go to playground</p>
+<p begin="00:06:05.639" end="00:06:09.960" style="s2">uh.openai.com. And when you go to the</p>
+<p begin="00:06:08.240" end="00:06:13.080" style="s2">playground</p>
+<p begin="00:06:09.960" end="00:06:16.400" style="s2">openai.com, you should see</p>
+<p begin="00:06:13.080" end="00:06:19.800" style="s2">a list of projects. Select the project</p>
+<p begin="00:06:16.400" end="00:06:24.360" style="s2">that you want to create</p>
+<p begin="00:06:19.800" end="00:06:28.280" style="s2">the API key and then click on</p>
+<p begin="00:06:24.360" end="00:06:31.120" style="s2">settings and then click on API</p>
+<p begin="00:06:28.280" end="00:06:32.600" style="s2">keys and then from here you can click on</p>
+<p begin="00:06:31.120" end="00:06:35.120" style="s2">create new</p>
+<p begin="00:06:32.600" end="00:06:37.880" style="s2">secret. Give it a name. I will delete</p>
+<p begin="00:06:35.120" end="00:06:40.240" style="s2">this later so I can</p>
+<p begin="00:06:37.880" end="00:06:42.479" style="s2">remember but it should be a name that</p>
+<p begin="00:06:40.240" end="00:06:46.319" style="s2">you can recognize it from your project.</p>
+<p begin="00:06:42.479" end="00:06:48.800" style="s2">Click on create secret key. This is</p>
+<p begin="00:06:46.319" end="00:06:50.720" style="s2">supposed to be a secret key. So copy it</p>
+<p begin="00:06:48.800" end="00:06:53.319" style="s2">but make it make sure that you keep it</p>
+<p begin="00:06:50.720" end="00:06:56.479" style="s2">secretly in a keychain or something like</p>
+<p begin="00:06:53.319" end="00:06:59.759" style="s2">that. Now let&#39;s go back to the workflow</p>
+<p begin="00:06:56.479" end="00:07:01.319" style="s2">and then in here paste that exact one</p>
+<p begin="00:06:59.759" end="00:07:04.120" style="s2">that you have</p>
+<p begin="00:07:01.319" end="00:07:06.560" style="s2">copied. And if you click on</p>
+<p begin="00:07:04.120" end="00:07:08.120" style="s2">save, if the connection worked, it</p>
+<p begin="00:07:06.560" end="00:07:10.840" style="s2">should give you a</p>
+<p begin="00:07:08.120" end="00:07:15.360" style="s2">green notification like</p>
+<p begin="00:07:10.840" end="00:07:18.240" style="s2">this. Now I have this account 2. I&#39;m</p>
+<p begin="00:07:15.360" end="00:07:20.039" style="s2">going to select that. Keep the chat GPT</p>
+<p begin="00:07:18.240" end="00:07:23.440" style="s2">model as</p>
+<p begin="00:07:20.039" end="00:07:26.400" style="s2">40. Either click on the back or press</p>
+<p begin="00:07:23.440" end="00:07:30.800" style="s2">escape button. You should see now this</p>
+<p begin="00:07:26.400" end="00:07:34.560" style="s2">extra element called open AI chat model.</p>
+<p begin="00:07:30.800" end="00:07:36.880" style="s2">Now if I use this chat u window here,</p>
+<p begin="00:07:34.560" end="00:07:40.199" style="s2">how do you see that? By clicking and</p>
+<p begin="00:07:36.880" end="00:07:43.680" style="s2">toggling it from this button. If I say</p>
+<p begin="00:07:40.199" end="00:07:45.759" style="s2">hi, I can see that the execution</p>
+<p begin="00:07:43.680" end="00:07:49.520" style="s2">happened and then it went to this AI</p>
+<p begin="00:07:45.759" end="00:07:52.160" style="s2">agent node and then it went to open AI</p>
+<p begin="00:07:49.520" end="00:07:54.400" style="s2">and then it send a request to open AAI</p>
+<p begin="00:07:52.160" end="00:07:58.000" style="s2">and then this message coming back how</p>
+<p begin="00:07:54.400" end="00:08:00.720" style="s2">can I assist you today is basically the</p>
+<p begin="00:07:58.000" end="00:08:03.840" style="s2">message coming back from chat GPT. I can</p>
+<p begin="00:08:00.720" end="00:08:07.000" style="s2">ask everything that I can ask chat GPT</p>
+<p begin="00:08:03.840" end="00:08:10.080" style="s2">from here. What is the</p>
+<p begin="00:08:07.000" end="00:08:11.960" style="s2">population of Berlin? Obviously, it&#39;s</p>
+<p begin="00:08:10.080" end="00:08:14.639" style="s2">going to say something from the cutoff</p>
+<p begin="00:08:11.960" end="00:08:16.960" style="s2">date 3.7 million. Maybe it&#39;s a little</p>
+<p begin="00:08:14.639" end="00:08:17.960" style="s2">bit more, but that&#39;s the cutoff date</p>
+<p begin="00:08:16.960" end="00:08:20.560" style="s2">October</p>
+<p begin="00:08:17.960" end="00:08:23.759" style="s2">2023. Let&#39;s have a quick look at</p>
+<p begin="00:08:20.560" end="00:08:25.680" style="s2">execution tab. This is the execution. I</p>
+<p begin="00:08:23.759" end="00:08:28.720" style="s2">asked two questions. Both of those</p>
+<p begin="00:08:25.680" end="00:08:31.759" style="s2">questions went in the execution here.</p>
+<p begin="00:08:28.720" end="00:08:34.240" style="s2">And then I can see things around only if</p>
+<p begin="00:08:31.759" end="00:08:35.919" style="s2">the There we go. Now I can see things</p>
+<p begin="00:08:34.240" end="00:08:38.640" style="s2">around. And then I can click it and then</p>
+<p begin="00:08:35.919" end="00:08:40.959" style="s2">I can see the actual payloads that went</p>
+<p begin="00:08:38.640" end="00:08:43.919" style="s2">through there and that snapshot of the</p>
+<p begin="00:08:40.959" end="00:08:48.519" style="s2">time when things happen and all the</p>
+<p begin="00:08:43.919" end="00:08:52.760" style="s2">details of that particular execution</p>
+<p begin="00:08:48.519" end="00:08:56.240" style="s2">layer. For example, here I can I ask</p>
+<p begin="00:08:52.760" end="00:08:58.560" style="s2">that that question um what is the</p>
+<p begin="00:08:56.240" end="00:09:01.040" style="s2">population of Berlin? And here I saw the</p>
+<p begin="00:08:58.560" end="00:09:03.240" style="s2">answer.</p>
+<p begin="00:09:01.040" end="00:09:08.560" style="s2">Let&#39;s go back to the editor</p>
+<p begin="00:09:03.240" end="00:09:10.880" style="s2">mode. And in here, what we will do is</p>
+<p begin="00:09:08.560" end="00:09:16.200" style="s2">basically</p>
+<p begin="00:09:10.880" end="00:09:16.200" style="s2">um create a very simple</p>
+<p begin="00:09:17.480" end="00:09:21.600" style="s2">um execution</p>
+<p begin="00:09:21.720" end="00:09:27.120" style="s2">of</p>
+<p begin="00:09:23.560" end="00:09:30.959" style="s2">a system prompt. For example, if I go</p>
+<p begin="00:09:27.120" end="00:09:33.040" style="s2">here, I can click on define below. This</p>
+<p begin="00:09:30.959" end="00:09:36.720" style="s2">is called system prompt. We will be</p>
+<p begin="00:09:33.040" end="00:09:42.600" style="s2">working on this box in a few</p>
+<p begin="00:09:36.720" end="00:09:44.600" style="s2">uh lectures. So here if we say your name</p>
+<p begin="00:09:42.600" end="00:09:48.880" style="s2">is</p>
+<p begin="00:09:44.600" end="00:09:50.920" style="s2">Samanta, you are the AI agent that has</p>
+<p begin="00:09:48.880" end="00:09:55.040" style="s2">access</p>
+<p begin="00:09:50.920" end="00:09:58.519" style="s2">tools and so on and so forth. uh then it</p>
+<p begin="00:09:55.040" end="00:10:01.600" style="s2">this is basically this the thing if I</p>
+<p begin="00:09:58.519" end="00:10:03.760" style="s2">say hi</p>
+<p begin="00:10:01.600" end="00:10:06.800" style="s2">uh here you can see that it&#39;s already</p>
+<p begin="00:10:03.760" end="00:10:09.600" style="s2">greeting it hello I&#39;m Samantha so that</p>
+<p begin="00:10:06.800" end="00:10:11.760" style="s2">system prompt is important for that</p>
+<p begin="00:10:09.600" end="00:10:13.600" style="s2">let&#39;s touch memory for a little bit and</p>
+<p begin="00:10:11.760" end="00:10:16.040" style="s2">then the tools we will not need to touch</p>
+<p begin="00:10:13.600" end="00:10:20.320" style="s2">because that will be a part of the next</p>
+<p begin="00:10:16.040" end="00:10:22.320" style="s2">lecture so if I click on memory you will</p>
+<p begin="00:10:20.320" end="00:10:24.760" style="s2">see a few options there are some</p>
+<p begin="00:10:22.320" end="00:10:28.079" style="s2">temporary memory Okay, like simple</p>
+<p begin="00:10:24.760" end="00:10:30.320" style="s2">memory. This is good for beginners. And</p>
+<p begin="00:10:28.079" end="00:10:33.640" style="s2">then for long-term memory, you can have</p>
+<p begin="00:10:30.320" end="00:10:36.320" style="s2">an actual database, a vector</p>
+<p begin="00:10:33.640" end="00:10:38.880" style="s2">database. Now, why do we need memory is</p>
+<p begin="00:10:36.320" end="00:10:43.320" style="s2">a very good question. Let&#39;s quickly</p>
+<p begin="00:10:38.880" end="00:10:50.200" style="s2">prove that. If I say my name is</p>
+<p begin="00:10:43.320" end="00:10:50.200" style="s2">John and then I ask it, what is my name?</p>
+<p begin="00:10:52.800" end="00:10:58.160" style="s2">It is elicinating. It&#39;s thinking that my</p>
+<p begin="00:10:55.040" end="00:11:00.800" style="s2">name is Ammo. It&#39;s not able to tell me</p>
+<p begin="00:10:58.160" end="00:11:04.760" style="s2">my name is John. Or the best way would</p>
+<p begin="00:11:00.800" end="00:11:07.920" style="s2">be that we remove this system</p>
+<p begin="00:11:04.760" end="00:11:11.160" style="s2">prompt so that it goes back to that old</p>
+<p begin="00:11:07.920" end="00:11:16.640" style="s2">way and then we clear the entire chat</p>
+<p begin="00:11:11.160" end="00:11:16.640" style="s2">history. And then here I say, &quot;Hi, my</p>
+<p begin="00:11:17.959" end="00:11:24.760" style="s2">name my name is</p>
+<p begin="00:11:20.600" end="00:11:27.120" style="s2">John.&quot; Since it&#39;s a so-called stateless</p>
+<p begin="00:11:24.760" end="00:11:31.160" style="s2">architecture, it does not remember my</p>
+<p begin="00:11:27.120" end="00:11:33.920" style="s2">name anymore. When I say what is my</p>
+<p begin="00:11:31.160" end="00:11:35.680" style="s2">name, it will execute that. But then it</p>
+<p begin="00:11:33.920" end="00:11:39.839" style="s2">will say I don&#39;t have access to personal</p>
+<p begin="00:11:35.680" end="00:11:42.240" style="s2">data users unless uh it has been shared.</p>
+<p begin="00:11:39.839" end="00:11:44.240" style="s2">So it doesn&#39;t have any memory.</p>
+<p begin="00:11:42.240" end="00:11:45.640" style="s2">Now if I click on this memory and then</p>
+<p begin="00:11:44.240" end="00:11:48.800" style="s2">add simple</p>
+<p begin="00:11:45.640" end="00:11:52.560" style="s2">memory just press escape. That&#39;s it. It</p>
+<p begin="00:11:48.800" end="00:11:56.839" style="s2">is installed. Now if I do the same thing</p>
+<p begin="00:11:52.560" end="00:12:00.200" style="s2">it it remembers my name.</p>
+<p begin="00:11:56.839" end="00:12:05.360" style="s2">Hi. My name is</p>
+<p begin="00:12:00.200" end="00:12:05.360" style="s2">John. And then when I say what is my</p>
+<p begin="00:12:05.399" end="00:12:10.200" style="s2">name? Your name is John. You can see</p>
+<p begin="00:12:07.760" end="00:12:14.000" style="s2">that it remembers things.</p>
+<p begin="00:12:10.200" end="00:12:19.399" style="s2">So literally with a few clicks what we</p>
+<p begin="00:12:14.000" end="00:12:24.240" style="s2">have done here is the amount of work</p>
+<p begin="00:12:19.399" end="00:12:27.120" style="s2">that usually a developer would uh build</p>
+<p begin="00:12:24.240" end="00:12:29.040" style="s2">something like that in two weeks let&#39;s</p>
+<p begin="00:12:27.120" end="00:12:30.920" style="s2">say and we build it just in a few</p>
+<p begin="00:12:29.040" end="00:12:36.560" style="s2">minutes. This was a quick</p>
+<p begin="00:12:30.920" end="00:12:39.440" style="s2">introduction to um the NA10 power and we</p>
+<p begin="00:12:36.560" end="00:12:41.760" style="s2">will discover more of this in the</p>
+<p begin="00:12:39.440" end="00:12:44.000" style="s2">upcoming lectures. See you in next</p>
+<p begin="00:12:41.760" end="00:12:44.000" style="s2">lecture.</p>
+</div>
+</body>
+</tt>

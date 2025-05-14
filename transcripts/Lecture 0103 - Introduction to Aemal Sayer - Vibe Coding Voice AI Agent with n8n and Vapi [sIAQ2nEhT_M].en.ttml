@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.640" end="00:00:04.880" style="s2">Welcome to the third video of this</p>
+<p begin="00:00:02.720" end="00:00:07.200" style="s2">series where I&#39;ll show you how to build</p>
+<p begin="00:00:04.880" end="00:00:10.719" style="s2">a voice agent that reads emails from</p>
+<p begin="00:00:07.200" end="00:00:12.480" style="s2">your inbox and also composes replies.</p>
+<p begin="00:00:10.719" end="00:00:14.880" style="s2">And on the top of that, I&#39;ll show you</p>
+<p begin="00:00:12.480" end="00:00:17.920" style="s2">how to do VIP coding the right way so</p>
+<p begin="00:00:14.880" end="00:00:21.199" style="s2">that you can expand the reach of this</p>
+<p begin="00:00:17.920" end="00:00:23.119" style="s2">voice AI agent only not only from Vappy</p>
+<p begin="00:00:21.199" end="00:00:26.279" style="s2">and Natin, the two awesome companies</p>
+<p begin="00:00:23.119" end="00:00:30.439" style="s2">that we are using, but</p>
+<p begin="00:00:26.279" end="00:00:32.960" style="s2">also custom coding with VIP coding uh</p>
+<p begin="00:00:30.439" end="00:00:34.640" style="s2">techniques. But in this video, I would</p>
+<p begin="00:00:32.960" end="00:00:38.239" style="s2">like to give you an introduction about</p>
+<p begin="00:00:34.640" end="00:00:40.480" style="s2">myself. So, let&#39;s go and start that one.</p>
+<p begin="00:00:38.239" end="00:00:43.760" style="s2">Uh my name is Amos Sire. I&#39;m a software</p>
+<p begin="00:00:40.480" end="00:00:46.000" style="s2">engineer uh specializing in building AI</p>
+<p begin="00:00:43.760" end="00:00:49.800" style="s2">agents formemes really complex ones</p>
+<p begin="00:00:46.000" end="00:00:54.079" style="s2">really things that go require a lot of</p>
+<p begin="00:00:49.800" end="00:00:56.719" style="s2">engineering right I speak five languages</p>
+<p begin="00:00:54.079" end="00:00:59.520" style="s2">um I am so much a techie I&#39;ve been</p>
+<p begin="00:00:56.719" end="00:01:02.239" style="s2">writing code for the past 23 years and</p>
+<p begin="00:00:59.520" end="00:01:05.000" style="s2">I&#39;m also so much entrepreneurial so you</p>
+<p begin="00:01:02.239" end="00:01:07.159" style="s2">can talk to me the business lingo as</p>
+<p begin="00:01:05.000" end="00:01:09.840" style="s2">well these are</p>
+<p begin="00:01:07.159" end="00:01:13.760" style="s2">the five companies that I&#39;ve built in</p>
+<p begin="00:01:09.840" end="00:01:16.080" style="s2">the past decade and in total</p>
+<p begin="00:01:13.760" end="00:01:17.520" style="s2">um more than 16 17 years I&#39;m an</p>
+<p begin="00:01:16.080" end="00:01:21.759" style="s2">entrepreneur but at least focusing on</p>
+<p begin="00:01:17.520" end="00:01:23.680" style="s2">these past decade a web RTC based</p>
+<p begin="00:01:21.759" end="00:01:25.439" style="s2">communication platform where we</p>
+<p begin="00:01:23.680" end="00:01:28.880" style="s2">connected developers with each other so</p>
+<p begin="00:01:25.439" end="00:01:31.200" style="s2">they can do debugging on uh video and</p>
+<p begin="00:01:28.880" end="00:01:33.680" style="s2">screen sharing these two agencies a</p>
+<p begin="00:01:31.200" end="00:01:36.400" style="s2">react only agency and a smart contract</p>
+<p begin="00:01:33.680" end="00:01:39.280" style="s2">only agency that I ran for multiple</p>
+<p begin="00:01:36.400" end="00:01:42.159" style="s2">years around seven years I bootstrap</p>
+<p begin="00:01:39.280" end="00:01:44.400" style="s2">wrapped uh voice uh asynchronous voice</p>
+<p begin="00:01:42.159" end="00:01:47.520" style="s2">voice communication platform for four</p>
+<p begin="00:01:44.400" end="00:01:50.079" style="s2">and a half years uh launched on Absumu</p>
+<p begin="00:01:47.520" end="00:01:52.799" style="s2">and so on very big tool kept building it</p>
+<p begin="00:01:50.079" end="00:01:56.880" style="s2">for four and a half years I built a</p>
+<p begin="00:01:52.799" end="00:01:59.360" style="s2">voice AI agent um in 23 and 24 about</p>
+<p begin="00:01:56.880" end="00:02:01.840" style="s2">which I&#39;ll talk in a minute from January</p>
+<p begin="00:01:59.360" end="00:02:04.560" style="s2">2025 I went all in on my personal</p>
+<p begin="00:02:01.840" end="00:02:07.200" style="s2">branding in this workshop formats and</p>
+<p begin="00:02:04.560" end="00:02:10.640" style="s2">building AI agents for bigger SMMES as</p>
+<p begin="00:02:07.200" end="00:02:14.080" style="s2">an individual contributor there. So, my</p>
+<p begin="00:02:10.640" end="00:02:18.879" style="s2">voice AI agent that uh was so near and</p>
+<p begin="00:02:14.080" end="00:02:21.520" style="s2">dear to to me was VoiceKit. Uh my</p>
+<p begin="00:02:18.879" end="00:02:24.720" style="s2">co-founder and I built this dream of</p>
+<p begin="00:02:21.520" end="00:02:26.599" style="s2">Night Rider, the talking car called Kit</p>
+<p begin="00:02:24.720" end="00:02:29.280" style="s2">in 2023 and</p>
+<p begin="00:02:26.599" end="00:02:32.080" style="s2">2024. Uh it was a voice agent that</p>
+<p begin="00:02:29.280" end="00:02:36.640" style="s2">basically would talk to you and you</p>
+<p begin="00:02:32.080" end="00:02:39.120" style="s2">could work while driving. So this is uh</p>
+<p begin="00:02:36.640" end="00:02:42.720" style="s2">an amazing concept. It used to be</p>
+<p begin="00:02:39.120" end="00:02:44.879" style="s2">considered as uh as science fiction in</p>
+<p begin="00:02:42.720" end="00:02:46.200" style="s2">1980s and that science fiction is now</p>
+<p begin="00:02:44.879" end="00:02:49.200" style="s2">becoming a</p>
+<p begin="00:02:46.200" end="00:02:51.519" style="s2">reality. Uh we did everything all the</p>
+<p begin="00:02:49.200" end="00:02:53.280" style="s2">startups do. We went on the stages. We</p>
+<p begin="00:02:51.519" end="00:02:56.720" style="s2">raised some money. I brought some</p>
+<p begin="00:02:53.280" end="00:03:00.560" style="s2">savings of my own. I lost all of those</p>
+<p begin="00:02:56.720" end="00:03:04.720" style="s2">savings but I learn a lot from my tenure</p>
+<p begin="00:03:00.560" end="00:03:07.760" style="s2">uh running voice kit. uh and sometimes</p>
+<p begin="00:03:04.720" end="00:03:09.760" style="s2">startups end but missions don&#39;t. My</p>
+<p begin="00:03:07.760" end="00:03:11.840" style="s2">missions is still the same. I&#39;ve been</p>
+<p begin="00:03:09.760" end="00:03:15.200" style="s2">building AI applications for the past</p>
+<p begin="00:03:11.840" end="00:03:17.239" style="s2">seven or eight years now with two and a</p>
+<p begin="00:03:15.200" end="00:03:20.000" style="s2">half years of experience building AI</p>
+<p begin="00:03:17.239" end="00:03:22.959" style="s2">agents. Uh after this liquidation of my</p>
+<p begin="00:03:20.000" end="00:03:25.360" style="s2">company, I&#39;m positioning myself more as</p>
+<p begin="00:03:22.959" end="00:03:27.680" style="s2">an educator. I&#39;m sharing my knowledge</p>
+<p begin="00:03:25.360" end="00:03:29.440" style="s2">through my YouTube channel uh and</p>
+<p begin="00:03:27.680" end="00:03:31.440" style="s2">through these workshops uh on a</p>
+<p begin="00:03:29.440" end="00:03:32.959" style="s2">continuous basis with other</p>
+<p begin="00:03:31.440" end="00:03:35.239" style="s2">entrepreneurs so that they can build</p>
+<p begin="00:03:32.959" end="00:03:38.640" style="s2">better tools as they go</p>
+<p begin="00:03:35.239" end="00:03:40.560" style="s2">along. I build these AI agents or my</p>
+<p begin="00:03:38.640" end="00:03:43.680" style="s2">specialization goes towards this AI</p>
+<p begin="00:03:40.560" end="00:03:46.799" style="s2">agent that do not use APIs. They use</p>
+<p begin="00:03:43.680" end="00:03:49.280" style="s2">computer interface something like</p>
+<p begin="00:03:46.799" end="00:03:52.000" style="s2">computer use from entropic that was</p>
+<p begin="00:03:49.280" end="00:03:56.159" style="s2">announced in October or operator from</p>
+<p begin="00:03:52.000" end="00:03:58.799" style="s2">open AAI. Also manusi if you guys saw a</p>
+<p begin="00:03:56.159" end="00:04:00.120" style="s2">month ago that a lot of people think</p>
+<p begin="00:03:58.799" end="00:04:04.680" style="s2">that this is</p>
+<p begin="00:04:00.120" end="00:04:08.319" style="s2">a second um deepseek moment for</p>
+<p begin="00:04:04.680" end="00:04:10.560" style="s2">China. But how did it start? I just</p>
+<p begin="00:04:08.319" end="00:04:12.480" style="s2">built I started tweaking things around.</p>
+<p begin="00:04:10.560" end="00:04:15.120" style="s2">And I said like I want to build a</p>
+<p begin="00:04:12.480" end="00:04:16.720" style="s2">self-hosted computer use so that AI</p>
+<p begin="00:04:15.120" end="00:04:19.680" style="s2">agents can use this. And I started</p>
+<p begin="00:04:16.720" end="00:04:22.720" style="s2">building this um literally in January I</p>
+<p begin="00:04:19.680" end="00:04:26.000" style="s2">built this thing that only did one task</p>
+<p begin="00:04:22.720" end="00:04:28.800" style="s2">taking a picture of anything that you</p>
+<p begin="00:04:26.000" end="00:04:30.880" style="s2">ask for from the internet and then</p>
+<p begin="00:04:28.800" end="00:04:34.440" style="s2">bringing it back in this chat window. I</p>
+<p begin="00:04:30.880" end="00:04:37.360" style="s2">posted it online. it kind of went semi</p>
+<p begin="00:04:34.440" end="00:04:40.320" style="s2">viral and it pushed me to do this and</p>
+<p begin="00:04:37.360" end="00:04:42.000" style="s2">and I kept building it in public by</p>
+<p begin="00:04:40.320" end="00:04:44.000" style="s2">analyzing these screens. This is a</p>
+<p begin="00:04:42.000" end="00:04:48.800" style="s2">screen of</p>
+<p begin="00:04:44.000" end="00:04:52.160" style="s2">um the computer use from Antropic. It</p>
+<p begin="00:04:48.800" end="00:04:54.400" style="s2">has a chat window. It has a computer. I</p>
+<p begin="00:04:52.160" end="00:04:55.919" style="s2">analyzed operator literally by seeing</p>
+<p begin="00:04:54.400" end="00:05:00.360" style="s2">it. I didn&#39;t even have access to</p>
+<p begin="00:04:55.919" end="00:05:03.759" style="s2">operator. Then I said chat computer and</p>
+<p begin="00:05:00.360" end="00:05:07.520" style="s2">then Manus AI chat computer I said like</p>
+<p begin="00:05:03.759" end="00:05:10.479" style="s2">look I am okay with chat I&#39;ve been a</p>
+<p begin="00:05:07.520" end="00:05:12.800" style="s2">full stack developer for 17 years so</p>
+<p begin="00:05:10.479" end="00:05:14.479" style="s2">chat is easy I build the chat part this</p>
+<p begin="00:05:12.800" end="00:05:17.520" style="s2">is an actual screenshot you&#39;ll see in a</p>
+<p begin="00:05:14.479" end="00:05:20.960" style="s2">minute and then I set this window of</p>
+<p begin="00:05:17.520" end="00:05:23.199" style="s2">actual things that can run okay that can</p>
+<p begin="00:05:20.960" end="00:05:25.919" style="s2">be done as well and then I build myself</p>
+<p begin="00:05:23.199" end="00:05:27.680" style="s2">something similar to this and the</p>
+<p begin="00:05:25.919" end="00:05:30.160" style="s2">technology Y stack is super simple. It&#39;s</p>
+<p begin="00:05:27.680" end="00:05:32.400" style="s2">an Nex.js app running a websocket with</p>
+<p begin="00:05:30.160" end="00:05:34.160" style="s2">that Docker container that runs a</p>
+<p begin="00:05:32.400" end="00:05:38.080" style="s2">project called WebTop that basically</p>
+<p begin="00:05:34.160" end="00:05:40.800" style="s2">encapsulates a Linux operating system</p>
+<p begin="00:05:38.080" end="00:05:42.880" style="s2">and puts it on the web and it runs an</p>
+<p begin="00:05:40.800" end="00:05:45.120" style="s2">ElectronJS app that basically captures</p>
+<p begin="00:05:42.880" end="00:05:48.800" style="s2">the X and Y coordinates of where to</p>
+<p begin="00:05:45.120" end="00:05:51.280" style="s2">collect the basic RPA 101 combined with</p>
+<p begin="00:05:48.800" end="00:05:55.600" style="s2">a lot of LLM logic and so on. This is</p>
+<p begin="00:05:51.280" end="00:05:57.840" style="s2">how this whole thing works. Um the UI is</p>
+<p begin="00:05:55.600" end="00:06:01.520" style="s2">containerized inside a docker container</p>
+<p begin="00:05:57.840" end="00:06:03.440" style="s2">running inside a Linux distro but this</p>
+<p begin="00:06:01.520" end="00:06:06.479" style="s2">is virtualization 101. So you can think</p>
+<p begin="00:06:03.440" end="00:06:08.880" style="s2">of also running a Windows here. I&#39;m</p>
+<p begin="00:06:06.479" end="00:06:11.560" style="s2">using robotjs for RPA doing all the</p>
+<p begin="00:06:08.880" end="00:06:15.280" style="s2">clicks and typing coming from a sequence</p>
+<p begin="00:06:11.560" end="00:06:17.759" style="s2">database. And if it gets stuck it goes</p>
+<p begin="00:06:15.280" end="00:06:21.039" style="s2">through this vision fallback</p>
+<p begin="00:06:17.759" end="00:06:27.360" style="s2">uh loads an LLM of your own choice. this</p>
+<p begin="00:06:21.039" end="00:06:30.639" style="s2">be hola 3.2 two or whatever selfoset um</p>
+<p begin="00:06:27.360" end="00:06:32.800" style="s2">LLM you can get plus omniper so that you</p>
+<p begin="00:06:30.639" end="00:06:34.960" style="s2">can understand the metadata on the</p>
+<p begin="00:06:32.800" end="00:06:36.720" style="s2">screen currently running and then it</p>
+<p begin="00:06:34.960" end="00:06:39.520" style="s2">will find the right sequence to resolve</p>
+<p begin="00:06:36.720" end="00:06:41.280" style="s2">that if it can&#39;t then it will notify the</p>
+<p begin="00:06:39.520" end="00:06:43.280" style="s2">human in the loop and the human in the</p>
+<p begin="00:06:41.280" end="00:06:45.440" style="s2">loop goes and remotely connects to this</p>
+<p begin="00:06:43.280" end="00:06:47.520" style="s2">screen and then finds out what&#39;s the</p>
+<p begin="00:06:45.440" end="00:06:50.639" style="s2">problem and then once the problem is</p>
+<p begin="00:06:47.520" end="00:06:52.479" style="s2">resolved then it will be also these new</p>
+<p begin="00:06:50.639" end="00:06:54.479" style="s2">inputs will also be saved in the</p>
+<p begin="00:06:52.479" end="00:06:56.240" style="s2">sequences database. So basically that&#39;s</p>
+<p begin="00:06:54.479" end="00:06:58.560" style="s2">the feedback loop and then that&#39;s how</p>
+<p begin="00:06:56.240" end="00:07:01.120" style="s2">the AI agent will keep learning more and</p>
+<p begin="00:06:58.560" end="00:07:02.880" style="s2">more and more. Uh there is a YouTube</p>
+<p begin="00:07:01.120" end="00:07:06.720" style="s2">video about this that you can watch</p>
+<p begin="00:07:02.880" end="00:07:11.280" style="s2">later that I show this in a great detail</p>
+<p begin="00:07:06.720" end="00:07:13.520" style="s2">and step by step on how this works. Um</p>
+<p begin="00:07:11.280" end="00:07:16.560" style="s2">and also I&#39;m building it in public. So</p>
+<p begin="00:07:13.520" end="00:07:18.880" style="s2">literally you can watch me build every</p>
+<p begin="00:07:16.560" end="00:07:20.319" style="s2">week. There there&#39;s been a couple of</p>
+<p begin="00:07:18.880" end="00:07:23.520" style="s2">weeks that I didn&#39;t do this because I</p>
+<p begin="00:07:20.319" end="00:07:26.319" style="s2">had a lot of talks in SAP and Dive and</p>
+<p begin="00:07:23.520" end="00:07:28.800" style="s2">these big organizations where I went and</p>
+<p begin="00:07:26.319" end="00:07:32.960" style="s2">traveled through across Germany multiple</p>
+<p begin="00:07:28.800" end="00:07:34.960" style="s2">times around 30 plus hours of travel. I</p>
+<p begin="00:07:32.960" end="00:07:37.039" style="s2">still have to do a lot of editing. I</p>
+<p begin="00:07:34.960" end="00:07:39.280" style="s2">have seven talks that I have not yet</p>
+<p begin="00:07:37.039" end="00:07:41.360" style="s2">uploaded on my YouTube channel. So</p>
+<p begin="00:07:39.280" end="00:07:44.240" style="s2">therefore, this particular activity that</p>
+<p begin="00:07:41.360" end="00:07:45.599" style="s2">I&#39;m doing has been uh sacrificed a</p>
+<p begin="00:07:44.240" end="00:07:47.280" style="s2">little bit. I didn&#39;t do a lot of</p>
+<p begin="00:07:45.599" end="00:07:48.720" style="s2">progress here but I&#39;m looking for</p>
+<p begin="00:07:47.280" end="00:07:51.520" style="s2">contributors. So if you want to</p>
+<p begin="00:07:48.720" end="00:07:54.000" style="s2">contribute please reach out.</p>
+<p begin="00:07:51.520" end="00:07:58.639" style="s2">I work with clients like Clara, Zemens,</p>
+<p begin="00:07:54.000" end="00:08:01.919" style="s2">Alian and so on including this um big</p>
+<p begin="00:07:58.639" end="00:08:03.599" style="s2">scale up $300 million uh scaleup company</p>
+<p begin="00:08:01.919" end="00:08:06.000" style="s2">where I was the director of engineering</p>
+<p begin="00:08:03.599" end="00:08:10.160" style="s2">and I built the entire supply chain</p>
+<p begin="00:08:06.000" end="00:08:13.280" style="s2">management um and leading two teams and</p>
+<p begin="00:08:10.160" end="00:08:16.240" style="s2">it was uh a great experience in 2021</p>
+<p begin="00:08:13.280" end="00:08:18.560" style="s2">when I kind of like learned a lot and I</p>
+<p begin="00:08:16.240" end="00:08:21.039" style="s2">brought forward all of that knowledge to</p>
+<p begin="00:08:18.560" end="00:08:22.960" style="s2">my startup and voice kit.</p>
+<p begin="00:08:21.039" end="00:08:26.400" style="s2">So, as I said, I&#39;m building these AI</p>
+<p begin="00:08:22.960" end="00:08:28.800" style="s2">agents and I&#39;m sharing my story and I</p>
+<p begin="00:08:26.400" end="00:08:31.360" style="s2">started literally in January my entire</p>
+<p begin="00:08:28.800" end="00:08:33.120" style="s2">journey and it flew like I went</p>
+<p begin="00:08:31.360" end="00:08:36.159" style="s2">everywhere and I talked a lot. I give</p>
+<p begin="00:08:33.120" end="00:08:39.120" style="s2">workshops and I give uh real coding</p>
+<p begin="00:08:36.159" end="00:08:42.240" style="s2">challenges and and it just kept going on</p>
+<p begin="00:08:39.120" end="00:08:45.399" style="s2">and on and on and I also do these online</p>
+<p begin="00:08:42.240" end="00:08:50.240" style="s2">uh talks AI talks with other AI</p>
+<p begin="00:08:45.399" end="00:08:54.640" style="s2">influencers in-person talks um also some</p>
+<p begin="00:08:50.240" end="00:08:58.000" style="s2">workshops online workshops uh and I&#39;m</p>
+<p begin="00:08:54.640" end="00:09:01.360" style="s2">also the co-host of this amazing</p>
+<p begin="00:08:58.000" end="00:09:03.399" style="s2">uh community of builders called um AI</p>
+<p begin="00:09:01.360" end="00:09:06.959" style="s2">builders that&#39;s happening every month in</p>
+<p begin="00:09:03.399" end="00:09:10.080" style="s2">Berlin. Um, and please stop by in Berlin</p>
+<p begin="00:09:06.959" end="00:09:13.800" style="s2">if you are around. Uh, this is me</p>
+<p begin="00:09:10.080" end="00:09:16.480" style="s2">talking about AI agents at Paranthics AI</p>
+<p begin="00:09:13.800" end="00:09:19.240" style="s2">campus. Uh, that is actually a new</p>
+<p begin="00:09:16.480" end="00:09:21.839" style="s2">format we did in AI builders kind of a</p>
+<p begin="00:09:19.240" end="00:09:24.320" style="s2">debate. I think we will continue</p>
+<p begin="00:09:21.839" end="00:09:28.880" style="s2">bringing this format in. That&#39;s me</p>
+<p begin="00:09:24.320" end="00:09:31.920" style="s2">talking about the same thing at HQ uh of</p>
+<p begin="00:09:28.880" end="00:09:34.399" style="s2">DATV in Nerburgg a couple of days ago.</p>
+<p begin="00:09:31.920" end="00:09:37.839" style="s2">Still I have to edit this. So all of</p>
+<p begin="00:09:34.399" end="00:09:41.519" style="s2">this happened literally in the past</p>
+<p begin="00:09:37.839" end="00:09:44.800" style="s2">couple of months. It was a big spike of</p>
+<p begin="00:09:41.519" end="00:09:47.600" style="s2">things happening at once and now I&#39;m</p>
+<p begin="00:09:44.800" end="00:09:49.680" style="s2">trying to find time. I&#39;m also married. I</p>
+<p begin="00:09:47.600" end="00:09:53.040" style="s2">have two little kids, one year and six</p>
+<p begin="00:09:49.680" end="00:09:54.480" style="s2">years old. Um I lost 20 kilograms in the</p>
+<p begin="00:09:53.040" end="00:09:56.800" style="s2">past six seven months. I have to</p>
+<p begin="00:09:54.480" end="00:09:58.800" style="s2">maintain that health that I have. But</p>
+<p begin="00:09:56.800" end="00:10:03.519" style="s2">still since everything happened so fast</p>
+<p begin="00:09:58.800" end="00:10:06.800" style="s2">and I um I&#39;m barely sleeping. I&#39;m</p>
+<p begin="00:10:03.519" end="00:10:09.839" style="s2">recording this uh this is only for the</p>
+<p begin="00:10:06.800" end="00:10:12.720" style="s2">love of AI agents, for the love of AI,</p>
+<p begin="00:10:09.839" end="00:10:15.600" style="s2">and something that I really have a high</p>
+<p begin="00:10:12.720" end="00:10:16.959" style="s2">passion to do. Uh I&#39;m looking forward to</p>
+<p begin="00:10:15.600" end="00:10:20.640" style="s2">seeing you guys in one of these</p>
+<p begin="00:10:16.959" end="00:10:23.320" style="s2">workshops. Uh stop by, say hi. your</p>
+<p begin="00:10:20.640" end="00:10:26.800" style="s2">motivation, your likes, your resharing</p>
+<p begin="00:10:23.320" end="00:10:29.920" style="s2">everything means a lot to me. Uh, and I</p>
+<p begin="00:10:26.800" end="00:10:33.240" style="s2">am super grateful of this journey as a</p>
+<p begin="00:10:29.920" end="00:10:36.079" style="s2">as a super senior engineer who writes</p>
+<p begin="00:10:33.240" end="00:10:39.279" style="s2">code. As usually we sit in a dark</p>
+<p begin="00:10:36.079" end="00:10:41.279" style="s2">basement. We don&#39;t sit inside a room</p>
+<p begin="00:10:39.279" end="00:10:43.440" style="s2">with these lights in a camera on our</p>
+<p begin="00:10:41.279" end="00:10:44.880" style="s2">face and putting ourselves vulnerable to</p>
+<p begin="00:10:43.440" end="00:10:47.360" style="s2">the world.</p>
+<p begin="00:10:44.880" end="00:10:50.959" style="s2">I broke that shell that I had and I was</p>
+<p begin="00:10:47.360" end="00:10:53.519" style="s2">procrastinating to do content work for</p>
+<p begin="00:10:50.959" end="00:10:57.839" style="s2">four years or so and I broke that shell</p>
+<p begin="00:10:53.519" end="00:11:02.480" style="s2">that uh I got out of my shell on 19th of</p>
+<p begin="00:10:57.839" end="00:11:04.240" style="s2">January and only past couple of months I</p>
+<p begin="00:11:02.480" end="00:11:08.000" style="s2">could do all of that what you saw in</p>
+<p begin="00:11:04.240" end="00:11:10.560" style="s2">this introduction video. So please do um</p>
+<p begin="00:11:08.000" end="00:11:13.920" style="s2">subscribe do join my workshops on a</p>
+<p begin="00:11:10.560" end="00:11:17.120" style="s2">monthly basis whether this be in person</p>
+<p begin="00:11:13.920" end="00:11:19.200" style="s2">uh or online and do keep pushing me</p>
+<p begin="00:11:17.120" end="00:11:20.800" style="s2">otherwise if I don&#39;t get all that love</p>
+<p begin="00:11:19.200" end="00:11:24.399" style="s2">that you guys have been giving me for</p>
+<p begin="00:11:20.800" end="00:11:27.200" style="s2">the past 3 four months I may fade out I</p>
+<p begin="00:11:24.399" end="00:11:29.120" style="s2">may stop producing these contents and I</p>
+<p begin="00:11:27.200" end="00:11:31.360" style="s2">I will be super sad if that happens</p>
+<p begin="00:11:29.120" end="00:11:34.880" style="s2">please don&#39;t let that happen thank you</p>
+<p begin="00:11:31.360" end="00:11:34.880" style="s2">so much and let&#39;s go on with our</p>
+</div>
+</body>
+</tt>

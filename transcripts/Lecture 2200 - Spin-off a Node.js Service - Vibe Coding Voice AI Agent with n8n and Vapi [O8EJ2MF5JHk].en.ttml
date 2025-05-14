@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.480" end="00:00:07.680" style="s2">In this lecture, we will look at a very</p>
+<p begin="00:00:04.560" end="00:00:11.880" style="s2">simple example, a very</p>
+<p begin="00:00:07.680" end="00:00:16.560" style="s2">u dummy example, not a an actual uh</p>
+<p begin="00:00:11.880" end="00:00:19.840" style="s2">feature uh to give you just a spark of</p>
+<p begin="00:00:16.560" end="00:00:22.000" style="s2">an idea that this can also be done. So</p>
+<p begin="00:00:19.840" end="00:00:25.519" style="s2">since we are using superbase and</p>
+<p begin="00:00:22.000" end="00:00:27.599" style="s2">superbase comes with a lot of cool</p>
+<p begin="00:00:25.519" end="00:00:29.480" style="s2">products like authentication database</p>
+<p begin="00:00:27.599" end="00:00:32.719" style="s2">and so on but also edge</p>
+<p begin="00:00:29.480" end="00:00:35.040" style="s2">functions. Um this is something that you</p>
+<p begin="00:00:32.719" end="00:00:38.800" style="s2">can deploy it later on in edge function</p>
+<p begin="00:00:35.040" end="00:00:41.280" style="s2">what we going to build. So this is a</p>
+<p begin="00:00:38.800" end="00:00:43.520" style="s2">little bit technical um you need to be a</p>
+<p begin="00:00:41.280" end="00:00:46.399" style="s2">developer to follow along but let&#39;s</p>
+<p begin="00:00:43.520" end="00:00:49.600" style="s2">let&#39;s carry on and if you cannot follow</p>
+<p begin="00:00:46.399" end="00:00:51.320" style="s2">this lecture it&#39;s absolutely fine. So,</p>
+<p begin="00:00:49.600" end="00:00:54.960" style="s2">we&#39;re going to make</p>
+<p begin="00:00:51.320" end="00:00:54.960" style="s2">a directory</p>
+<p begin="00:00:55.160" end="00:00:58.760" style="s2">here. Let&#39;s call it</p>
+<p begin="00:00:57.250" end="00:01:01.719" style="s2">[Music]</p>
+<p begin="00:00:58.760" end="00:01:05.440" style="s2">um</p>
+<p begin="00:01:01.719" end="00:01:05.440" style="s2">Samanta backend for</p>
+<p begin="00:01:05.560" end="00:01:13.760" style="s2">example. So, we can have our</p>
+<p begin="00:01:09.880" end="00:01:17.280" style="s2">own backend running like this. Uh I&#39;m</p>
+<p begin="00:01:13.760" end="00:01:21.159" style="s2">going to follow a few tips and tricks of</p>
+<p begin="00:01:17.280" end="00:01:24.320" style="s2">uh the vibe coding that I use on a daily</p>
+<p begin="00:01:21.159" end="00:01:26.560" style="s2">basis and then we we take it from there.</p>
+<p begin="00:01:24.320" end="00:01:29.600" style="s2">So what I do is usually I start from</p>
+<p begin="00:01:26.560" end="00:01:32.720" style="s2">readme first. I create a readme I put it</p>
+<p begin="00:01:29.600" end="00:01:35.040" style="s2">here and I leave all the idea that I</p>
+<p begin="00:01:32.720" end="00:01:38.320" style="s2">have about that particular feature I&#39;m</p>
+<p begin="00:01:35.040" end="00:01:40.159" style="s2">building in here. So we&#39;re not going to</p>
+<p begin="00:01:38.320" end="00:01:44.280" style="s2">over complicate it. We&#39;re going to just</p>
+<p begin="00:01:40.159" end="00:01:47.360" style="s2">create like an email signature</p>
+<p begin="00:01:44.280" end="00:01:50.640" style="s2">thing service. U I know this this would</p>
+<p begin="00:01:47.360" end="00:01:52.560" style="s2">be much much easier if we like this is</p>
+<p begin="00:01:50.640" end="00:01:56.960" style="s2">not the solution for the problem we&#39;re</p>
+<p begin="00:01:52.560" end="00:01:59.280" style="s2">doing. It&#39;s just demoing VIP coding. So</p>
+<p begin="00:01:56.960" end="00:02:02.079" style="s2">can you please write and read me for</p>
+<p begin="00:01:59.280" end="00:02:05.880" style="s2">this uh micros service? It&#39;s a NodeJS</p>
+<p begin="00:02:02.079" end="00:02:08.280" style="s2">service that I&#39;m using with a bun and</p>
+<p begin="00:02:05.880" end="00:02:13.000" style="s2">fastify endpoint</p>
+<p begin="00:02:08.280" end="00:02:16.080" style="s2">and it has multiple um backend</p>
+<p begin="00:02:13.000" end="00:02:17.080" style="s2">services for this voice AI agent that&#39;s</p>
+<p begin="00:02:16.080" end="00:02:21.120" style="s2">called</p>
+<p begin="00:02:17.080" end="00:02:24.560" style="s2">Samanta and it is uh closely integrated</p>
+<p begin="00:02:21.120" end="00:02:26.239" style="s2">uh with NAN and Vappy</p>
+<p begin="00:02:24.560" end="00:02:28.480" style="s2">uh create a readme file a detailed</p>
+<p begin="00:02:26.239" end="00:02:31.440" style="s2">readme file that explains this that it</p>
+<p begin="00:02:28.480" end="00:02:33.360" style="s2">provides a lot of logic back end and</p>
+<p begin="00:02:31.440" end="00:02:36.080" style="s2">retrieval logic and so on for this</p>
+<p begin="00:02:33.360" end="00:02:42.480" style="s2">seamant back end.</p>
+<p begin="00:02:36.080" end="00:02:42.480" style="s2">This was just an example of um</p>
+<p begin="00:02:42.680" end="00:02:49.920" style="s2">the readme generation but in more detail</p>
+<p begin="00:02:45.680" end="00:02:52.560" style="s2">in my course you can um find out how I</p>
+<p begin="00:02:49.920" end="00:02:55.720" style="s2">do this why do I do readmmes and</p>
+<p begin="00:02:52.560" end="00:02:58.480" style="s2">actually I build features in that course</p>
+<p begin="00:02:55.720" end="00:03:00.879" style="s2">where you&#39;ll see how powerful it is to</p>
+<p begin="00:02:58.480" end="00:03:04.200" style="s2">have these readme files in the first</p>
+<p begin="00:03:00.879" end="00:03:08.080" style="s2">place and then go on and then</p>
+<p begin="00:03:04.200" end="00:03:10.000" style="s2">um and and integrate things out there.</p>
+<p begin="00:03:08.080" end="00:03:12.319" style="s2">So this was just an example that I</p>
+<p begin="00:03:10.000" end="00:03:14.879" style="s2">create readmes first and then from the</p>
+<p begin="00:03:12.319" end="00:03:18.400" style="s2">readme I put it back there. Another</p>
+<p begin="00:03:14.879" end="00:03:20.959" style="s2">small thing I do is uh I&#39;ll quickly spin</p>
+<p begin="00:03:18.400" end="00:03:25.120" style="s2">off um can you please quickly spin off a</p>
+<p begin="00:03:20.959" end="00:03:29.730" style="s2">bun a bun project with fastify rest API</p>
+<p begin="00:03:25.120" end="00:03:32.919" style="s2">just put an hello world endpoint there.</p>
+<p begin="00:03:29.730" end="00:03:32.919" style="s2">[Music]</p>
+<p begin="00:03:37.000" end="00:03:43.760" style="s2">So right now it&#39;s uh spinning off. So</p>
+<p begin="00:03:40.000" end="00:03:47.159" style="s2">what I do another trick I do is like I</p>
+<p begin="00:03:43.760" end="00:03:51.120" style="s2">put a temp folder here.</p>
+<p begin="00:03:47.159" end="00:03:54.720" style="s2">um also like that and then I create like</p>
+<p begin="00:03:51.120" end="00:03:56.879" style="s2">a temp folder like this here and then I</p>
+<p begin="00:03:54.720" end="00:03:59.360" style="s2">I create like a for example a feature</p>
+<p begin="00:03:56.879" end="00:04:03.720" style="s2">one MD let&#39;s say whatever that feature</p>
+<p begin="00:03:59.360" end="00:04:07.280" style="s2">one is I bring a snippet like</p>
+<p begin="00:04:03.720" end="00:04:10.319" style="s2">whatever snippet.js js or ts. I put the</p>
+<p begin="00:04:07.280" end="00:04:13.599" style="s2">code there and I put I create a little</p>
+<p begin="00:04:10.319" end="00:04:17.400" style="s2">bit context there for the sake of doing</p>
+<p begin="00:04:13.599" end="00:04:21.040" style="s2">it this way. Um can</p>
+<p begin="00:04:17.400" end="00:04:23.120" style="s2">you can you please implement uh this</p>
+<p begin="00:04:21.040" end="00:04:25.120" style="s2">feature called feature one you can read</p>
+<p begin="00:04:23.120" end="00:04:28.000" style="s2">all the content</p>
+<p begin="00:04:25.120" end="00:04:29.840" style="s2">uh that is given in feature 1.md and</p>
+<p begin="00:04:28.000" end="00:04:33.360" style="s2">also there is a code snippet that you</p>
+<p begin="00:04:29.840" end="00:04:33.360" style="s2">can get some more context from</p>
+<p begin="00:04:33.560" end="00:04:40.320" style="s2">abc.js. So, so when I do this, um,</p>
+<p begin="00:04:36.560" end="00:04:44.120" style="s2">obviously these files won&#39;t be like</p>
+<p begin="00:04:40.320" end="00:04:47.400" style="s2">this. I will reference them. So</p>
+<p begin="00:04:44.120" end="00:04:50.880" style="s2">that cursor can find</p>
+<p begin="00:04:47.400" end="00:04:53.520" style="s2">it. So it&#39; be the case here. The at</p>
+<p begin="00:04:50.880" end="00:04:56.639" style="s2">won&#39;t work in the first place, but once</p>
+<p begin="00:04:53.520" end="00:04:56.639" style="s2">you add it, then it</p>
+<p begin="00:04:56.759" end="00:05:03.759" style="s2">works. This way, then cursor gets a very</p>
+<p begin="00:05:00.639" end="00:05:06.320" style="s2">good context of the entire workflow. So</p>
+<p begin="00:05:03.759" end="00:05:08.560" style="s2">this prompting technique is a a good way</p>
+<p begin="00:05:06.320" end="00:05:10.720" style="s2">I found out that that makes sense. And</p>
+<p begin="00:05:08.560" end="00:05:14.160" style="s2">then after this once the feature is</p>
+<p begin="00:05:10.720" end="00:05:16.720" style="s2">built I don&#39;t quickly test it on the</p>
+<p begin="00:05:14.160" end="00:05:20.800" style="s2">browser if it&#39;s a browser full stack or</p>
+<p begin="00:05:16.720" end="00:05:22.479" style="s2">something or in postman I keep asking it</p>
+<p begin="00:05:20.800" end="00:05:24.800" style="s2">again double check double check double</p>
+<p begin="00:05:22.479" end="00:05:26.960" style="s2">check once two three times I ask and</p>
+<p begin="00:05:24.800" end="00:05:30.320" style="s2">double check it finds it problems by</p>
+<p begin="00:05:26.960" end="00:05:32.160" style="s2">itself. Then I go to the git diff uh</p>
+<p begin="00:05:30.320" end="00:05:34.080" style="s2">here. This is not a git repository right</p>
+<p begin="00:05:32.160" end="00:05:36.800" style="s2">now but if it would be then I see the</p>
+<p begin="00:05:34.080" end="00:05:39.280" style="s2">git diff and then I realize that okay</p>
+<p begin="00:05:36.800" end="00:05:41.840" style="s2">this makes sense that it has implemented</p>
+<p begin="00:05:39.280" end="00:05:46.400" style="s2">and then I ask questions in places where</p>
+<p begin="00:05:41.840" end="00:05:46.400" style="s2">it may have made a mistake. So that</p>
+<p begin="00:05:47.320" end="00:05:55.520" style="s2">way if um is a good way to do vibe</p>
+<p begin="00:05:53.000" end="00:05:57.680" style="s2">coding. Let&#39;s see what happens here.</p>
+<p begin="00:05:55.520" end="00:06:00.000" style="s2">There is a small bug in the cursor that</p>
+<p begin="00:05:57.680" end="00:06:02.560" style="s2">it sometimes gets stuck. Then you have</p>
+<p begin="00:06:00.000" end="00:06:04.880" style="s2">to kind of like type continue so that it</p>
+<p begin="00:06:02.560" end="00:06:04.880" style="s2">gets</p>
+<p begin="00:06:07.319" end="00:06:11.520" style="s2">unstuck.</p>
+<p begin="00:06:09.080" end="00:06:14.319" style="s2">Okay. What I want to do with this</p>
+<p begin="00:06:11.520" end="00:06:17.039" style="s2">service here, not the temp, but this</p>
+<p begin="00:06:14.319" end="00:06:19.680" style="s2">service that we&#39;re going to spin off now</p>
+<p begin="00:06:17.039" end="00:06:23.199" style="s2">is that I will do some sort of small</p>
+<p begin="00:06:19.680" end="00:06:27.039" style="s2">logic here. We&#39;ll use Enro to reverse</p>
+<p begin="00:06:23.199" end="00:06:29.600" style="s2">proxy it and then have an N8 workflow</p>
+<p begin="00:06:27.039" end="00:06:33.360" style="s2">come to my laptop do some processing go</p>
+<p begin="00:06:29.600" end="00:06:37.360" style="s2">back to Natan and something like that.</p>
+<p begin="00:06:33.360" end="00:06:39.560" style="s2">Okay. So I think uh this is running. Let</p>
+<p begin="00:06:37.360" end="00:06:41.960" style="s2">me see if there Yeah, there is a</p>
+<p begin="00:06:39.560" end="00:06:45.680" style="s2">bund. So let&#39;s</p>
+<p begin="00:06:41.960" end="00:06:48.840" style="s2">um bun rundev. It&#39;s running on localhost</p>
+<p begin="00:06:45.680" end="00:06:52.000" style="s2">3000 and it</p>
+<p begin="00:06:48.840" end="00:06:56.000" style="s2">is hello. Let&#39;s quickly check this if</p>
+<p begin="00:06:52.000" end="00:06:56.000" style="s2">the web server is running</p>
+<p begin="00:06:57.639" end="00:07:02.479" style="s2">correctly. Okay, it is running</p>
+<p begin="00:07:00.000" end="00:07:05.479" style="s2">correctly. What I would like to do now</p>
+<p begin="00:07:02.479" end="00:07:08.160" style="s2">is</p>
+<p begin="00:07:05.479" end="00:07:10.400" style="s2">um imagine if this is a deployed</p>
+<p begin="00:07:08.160" end="00:07:12.639" style="s2">endpoint somewhere with authentication</p>
+<p begin="00:07:10.400" end="00:07:16.400" style="s2">and everything. This would be basically</p>
+<p begin="00:07:12.639" end="00:07:19.680" style="s2">your backend for for your workflows. So</p>
+<p begin="00:07:16.400" end="00:07:22.240" style="s2">we have one workflow. Um maybe we can go</p>
+<p begin="00:07:19.680" end="00:07:24.160" style="s2">and actually build a new work totally</p>
+<p begin="00:07:22.240" end="00:07:26.520" style="s2">new workflow just to make the point. We</p>
+<p begin="00:07:24.160" end="00:07:30.000" style="s2">don&#39;t need to integrate it with</p>
+<p begin="00:07:26.520" end="00:07:32.400" style="s2">Samanta. So I will just keep the</p>
+<p begin="00:07:30.000" end="00:07:37.680" style="s2">workflow as a click trigger to make it</p>
+<p begin="00:07:32.400" end="00:07:40.080" style="s2">super super simple. Um and then I will</p>
+<p begin="00:07:37.680" end="00:07:41.080" style="s2">send a request to my laptop. I&#39;ll get it</p>
+<p begin="00:07:40.080" end="00:07:43.000" style="s2">back</p>
+<p begin="00:07:41.080" end="00:07:45.759" style="s2">in</p>
+<p begin="00:07:43.000" end="00:07:49.080" style="s2">NA10. That&#39;s it. I will just do those</p>
+<p begin="00:07:45.759" end="00:07:53.199" style="s2">two steps.</p>
+<p begin="00:07:49.080" end="00:07:54.120" style="s2">Um so we need to use an HTTP request for</p>
+<p begin="00:07:53.199" end="00:07:58.639" style="s2">this</p>
+<p begin="00:07:54.120" end="00:08:03.080" style="s2">particular use case. And then this</p>
+<p begin="00:07:58.639" end="00:08:07.599" style="s2">endpoint um has to come from our</p>
+<p begin="00:08:03.080" end="00:08:09.280" style="s2">enro. I have enrock running in my system</p>
+<p begin="00:08:07.599" end="00:08:14.360" style="s2">or installed in my system. So we&#39;re</p>
+<p begin="00:08:09.280" end="00:08:14.360" style="s2">going to just reverse proxy that.</p>
+<p begin="00:08:14.680" end="00:08:19.919" style="s2">Um, oh, it&#39;s running already somewhere</p>
+<p begin="00:08:17.759" end="00:08:23.160" style="s2">else. In these terminals, I have a</p>
+<p begin="00:08:19.919" end="00:08:25.720" style="s2">license that allows me only to run one</p>
+<p begin="00:08:23.160" end="00:08:29.360" style="s2">Enro</p>
+<p begin="00:08:25.720" end="00:08:31.159" style="s2">instance. So, we also closed the project</p>
+<p begin="00:08:29.360" end="00:08:34.599" style="s2">that we had</p>
+<p begin="00:08:31.159" end="00:08:37.599" style="s2">running. Maybe I have it somewhere else</p>
+<p begin="00:08:34.599" end="00:08:40.599" style="s2">on these terminals. I&#39;ll just close them</p>
+<p begin="00:08:37.599" end="00:08:40.599" style="s2">down.</p>
+<p begin="00:08:46.080" end="00:08:51.200" style="s2">So</p>
+<p begin="00:08:47.640" end="00:08:53.839" style="s2">the Enro uh for those of you who do not</p>
+<p begin="00:08:51.200" end="00:08:56.160" style="s2">know what&#39;s ENRO, it&#39;s basically a</p>
+<p begin="00:08:53.839" end="00:08:57.920" style="s2">reverse proxy</p>
+<p begin="00:08:56.160" end="00:08:59.640" style="s2">uh company. It it&#39;s a company that</p>
+<p begin="00:08:57.920" end="00:09:01.800" style="s2">provides a reverse</p>
+<p begin="00:08:59.640" end="00:09:05.440" style="s2">proxy</p>
+<p begin="00:09:01.800" end="00:09:08.959" style="s2">software. When you run bun rundev, it</p>
+<p begin="00:09:05.440" end="00:09:11.399" style="s2">locally runs your system. And then when</p>
+<p begin="00:09:08.959" end="00:09:14.480" style="s2">you run enro</p>
+<p begin="00:09:11.399" end="00:09:17.920" style="s2">um and then it basically opens a reverse</p>
+<p begin="00:09:14.480" end="00:09:19.839" style="s2">proxy and that means that this is a URL</p>
+<p begin="00:09:17.920" end="00:09:23.440" style="s2">that can be accessed from around the</p>
+<p begin="00:09:19.839" end="00:09:27.680" style="s2">world. So we put this here and we test</p>
+<p begin="00:09:23.440" end="00:09:31.959" style="s2">it out and we should see what&#39;s the</p>
+<p begin="00:09:27.680" end="00:09:33.959" style="s2">problem here is a 404. Yeah, definitely</p>
+<p begin="00:09:31.959" end="00:09:39.760" style="s2">because we need</p>
+<p begin="00:09:33.959" end="00:09:39.760" style="s2">to put the endpoint slash hello</p>
+<p begin="00:09:40.880" end="00:09:48.080" style="s2">If we test now, you can see that this</p>
+<p begin="00:09:43.519" end="00:09:50.959" style="s2">hello world is coming from inside my</p>
+<p begin="00:09:48.080" end="00:09:55.200" style="s2">code that is sitting inside my computer.</p>
+<p begin="00:09:50.959" end="00:09:58.320" style="s2">Now, this is pure NodeJS logic, NodeJS</p>
+<p begin="00:09:55.200" end="00:10:01.680" style="s2">code. You can do anything you want in</p>
+<p begin="00:09:58.320" end="00:10:05.600" style="s2">this workflow and it&#39;s just one HTTP</p>
+<p begin="00:10:01.680" end="00:10:11.440" style="s2">request away from this being integrated</p>
+<p begin="00:10:05.600" end="00:10:13.600" style="s2">in your workflow. So if you see it from</p>
+<p begin="00:10:11.440" end="00:10:18.000" style="s2">that perspective, it&#39;s it&#39;s a very very</p>
+<p begin="00:10:13.600" end="00:10:21.279" style="s2">strong uh platform. NAT is not a no code</p>
+<p begin="00:10:18.000" end="00:10:24.920" style="s2">low code platform only. Although it is a</p>
+<p begin="00:10:21.279" end="00:10:28.360" style="s2">very good no code look platform but NAN</p>
+<p begin="00:10:24.920" end="00:10:32.640" style="s2">is an orchestration layer. It&#39;s a</p>
+<p begin="00:10:28.360" end="00:10:34.720" style="s2">backend um workflow management tool or</p>
+<p begin="00:10:32.640" end="00:10:38.399" style="s2">it&#39;s a backend development tool. I would</p>
+<p begin="00:10:34.720" end="00:10:41.440" style="s2">say spinning off an API with N8 will</p>
+<p begin="00:10:38.399" end="00:10:44.720" style="s2">take you two minutes. Spinning off and</p>
+<p begin="00:10:41.440" end="00:10:47.200" style="s2">and hosting it in a scalable way that</p>
+<p begin="00:10:44.720" end="00:10:50.560" style="s2">millions of users can access an</p>
+<p begin="00:10:47.200" end="00:10:52.560" style="s2">endpoint. uh let&#39;s say even with tools</p>
+<p begin="00:10:50.560" end="00:10:56.720" style="s2">uh that are super developer friendly</p>
+<p begin="00:10:52.560" end="00:10:59.120" style="s2">like Firebase or Superbase will at least</p>
+<p begin="00:10:56.720" end="00:11:02.640" style="s2">take you an hour to to run that. Now two</p>
+<p begin="00:10:59.120" end="00:11:02.640" style="s2">minutes versus one hour.</p>
+</div>
+</body>
+</tt>

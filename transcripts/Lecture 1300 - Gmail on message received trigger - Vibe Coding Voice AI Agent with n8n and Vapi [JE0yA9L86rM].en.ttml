@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.640" end="00:00:04.640" style="s2">Welcome to part two of this crash course</p>
+<p begin="00:00:02.960" end="00:00:07.279" style="s2">where you&#39;re learning how to build a</p>
+<p begin="00:00:04.640" end="00:00:10.559" style="s2">voice agent that basically connects to</p>
+<p begin="00:00:07.279" end="00:00:14.080" style="s2">your Gmail inbox, reads your emails, and</p>
+<p begin="00:00:10.559" end="00:00:17.080" style="s2">composes a email and leaves it as a</p>
+<p begin="00:00:14.080" end="00:00:17.080" style="s2">draft.</p>
+<p begin="00:00:19.520" end="00:00:23.680" style="s2">Welcome to part two of this crash course</p>
+<p begin="00:00:22.080" end="00:00:26.800" style="s2">where you&#39;re learning how to build a</p>
+<p begin="00:00:23.680" end="00:00:29.039" style="s2">voice agent using Vappy and NAT that</p>
+<p begin="00:00:26.800" end="00:00:32.800" style="s2">connects with your Gmail inbox, reads</p>
+<p begin="00:00:29.039" end="00:00:35.280" style="s2">your emails, and composes a draft email.</p>
+<p begin="00:00:32.800" end="00:00:38.239" style="s2">So let&#39;s have a look at where are we</p>
+<p begin="00:00:35.280" end="00:00:41.600" style="s2">standing at the moment. So we just</p>
+<p begin="00:00:38.239" end="00:00:45.280" style="s2">finished part one. Basically from this</p>
+<p begin="00:00:41.600" end="00:00:48.480" style="s2">diagram, we finished this part. We are</p>
+<p begin="00:00:45.280" end="00:00:51.039" style="s2">going to now work on reading email. It</p>
+<p begin="00:00:48.480" end="00:00:54.800" style="s2">will have a lot of steps but let&#39;s start</p>
+<p begin="00:00:51.039" end="00:00:58.160" style="s2">one by one. The very first step is to</p>
+<p begin="00:00:54.800" end="00:01:00.960" style="s2">get to know this trigger called Gmail.</p>
+<p begin="00:00:58.160" end="00:01:04.479" style="s2">Let&#39;s go to our NA10. Click on add first</p>
+<p begin="00:01:00.960" end="00:01:06.880" style="s2">step. Just type Gmail. And then when you</p>
+<p begin="00:01:04.479" end="00:01:11.040" style="s2">go inside Gmail, you&#39;ll see this trigger</p>
+<p begin="00:01:06.880" end="00:01:13.280" style="s2">sign, this icon, the flash icon that</p>
+<p begin="00:01:11.040" end="00:01:16.240" style="s2">indicates it&#39;s a trigger. You click on</p>
+<p begin="00:01:13.280" end="00:01:18.280" style="s2">that. Then you see your email that you</p>
+<p begin="00:01:16.240" end="00:01:21.520" style="s2">have configured from the previous</p>
+<p begin="00:01:18.280" end="00:01:24.320" style="s2">lectures. Select every minute and then</p>
+<p begin="00:01:21.520" end="00:01:26.479" style="s2">click on fetch test event. This will</p>
+<p begin="00:01:24.320" end="00:01:27.400" style="s2">retrieve the last email that you have</p>
+<p begin="00:01:26.479" end="00:01:30.960" style="s2">sent to</p>
+<p begin="00:01:27.400" end="00:01:32.960" style="s2">yourself. So I I have sent myself an</p>
+<p begin="00:01:30.960" end="00:01:36.720" style="s2">email but this can be any email that you</p>
+<p begin="00:01:32.960" end="00:01:39.680" style="s2">have received. So basically this is all</p>
+<p begin="00:01:36.720" end="00:01:41.680" style="s2">the data that we need for Samanta to</p>
+<p begin="00:01:39.680" end="00:01:44.280" style="s2">read. Who is it from? What&#39;s the</p>
+<p begin="00:01:41.680" end="00:01:46.799" style="s2">subject? and what&#39;s the body of the</p>
+<p begin="00:01:44.280" end="00:01:49.360" style="s2">email. So</p>
+<p begin="00:01:46.799" end="00:01:52.640" style="s2">um this is basically the snippet is the</p>
+<p begin="00:01:49.360" end="00:01:55.360" style="s2">body of the email. Subject is these are</p>
+<p begin="00:01:52.640" end="00:01:58.000" style="s2">the two important information also from.</p>
+<p begin="00:01:55.360" end="00:02:01.119" style="s2">So that&#39;s how you receive an email. Now</p>
+<p begin="00:01:58.000" end="00:02:02.880" style="s2">if you want to change this mode from</p>
+<p begin="00:02:01.119" end="00:02:06.560" style="s2">every minute to let&#39;s say every five</p>
+<p begin="00:02:02.880" end="00:02:09.599" style="s2">minutes or so on and then you can use</p>
+<p begin="00:02:06.560" end="00:02:13.520" style="s2">either these values you change it to</p>
+<p begin="00:02:09.599" end="00:02:13.520" style="s2">every let&#39;s say five</p>
+<p begin="00:02:13.640" end="00:02:19.800" style="s2">minutes. But if you&#39;re a developer and</p>
+<p begin="00:02:16.400" end="00:02:22.800" style="s2">you know um the so-called chrome</p>
+<p begin="00:02:19.800" end="00:02:25.200" style="s2">expressions or chrome jobs if you know</p>
+<p begin="00:02:22.800" end="00:02:27.920" style="s2">this is basically the chrome expression</p>
+<p begin="00:02:25.200" end="00:02:31.040" style="s2">that you can write here. How can you do</p>
+<p begin="00:02:27.920" end="00:02:33.360" style="s2">this? either you understand the chrome</p>
+<p begin="00:02:31.040" end="00:02:35.040" style="s2">expressions or the easiest would be that</p>
+<p begin="00:02:33.360" end="00:02:39.080" style="s2">you go</p>
+<p begin="00:02:35.040" end="00:02:42.160" style="s2">um online and then search for chrome</p>
+<p begin="00:02:39.080" end="00:02:44.560" style="s2">expression calculator or something.</p>
+<p begin="00:02:42.160" end="00:02:47.760" style="s2">There are a lot of converters online</p>
+<p begin="00:02:44.560" end="00:02:50.400" style="s2">that understands your things here and</p>
+<p begin="00:02:47.760" end="00:02:52.080" style="s2">then it you can play around with this to</p>
+<p begin="00:02:50.400" end="00:02:55.040" style="s2">to make sure that you&#39;re writing it</p>
+<p begin="00:02:52.080" end="00:02:58.280" style="s2">correctly or the easiest way would be to</p>
+<p begin="00:02:55.040" end="00:03:01.480" style="s2">go and ask chat gvt to give me a chrome</p>
+<p begin="00:02:58.280" end="00:03:04.239" style="s2">expression. Why would this matter is</p>
+<p begin="00:03:01.480" end="00:03:06.319" style="s2">because if you want to schedule this</p>
+<p begin="00:03:04.239" end="00:03:08.800" style="s2">email fetching in a way that it happens</p>
+<p begin="00:03:06.319" end="00:03:11.040" style="s2">only throughout the week from Monday to</p>
+<p begin="00:03:08.800" end="00:03:13.920" style="s2">Friday not on Saturday and Sunday. So</p>
+<p begin="00:03:11.040" end="00:03:15.519" style="s2">with this custom way you can do that.</p>
+<p begin="00:03:13.920" end="00:03:17.560" style="s2">All right, we&#39;re going to keep it every</p>
+<p begin="00:03:15.519" end="00:03:22.400" style="s2">minute. It&#39;s just a</p>
+<p begin="00:03:17.560" end="00:03:24.920" style="s2">test and let&#39;s go on. So basically this</p>
+<p begin="00:03:22.400" end="00:03:26.920" style="s2">way you</p>
+<p begin="00:03:24.920" end="00:03:29.920" style="s2">literally put a</p>
+<p begin="00:03:26.920" end="00:03:32.480" style="s2">trigger that receives emails and then</p>
+<p begin="00:03:29.920" end="00:03:34.879" style="s2">next step will do something with these</p>
+<p begin="00:03:32.480" end="00:03:36.959" style="s2">emails. Right now we at least have a</p>
+<p begin="00:03:34.879" end="00:03:41.280" style="s2">trigger that will receive that will</p>
+<p begin="00:03:36.959" end="00:03:44.080" style="s2">fetch emails every single minute. So the</p>
+<p begin="00:03:41.280" end="00:03:46.319" style="s2">concept of this project is that we&#39;re</p>
+<p begin="00:03:44.080" end="00:03:49.200" style="s2">not going to receive emails in real time</p>
+<p begin="00:03:46.319" end="00:03:52.360" style="s2">from Gmail. We&#39;ll receive it every</p>
+<p begin="00:03:49.200" end="00:03:55.120" style="s2">minute. We&#39;ll store it in a superbase</p>
+<p begin="00:03:52.360" end="00:03:58.720" style="s2">database and then when Samanta the</p>
+<p begin="00:03:55.120" end="00:04:01.360" style="s2">voicei agent uh checks the emails, it&#39;s</p>
+<p begin="00:03:58.720" end="00:04:03.920" style="s2">not checking the Gmail</p>
+<p begin="00:04:01.360" end="00:04:06.879" style="s2">uh APIs directly. It will go and fetch</p>
+<p begin="00:04:03.920" end="00:04:10.400" style="s2">it from the database. So let&#39;s go and do</p>
+<p begin="00:04:06.879" end="00:04:10.400" style="s2">that in the next video.</p>
+</div>
+</body>
+</tt>

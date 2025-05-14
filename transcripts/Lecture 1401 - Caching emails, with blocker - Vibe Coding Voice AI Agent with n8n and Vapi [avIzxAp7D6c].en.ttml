@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.640" end="00:00:05.839" style="s2">In this lecture we will look at a very</p>
+<p begin="00:00:03.040" end="00:00:07.839" style="s2">interesting concept called caching. So</p>
+<p begin="00:00:05.839" end="00:00:11.120" style="s2">we will receive the emails on a</p>
+<p begin="00:00:07.839" end="00:00:13.679" style="s2">minutebyminute basis and we have to</p>
+<p begin="00:00:11.120" end="00:00:16.640" style="s2">store it in superbase in a way that it</p>
+<p begin="00:00:13.679" end="00:00:18.800" style="s2">does not duplicate. It is a very complex</p>
+<p begin="00:00:16.640" end="00:00:21.600" style="s2">and complicated</p>
+<p begin="00:00:18.800" end="00:00:25.039" style="s2">um concept in programming. If you are</p>
+<p begin="00:00:21.600" end="00:00:28.279" style="s2">doing it wrong then it will not work.</p>
+<p begin="00:00:25.039" end="00:00:31.439" style="s2">But in this tutorial, you will learn</p>
+<p begin="00:00:28.279" end="00:00:34.880" style="s2">that the tooling around what is</p>
+<p begin="00:00:31.439" end="00:00:37.520" style="s2">available today with VIP coding, you can</p>
+<p begin="00:00:34.880" end="00:00:40.600" style="s2">literally build anything. So let&#39;s go</p>
+<p begin="00:00:37.520" end="00:00:45.760" style="s2">and check it out. Probably I will</p>
+<p begin="00:00:40.600" end="00:00:49.920" style="s2">also get stuck uh while doing it, but we</p>
+<p begin="00:00:45.760" end="00:00:53.120" style="s2">will see it. So we just had this respond</p>
+<p begin="00:00:49.920" end="00:00:55.120" style="s2">from web hook. Oh, sorry. This one</p>
+<p begin="00:00:53.120" end="00:00:57.840" style="s2">basically we&#39;re going to work on this</p>
+<p begin="00:00:55.120" end="00:01:00.079" style="s2">one caching emails in superbase and</p>
+<p begin="00:00:57.840" end="00:01:02.960" style="s2">there are a lot of gotchas that we need</p>
+<p begin="00:01:00.079" end="00:01:07.360" style="s2">to consider. So every minute when we get</p>
+<p begin="00:01:02.960" end="00:01:09.840" style="s2">an email into uh NA10 it has to be</p>
+<p begin="00:01:07.360" end="00:01:13.680" style="s2">stored in superbase only if the email do</p>
+<p begin="00:01:09.840" end="00:01:17.840" style="s2">not exist. So let&#39;s build actually the</p>
+<p begin="00:01:13.680" end="00:01:21.439" style="s2">workflow that is not optimized and then</p>
+<p begin="00:01:17.840" end="00:01:25.119" style="s2">we&#39;ll optimize it first. Okay. So now I</p>
+<p begin="00:01:21.439" end="00:01:28.119" style="s2">switched to my NA10 account that is on</p>
+<p begin="00:01:25.119" end="00:01:28.119" style="s2">n10</p>
+<p begin="00:01:28.479" end="00:01:34.320" style="s2">io. So and I found out while doing that</p>
+<p begin="00:01:32.320" end="00:01:37.280" style="s2">that there is one step that you need to</p>
+<p begin="00:01:34.320" end="00:01:40.079" style="s2">do in order to get your superbase</p>
+<p begin="00:01:37.280" end="00:01:42.720" style="s2">databases ready. So let&#39;s trigger the</p>
+<p begin="00:01:40.079" end="00:01:46.720" style="s2">superbase uh the the every minute from</p>
+<p begin="00:01:42.720" end="00:01:49.200" style="s2">that Gmail account. That&#39;s it. And if I</p>
+<p begin="00:01:46.720" end="00:01:51.520" style="s2">test it, it should receive that email</p>
+<p begin="00:01:49.200" end="00:01:54.479" style="s2">that I sent myself with that test body</p>
+<p begin="00:01:51.520" end="00:01:57.040" style="s2">that we did it last time. All right.</p>
+<p begin="00:01:54.479" end="00:01:59.560" style="s2">Now, connecting your superbase is super</p>
+<p begin="00:01:57.040" end="00:02:02.799" style="s2">simple. You click</p>
+<p begin="00:01:59.560" end="00:02:05.200" style="s2">superbase. Click on create a row. And</p>
+<p begin="00:02:02.799" end="00:02:06.960" style="s2">then you need to create a new</p>
+<p begin="00:02:05.200" end="00:02:10.000" style="s2">connection. Here I already have one.</p>
+<p begin="00:02:06.960" end="00:02:14.480" style="s2">I&#39;ll create a new connection. And then</p>
+<p begin="00:02:10.000" end="00:02:16.560" style="s2">you can either follow these steps from</p>
+<p begin="00:02:14.480" end="00:02:20.239" style="s2">any documentation link that you see in</p>
+<p begin="00:02:16.560" end="00:02:22.319" style="s2">these nodes or just go to superbase.</p>
+<p begin="00:02:20.239" end="00:02:24.959" style="s2">Just a few words about Superbase. It&#39;s a</p>
+<p begin="00:02:22.319" end="00:02:26.920" style="s2">suite of products. It</p>
+<p begin="00:02:24.959" end="00:02:29.360" style="s2">uh allows you to create</p>
+<p begin="00:02:26.920" end="00:02:33.599" style="s2">authentication. Uh under the hood, it&#39;s</p>
+<p begin="00:02:29.360" end="00:02:36.760" style="s2">using Postgress database. It&#39;s a Google</p>
+<p begin="00:02:33.599" end="00:02:39.120" style="s2">um alternative, Google Firebase</p>
+<p begin="00:02:36.760" end="00:02:41.040" style="s2">alternative. It&#39;s open source. So you</p>
+<p begin="00:02:39.120" end="00:02:43.599" style="s2">can fork it and put it on your own cloud</p>
+<p begin="00:02:41.040" end="00:02:45.599" style="s2">and do whatever you want. It also has</p>
+<p begin="00:02:43.599" end="00:02:48.879" style="s2">some real time database features. So you</p>
+<p begin="00:02:45.599" end="00:02:50.959" style="s2">can build chat features and so on. The</p>
+<p begin="00:02:48.879" end="00:02:54.160" style="s2">interesting thing is it has this vector</p>
+<p begin="00:02:50.959" end="00:02:56.400" style="s2">database features. So you can store huge</p>
+<p begin="00:02:54.160" end="00:02:59.360" style="s2">amount of data and then build a chatbot</p>
+<p begin="00:02:56.400" end="00:03:01.720" style="s2">that is aware of that data. This concept</p>
+<p begin="00:02:59.360" end="00:03:04.319" style="s2">called rag or retrieval augmented</p>
+<p begin="00:03:01.720" end="00:03:07.440" style="s2">generation. Anyways, so let&#39;s create</p>
+<p begin="00:03:04.319" end="00:03:09.239" style="s2">that. Go to your dashboard. Create a new</p>
+<p begin="00:03:07.440" end="00:03:11.440" style="s2">project. I already have a</p>
+<p begin="00:03:09.239" end="00:03:13.519" style="s2">project actually I will create a new</p>
+<p begin="00:03:11.440" end="00:03:17.760" style="s2">project so that I will face exactly the</p>
+<p begin="00:03:13.519" end="00:03:23.239" style="s2">same blocker that you guys will face. So</p>
+<p begin="00:03:17.760" end="00:03:23.239" style="s2">I&#39;m going to call it um Samanta</p>
+<p begin="00:03:23.360" end="00:03:27.879" style="s2">um I&#39;ll copy this database name whatever</p>
+<p begin="00:03:25.840" end="00:03:31.120" style="s2">it</p>
+<p begin="00:03:27.879" end="00:03:34.400" style="s2">is okay because it already exists. So</p>
+<p begin="00:03:31.120" end="00:03:37.400" style="s2">I&#39;m going to call it Samanta DB for</p>
+<p begin="00:03:34.400" end="00:03:37.400" style="s2">example.</p>
+<p begin="00:03:42.159" end="00:03:48.799" style="s2">And now we&#39;ll we&#39;ll do everything in</p>
+<p begin="00:03:45.200" end="00:03:52.159" style="s2">Sant DB. In here you&#39;ll see a list of</p>
+<p begin="00:03:48.799" end="00:03:54.560" style="s2">all the things that you need to do. But</p>
+<p begin="00:03:52.159" end="00:03:57.760" style="s2">let&#39;s first connect and then once we hit</p>
+<p begin="00:03:54.560" end="00:04:01.239" style="s2">that blocker that I&#39;m uh talking about</p>
+<p begin="00:03:57.760" end="00:04:02.760" style="s2">then we will go on and cover the rest of</p>
+<p begin="00:04:01.239" end="00:04:06.720" style="s2">them.</p>
+<p begin="00:04:02.760" end="00:04:09.959" style="s2">So you can come back to this page. Uh</p>
+<p begin="00:04:06.720" end="00:04:12.439" style="s2">let&#39;s say if you&#39;re on the</p>
+<p begin="00:04:09.959" end="00:04:15.120" style="s2">dashboard you can go</p>
+<p begin="00:04:12.439" end="00:04:17.239" style="s2">to right now it&#39;s being set up so</p>
+<p begin="00:04:15.120" end="00:04:19.840" style="s2">therefore it&#39;s not coming</p>
+<p begin="00:04:17.239" end="00:04:22.800" style="s2">along. It may need some time to set up.</p>
+<p begin="00:04:19.840" end="00:04:25.120" style="s2">There we go. So when we once you have</p>
+<p begin="00:04:22.800" end="00:04:27.199" style="s2">the database set up then your table</p>
+<p begin="00:04:25.120" end="00:04:29.280" style="s2">looks here. This is all your list of</p>
+<p begin="00:04:27.199" end="00:04:31.759" style="s2">tables. Imagine a table being a Google</p>
+<p begin="00:04:29.280" end="00:04:35.280" style="s2">sheet. And you can go to project</p>
+<p begin="00:04:31.759" end="00:04:37.560" style="s2">settings and then data API. Here is</p>
+<p begin="00:04:35.280" end="00:04:40.400" style="s2">where you get your URL in order to</p>
+<p begin="00:04:37.560" end="00:04:44.320" style="s2">connect your workflow. So you paste the</p>
+<p begin="00:04:40.400" end="00:04:46.240" style="s2">workflow here and then the secret has to</p>
+<p begin="00:04:44.320" end="00:04:47.759" style="s2">be copied from here. It&#39;s secret in this</p>
+<p begin="00:04:46.240" end="00:04:51.759" style="s2">tutorial. It&#39;s okay. I&#39;ll delete</p>
+<p begin="00:04:47.759" end="00:04:53.960" style="s2">everything after my tutorial. So you</p>
+<p begin="00:04:51.759" end="00:04:56.320" style="s2">make sure that you keep your secret key</p>
+<p begin="00:04:53.960" end="00:04:58.800" style="s2">secret. Now it&#39;s connected. You should</p>
+<p begin="00:04:56.320" end="00:05:02.360" style="s2">see this connection.</p>
+<p begin="00:04:58.800" end="00:05:05.840" style="s2">Now what I would like to do is go over</p>
+<p begin="00:05:02.360" end="00:05:09.080" style="s2">here in table editor and create a new</p>
+<p begin="00:05:05.840" end="00:05:12.880" style="s2">table. This new table let&#39;s call it</p>
+<p begin="00:05:09.080" end="00:05:18.120" style="s2">emails. And in the columns I will add an</p>
+<p begin="00:05:12.880" end="00:05:22.479" style="s2">email ID. I&#39;ll give it a type</p>
+<p begin="00:05:18.120" end="00:05:26.479" style="s2">text. And I will add an email basically</p>
+<p begin="00:05:22.479" end="00:05:30.160" style="s2">the entire email and I&#39;ll give it JSON.</p>
+<p begin="00:05:26.479" end="00:05:33.520" style="s2">This is one of the cool things about</p>
+<p begin="00:05:30.160" end="00:05:35.680" style="s2">Postgress database. It&#39;s a not a SQL</p>
+<p begin="00:05:33.520" end="00:05:38.400" style="s2">database. It&#39;s a not a NoSQL database.</p>
+<p begin="00:05:35.680" end="00:05:41.120" style="s2">It&#39;s an hybrid database. It can store</p>
+<p begin="00:05:38.400" end="00:05:43.039" style="s2">JSON and as well it can store structure</p>
+<p begin="00:05:41.120" end="00:05:45.199" style="s2">database and it&#39;s one of the famous</p>
+<p begin="00:05:43.039" end="00:05:48.840" style="s2">databases out there in the world. I&#39;m</p>
+<p begin="00:05:45.199" end="00:05:48.840" style="s2">going to click on save.</p>
+<p begin="00:05:50.720" end="00:05:57.199" style="s2">This process will basically create a</p>
+<p begin="00:05:53.600" end="00:05:59.919" style="s2">table for me that will store my emails</p>
+<p begin="00:05:57.199" end="00:06:03.280" style="s2">on a</p>
+<p begin="00:05:59.919" end="00:06:08.000" style="s2">um permanent basis. So now if I go here,</p>
+<p begin="00:06:03.280" end="00:06:08.000" style="s2">I open this table list. Maybe I have to</p>
+<p begin="00:06:09.319" end="00:06:14.520" style="s2">refresh. So I got the trigger running.</p>
+<p begin="00:06:12.000" end="00:06:18.479" style="s2">Now I&#39;m going to add</p>
+<p begin="00:06:14.520" end="00:06:21.440" style="s2">superbase the create a row feature and</p>
+<p begin="00:06:18.479" end="00:06:24.720" style="s2">then in here I&#39;m going to click and pick</p>
+<p begin="00:06:21.440" end="00:06:27.199" style="s2">the table that we have created and then</p>
+<p begin="00:06:24.720" end="00:06:30.319" style="s2">define the columns below. For that I</p>
+<p begin="00:06:27.199" end="00:06:33.039" style="s2">need to execute the previous um node</p>
+<p begin="00:06:30.319" end="00:06:35.919" style="s2">which basically fetches the email that I</p>
+<p begin="00:06:33.039" end="00:06:38.800" style="s2">received from there. Okay, let&#39;s define</p>
+<p begin="00:06:35.919" end="00:06:42.400" style="s2">our columns. First column I want to fill</p>
+<p begin="00:06:38.800" end="00:06:45.520" style="s2">is the email ID. Let&#39;s drag and drop</p>
+<p begin="00:06:42.400" end="00:06:48.919" style="s2">this email ID here. And the second one I</p>
+<p begin="00:06:45.520" end="00:06:52.280" style="s2">would like to fill is the entire email</p>
+<p begin="00:06:48.919" end="00:06:56.319" style="s2">itself. This is a little bit tricky.</p>
+<p begin="00:06:52.280" end="00:06:58.720" style="s2">Like if I drag and drop this, it doesn&#39;t</p>
+<p begin="00:06:56.319" end="00:07:01.199" style="s2">work. So I want to get like literally</p>
+<p begin="00:06:58.720" end="00:07:03.919" style="s2">everything here including the ID and the</p>
+<p begin="00:07:01.199" end="00:07:06.680" style="s2">payload and labels, all the email data</p>
+<p begin="00:07:03.919" end="00:07:10.199" style="s2">that I have received from Gmail.</p>
+<p begin="00:07:06.680" end="00:07:12.039" style="s2">Therefore, you need to go here in this</p>
+<p begin="00:07:10.199" end="00:07:16.440" style="s2">expression and</p>
+<p begin="00:07:12.039" end="00:07:19.199" style="s2">then right there you need to type</p>
+<p begin="00:07:16.440" end="00:07:21.360" style="s2">this curly brackets one time. it</p>
+<p begin="00:07:19.199" end="00:07:25.280" style="s2">automatically closes it. And then curly</p>
+<p begin="00:07:21.360" end="00:07:29.520" style="s2">brackets the second time and then it</p>
+<p begin="00:07:25.280" end="00:07:31.479" style="s2">um shows you this dropdown or or this</p>
+<p begin="00:07:29.520" end="00:07:34.160" style="s2">menu</p>
+<p begin="00:07:31.479" end="00:07:36.720" style="s2">basically and it has certain things. You</p>
+<p begin="00:07:34.160" end="00:07:38.639" style="s2">can navigate with your keyboard or with</p>
+<p begin="00:07:36.720" end="00:07:41.440" style="s2">your mouse. But if you see this JSON, it</p>
+<p begin="00:07:38.639" end="00:07:43.840" style="s2">says returns the JSON input data to the</p>
+<p begin="00:07:41.440" end="00:07:45.840" style="s2">current node for the current item.</p>
+<p begin="00:07:43.840" end="00:07:47.840" style="s2">Shorten for this is this. And then you</p>
+<p begin="00:07:45.840" end="00:07:50.720" style="s2">can also read some more text about it</p>
+<p begin="00:07:47.840" end="00:07:53.840" style="s2">from this. So I&#39;m going to click this.</p>
+<p begin="00:07:50.720" end="00:07:56.919" style="s2">Now if I zoom out, you can see that I</p>
+<p begin="00:07:53.840" end="00:08:00.879" style="s2">basically get the entire object. This</p>
+<p begin="00:07:56.919" end="00:08:03.919" style="s2">entire object that&#39;s exactly what I I</p>
+<p begin="00:08:00.879" end="00:08:06.560" style="s2">like. If I click on test step, you&#39;ll</p>
+<p begin="00:08:03.919" end="00:08:10.639" style="s2">see that it got successful. And if I go</p>
+<p begin="00:08:06.560" end="00:08:15.319" style="s2">back to my table, you can see that I</p>
+<p begin="00:08:10.639" end="00:08:18.720" style="s2">have received an email ID. remember this</p>
+<p begin="00:08:15.319" end="00:08:21.280" style="s2">4711 and this is of a specific type</p>
+<p begin="00:08:18.720" end="00:08:23.720" style="s2">called JSON. So I can see the entire</p>
+<p begin="00:08:21.280" end="00:08:26.879" style="s2">payload. It&#39;s not just a</p>
+<p begin="00:08:23.720" end="00:08:28.720" style="s2">string. All right. So this step is done.</p>
+<p begin="00:08:26.879" end="00:08:32.159" style="s2">But the there&#39;s a small problem with</p>
+<p begin="00:08:28.720" end="00:08:34.839" style="s2">this step. When we start running it by</p>
+<p begin="00:08:32.159" end="00:08:37.599" style="s2">clicking this from inactive to</p>
+<p begin="00:08:34.839" end="00:08:41.279" style="s2">active, every minute it will keep</p>
+<p begin="00:08:37.599" end="00:08:44.959" style="s2">running. uh and then every minute I will</p>
+<p begin="00:08:41.279" end="00:08:46.800" style="s2">receive a new email of the same email.</p>
+<p begin="00:08:44.959" end="00:08:49.279" style="s2">In order to prove that I would like to</p>
+<p begin="00:08:46.800" end="00:08:52.680" style="s2">click this test button one more time you</p>
+<p begin="00:08:49.279" end="00:08:55.200" style="s2">can see it ran. If I come here</p>
+<p begin="00:08:52.680" end="00:08:58.480" style="s2">refresh you will see it created another</p>
+<p begin="00:08:55.200" end="00:09:01.360" style="s2">record. And if I keep clicking this as</p>
+<p begin="00:08:58.480" end="00:09:03.760" style="s2">many times as I want, like imagine each</p>
+<p begin="00:09:01.360" end="00:09:06.560" style="s2">time I&#39;m clicking is that one minute</p>
+<p begin="00:09:03.760" end="00:09:10.160" style="s2">interval that is running and pulling</p>
+<p begin="00:09:06.560" end="00:09:13.360" style="s2">your emails from Gmail and dumping it</p>
+<p begin="00:09:10.160" end="00:09:16.920" style="s2">here. This is not an optimized way. We</p>
+<p begin="00:09:13.360" end="00:09:20.040" style="s2">want to make sure that this email do not</p>
+<p begin="00:09:16.920" end="00:09:24.240" style="s2">exist and with that</p>
+<p begin="00:09:20.040" end="00:09:27.240" style="s2">um if the email exists then don&#39;t enter</p>
+<p begin="00:09:24.240" end="00:09:31.680" style="s2">it in the database. If the email do not</p>
+<p begin="00:09:27.240" end="00:09:33.839" style="s2">exist then we will basically go on and</p>
+<p begin="00:09:31.680" end="00:09:36.640" style="s2">and and enter it because that&#39;s a that&#39;s</p>
+<p begin="00:09:33.839" end="00:09:39.040" style="s2">a new email that arrived. So that&#39;s</p>
+<p begin="00:09:36.640" end="00:09:41.600" style="s2">something we will do for the next video.</p>
+<p begin="00:09:39.040" end="00:09:41.600" style="s2">Thank you.</p>
+</div>
+</body>
+</tt>

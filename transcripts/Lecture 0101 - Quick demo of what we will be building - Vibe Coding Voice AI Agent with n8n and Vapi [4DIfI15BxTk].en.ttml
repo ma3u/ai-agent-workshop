@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.280" end="00:00:05.759" style="s2">Hi everyone, welcome to this course</p>
+<p begin="00:00:03.840" end="00:00:09.200" style="s2">where I&#39;ll teach you how to build a</p>
+<p begin="00:00:05.759" end="00:00:12.960" style="s2">voice AI agent that talks to you just</p>
+<p begin="00:00:09.200" end="00:00:15.759" style="s2">feels like human and it has access to</p>
+<p begin="00:00:12.960" end="00:00:17.320" style="s2">your Gmail inbox. You can read emails</p>
+<p begin="00:00:15.759" end="00:00:20.640" style="s2">and you can compose</p>
+<p begin="00:00:17.320" end="00:00:24.480" style="s2">emails. This study material is a is a</p>
+<p begin="00:00:20.640" end="00:00:28.240" style="s2">part of a in-person and hybrid uh</p>
+<p begin="00:00:24.480" end="00:00:32.880" style="s2">workshop that I do on a monthly basis.</p>
+<p begin="00:00:28.240" end="00:00:35.600" style="s2">And throughout this series of videos in</p>
+<p begin="00:00:32.880" end="00:00:39.920" style="s2">my YouTube playlist, um you should be</p>
+<p begin="00:00:35.600" end="00:00:43.600" style="s2">able to learn what is an AI agent. Um</p>
+<p begin="00:00:39.920" end="00:00:46.640" style="s2">what can an AI agent be called and</p>
+<p begin="00:00:43.600" end="00:00:48.719" style="s2">literally build your own AI agent. Um</p>
+<p begin="00:00:46.640" end="00:00:50.440" style="s2">you do not need to have coding</p>
+<p begin="00:00:48.719" end="00:00:52.960" style="s2">experience in order to follow this</p>
+<p begin="00:00:50.440" end="00:00:56.480" style="s2">tutorial, but having coding experience</p>
+<p begin="00:00:52.960" end="00:00:59.039" style="s2">will help a long way. And also since</p>
+<p begin="00:00:56.480" end="00:01:02.480" style="s2">this is part two of this workshop series</p>
+<p begin="00:00:59.039" end="00:01:05.760" style="s2">that I do, although they can be totally</p>
+<p begin="00:01:02.480" end="00:01:07.439" style="s2">independent, you can follow all the</p>
+<p begin="00:01:05.760" end="00:01:09.920" style="s2">videos from this playlist without</p>
+<p begin="00:01:07.439" end="00:01:12.640" style="s2">watching part one. But I highly</p>
+<p begin="00:01:09.920" end="00:01:15.520" style="s2">recommend that you watch part one. You</p>
+<p begin="00:01:12.640" end="00:01:18.560" style="s2">can find the link of the playlist series</p>
+<p begin="00:01:15.520" end="00:01:21.119" style="s2">from the description of this video. So</p>
+<p begin="00:01:18.560" end="00:01:22.720" style="s2">let&#39;s kick start. Uh what do we have?</p>
+<p begin="00:01:21.119" end="00:01:26.640" style="s2">like there is this presentation that</p>
+<p begin="00:01:22.720" end="00:01:28.880" style="s2">I&#39;ll go through during the playlist and</p>
+<p begin="00:01:26.640" end="00:01:31.520" style="s2">there is this whiteboard that we have</p>
+<p begin="00:01:28.880" end="00:01:33.560" style="s2">and we&#39;ll do a lot of uh whiteboard</p>
+<p begin="00:01:31.520" end="00:01:36.079" style="s2">sessions during this</p>
+<p begin="00:01:33.560" end="00:01:38.720" style="s2">thing. The entire lectures of this</p>
+<p begin="00:01:36.079" end="00:01:41.680" style="s2">playlist is divided u after the</p>
+<p begin="00:01:38.720" end="00:01:44.400" style="s2">introduction rounds is divided in three</p>
+<p begin="00:01:41.680" end="00:01:47.680" style="s2">parts. Part one is composing emails,</p>
+<p begin="00:01:44.400" end="00:01:50.799" style="s2">part two is reading emails and part</p>
+<p begin="00:01:47.680" end="00:01:52.960" style="s2">three is vibe coding. So that once you</p>
+<p begin="00:01:50.799" end="00:01:56.159" style="s2">actually</p>
+<p begin="00:01:52.960" end="00:01:59.119" style="s2">um build something that goes beyond the</p>
+<p begin="00:01:56.159" end="00:02:02.240" style="s2">limits of these two awesome technologies</p>
+<p begin="00:01:59.119" end="00:02:05.360" style="s2">that we&#39;ll be using. One is called Vapi.</p>
+<p begin="00:02:02.240" end="00:02:07.119" style="s2">It&#39;s a voice AI agent platform where you</p>
+<p begin="00:02:05.360" end="00:02:09.119" style="s2">can build voice AI agents and it can</p>
+<p begin="00:02:07.119" end="00:02:11.599" style="s2">talk to you. You will see during the</p>
+<p begin="00:02:09.119" end="00:02:16.480" style="s2">lectures what is this. And the other one</p>
+<p begin="00:02:11.599" end="00:02:18.959" style="s2">is NAT um a Berlin based uh company</p>
+<p begin="00:02:16.480" end="00:02:21.680" style="s2">uh where you can build workflows</p>
+<p begin="00:02:18.959" end="00:02:25.599" style="s2">especially agentic workflows literally</p>
+<p begin="00:02:21.680" end="00:02:29.160" style="s2">with no code low code. And the last part</p>
+<p begin="00:02:25.599" end="00:02:33.360" style="s2">of this course uh is vibe coding 101 uh</p>
+<p begin="00:02:29.160" end="00:02:36.720" style="s2">which is something that will allow you</p>
+<p begin="00:02:33.360" end="00:02:39.200" style="s2">to build software</p>
+<p begin="00:02:36.720" end="00:02:41.760" style="s2">um that may not fit in these two puzzle</p>
+<p begin="00:02:39.200" end="00:02:44.640" style="s2">pieces of vap and nat and then you have</p>
+<p begin="00:02:41.760" end="00:02:46.160" style="s2">to do it custom by yourself and still be</p>
+<p begin="00:02:44.640" end="00:02:48.720" style="s2">one puzzle piece in the entire</p>
+<p begin="00:02:46.160" end="00:02:52.160" style="s2">architecture. That&#39;s what we will see.</p>
+<p begin="00:02:48.720" end="00:02:54.640" style="s2">So starting from the presentation</p>
+<p begin="00:02:52.160" end="00:02:58.959" style="s2">uh each slide of the presentation will</p>
+<p begin="00:02:54.640" end="00:03:01.840" style="s2">depend on this mega whiteboard session</p>
+<p begin="00:02:58.959" end="00:03:04.879" style="s2">and when I go in these slides where I</p>
+<p begin="00:03:01.840" end="00:03:08.720" style="s2">say 1.1 that basically means one of</p>
+<p begin="00:03:04.879" end="00:03:10.560" style="s2">these numbers that we&#39;ll go to. So let&#39;s</p>
+<p begin="00:03:08.720" end="00:03:12.640" style="s2">start from the very first beginning.</p>
+<p begin="00:03:10.560" end="00:03:16.280" style="s2">What are we going to build? We&#39;re going</p>
+<p begin="00:03:12.640" end="00:03:21.360" style="s2">to build a voice agent. I call mine</p>
+<p begin="00:03:16.280" end="00:03:23.440" style="s2">Samanta and Samanta is basically the</p>
+<p begin="00:03:21.360" end="00:03:27.200" style="s2">inspiration comes from my startup that</p>
+<p begin="00:03:23.440" end="00:03:29.840" style="s2">you&#39;ll know in a little bit uh when I do</p>
+<p begin="00:03:27.200" end="00:03:31.920" style="s2">my introduction but it&#39;s a voice AI</p>
+<p begin="00:03:29.840" end="00:03:34.879" style="s2">agent that I have and I use on a daily</p>
+<p begin="00:03:31.920" end="00:03:38.400" style="s2">basis. It sits in my phone as a phone</p>
+<p begin="00:03:34.879" end="00:03:39.879" style="s2">number and I can use Siri in order to</p>
+<p begin="00:03:38.400" end="00:03:43.920" style="s2">call</p>
+<p begin="00:03:39.879" end="00:03:46.239" style="s2">Samanta and free. I use this um</p>
+<p begin="00:03:43.920" end="00:03:49.120" style="s2">literally on a daily basis when I&#39;m</p>
+<p begin="00:03:46.239" end="00:03:53.120" style="s2">driving and dropping and picking my two</p>
+<p begin="00:03:49.120" end="00:03:55.200" style="s2">kids to ka or kindergarten uh handsree</p>
+<p begin="00:03:53.120" end="00:03:57.920" style="s2">while driving. So I do it like this. Hey</p>
+<p begin="00:03:55.200" end="00:04:01.519" style="s2">Siri.</p>
+<p begin="00:03:57.920" end="00:04:04.560" style="s2">Mhm. Call Samanta. You&#39;ll need to unlock</p>
+<p begin="00:04:01.519" end="00:04:09.239" style="s2">your iPhone first. Okay. I&#39;m sitting in</p>
+<p begin="00:04:04.560" end="00:04:09.239" style="s2">front. Calling Samantha mobile.</p>
+<p begin="00:04:09.840" end="00:04:14.640" style="s2">Hi Amal. How are you doing? I&#39;m doing</p>
+<p begin="00:04:11.760" end="00:04:16.040" style="s2">good. How are you? And can you tell me</p>
+<p begin="00:04:14.640" end="00:04:18.479" style="s2">something</p>
+<p begin="00:04:16.040" end="00:04:21.199" style="s2">about programmers? Let&#39;s say a joke</p>
+<p begin="00:04:18.479" end="00:04:23.040" style="s2">about programmers.</p>
+<p begin="00:04:21.199" end="00:04:24.800" style="s2">I&#39;m glad to hear you&#39;re doing well.</p>
+<p begin="00:04:23.040" end="00:04:27.040" style="s2">Here&#39;s a classic programmer joke for</p>
+<p begin="00:04:24.800" end="00:04:31.360" style="s2">you. Why do programmers prefer dark</p>
+<p begin="00:04:27.040" end="00:04:34.080" style="s2">mode? Because light attracts bugs.</p>
+<p begin="00:04:31.360" end="00:04:36.240" style="s2">um yeah, you get the point. Like it&#39;s</p>
+<p begin="00:04:34.080" end="00:04:39.280" style="s2">something that has been happening on the</p>
+<p begin="00:04:36.240" end="00:04:41.919" style="s2">internet quite for a long time. We&#39;ll be</p>
+<p begin="00:04:39.280" end="00:04:46.320" style="s2">building Samantha. She&#39;ll have access to</p>
+<p begin="00:04:41.919" end="00:04:49.840" style="s2">our tools. Uh the the the next steps of</p>
+<p begin="00:04:46.320" end="00:04:55.040" style="s2">this voice AI agent will be adding tools</p>
+<p begin="00:04:49.840" end="00:04:56.960" style="s2">and so on to it. Um and the this is to</p>
+<p begin="00:04:55.040" end="00:05:01.040" style="s2">be honest</p>
+<p begin="00:04:56.960" end="00:05:04.120" style="s2">uh a the the very gest of what is going</p>
+<p begin="00:05:01.040" end="00:05:07.759" style="s2">to happen next in the next next next</p>
+<p begin="00:05:04.120" end="00:05:12.000" style="s2">videos. So that was the part one of our</p>
+<p begin="00:05:07.759" end="00:05:12.000" style="s2">introduction. Let&#39;s go to part two.</p>
+</div>
+</body>
+</tt>

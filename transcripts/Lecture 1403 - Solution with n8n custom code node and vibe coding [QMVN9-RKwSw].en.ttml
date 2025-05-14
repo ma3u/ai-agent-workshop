@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.480" end="00:00:06.560" style="s2">So, we saw that the if node and n do not</p>
+<p begin="00:00:04.720" end="00:00:09.679" style="s2">solve our problem. Let&#39;s go and try it</p>
+<p begin="00:00:06.560" end="00:00:12.320" style="s2">out with custom code and some pipe</p>
+<p begin="00:00:09.679" end="00:00:15.759" style="s2">coding. We&#39;re going to remove this one.</p>
+<p begin="00:00:12.320" end="00:00:19.359" style="s2">Also, remove this link and then go to</p>
+<p begin="00:00:15.759" end="00:00:19.359" style="s2">our database. Clean up the</p>
+<p begin="00:00:23.000" end="00:00:29.519" style="s2">database. Okay. Now</p>
+<p begin="00:00:26.519" end="00:00:31.519" style="s2">the way that we will do this is</p>
+<p begin="00:00:29.519" end="00:00:34.000" style="s2">something called custom code. So you</p>
+<p begin="00:00:31.519" end="00:00:36.760" style="s2">just write code. You will see this</p>
+<p begin="00:00:34.000" end="00:00:39.360" style="s2">object. Basically this is</p>
+<p begin="00:00:36.760" end="00:00:42.000" style="s2">the node where you can write custom</p>
+<p begin="00:00:39.360" end="00:00:44.280" style="s2">code. You can ask their AI to do things.</p>
+<p begin="00:00:42.000" end="00:00:49.120" style="s2">We will try this. Uh</p>
+<p begin="00:00:44.280" end="00:00:52.719" style="s2">and this particular feature do not um</p>
+<p begin="00:00:49.120" end="00:00:55.199" style="s2">support screenshots. When we get to vibe</p>
+<p begin="00:00:52.719" end="00:00:57.840" style="s2">coding section in part three, I will</p>
+<p begin="00:00:55.199" end="00:01:00.199" style="s2">explain some features or some tips and</p>
+<p begin="00:00:57.840" end="00:01:03.520" style="s2">tricks on how to do vibe coding the best</p>
+<p begin="00:01:00.199" end="00:01:06.240" style="s2">way. But I like to give screenshots to</p>
+<p begin="00:01:03.520" end="00:01:08.320" style="s2">the LLM so that the LLM can understand</p>
+<p begin="00:01:06.240" end="00:01:10.680" style="s2">more context. So we&#39;re not going to use</p>
+<p begin="00:01:08.320" end="00:01:15.280" style="s2">this tab. We&#39;re going to use chat</p>
+<p begin="00:01:10.680" end="00:01:17.840" style="s2">GPT. All right. So for me in order to</p>
+<p begin="00:01:15.280" end="00:01:20.240" style="s2">work on this one I need to connect this</p>
+<p begin="00:01:17.840" end="00:01:22.320" style="s2">because I need that data inside this</p>
+<p begin="00:01:20.240" end="00:01:24.799" style="s2">code and then this code will trigger</p>
+<p begin="00:01:22.320" end="00:01:26.720" style="s2">something and then we&#39;ll we&#39;ll talk</p>
+<p begin="00:01:24.799" end="00:01:28.880" style="s2">about this part in just a minute.</p>
+<p begin="00:01:26.720" end="00:01:31.119" style="s2">Basically this part will be an if</p>
+<p begin="00:01:28.880" end="00:01:34.240" style="s2">condition. So we&#39;ll wire it up with an</p>
+<p begin="00:01:31.119" end="00:01:36.960" style="s2">if condition in a minute and then this</p>
+<p begin="00:01:34.240" end="00:01:40.360" style="s2">will wire up here and you all the dots</p>
+<p begin="00:01:36.960" end="00:01:43.400" style="s2">will connect once you see this thing</p>
+<p begin="00:01:40.360" end="00:01:46.720" style="s2">running. Okay. Okay.</p>
+<p begin="00:01:43.400" end="00:01:49.360" style="s2">So let&#39;s go to coding. Okay, I&#39;m super</p>
+<p begin="00:01:46.720" end="00:01:51.920" style="s2">passionate about this particular part of</p>
+<p begin="00:01:49.360" end="00:01:55.200" style="s2">the tutorial. Why? Because this opens</p>
+<p begin="00:01:51.920" end="00:01:57.600" style="s2">the ground for almost any possib</p>
+<p begin="00:01:55.200" end="00:02:00.000" style="s2">possibility that you can think of. So</p>
+<p begin="00:01:57.600" end="00:02:01.719" style="s2">what I would like to do is I&#39;ll initiate</p>
+<p begin="00:02:00.000" end="00:02:06.240" style="s2">with this tab.</p>
+<p begin="00:02:01.719" end="00:02:08.039" style="s2">Um I will say this that okay first thing</p>
+<p begin="00:02:06.240" end="00:02:14.879" style="s2">first I would like</p>
+<p begin="00:02:08.039" end="00:02:17.280" style="s2">to execute this in the workflow that it</p>
+<p begin="00:02:14.879" end="00:02:21.640" style="s2">does not have an email. So we receive</p>
+<p begin="00:02:17.280" end="00:02:24.560" style="s2">the email then we try to fetch this</p>
+<p begin="00:02:21.640" end="00:02:26.720" style="s2">email and there is no email in the</p>
+<p begin="00:02:24.560" end="00:02:29.599" style="s2">database in the superbase database there</p>
+<p begin="00:02:26.720" end="00:02:32.000" style="s2">is no email and I want to have that</p>
+<p begin="00:02:29.599" end="00:02:34.000" style="s2">state in here. So in here in my super</p>
+<p begin="00:02:32.000" end="00:02:35.800" style="s2">basease you can see that it says no</p>
+<p begin="00:02:34.000" end="00:02:38.080" style="s2">fields or no data</p>
+<p begin="00:02:35.800" end="00:02:41.400" style="s2">available. And now I would like to go</p>
+<p begin="00:02:38.080" end="00:02:46.080" style="s2">here and ask something with my dictation</p>
+<p begin="00:02:41.400" end="00:02:49.360" style="s2">tool. I&#39;m using NA10 and I have this</p>
+<p begin="00:02:46.080" end="00:02:51.519" style="s2">superbase uh retrieval logic. I am</p>
+<p begin="00:02:49.360" end="00:02:54.760" style="s2">retrieving some</p>
+<p begin="00:02:51.519" end="00:02:59.040" style="s2">rows from superbase table based on an</p>
+<p begin="00:02:54.760" end="00:03:03.319" style="s2">ID. I don&#39;t get any data in that node.</p>
+<p begin="00:02:59.040" end="00:03:08.400" style="s2">uh I would like to put some custom code</p>
+<p begin="00:03:03.319" end="00:03:10.720" style="s2">to retrieve um the state of that whether</p>
+<p begin="00:03:08.400" end="00:03:13.000" style="s2">actually there was some data or there</p>
+<p begin="00:03:10.720" end="00:03:16.080" style="s2">was no</p>
+<p begin="00:03:13.000" end="00:03:18.640" style="s2">data. So basically in English language</p>
+<p begin="00:03:16.080" end="00:03:21.200" style="s2">I&#39;ll click on generate the code. This is</p>
+<p begin="00:03:18.640" end="00:03:25.440" style="s2">basically VIP coding 101. You generate</p>
+<p begin="00:03:21.200" end="00:03:27.519" style="s2">code like that. So it is doing some</p>
+<p begin="00:03:25.440" end="00:03:29.400" style="s2">code. I&#39;m not sure if it&#39;s working or</p>
+<p begin="00:03:27.519" end="00:03:31.920" style="s2">not. I&#39;m going to click on</p>
+<p begin="00:03:29.400" end="00:03:34.319" style="s2">test. We&#39;ll go with the vibes. So it</p>
+<p begin="00:03:31.920" end="00:03:36.799" style="s2">says data retrieved from superbase. That</p>
+<p begin="00:03:34.319" end="00:03:41.799" style="s2">is not correct because superbase do not</p>
+<p begin="00:03:36.799" end="00:03:43.440" style="s2">have any data. Now comes the time of</p>
+<p begin="00:03:41.799" end="00:03:45.920" style="s2">screenshotting. So I&#39;m going to</p>
+<p begin="00:03:43.440" end="00:03:47.360" style="s2">screenshot. For those of you who are</p>
+<p begin="00:03:45.920" end="00:03:52.319" style="s2">developers, I would like to show you</p>
+<p begin="00:03:47.360" end="00:03:55.159" style="s2">something here. If you go to console and</p>
+<p begin="00:03:52.319" end="00:04:00.080" style="s2">if you write here console.log</p>
+<p begin="00:03:55.159" end="00:04:03.280" style="s2">log a a let&#39;s say items and then you put</p>
+<p begin="00:04:00.080" end="00:04:05.760" style="s2">items here. This is basically your old</p>
+<p begin="00:04:03.280" end="00:04:08.560" style="s2">school console log. You can see things</p>
+<p begin="00:04:05.760" end="00:04:11.840" style="s2">here. So you can see it is a little bit</p>
+<p begin="00:04:08.560" end="00:04:14.840" style="s2">of a different type of an object. So I</p>
+<p begin="00:04:11.840" end="00:04:17.919" style="s2">would like to take this to the big</p>
+<p begin="00:04:14.840" end="00:04:20.000" style="s2">brother to chat GPT. I&#39;m going to bring</p>
+<p begin="00:04:17.919" end="00:04:23.000" style="s2">chat GPT in this screen in just a</p>
+<p begin="00:04:20.000" end="00:04:23.000" style="s2">minute.</p>
+<p begin="00:04:24.360" end="00:04:30.160" style="s2">Okay. So in this chat GPT window, I&#39;m</p>
+<p begin="00:04:27.840" end="00:04:32.199" style="s2">going to paste this screenshot first and</p>
+<p begin="00:04:30.160" end="00:04:36.040" style="s2">then I&#39;m going to dictate</p>
+<p begin="00:04:32.199" end="00:04:40.000" style="s2">something. I&#39;m using this workflow in</p>
+<p begin="00:04:36.040" end="00:04:43.680" style="s2">NA10 and I have a custom code node where</p>
+<p begin="00:04:40.000" end="00:04:45.680" style="s2">I check for existence of this node</p>
+<p begin="00:04:43.680" end="00:04:48.160" style="s2">previously. I&#39;ve also added another</p>
+<p begin="00:04:45.680" end="00:04:51.479" style="s2">screenshot particularly for that note</p>
+<p begin="00:04:48.160" end="00:04:54.479" style="s2">that do not return any data from uh</p>
+<p begin="00:04:51.479" end="00:04:58.120" style="s2">supabase but yet my code is wrong. It</p>
+<p begin="00:04:54.479" end="00:05:02.160" style="s2">doesn&#39;t work. Can you please fix it for</p>
+<p begin="00:04:58.120" end="00:05:05.040" style="s2">me? Okay, before I hit enter, I will go</p>
+<p begin="00:05:02.160" end="00:05:08.720" style="s2">here and take a screenshot of only this</p>
+<p begin="00:05:05.040" end="00:05:10.639" style="s2">part so that chat GBT knows which part</p>
+<p begin="00:05:08.720" end="00:05:13.440" style="s2">I&#39;m talking about because my screenshot</p>
+<p begin="00:05:10.639" end="00:05:16.759" style="s2">is a little bit overcrowded. Uh, one</p>
+<p begin="00:05:13.440" end="00:05:22.160" style="s2">more thing I could do before hitting</p>
+<p begin="00:05:16.759" end="00:05:23.240" style="s2">enter is that I give the console lock to</p>
+<p begin="00:05:22.160" end="00:05:25.440" style="s2">chat</p>
+<p begin="00:05:23.240" end="00:05:27.720" style="s2">GPT. Uh, I don&#39;t need to give a</p>
+<p begin="00:05:25.440" end="00:05:29.880" style="s2">screenshot. I can give</p>
+<p begin="00:05:27.720" end="00:05:36.400" style="s2">this.</p>
+<p begin="00:05:29.880" end="00:05:39.600" style="s2">Um, and following is the L please check.</p>
+<p begin="00:05:36.400" end="00:05:42.560" style="s2">Now since Chad GPT knows coding since it</p>
+<p begin="00:05:39.600" end="00:05:46.800" style="s2">knows mostly the entire architecture</p>
+<p begin="00:05:42.560" end="00:05:51.000" style="s2">it&#39;s going to find out what is wrong and</p>
+<p begin="00:05:46.800" end="00:05:56.400" style="s2">give me a new piece of code. I copy this</p>
+<p begin="00:05:51.000" end="00:05:59.199" style="s2">blindly. I go here paste it test it. Now</p>
+<p begin="00:05:56.400" end="00:06:01.120" style="s2">it should say no data retrieved from</p>
+<p begin="00:05:59.199" end="00:06:03.880" style="s2">superbase. That is wonderful. This is</p>
+<p begin="00:06:01.120" end="00:06:06.800" style="s2">exactly what I&#39;m looking for.</p>
+<p begin="00:06:03.880" end="00:06:08.600" style="s2">Um, one more thing I would like to do is</p>
+<p begin="00:06:06.800" end="00:06:13.560" style="s2">to make my life</p>
+<p begin="00:06:08.600" end="00:06:16.720" style="s2">easier. Um, is I will ask Chachi</p>
+<p begin="00:06:13.560" end="00:06:18.720" style="s2">to can you please Oh, by the way, it</p>
+<p begin="00:06:16.720" end="00:06:21.280" style="s2">worked. Thank you so much. Uh, can you</p>
+<p begin="00:06:18.720" end="00:06:23.840" style="s2">please now add another element to this</p>
+<p begin="00:06:21.280" end="00:06:26.080" style="s2">that is kind of like a boolean flag so</p>
+<p begin="00:06:23.840" end="00:06:29.080" style="s2">that I can use it on the other workflow</p>
+<p begin="00:06:26.080" end="00:06:29.080" style="s2">easily.</p>
+<p begin="00:06:29.199" end="00:06:34.160" style="s2">So basically for those of you who are</p>
+<p begin="00:06:31.919" end="00:06:36.240" style="s2">programmers, what I wanted to do is add</p>
+<p begin="00:06:34.160" end="00:06:39.560" style="s2">another element in this JSON that it&#39;s</p>
+<p begin="00:06:36.240" end="00:06:44.960" style="s2">returning so that I can use that as</p>
+<p begin="00:06:39.560" end="00:06:48.639" style="s2">a simple yes no tool um that I have. So</p>
+<p begin="00:06:44.960" end="00:06:52.479" style="s2">it has data true or false. It will based</p>
+<p begin="00:06:48.639" end="00:06:57.080" style="s2">on on that logic. it it went a little</p>
+<p begin="00:06:52.479" end="00:07:00.160" style="s2">bit in a in a very different way uh</p>
+<p begin="00:06:57.080" end="00:07:02.960" style="s2">because I would just add one extra</p>
+<p begin="00:07:00.160" end="00:07:06.880" style="s2">column there but this is more optimizing</p>
+<p begin="00:07:02.960" end="00:07:08.880" style="s2">I think I will just copy this one okay I</p>
+<p begin="00:07:06.880" end="00:07:13.720" style="s2">will copy this I&#39;ll remove my console</p>
+<p begin="00:07:08.880" end="00:07:18.120" style="s2">log I&#39;ll test it out now it has</p>
+<p begin="00:07:13.720" end="00:07:21.720" style="s2">this tab that says has data true or</p>
+<p begin="00:07:18.120" end="00:07:23.960" style="s2">false now let&#39;s save it out of</p>
+<p begin="00:07:21.720" end="00:07:26.520" style="s2">here and</p>
+<p begin="00:07:23.960" end="00:07:29.199" style="s2">then in the if</p>
+<p begin="00:07:26.520" end="00:07:31.680" style="s2">condition I have this data that I can</p>
+<p begin="00:07:29.199" end="00:07:35.520" style="s2">drag and drop and use this if condition</p>
+<p begin="00:07:31.680" end="00:07:37.720" style="s2">to branch my logic. I&#39;m going to say if</p>
+<p begin="00:07:35.520" end="00:07:42.599" style="s2">this has</p>
+<p begin="00:07:37.720" end="00:07:46.120" style="s2">data was it it&#39;s a boolean if this was</p>
+<p begin="00:07:42.599" end="00:07:48.880" style="s2">false then only I would like to add</p>
+<p begin="00:07:46.120" end="00:07:51.039" style="s2">something. So then only in the true</p>
+<p begin="00:07:48.880" end="00:07:54.400" style="s2">condition I would like to add this</p>
+<p begin="00:07:51.039" end="00:07:57.400" style="s2">database. So if I do this it will keep</p>
+<p begin="00:07:54.400" end="00:08:01.720" style="s2">climbing the ladder. Perfect. It went</p>
+<p begin="00:07:57.400" end="00:08:03.479" style="s2">there and now I have the email stored in</p>
+<p begin="00:08:01.720" end="00:08:07.919" style="s2">my</p>
+<p begin="00:08:03.479" end="00:08:10.960" style="s2">table. Now if I run it again supposedly</p>
+<p begin="00:08:07.919" end="00:08:12.720" style="s2">it should not go to the last step. And</p>
+<p begin="00:08:10.960" end="00:08:15.919" style="s2">you can see that there is no green check</p>
+<p begin="00:08:12.720" end="00:08:18.120" style="s2">mark here. That means it did not go</p>
+<p begin="00:08:15.919" end="00:08:20.400" style="s2">there. It went to the</p>
+<p begin="00:08:18.120" end="00:08:22.319" style="s2">falls branch which we don&#39;t have</p>
+<p begin="00:08:20.400" end="00:08:24.800" style="s2">anything. We don&#39;t need to put anything.</p>
+<p begin="00:08:22.319" end="00:08:27.560" style="s2">That&#39;s it. And if we come back to our</p>
+<p begin="00:08:24.800" end="00:08:31.440" style="s2">database, you refresh the database</p>
+<p begin="00:08:27.560" end="00:08:35.599" style="s2">table. No duplicates stored. So</p>
+<p begin="00:08:31.440" end="00:08:40.560" style="s2">basically that is a very interesting new</p>
+<p begin="00:08:35.599" end="00:08:42.399" style="s2">era merging vip coding and literally not</p>
+<p begin="00:08:40.560" end="00:08:45.440" style="s2">knowing JavaScript. We wrote some pieces</p>
+<p begin="00:08:42.399" end="00:08:48.320" style="s2">of JavaScript in that context of the</p>
+<p begin="00:08:45.440" end="00:08:51.279" style="s2">workflow that just work fine. Let&#39;s go</p>
+<p begin="00:08:48.320" end="00:08:51.279" style="s2">to the next step.</p>
+</div>
+</body>
+</tt>

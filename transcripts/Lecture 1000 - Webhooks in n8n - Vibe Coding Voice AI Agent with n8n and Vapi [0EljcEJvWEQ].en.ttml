@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.640" end="00:00:05.440" style="s2">In this lecture, we&#39;ll have a look at</p>
+<p begin="00:00:02.879" end="00:00:07.960" style="s2">what is web hooks in NA10 and how you</p>
+<p begin="00:00:05.440" end="00:00:12.160" style="s2">can use it. So, let&#39;s go to our</p>
+<p begin="00:00:07.960" end="00:00:16.800" style="s2">NA10 workflow and then click on add new</p>
+<p begin="00:00:12.160" end="00:00:19.600" style="s2">step and here put web hook. Usually,</p>
+<p begin="00:00:16.800" end="00:00:23.359" style="s2">when you see this icon in front of one</p>
+<p begin="00:00:19.600" end="00:00:27.039" style="s2">of these items, it means it&#39;s a trigger.</p>
+<p begin="00:00:23.359" end="00:00:29.199" style="s2">It will execute this thing. A web hook</p>
+<p begin="00:00:27.039" end="00:00:31.519" style="s2">has this button which you can click.</p>
+<p begin="00:00:29.199" end="00:00:35.440" style="s2">When you click it, it goes in this</p>
+<p begin="00:00:31.519" end="00:00:37.680" style="s2">listening mode. You can copy this URL.</p>
+<p begin="00:00:35.440" end="00:00:40.480" style="s2">That means another service from</p>
+<p begin="00:00:37.680" end="00:00:43.760" style="s2">somewhere else in the world can send a</p>
+<p begin="00:00:40.480" end="00:00:46.399" style="s2">request to this web hook. And web hooks</p>
+<p begin="00:00:43.760" end="00:00:51.320" style="s2">can be of different types. Uh it can be</p>
+<p begin="00:00:46.399" end="00:00:54.160" style="s2">of a type delete, get head, patch, post,</p>
+<p begin="00:00:51.320" end="00:00:56.800" style="s2">put. These are basically the HTTP</p>
+<p begin="00:00:54.160" end="00:00:59.320" style="s2">requests that you can do. So we&#39;re going</p>
+<p begin="00:00:56.800" end="00:01:04.400" style="s2">to keep it as</p>
+<p begin="00:00:59.320" end="00:01:07.760" style="s2">get. Click on listening. Click on copy.</p>
+<p begin="00:01:04.400" end="00:01:10.880" style="s2">Now go to the internet and search for</p>
+<p begin="00:01:07.760" end="00:01:15.119" style="s2">Postman online. If you search for</p>
+<p begin="00:01:10.880" end="00:01:17.960" style="s2">Postman online, you should stumble upon</p>
+<p begin="00:01:15.119" end="00:01:20.640" style="s2">a project called</p>
+<p begin="00:01:17.960" end="00:01:22.400" style="s2">Rickpen. It&#39;s an alternative to</p>
+<p begin="00:01:20.640" end="00:01:25.280" style="s2">so-called Postman that a lot of</p>
+<p begin="00:01:22.400" end="00:01:28.320" style="s2">developers use. My recommendation is</p>
+<p begin="00:01:25.280" end="00:01:29.640" style="s2">that you use Postman. How do you do that</p>
+<p begin="00:01:28.320" end="00:01:32.560" style="s2">is go to</p>
+<p begin="00:01:29.640" end="00:01:34.360" style="s2">postman.com, download it, sign up and</p>
+<p begin="00:01:32.560" end="00:01:37.920" style="s2">then you should have a software like</p>
+<p begin="00:01:34.360" end="00:01:40.960" style="s2">this. But for the sake of those who do</p>
+<p begin="00:01:37.920" end="00:01:44.320" style="s2">not want to download Postman, they can</p>
+<p begin="00:01:40.960" end="00:01:47.399" style="s2">use Rick Ben. Okay. If I copy paste this</p>
+<p begin="00:01:44.320" end="00:01:51.200" style="s2">URL in here and just click on</p>
+<p begin="00:01:47.399" end="00:01:54.960" style="s2">send, you can see that I see a message</p>
+<p begin="00:01:51.200" end="00:01:59.159" style="s2">says workflow as started 200. That means</p>
+<p begin="00:01:54.960" end="00:02:01.600" style="s2">it worked. And if I go back to my</p>
+<p begin="00:01:59.159" end="00:02:03.920" style="s2">workflow, I&#39;ll see that there is a</p>
+<p begin="00:02:01.600" end="00:02:06.079" style="s2">payload coming here or a kind of a</p>
+<p begin="00:02:03.920" end="00:02:08.960" style="s2">request coming here with some JSON</p>
+<p begin="00:02:06.079" end="00:02:08.960" style="s2">payload.</p>
+<p begin="00:02:09.080" end="00:02:18.400" style="s2">So in short terms or very briefly, a web</p>
+<p begin="00:02:14.560" end="00:02:22.520" style="s2">hook is basically a way for you to</p>
+<p begin="00:02:18.400" end="00:02:26.560" style="s2">create an endpoint, an API, an an</p>
+<p begin="00:02:22.520" end="00:02:29.319" style="s2">address like this that other systems can</p>
+<p begin="00:02:26.560" end="00:02:33.080" style="s2">call your workflow and then can do some</p>
+<p begin="00:02:29.319" end="00:02:36.160" style="s2">executions based on your workflow.</p>
+<p begin="00:02:33.080" end="00:02:39.680" style="s2">So now in the next lecture we&#39;ll take</p>
+<p begin="00:02:36.160" end="00:02:43.360" style="s2">this URL of this web hook workflow</p>
+<p begin="00:02:39.680" end="00:02:46.360" style="s2">instead of Postman or this service that</p>
+<p begin="00:02:43.360" end="00:02:49.680" style="s2">we found out</p>
+<p begin="00:02:46.360" end="00:02:54.920" style="s2">Rickpen instead of using this UI we&#39;re</p>
+<p begin="00:02:49.680" end="00:02:59.120" style="s2">going to use our Vappy dashboard our</p>
+<p begin="00:02:54.920" end="00:03:02.319" style="s2">Vappy voice assistant and it&#39;s coming a</p>
+<p begin="00:02:59.120" end="00:03:05.519" style="s2">long way now it will make sense once we</p>
+<p begin="00:03:02.319" end="00:03:07.519" style="s2">put all of them together. So the idea is</p>
+<p begin="00:03:05.519" end="00:03:11.200" style="s2">that we are going to use web hook in</p>
+<p begin="00:03:07.519" end="00:03:14.760" style="s2">order for this call to be connected with</p>
+<p begin="00:03:11.200" end="00:03:18.959" style="s2">this workflow that will compose an</p>
+<p begin="00:03:14.760" end="00:03:23.599" style="s2">email. So with that if I can quickly</p>
+<p begin="00:03:18.959" end="00:03:25.920" style="s2">wrap it up. A web hook is a way for your</p>
+<p begin="00:03:23.599" end="00:03:29.440" style="s2">workflow to be accessed from outside the</p>
+<p begin="00:03:25.920" end="00:03:32.319" style="s2">world. In this case being Vappy. See you</p>
+<p begin="00:03:29.440" end="00:03:32.319" style="s2">in next lecture.</p>
+</div>
+</body>
+</tt>

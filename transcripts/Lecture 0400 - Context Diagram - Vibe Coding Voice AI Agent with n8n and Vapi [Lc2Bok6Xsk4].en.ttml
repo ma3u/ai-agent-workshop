@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.040" end="00:00:05.920" style="s2">In this lecture, we will have a look at</p>
+<p begin="00:00:03.120" end="00:00:08.080" style="s2">the so-called context diagram of the app</p>
+<p begin="00:00:05.920" end="00:00:11.280" style="s2">that we are going to build so that you</p>
+<p begin="00:00:08.080" end="00:00:14.480" style="s2">have a holistic view of what is where</p>
+<p begin="00:00:11.280" end="00:00:17.080" style="s2">and what comes next. So, let&#39;s go and</p>
+<p begin="00:00:14.480" end="00:00:21.840" style="s2">have a look at our context</p>
+<p begin="00:00:17.080" end="00:00:25.600" style="s2">diagram. So, what we have here is all</p>
+<p begin="00:00:21.840" end="00:00:28.480" style="s2">these boxes and lines showing you the</p>
+<p begin="00:00:25.600" end="00:00:30.320" style="s2">pieces of software that we&#39;re going to</p>
+<p begin="00:00:28.480" end="00:00:35.760" style="s2">put together.</p>
+<p begin="00:00:30.320" end="00:00:38.120" style="s2">and it is in three different sections.</p>
+<p begin="00:00:35.760" end="00:00:42.399" style="s2">Uh it will make sense in just a</p>
+<p begin="00:00:38.120" end="00:00:46.200" style="s2">minute. So we&#39;ll be using Vappy and NAT</p>
+<p begin="00:00:42.399" end="00:00:46.200" style="s2">as I just mentioned.</p>
+<p begin="00:00:46.559" end="00:00:51.320" style="s2">The very first thing we will do is we&#39;ll</p>
+<p begin="00:00:48.879" end="00:00:55.520" style="s2">take the Gmail</p>
+<p begin="00:00:51.320" end="00:00:59.680" style="s2">node as a trigger in NA10 and we will</p>
+<p begin="00:00:55.520" end="00:01:04.080" style="s2">set a five minute or maybe every minute</p>
+<p begin="00:00:59.680" end="00:01:07.439" style="s2">uh on a trigger on a on a cycle. Every</p>
+<p begin="00:01:04.080" end="00:01:11.119" style="s2">minute it will fetch new emails</p>
+<p begin="00:01:07.439" end="00:01:14.240" style="s2">uh and then this email will be stored</p>
+<p begin="00:01:11.119" end="00:01:16.880" style="s2">inside a database. Why this? Because</p>
+<p begin="00:01:14.240" end="00:01:20.080" style="s2">then we have a source where we can query</p>
+<p begin="00:01:16.880" end="00:01:21.920" style="s2">the last 5, 10, 20, whatever number that</p>
+<p begin="00:01:20.080" end="00:01:27.400" style="s2">we decide.</p>
+<p begin="00:01:21.920" end="00:01:32.280" style="s2">And at the same time we will trigger a</p>
+<p begin="00:01:27.400" end="00:01:36.119" style="s2">um job or a micro service or a</p>
+<p begin="00:01:32.280" end="00:01:40.400" style="s2">request to a custom code that we will do</p>
+<p begin="00:01:36.119" end="00:01:43.040" style="s2">here which will be as a part of the</p>
+<p begin="00:01:40.400" end="00:01:47.680" style="s2">lecture uh part number three which is</p>
+<p begin="00:01:43.040" end="00:01:51.880" style="s2">vibe coding. So that piece of box will</p>
+<p begin="00:01:47.680" end="00:01:55.520" style="s2">do something uh in regards to legal</p>
+<p begin="00:01:51.880" end="00:01:58.159" style="s2">check EU AI act or we will we&#39;ll do some</p>
+<p begin="00:01:55.520" end="00:02:01.040" style="s2">prompting on that when it comes and then</p>
+<p begin="00:01:58.159" end="00:02:03.759" style="s2">it for every single email we receive for</p>
+<p begin="00:02:01.040" end="00:02:06.079" style="s2">example we check it as legal aspects and</p>
+<p begin="00:02:03.759" end="00:02:08.560" style="s2">then we put back that information in the</p>
+<p begin="00:02:06.079" end="00:02:11.640" style="s2">database next to that email so that you</p>
+<p begin="00:02:08.560" end="00:02:16.080" style="s2">know that if something is not there in</p>
+<p begin="00:02:11.640" end="00:02:19.040" style="s2">NAT you have a way to go back to your</p>
+<p begin="00:02:16.080" end="00:02:23.280" style="s2">own code and then you execute it. Nathan</p>
+<p begin="00:02:19.040" end="00:02:26.640" style="s2">also has this custom code um thing but</p>
+<p begin="00:02:23.280" end="00:02:30.959" style="s2">we will do it in cursor and make sure</p>
+<p begin="00:02:26.640" end="00:02:33.080" style="s2">that we cover a few more uh topics of</p>
+<p begin="00:02:30.959" end="00:02:37.920" style="s2">five coding when we get</p>
+<p begin="00:02:33.080" end="00:02:40.800" style="s2">there. All right. So in this case then</p>
+<p begin="00:02:37.920" end="00:02:44.319" style="s2">we are already moving on. We will have</p>
+<p begin="00:02:40.800" end="00:02:48.239" style="s2">an iPhone uh calling a phone number.</p>
+<p begin="00:02:44.319" end="00:02:51.760" style="s2">Vappy picks the phone call. Then Vappy</p>
+<p begin="00:02:48.239" end="00:02:54.879" style="s2">have a conversation with the user using</p>
+<p begin="00:02:51.760" end="00:02:58.800" style="s2">that iPhone. And then it will detect</p>
+<p begin="00:02:54.879" end="00:03:01.440" style="s2">when to do a tool calling. Basically</p>
+<p begin="00:02:58.800" end="00:03:04.159" style="s2">knowing when to call NA10 or when to do</p>
+<p begin="00:03:01.440" end="00:03:06.879" style="s2">this bridging between NAN. And then the</p>
+<p begin="00:03:04.159" end="00:03:09.640" style="s2">NA10 will trigger</p>
+<p begin="00:03:06.879" end="00:03:12.800" style="s2">um this AI agent</p>
+<p begin="00:03:09.640" end="00:03:15.400" style="s2">that basically will decide what to do</p>
+<p begin="00:03:12.800" end="00:03:18.720" style="s2">with this piece of content, whether to</p>
+<p begin="00:03:15.400" end="00:03:21.200" style="s2">compose, reply and so on. And then it</p>
+<p begin="00:03:18.720" end="00:03:23.040" style="s2">will send it to chat GPT and then chat</p>
+<p begin="00:03:21.200" end="00:03:26.400" style="s2">GPT will summarize it, give it back to</p>
+<p begin="00:03:23.040" end="00:03:28.800" style="s2">us in a speakable way. We&#39;ll do some</p>
+<p begin="00:03:26.400" end="00:03:32.720" style="s2">prompt engineering here to make sure</p>
+<p begin="00:03:28.800" end="00:03:35.640" style="s2">that the response is easily spokable by</p>
+<p begin="00:03:32.720" end="00:03:39.040" style="s2">Samanta or this voice agent that we&#39;re</p>
+<p begin="00:03:35.640" end="00:03:43.360" style="s2">building. And the last piece of this</p>
+<p begin="00:03:39.040" end="00:03:47.120" style="s2">diagram shows this entire cycle but</p>
+<p begin="00:03:43.360" end="00:03:50.159" style="s2">instead of like summarizing it this time</p>
+<p begin="00:03:47.120" end="00:03:52.319" style="s2">we are basically composing an email and</p>
+<p begin="00:03:50.159" end="00:03:54.879" style="s2">then sending it sending a message back</p>
+<p begin="00:03:52.319" end="00:03:57.680" style="s2">to some that yes we are done. go on with</p>
+<p begin="00:03:54.879" end="00:04:00.799" style="s2">your work. So basically that&#39;s the</p>
+<p begin="00:03:57.680" end="00:04:03.519" style="s2">entire context diagram and what we are</p>
+<p begin="00:04:00.799" end="00:04:07.599" style="s2">going to build and we&#39;re we&#39;re not going</p>
+<p begin="00:04:03.519" end="00:04:09.439" style="s2">to just build it in vap and n as I</p>
+<p begin="00:04:07.599" end="00:04:13.840" style="s2">mentioned we&#39;ll touch some vibe coding</p>
+<p begin="00:04:09.439" end="00:04:16.239" style="s2">101 uh concepts and we will make sure</p>
+<p begin="00:04:13.840" end="00:04:19.199" style="s2">that you are equipped with the type of</p>
+<p begin="00:04:16.239" end="00:04:21.600" style="s2">knowledge that you need as a totally</p>
+<p begin="00:04:19.199" end="00:04:24.240" style="s2">non-technical founder solopreneur</p>
+<p begin="00:04:21.600" end="00:04:26.720" style="s2">product manager or whatever your</p>
+<p begin="00:04:24.240" end="00:04:29.040" style="s2">position is or even if you&#39;re a</p>
+<p begin="00:04:26.720" end="00:04:32.240" style="s2">programmer, this much content in this</p>
+<p begin="00:04:29.040" end="00:04:34.720" style="s2">course will help you to build a voice</p>
+<p begin="00:04:32.240" end="00:04:37.759" style="s2">agent that can read your email and</p>
+<p begin="00:04:34.720" end="00:04:40.880" style="s2">compose emails and also you have a</p>
+<p begin="00:04:37.759" end="00:04:43.360" style="s2">toolkit that you can do custom coding</p>
+<p begin="00:04:40.880" end="00:04:44.880" style="s2">and it will be a spark to a lot of more</p>
+<p begin="00:04:43.360" end="00:04:46.960" style="s2">ideas that you can build with this kind</p>
+<p begin="00:04:44.880" end="00:04:49.680" style="s2">of a toolkit. See you in the next</p>
+<p begin="00:04:46.960" end="00:04:49.680" style="s2">lecture.</p>
+</div>
+</body>
+</tt>

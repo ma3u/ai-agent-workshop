@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.640" end="00:00:05.200" style="s2">In this lecture, we will have a look at</p>
+<p begin="00:00:02.720" end="00:00:09.760" style="s2">a few frameworks that are available for</p>
+<p begin="00:00:05.200" end="00:00:12.559" style="s2">building AI agents. So, starting from</p>
+<p begin="00:00:09.760" end="00:00:15.839" style="s2">like low code, no code going all the way</p>
+<p begin="00:00:12.559" end="00:00:18.080" style="s2">to I code, there are a lot of frameworks</p>
+<p begin="00:00:15.839" end="00:00:20.080" style="s2">literally a couple of years old and yet</p>
+<p begin="00:00:18.080" end="00:00:23.439" style="s2">doing a great job out there in the</p>
+<p begin="00:00:20.080" end="00:00:26.560" style="s2">world. For example, Crew AI is a Python</p>
+<p begin="00:00:23.439" end="00:00:30.080" style="s2">library while in</p>
+<p begin="00:00:26.560" end="00:00:32.480" style="s2">um a workflow automation tool. very</p>
+<p begin="00:00:30.080" end="00:00:35.520" style="s2">powerful one. Let&#39;s have a look at a few</p>
+<p begin="00:00:32.480" end="00:00:38.399" style="s2">of them. Nathan is a Berlin based</p>
+<p begin="00:00:35.520" end="00:00:41.680" style="s2">company. Uh they&#39;ve been building this</p>
+<p begin="00:00:38.399" end="00:00:45.120" style="s2">amazing tool for a very long time, seven</p>
+<p begin="00:00:41.680" end="00:00:48.360" style="s2">years or so. The amount of so-called</p>
+<p begin="00:00:45.120" end="00:00:50.719" style="s2">nodes, um, these</p>
+<p begin="00:00:48.360" end="00:00:53.600" style="s2">individual things that you see here,</p>
+<p begin="00:00:50.719" end="00:00:57.920" style="s2">it&#39;s called a node, uh, are much much</p>
+<p begin="00:00:53.600" end="00:01:00.440" style="s2">much better than the make.com</p>
+<p begin="00:00:57.920" end="00:01:04.400" style="s2">alternative or zap here and</p>
+<p begin="00:01:00.440" end="00:01:08.400" style="s2">call. I really enjoy working with NAT</p>
+<p begin="00:01:04.400" end="00:01:11.360" style="s2">because um, it works predictively. The</p>
+<p begin="00:01:08.400" end="00:01:13.119" style="s2">concept of NAT is really nice. You will</p>
+<p begin="00:01:11.360" end="00:01:16.960" style="s2">see it throughout the course. will have</p>
+<p begin="00:01:13.119" end="00:01:19.520" style="s2">specific lectures for this and overall</p>
+<p begin="00:01:16.960" end="00:01:21.759" style="s2">it&#39;s a Berlin based company and EUAI</p>
+<p begin="00:01:19.520" end="00:01:23.680" style="s2">acts will apply to them and they will</p>
+<p begin="00:01:21.759" end="00:01:26.560" style="s2">regulate it accordingly so it&#39;s a safe</p>
+<p begin="00:01:23.680" end="00:01:28.280" style="s2">bet for you if you&#39;re building AI agents</p>
+<p begin="00:01:26.560" end="00:01:31.600" style="s2">for</p>
+<p begin="00:01:28.280" end="00:01:33.920" style="s2">Europe I have the next workshop</p>
+<p begin="00:01:31.600" end="00:01:37.759" style="s2">happening somewhere in midJune you can</p>
+<p begin="00:01:33.920" end="00:01:42.159" style="s2">scan from this QR code it will be also</p>
+<p begin="00:01:37.759" end="00:01:44.560" style="s2">in in person and as well and uh online.</p>
+<p begin="00:01:42.159" end="00:01:48.560" style="s2">What we&#39;ll do be doing is we&#39;ll build a</p>
+<p begin="00:01:44.560" end="00:01:52.720" style="s2">voice AI agent using Vappy and Nat and</p>
+<p begin="00:01:48.560" end="00:01:56.159" style="s2">we will um give this Samanta the AI</p>
+<p begin="00:01:52.720" end="00:01:58.640" style="s2">agent that we have a skill set of</p>
+<p begin="00:01:56.159" end="00:02:01.240" style="s2">searching the web by using perplexity.</p>
+<p begin="00:01:58.640" end="00:02:04.479" style="s2">So register there if you would like to</p>
+<p begin="00:02:01.240" end="00:02:07.280" style="s2">join. Another tool that is there is</p>
+<p begin="00:02:04.479" end="00:02:11.000" style="s2">called relevance AI. I personally use it</p>
+<p begin="00:02:07.280" end="00:02:14.160" style="s2">especially their tools are nice. Um the</p>
+<p begin="00:02:11.000" end="00:02:15.000" style="s2">LinkedIn scraping tool from relevance AI</p>
+<p begin="00:02:14.160" end="00:02:18.080" style="s2">is</p>
+<p begin="00:02:15.000" end="00:02:20.239" style="s2">nice. Uh Vappy is another tool that</p>
+<p begin="00:02:18.080" end="00:02:23.840" style="s2">we&#39;ll be using another framework. It&#39;s a</p>
+<p begin="00:02:20.239" end="00:02:28.959" style="s2">voice uh agent framework. With this you</p>
+<p begin="00:02:23.840" end="00:02:31.440" style="s2">can build a voice AI agents that can</p>
+<p begin="00:02:28.959" end="00:02:34.560" style="s2">um have phone calls, web application</p>
+<p begin="00:02:31.440" end="00:02:36.640" style="s2">based um buttons that you can talk to</p>
+<p begin="00:02:34.560" end="00:02:40.920" style="s2">and so on so forth. You will see in the</p>
+<p begin="00:02:36.640" end="00:02:45.120" style="s2">rest of the course. 11 Labs is</p>
+<p begin="00:02:40.920" end="00:02:48.160" style="s2">a Polish company also European company</p>
+<p begin="00:02:45.120" end="00:02:50.480" style="s2">that builds it started as a texttospech</p>
+<p begin="00:02:48.160" end="00:02:54.560" style="s2">company but now go goes a lot towards</p>
+<p begin="00:02:50.480" end="00:02:58.239" style="s2">this agentic framework uh workflows and</p>
+<p begin="00:02:54.560" end="00:03:01.440" style="s2">so on a good company or a good software</p>
+<p begin="00:02:58.239" end="00:03:03.360" style="s2">to look at or framework to look at when</p>
+<p begin="00:03:01.440" end="00:03:05.920" style="s2">you want to build a agents especially</p>
+<p begin="00:03:03.360" end="00:03:09.519" style="s2">their voice cloning technology is really</p>
+<p begin="00:03:05.920" end="00:03:13.040" style="s2">really nice you can always uh test it</p>
+<p begin="00:03:09.519" end="00:03:16.159" style="s2">out by going to 11 Labs or if you go to</p>
+<p begin="00:03:13.040" end="00:03:19.040" style="s2">my website, you have this button. Uh I&#39;m</p>
+<p begin="00:03:16.159" end="00:03:22.319" style="s2">using 11 laps in Vappy to build this</p>
+<p begin="00:03:19.040" end="00:03:25.280" style="s2">button. You can talk to me to my AI</p>
+<p begin="00:03:22.319" end="00:03:27.280" style="s2">agent and then you you know how it</p>
+<p begin="00:03:25.280" end="00:03:30.720" style="s2">sounds and you already know how I sound.</p>
+<p begin="00:03:27.280" end="00:03:33.599" style="s2">So that&#39;s basically from 11 Labs. Crew</p>
+<p begin="00:03:30.720" end="00:03:36.360" style="s2">AI is a Python library that allows you</p>
+<p begin="00:03:33.599" end="00:03:38.959" style="s2">to build a crew of AI agents. So</p>
+<p begin="00:03:36.360" end="00:03:41.280" style="s2">literally multiple AI agents talking to</p>
+<p begin="00:03:38.959" end="00:03:44.720" style="s2">each other and having an orchestration</p>
+<p begin="00:03:41.280" end="00:03:48.319" style="s2">layer and taking care of all those</p>
+<p begin="00:03:44.720" end="00:03:49.840" style="s2">moving parts at the same time. Uh one AI</p>
+<p begin="00:03:48.319" end="00:03:51.440" style="s2">agent being the boss, the other AI</p>
+<p begin="00:03:49.840" end="00:03:53.680" style="s2">agents being the subordinates and then</p>
+<p begin="00:03:51.440" end="00:03:55.120" style="s2">taking care of all the organic RAM.</p>
+<p begin="00:03:53.680" end="00:03:58.080" style="s2">That&#39;s something that you can easily</p>
+<p begin="00:03:55.120" end="00:04:01.920" style="s2">build with crew AI. Also a few years old</p>
+<p begin="00:03:58.080" end="00:04:05.040" style="s2">project but is growing super fast.</p>
+<p begin="00:04:01.920" end="00:04:09.319" style="s2">Master AI is a TypeScript um agent</p>
+<p begin="00:04:05.040" end="00:04:12.799" style="s2">framework um built by the team who built</p>
+<p begin="00:04:09.319" end="00:04:14.799" style="s2">Gatsby. Uh super nice framework. I</p>
+<p begin="00:04:12.799" end="00:04:17.400" style="s2">personally use it in one of my projects.</p>
+<p begin="00:04:14.799" end="00:04:20.639" style="s2">I like it. The tooling around this is</p>
+<p begin="00:04:17.400" end="00:04:22.400" style="s2">nice. It&#39;s very fast to build AI agents.</p>
+<p begin="00:04:20.639" end="00:04:25.280" style="s2">When you&#39;re a programmer and you want to</p>
+<p begin="00:04:22.400" end="00:04:28.160" style="s2">use code, uh then MRA would be your</p>
+<p begin="00:04:25.280" end="00:04:32.000" style="s2">go-to framework.</p>
+<p begin="00:04:28.160" end="00:04:34.639" style="s2">Versil&#39;s AI SDK is the universal SDK.</p>
+<p begin="00:04:32.000" end="00:04:37.720" style="s2">It&#39;s kind of like agnostic to whatever</p>
+<p begin="00:04:34.639" end="00:04:44.240" style="s2">LLM model you&#39;re using. Uh it&#39;s an</p>
+<p begin="00:04:37.720" end="00:04:46.560" style="s2">interface to all the other APIs that you</p>
+<p begin="00:04:44.240" end="00:04:50.040" style="s2">can use from all the LLM providers and</p>
+<p begin="00:04:46.560" end="00:04:53.680" style="s2">so on. Uh it&#39;s from the creators of</p>
+<p begin="00:04:50.040" end="00:04:56.000" style="s2">Nex.js. Um it&#39;s a an open source library</p>
+<p begin="00:04:53.680" end="00:04:57.880" style="s2">as well. So, it&#39;s nice if you&#39;re a</p>
+<p begin="00:04:56.000" end="00:05:01.440" style="s2">privacy</p>
+<p begin="00:04:57.880" end="00:05:03.360" style="s2">um freak, then you could actually see</p>
+<p begin="00:05:01.440" end="00:05:05.600" style="s2">things inside this open source library</p>
+<p begin="00:05:03.360" end="00:05:07.440" style="s2">and make sure that everything is</p>
+<p begin="00:05:05.600" end="00:05:10.800" style="s2">according to the regulations that you&#39;re</p>
+<p begin="00:05:07.440" end="00:05:13.039" style="s2">running this thing in. OpenI&#39;s agents</p>
+<p begin="00:05:10.800" end="00:05:14.800" style="s2">SDK is another option. Um,</p>
+<p begin="00:05:13.039" end="00:05:18.240" style="s2">unfortunately, this is right now only</p>
+<p begin="00:05:14.800" end="00:05:21.600" style="s2">available in Python. Typescript uh</p>
+<p begin="00:05:18.240" end="00:05:24.560" style="s2">should follow soon hopefully.</p>
+<p begin="00:05:21.600" end="00:05:27.120" style="s2">Google also joined the race a couple of</p>
+<p begin="00:05:24.560" end="00:05:31.360" style="s2">weeks ago. They released agent</p>
+<p begin="00:05:27.120" end="00:05:33.840" style="s2">development kit. So now you can use uh</p>
+<p begin="00:05:31.360" end="00:05:35.639" style="s2">Python to build</p>
+<p begin="00:05:33.840" end="00:05:38.720" style="s2">uh AI</p>
+<p begin="00:05:35.639" end="00:05:43.919" style="s2">agents that are deployed sophisticated</p>
+<p begin="00:05:38.720" end="00:05:48.720" style="s2">AI agents on on a high scalability on</p>
+<p begin="00:05:43.919" end="00:05:52.720" style="s2">GCP cloud platforms and other platforms.</p>
+<p begin="00:05:48.720" end="00:05:56.320" style="s2">So this was all about what frameworks</p>
+<p begin="00:05:52.720" end="00:05:58.720" style="s2">you have. Uh in the next um lecture</p>
+<p begin="00:05:56.320" end="00:06:00.960" style="s2">we&#39;ll have a look at all the core</p>
+<p begin="00:05:58.720" end="00:06:03.520" style="s2">concepts that you need to know about</p>
+<p begin="00:06:00.960" end="00:06:06.400" style="s2">building voice AI agents. Thank you for</p>
+<p begin="00:06:03.520" end="00:06:06.400" style="s2">listening.</p>
+</div>
+</body>
+</tt>

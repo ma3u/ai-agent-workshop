@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.719" end="00:00:05.520" style="s2">All right. So, we have seen that there</p>
+<p begin="00:00:02.320" end="00:00:07.839" style="s2">is a small issue we need to fix that our</p>
+<p begin="00:00:05.520" end="00:00:10.960" style="s2">workflow right now is dumping multiple</p>
+<p begin="00:00:07.839" end="00:00:12.800" style="s2">records in the database. So, in order to</p>
+<p begin="00:00:10.960" end="00:00:16.680" style="s2">make this clean, I&#39;m going to delete all</p>
+<p begin="00:00:12.800" end="00:00:21.039" style="s2">of these ones and be ready for the next</p>
+<p begin="00:00:16.680" end="00:00:24.320" style="s2">step. Okay, that&#39;s 3D. Now, let&#39;s go to</p>
+<p begin="00:00:21.039" end="00:00:27.119" style="s2">my caching here. I&#39;m going to delete</p>
+<p begin="00:00:24.320" end="00:00:30.160" style="s2">this link and keep the trigger on that</p>
+<p begin="00:00:27.119" end="00:00:33.360" style="s2">side and this one on this side. What I</p>
+<p begin="00:00:30.160" end="00:00:36.280" style="s2">would like to do is first check the</p>
+<p begin="00:00:33.360" end="00:00:39.320" style="s2">database. So I can go and check the</p>
+<p begin="00:00:36.280" end="00:00:42.960" style="s2">database by getting a</p>
+<p begin="00:00:39.320" end="00:00:45.680" style="s2">row. And when I get a row, I want to get</p>
+<p begin="00:00:42.960" end="00:00:49.280" style="s2">it from the emails database. And I want</p>
+<p begin="00:00:45.680" end="00:00:52.239" style="s2">to add a condition based on the email</p>
+<p begin="00:00:49.280" end="00:00:54.879" style="s2">ID. Where do we I get my email ID from?</p>
+<p begin="00:00:52.239" end="00:00:58.320" style="s2">From the Gmail trigger. I want to see if</p>
+<p begin="00:00:54.879" end="00:01:01.440" style="s2">this email ID exists or basically based</p>
+<p begin="00:00:58.320" end="00:01:04.720" style="s2">on this email id pull that email for me</p>
+<p begin="00:01:01.440" end="00:01:08.240" style="s2">and then if I click test it says no</p>
+<p begin="00:01:04.720" end="00:01:09.760" style="s2">output data found why because I don&#39;t</p>
+<p begin="00:01:08.240" end="00:01:12.200" style="s2">have that in the database that&#39;s</p>
+<p begin="00:01:09.760" end="00:01:17.799" style="s2">absolutely correct</p>
+<p begin="00:01:12.200" end="00:01:21.280" style="s2">but there is a default setting and</p>
+<p begin="00:01:17.799" end="00:01:23.920" style="s2">NA10 when no output data is found NAN</p>
+<p begin="00:01:21.280" end="00:01:26.960" style="s2">stops executing the workflow When a node</p>
+<p begin="00:01:23.920" end="00:01:29.680" style="s2">has no output data, you can turn that on</p>
+<p begin="00:01:26.960" end="00:01:33.119" style="s2">and off from the settings tab. So, I&#39;m</p>
+<p begin="00:01:29.680" end="00:01:35.520" style="s2">going to say please always output data.</p>
+<p begin="00:01:33.119" end="00:01:37.840" style="s2">If I click now, it says something and it</p>
+<p begin="00:01:35.520" end="00:01:41.920" style="s2">has one item and that something is no</p>
+<p begin="00:01:37.840" end="00:01:46.079" style="s2">fields or items exist. That&#39;s all cool.</p>
+<p begin="00:01:41.920" end="00:01:49.000" style="s2">There is an if condition</p>
+<p begin="00:01:46.079" end="00:01:52.399" style="s2">um in in in</p>
+<p begin="00:01:49.000" end="00:01:55.439" style="s2">a but if condition will not work. Why?</p>
+<p begin="00:01:52.399" end="00:01:58.240" style="s2">I&#39;ll show you why. Because there is no</p>
+<p begin="00:01:55.439" end="00:02:01.360" style="s2">way for me to drag and drop this. You</p>
+<p begin="00:01:58.240" end="00:02:03.799" style="s2">see, I I can&#39;t trigger I can&#39;t put a</p>
+<p begin="00:02:01.360" end="00:02:06.360" style="s2">condition on that one</p>
+<p begin="00:02:03.799" end="00:02:11.239" style="s2">item. Even if I turn this</p>
+<p begin="00:02:06.360" end="00:02:15.160" style="s2">into expression and then I write this</p>
+<p begin="00:02:11.239" end="00:02:18.800" style="s2">thing like I want to pick the</p>
+<p begin="00:02:15.160" end="00:02:22.280" style="s2">superbase, it is basically returning a</p>
+<p begin="00:02:18.800" end="00:02:26.080" style="s2">an empty object. And if I pick this</p>
+<p begin="00:02:22.280" end="00:02:28.239" style="s2">object and I say that it&#39;s empty, I want</p>
+<p begin="00:02:26.080" end="00:02:31.200" style="s2">to check that particular case. If it&#39;s</p>
+<p begin="00:02:28.239" end="00:02:33.280" style="s2">empty, there is no entry in the</p>
+<p begin="00:02:31.200" end="00:02:35.760" style="s2">database, then I want to do the entry.</p>
+<p begin="00:02:33.280" end="00:02:38.239" style="s2">But if I run it, you can see that it it</p>
+<p begin="00:02:35.760" end="00:02:41.200" style="s2">gives me the true path. I will just</p>
+<p begin="00:02:38.239" end="00:02:44.800" style="s2">quickly show you what I want to do is</p>
+<p begin="00:02:41.200" end="00:02:47.680" style="s2">that if that is empty, then I want to do</p>
+<p begin="00:02:44.800" end="00:02:50.319" style="s2">the database entry. And then in here, I</p>
+<p begin="00:02:47.680" end="00:02:53.200" style="s2">just need to update</p>
+<p begin="00:02:50.319" end="00:02:55.760" style="s2">the payload that will be the entire</p>
+<p begin="00:02:53.200" end="00:02:55.760" style="s2">payload</p>
+<p begin="00:02:57.000" end="00:03:02.800" style="s2">of this</p>
+<p begin="00:02:59.640" end="00:03:05.319" style="s2">one the item coming from here. So</p>
+<p begin="00:03:02.800" end="00:03:09.319" style="s2">basically this entire</p>
+<p begin="00:03:05.319" end="00:03:12.319" style="s2">data and obviously the</p>
+<p begin="00:03:09.319" end="00:03:14.480" style="s2">um my apologies that&#39;s the email. So I&#39;m</p>
+<p begin="00:03:12.319" end="00:03:16.319" style="s2">going to get the</p>
+<p begin="00:03:14.480" end="00:03:18.720" style="s2">uh maybe we can just remove that and</p>
+<p begin="00:03:16.319" end="00:03:21.040" style="s2">then drag and drop this one here. So</p>
+<p begin="00:03:18.720" end="00:03:24.560" style="s2">that that&#39;s the email ID that generates</p>
+<p begin="00:03:21.040" end="00:03:25.720" style="s2">it. And then for the entire email, I can</p>
+<p begin="00:03:24.560" end="00:03:29.360" style="s2">go back</p>
+<p begin="00:03:25.720" end="00:03:31.680" style="s2">here, give this one and this entire</p>
+<p begin="00:03:29.360" end="00:03:34.480" style="s2">item. So basically the entire object I</p>
+<p begin="00:03:31.680" end="00:03:37.920" style="s2">want to test this to make sure that this</p>
+<p begin="00:03:34.480" end="00:03:40.239" style="s2">particular workflow works. Refresh. This</p>
+<p begin="00:03:37.920" end="00:03:43.440" style="s2">is all right. I&#39;m going to delete this</p>
+<p begin="00:03:40.239" end="00:03:46.560" style="s2">so that I can test that workflow that I</p>
+<p begin="00:03:43.440" end="00:03:48.799" style="s2">have just created with if condition. So</p>
+<p begin="00:03:46.560" end="00:03:51.280" style="s2">let&#39;s go back here.</p>
+<p begin="00:03:48.799" end="00:03:54.080" style="s2">here. Refresh. Make sure everything is</p>
+<p begin="00:03:51.280" end="00:03:56.400" style="s2">running. Okay. If I test this workflow,</p>
+<p begin="00:03:54.080" end="00:04:02.480" style="s2">it&#39;s the first time it&#39;s running. It</p>
+<p begin="00:03:56.400" end="00:04:05.599" style="s2">worked fine. It put this data in here</p>
+<p begin="00:04:02.480" end="00:04:06.760" style="s2">because it didn&#39;t exist. But if I click</p>
+<p begin="00:04:05.599" end="00:04:10.680" style="s2">it</p>
+<p begin="00:04:06.760" end="00:04:15.760" style="s2">again, it runs it again. And if I come</p>
+<p begin="00:04:10.680" end="00:04:17.759" style="s2">here, refresh the page, the data is</p>
+<p begin="00:04:15.760" end="00:04:20.880" style="s2">duplicated. You can see that they both</p>
+<p begin="00:04:17.759" end="00:04:23.520" style="s2">have the same ID. So for some reason</p>
+<p begin="00:04:20.880" end="00:04:26.880" style="s2">this if condition is not working. I&#39;m</p>
+<p begin="00:04:23.520" end="00:04:28.479" style="s2">saying is empty. It is empty object. We</p>
+<p begin="00:04:26.880" end="00:04:32.639" style="s2">can see that the result is an empty</p>
+<p begin="00:04:28.479" end="00:04:35.280" style="s2">object. But since it is nested and it is</p>
+<p begin="00:04:32.639" end="00:04:38.400" style="s2">not that output that we see here, it is</p>
+<p begin="00:04:35.280" end="00:04:41.720" style="s2">more than that. We&#39;ll see that in just a</p>
+<p begin="00:04:38.400" end="00:04:45.600" style="s2">minute. So we&#39;re going</p>
+<p begin="00:04:41.720" end="00:04:48.160" style="s2">to leave this lecture as it is in here</p>
+<p begin="00:04:45.600" end="00:04:51.360" style="s2">to make sure that we capture the problem</p>
+<p begin="00:04:48.160" end="00:04:53.680" style="s2">statement. The problem statement is that</p>
+<p begin="00:04:51.360" end="00:04:56.800" style="s2">the if condition in this particular</p>
+<p begin="00:04:53.680" end="00:05:00.320" style="s2">workflow do not work. And since we&#39;re</p>
+<p begin="00:04:56.800" end="00:05:02.560" style="s2">going to try some VIP coding in the</p>
+<p begin="00:05:00.320" end="00:05:05.520" style="s2">third part of this lecture, we will</p>
+<p begin="00:05:02.560" end="00:05:08.240" style="s2">start the very early touches of VIP</p>
+<p begin="00:05:05.520" end="00:05:11.440" style="s2">coding right now. So in the next lecture</p>
+<p begin="00:05:08.240" end="00:05:13.440" style="s2">we&#39;ll have a look at what we can do with</p>
+<p begin="00:05:11.440" end="00:05:16.880" style="s2">custom coding and how we can solve this</p>
+<p begin="00:05:13.440" end="00:05:20.000" style="s2">problem in NAN and it should be a spark</p>
+<p begin="00:05:16.880" end="00:05:22.320" style="s2">for you to be able to solve any sort of</p>
+<p begin="00:05:20.000" end="00:05:23.400" style="s2">problems that you encounter when you&#39;re</p>
+<p begin="00:05:22.320" end="00:05:27.680" style="s2">building with</p>
+<p begin="00:05:23.400" end="00:05:27.680" style="s2">NAN. See you in the next video.</p>
+</div>
+</body>
+</tt>
