@@ -45,10 +45,6 @@ Welcome to the hands-on guide for building a Voice AI Agent using n8n and Vapi! 
 - Install n8n: `npm install n8n -g`
 - Create a free account on [Vapi](https://vapi.ai/)
 
-**Screenshot:**
-![Install n8n](./screenshots/install-n8n.png) <!-- Add screenshot from YouTube at relevant timestamp -->
-
-**Video Reference:** [Introduction to n8n](https://www.youtube.com/watch?v=r44eGTnG4C4)
 
 ---
 
@@ -57,10 +53,7 @@ Welcome to the hands-on guide for building a Voice AI Agent using n8n and Vapi! 
 - Log into Vapi and create a new agent
 - Configure voice, prompt, and assistant settings
 
-**Screenshot:**
-![Vapi Agent Setup](./screenshots/vapi-agent-setup.png)
 
-**Video Reference:** [Build your first Voice AI Agent](https://www.youtube.com/watch?v=2bi3aPBgTyc)
 
 ---
 
@@ -71,10 +64,6 @@ Welcome to the hands-on guide for building a Voice AI Agent using n8n and Vapi! 
 - Add nodes: Trigger, AI Agent, Gmail, Google Docs, etc.
 - Connect your Google account
 
-**Screenshot:**
-![n8n Workflow Example](./screenshots/n8n-workflow.png)
-
-**Video Reference:** [n8n AI Agent node](https://www.youtube.com/watch?v=xsG4aArgnXU)
 
 ---
 
@@ -83,22 +72,12 @@ Welcome to the hands-on guide for building a Voice AI Agent using n8n and Vapi! 
 - Use webhook nodes to connect Vapi and n8n
 - Configure triggers and responses
 
-**Screenshot:**
-![Vapi n8n Integration](./screenshots/vapi-n8n-integration.png)
-
-**Video Reference:** [Connecting Vapi to n8n](https://www.youtube.com/watch?v=wCUfCqNLsGs)
-
 ---
 
 ### 5. Extending with Custom Logic (Vibe Coding)
 
 - Add custom code nodes in n8n for advanced logic
 - Example: Summarizing emails, filtering messages
-
-**Screenshot:**
-![Custom Node Example](./screenshots/custom-node-example.png)
-
-**Video Reference:** [Solution with n8n custom code node and vibe coding](https://www.youtube.com/watch?v=QMVN9-RKwSw)
 
 ---
 
