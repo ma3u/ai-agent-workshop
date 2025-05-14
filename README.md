@@ -1,0 +1,130 @@
+# AI Agent Workshop: Step-by-Step Guide
+
+> 📖 **Looking for a full lecture summary with screenshots and direct video links?**
+> Check out the [AI-Agent-Lectures-Expert-Summary.md](./AI-Agent-Lectures-Expert-Summary.md) for a comprehensive, screenshot-rich reference!
+
+## Introduction
+
+Welcome to the hands-on guide for building a Voice AI Agent using n8n and Vapi! This guide is based on the monthly workshop series and YouTube lectures by Aemal Sayer. You’ll learn how to create an AI agent that can read and reply to emails, integrate with Google Docs, and extend with custom logic—all with best practices and real-world tips.
+
+**YouTube Playlist:** [AI Agent Workshop Series](https://www.youtube.com/playlist?list=PL...) <!-- Add actual playlist link -->
+
+**Key Videos:**
+- [Quick demo of what we will be building](https://www.youtube.com/watch?v=4DIfI15BxTk)
+- [The monthly workshop concept](https://www.youtube.com/watch?v=OzAUBijCGHs)
+- [Introduction to Aemal Sayer](https://www.youtube.com/watch?v=sIAQ2nEhT_M)
+- [AI Agent Frameworks](https://www.youtube.com/watch?v=jvPh7pumZ3I)
+- [Build your first Voice AI Agent](https://www.youtube.com/watch?v=2bi3aPBgTyc)
+- [Introduction to n8n](https://www.youtube.com/watch?v=r44eGTnG4C4)
+- [n8n AI Agent node](https://www.youtube.com/watch?v=xsG4aArgnXU)
+- [Connecting Vapi to n8n](https://www.youtube.com/watch?v=wCUfCqNLsGs)
+
+---
+
+## Prerequisites
+
+- [n8n](https://n8n.io/) (Open source workflow automation)
+- [Vapi](https://vapi.ai/) (Voice AI agent platform)
+- [Google Account](https://accounts.google.com/)
+- [Node.js](https://nodejs.org/) (for running n8n locally)
+- [Git](https://git-scm.com/) (for version control)
+
+**Best Practices:**
+- Use a separate Google account for testing automation
+- Store credentials securely (use .env files, never commit secrets)
+- Use version control for your workflows and scripts
+- Always test in a development environment first
+
+---
+
+## Step-by-Step Instructions
+
+### 1. Setting Up Your Environment
+
+- Install Node.js and Git
+- Install n8n: `npm install n8n -g`
+- Create a free account on [Vapi](https://vapi.ai/)
+
+**Screenshot:**
+![Install n8n](./screenshots/install-n8n.png) <!-- Add screenshot from YouTube at relevant timestamp -->
+
+**Video Reference:** [Introduction to n8n](https://www.youtube.com/watch?v=r44eGTnG4C4)
+
+---
+
+### 2. Building Your First Voice AI Agent in Vapi
+
+- Log into Vapi and create a new agent
+- Configure voice, prompt, and assistant settings
+
+**Screenshot:**
+![Vapi Agent Setup](./screenshots/vapi-agent-setup.png)
+
+**Video Reference:** [Build your first Voice AI Agent](https://www.youtube.com/watch?v=2bi3aPBgTyc)
+
+---
+
+### 3. Creating Workflows in n8n
+
+- Start n8n locally: `n8n start`
+- Create a new workflow
+- Add nodes: Trigger, AI Agent, Gmail, Google Docs, etc.
+- Connect your Google account
+
+**Screenshot:**
+![n8n Workflow Example](./screenshots/n8n-workflow.png)
+
+**Video Reference:** [n8n AI Agent node](https://www.youtube.com/watch?v=xsG4aArgnXU)
+
+---
+
+### 4. Integrating Vapi with n8n
+
+- Use webhook nodes to connect Vapi and n8n
+- Configure triggers and responses
+
+**Screenshot:**
+![Vapi n8n Integration](./screenshots/vapi-n8n-integration.png)
+
+**Video Reference:** [Connecting Vapi to n8n](https://www.youtube.com/watch?v=wCUfCqNLsGs)
+
+---
+
+### 5. Extending with Custom Logic (Vibe Coding)
+
+- Add custom code nodes in n8n for advanced logic
+- Example: Summarizing emails, filtering messages
+
+**Screenshot:**
+![Custom Node Example](./screenshots/custom-node-example.png)
+
+**Video Reference:** [Solution with n8n custom code node and vibe coding](https://www.youtube.com/watch?v=QMVN9-RKwSw)
+
+---
+
+## Best Practices & Tips
+
+- Use descriptive names for workflows and nodes
+- Document your workflow steps in n8n
+- Use environment variables for sensitive data
+- Regularly back up your workflows
+- Join the [n8n community](https://community.n8n.io/) for support
+- Explore [Vapi documentation](https://docs.vapi.ai/)
+
+---
+
+## Community & Further Learning
+
+- Join the monthly workshop: [Details & Registration](https://www.luma.com/) <!-- Add actual registration link -->
+- Become an AI Champion: Early access to materials, help others in the community
+- Follow the [YouTube playlist](https://www.youtube.com/playlist?list=PL...) for all lectures
+
+---
+
+## Appendix
+
+- [n8n Documentation](https://docs.n8n.io/)
+- [Vapi Documentation](https://docs.vapi.ai/)
+- [Google API Docs](https://developers.google.com/gmail/api)
+- [GitHub Best Practices](https://docs.github.com/en/get-started/quickstart/github-flow)
+
