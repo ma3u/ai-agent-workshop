@@ -99,6 +99,11 @@
  ![alt text](screenshots/image-14.png)
 - 🎬 [Connecting Vapi to n8n (integration starts)](https://www.youtube.com/watch?v=wCUfCqNLsGs?t=3)
 
+HINT: 
+You have to run the test run  before to see the input on the left side in AI Agent. Drag the subject and body button to the respective fields in the middle.
+ 
+![alt text](image-2.png)
+
 ## Lecture 1200 – Complete Email Draft Workflow
  Outlines the workflow for drafting emails, emphasizing integration between tools and step-by-step execution in n8n.
 
