@@ -19,7 +19,7 @@ Welcome to the hands-on guide for building a Voice AI Agent using n8n and Vapi! 
 - [n8n AI Agent node](https://www.youtube.com/watch?v=xsG4aArgnXU)
 - [Connecting Vapi to n8n](https://www.youtube.com/watch?v=wCUfCqNLsGs)
 
----
+
 
 ## Prerequisites
 
@@ -35,13 +35,13 @@ Welcome to the hands-on guide for building a Voice AI Agent using n8n and Vapi! 
 - Use version control for your workflows and scripts
 - Always test in a development environment first
 
----
+
 
 ## General Instructions
 
 ### 1. Setting Up Your Environment
 
-- Create a free account on [N8N](https://n8n.io/)
+- Create a free account on [N8N](https://n8n.io/) (14 days trail)
 - Create a free account on [Vapi](https://vapi.ai/)
 
 ### 2. Building Your First Voice AI Agent in Vapi
@@ -67,7 +67,7 @@ Welcome to the hands-on guide for building a Voice AI Agent using n8n and Vapi! 
 - Add custom code nodes in n8n for advanced logic (Javascript)
 - Example: Summarizing emails, filtering messages
 
----
+
 
 ## Best Practices & Tips
 
@@ -78,7 +78,6 @@ Welcome to the hands-on guide for building a Voice AI Agent using n8n and Vapi! 
 - Join the [n8n community](https://community.n8n.io/) for support and feel the spirit!
 - Explore [Vapi documentation](https://docs.vapi.ai/)
 
----
 
 ## Community & Further Learning
 
@@ -86,7 +85,6 @@ Welcome to the hands-on guide for building a Voice AI Agent using n8n and Vapi! 
 - Become an AI Champion: Early access to materials, help others in the community
 - Follow the [YouTube playlist](https://www.youtube.com/watch?v=93EfKnovCFQ&t=2932s) for all lectures
 
----
 
 
 
